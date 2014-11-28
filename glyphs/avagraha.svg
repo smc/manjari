@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2000"
+   height="2048"
+   id="svg2992"
+   version="1.1"
+   inkscape:version="0.91pre2 r13516"
+   sodipodi:docname="avagraha.svg">
+  <defs
+     id="defs5498">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4159"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="853"
+     inkscape:window-width="1600"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.16051324"
+     inkscape:cx="861.92485"
+     inkscape:cy="795.59445"
+     inkscape:window-x="1598"
+     inkscape:window-y="-3"
+     inkscape:current-layer="layer1"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       orientation="horizontal"
+       position="288,576"
+       id="guide5596" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid3769"
+       empspacing="3"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       spacingx="4px"
+       units="px"
+       dotted="true"
+       spacingy="4px" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-1040,1600"
+       id="guide2985" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5594">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,1048)">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:136.31951904;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1355.9472,-639.79309 c 7.3115,-41.82419 3.4161,-85.55416 -11.1731,-125.42742 -14.5892,-39.87326 -39.836,-75.79103 -72.4135,-103.02026 -32.5774,-27.22923 -72.4049,-45.70246 -114.234,-52.9854 -41.8292,-7.28294 -85.5565,-3.35755 -125.4198,11.25892 -38.31068,14.04719 -72.76328,37.73319 -101.36476,66.83623 -28.60149,29.10304 -51.47215,63.54042 -69.42693,100.18272 -35.90956,73.28458 -52.103,154.43124 -66.56159,234.74983 -57.26553,318.11451 -92.79809,639.74365 -144.80159,958.7606 -10.86815,66.67098 -22.62618,133.83509 -48.10968,196.39489 -25.4835,62.55979 -66.03698,120.93378 -123.57611,156.32282 -41.14711,25.30724 -89.99242,37.90476 -138.24673,35.65471 -48.25431,-2.25006 -95.7154,-19.33825 -134.32899,-48.36465 -38.61358,-29.02641 -68.21784,-69.8694 -83.78883,-115.59779 -15.571,-45.72838 -17.04348,-96.15054 -4.16757,-142.70966"
+       id="path4157"
+       inkscape:path-effect="#path-effect4159"
+       inkscape:original-d="m 1355.9472,-639.79309 c 0,0 -209.7956,-351.6193 -323.2404,-270.17416 -113.44483,81.44512 -270.54657,68.28755 -237.35328,401.76878 33.19328,333.48124 -11.29387,773.58392 -144.80159,958.7606 C 596.49077,525.54559 587.51522,741.76286 478.86614,803.27984 319.19899,893.68321 161.96405,607.25212 118.33402,532.26245"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssssc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:130;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 421.38009,-142.08973 576,0"
+       id="path4161"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

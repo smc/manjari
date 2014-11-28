@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2000"
+   height="2000"
+   id="svg2992"
+   version="1.1"
+   inkscape:version="0.91pre2 r13516"
+   sodipodi:docname="ത്ഭൂ.svg">
+  <defs
+     id="defs5498">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2987"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="853"
+     inkscape:window-width="1600"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.32102648"
+     inkscape:cx="1039.9945"
+     inkscape:cy="1069.1299"
+     inkscape:window-x="1598"
+     inkscape:window-y="-3"
+     inkscape:current-layer="layer1"
+     inkscape:window-maximized="1"
+     inkscape:snap-nodes="false"
+     inkscape:snap-grids="false">
+    <sodipodi:guide
+       orientation="horizontal"
+       position="0,600"
+       id="guide5596" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid3769"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-2720,1600"
+       id="guide4772" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5594">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,1000)">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:130;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 227.04487,328.35482 C -336.06018,-638.87907 785.13752,-817.2128 896.34548,-112.42675 1040,520 341.94089,443.31153 505.41516,-41.485306 800.07822,-779.60182 1376.325,-578.03978 1443.5892,-174.58145 c 2.1936,249.741429 -10.6857,511.08478 -10.6857,511.08478 0,0 26.1318,-193.38699 30.3656,-367.248909 12.7863,-525.072981 742.0164,-639.116651 866.7733,-324.287001 42.7369,153.88141 -101.087,183.47261 -224.2971,177.55962 -235.6325,-5.2363 -469.6152,242.372201 -84.1052,264.775665 653.095,37.953855 478.0685,333.204785 -153.8736,272.078135 625.727,103.04659 918.9493,405.05053 91.9374,481.21398 C 945.46869,934.00054 -564.72813,1213.95 -118.09524,-548.0672"
+       id="path13140"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccsccscsc" />
+  </g>
+</svg>
