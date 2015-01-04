@@ -2,13 +2,15 @@
 
 fontpath=/usr/share/fonts/truetype/malayalam
 font=Spiral
-
+timestamp="`date +"%Y%m%d"`"
+version="1.0.0-beta.${timestamp}"
 default: all
 all: compile test webfonts
 
 compile:
 	@echo "Generating ${font}.ttf"
-	@fontforge -lang=ff -c "Open('${font}.sfd'); Generate('${font}.ttf')";
+	@echo ${version}
+	@fontforge -lang=ff -c "Open('${font}.sfd'); ScaleToEm(2048);  RoundToInt(); SetFontNames('', '', '', '', '', '${version}');  Generate('${font}.ttf')";
 
 webfonts:compile
 	@echo "Generating webfonts"
