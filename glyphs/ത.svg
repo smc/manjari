@@ -18,6 +18,53 @@
   <defs
      id="defs5498">
     <inkscape:path-effect
+       effect="powerstroke"
+       id="path-effect4176"
+       is_visible="true"
+       offset_points="0,89.748228 | 5.6321604,136.95347 | 12,55.592499"
+       sort_points="true"
+       interpolator_type="CubicBezierJohan"
+       interpolator_beta="0.2"
+       start_linecap_type="round"
+       linejoin_type="round"
+       miter_limit="4"
+       end_linecap_type="round" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4174"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="powerstroke"
+       id="path-effect4165"
+       is_visible="true"
+       offset_points="0.08006682,-138.82044 | 8.7788483,-102.82691 | 18,-106.24007"
+       sort_points="true"
+       interpolator_type="SpiroInterpolator"
+       interpolator_beta="0.2"
+       start_linecap_type="round"
+       linejoin_type="round"
+       miter_limit="4"
+       end_linecap_type="round" />
+    <inkscape:path-effect
+       effect="interpolate"
+       id="path-effect4163"
+       is_visible="true"
+       trajectory="M 0,0 0,0"
+       equidistant_spacing="true"
+       steps="5" />
+    <inkscape:path-effect
+       effect="powerstroke"
+       id="path-effect4161"
+       is_visible="true"
+       offset_points="0,1 | 9,1 | 18,1"
+       sort_points="true"
+       interpolator_type="CubicBezierJohan"
+       interpolator_beta="0.2"
+       start_linecap_type="round"
+       linejoin_type="round"
+       miter_limit="4"
+       end_linecap_type="round" />
+    <inkscape:path-effect
        effect="spiro"
        id="path-effect2987"
        is_visible="true" />
@@ -37,6 +84,10 @@
        effect="spiro"
        id="path-effect4141-3-4-6-8-86"
        is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4141-3-4-6-8-86-6"
+       is_visible="true" />
   </defs>
   <sodipodi:namedview
      inkscape:window-height="853"
@@ -51,8 +102,8 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="0.32102648"
-     inkscape:cx="485.54654"
-     inkscape:cy="1411.1634"
+     inkscape:cx="-84.499894"
+     inkscape:cy="707.82766"
      inkscape:window-x="1598"
      inkscape:window-y="-3"
      inkscape:current-layer="layer1"

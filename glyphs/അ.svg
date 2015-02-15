@@ -18,6 +18,26 @@
   <defs
      id="defs5498">
     <inkscape:path-effect
+       effect="knot"
+       id="path-effect4157"
+       is_visible="true"
+       interruption_width="3"
+       prop_to_stroke_width="true"
+       add_stroke_width="true"
+       add_other_stroke_width="true"
+       switcher_size="15"
+       crossing_points_vector="" />
+    <inkscape:path-effect
+       effect="envelope"
+       id="path-effect4153"
+       is_visible="true"
+       yy="true"
+       xx="true"
+       bendpath1="m -2452.6431,-533.93293 2176.2746,0"
+       bendpath2="m -276.3685,-533.93293 0,879.42563"
+       bendpath3="m -2452.6431,345.4927 2176.2746,0"
+       bendpath4="m -2452.6431,-533.93293 0,879.42563" />
+    <inkscape:path-effect
        effect="spiro"
        id="path-effect4372-5-8"
        is_visible="true" />
@@ -50,13 +70,16 @@
      showgrid="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="0.32102648"
-     inkscape:cx="1044.2062"
-     inkscape:cy="1080.4313"
+     inkscape:zoom="0.227"
+     inkscape:cx="-131.54305"
+     inkscape:cy="1415.7064"
      inkscape:window-x="1598"
      inkscape:window-y="-3"
      inkscape:current-layer="layer1"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     inkscape:snap-grids="false"
+     inkscape:snap-to-guides="false"
+     inkscape:snap-text-baseline="true">
     <sodipodi:guide
        orientation="horizontal"
        position="0,600"
