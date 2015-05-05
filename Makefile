@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 fontpath=/usr/share/fonts/truetype/malayalam
-font=Spiral
+font=Manjari
 timestamp="`date +"%Y%m%d"`"
 version="1.0.0-beta.${timestamp}"
 default: all
