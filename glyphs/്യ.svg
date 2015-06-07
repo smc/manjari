@@ -33,6 +33,10 @@
        effect="spiro"
        id="path-effect4140-5"
        is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4140-5-9"
+       is_visible="true" />
   </defs>
   <sodipodi:namedview
      inkscape:window-height="704"
@@ -111,5 +115,10 @@
        inkscape:original-d="m -2669.4613,391.76125 c 0,0 -142.8157,246.09196 -98.3174,356.54139 44.4982,110.44944 285.2297,-183.86091 552.2186,-183.86091 266.9891,0 -74.8155,-127.81225 -126.7934,-306.80082 -40.0792,-138.01548 -202.251,-251.6546023 -212.634,-387.78943 -10.3829,-136.13482 -6.3112,-448.88826 -6.3112,-448.88826"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssssc" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:70;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m -3810.0879,-422.50195 a 35.0035,35.0035 0 0 0 -32.7637,25.50781 c -45.3002,152.63902 -42.9701,318.437056 6.6036,469.742187 48.1696,147.020333 136.3253,272.658803 216.5566,395.980473 30.3786,46.69433 59.4182,92.83204 81.5469,140.9121 22.0932,48.00296 37.2706,98.38138 39.623,148.44336 2.8101,59.80325 -13.2198,120.92639 -45.5625,170.83985 -32.3074,49.85888 -81.639,89.29647 -137.3164,108.87887 -55.6094,19.5585 -118.7543,19.4829 -173.6601,-0.8828 -54.8314,-20.338 -102.6177,-61.62334 -129.7793,-112.98045 -27.4486,-51.89973 -34.3905,-115.5126 -18.7832,-172.11133 15.6072,-56.59871 54.1723,-107.6619 104.3418,-138.1582 a 35.0035,35.0035 0 1 0 -36.3594,-59.8164 c -65.9105,40.0647 -114.9588,105.0102 -135.4629,179.36718 -20.5042,74.35696 -11.6759,155.26173 24.3847,223.44532 35.629,67.36718 96.2231,119.51558 167.3145,145.88478 71.017,26.3415 150.1417,26.2898 221.2305,1.2871 71.0207,-24.9788 132.1065,-73.9964 172.834,-136.84962 40.692,-62.79872 60.2341,-137.83466 56.7402,-212.18945 -2.9062,-61.84636 -21.2107,-120.65647 -45.957,-174.42383 -24.7108,-53.69023 -55.743,-102.60741 -86.459,-149.82031 -81.0575,-124.59158 -164.794,-245.5593 -208.711,-379.599612 -45.0481,-137.492929 -47.1844,-289.328138 -6.0195,-428.033198 a 35.0035,35.0035 0 0 0 -34.3418,-45.42383 z"
+       id="path4138-4-0"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
