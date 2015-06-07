@@ -1,3 +1,3 @@
-Spiral
+Manjari
 ======
-A Malayalam font in concept experimental stage
+A Malayalam font in concept experimental stage. 
