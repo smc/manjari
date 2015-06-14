@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1434290808
+ModificationTime: 1434294532
 PfmFamily: 17
 TTFWeight: 100
 TTFWidth: 5
@@ -764,7 +764,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 468 13 5
+WinInfo: 143 13 5
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -6644,67 +6644,70 @@ EndChar
 
 StartChar: lhcil
 Encoding: 169 3454 123
-Width: 1916
+Width: 1957
 GlyphClass: 3
-Flags: W
+Flags: WO
 LayerCount: 2
 Back
 Fore
 SplineSet
-1189.5 1401.5 m 128,-1,1
- 1210 1422 1210 1422 1241.5 1422 c 128,-1,2
- 1273 1422 1273 1422 1294 1395 c 0,3,4
- 1439 1212 1439 1212 1396 978 c 1,5,6
- 1550 943 1550 943 1669.5 816 c 128,-1,7
- 1789 689 1789 689 1812.5 496 c 128,-1,8
- 1836 303 1836 303 1743 160 c 0,9,10
- 1691 80 1691 80 1610 32.5 c 128,-1,11
- 1529 -15 1529 -15 1434.5 -14 c 128,-1,12
- 1340 -13 1340 -13 1260 37 c 0,13,14
- 1102 135 1102 135 1073 332 c 0,15,16
- 1052 471 1052 471 1108 621 c 0,17,18
- 1131 683 1131 683 1161 748 c 2,19,-1
- 1203 839 l 1,20,21
- 1076 807 1076 807 996 700 c 0,22,23
- 941 626 941 626 922 526 c 0,24,25
- 915 492 915 492 908 437 c 128,-1,26
- 901 382 901 382 897 360 c 0,27,28
- 856 101 856 101 684 16 c 0,29,30
- 621 -15 621 -15 552 -21 c 0,31,32
- 414 -33 414 -33 300 45 c 128,-1,33
- 186 123 186 123 137 247 c 128,-1,34
- 88 371 88 371 104 505 c 0,35,36
- 125 681 125 681 243.5 813 c 128,-1,37
- 362 945 362 945 535 985 c 0,38,39
- 543 987 543 987 556.5 987 c 128,-1,40
- 570 987 570 987 595.5 972 c 128,-1,41
- 621 957 621 957 621 925 c 128,-1,42
- 621 893 621 893 605 873 c 128,-1,43
- 589 853 589 853 566 848 c 0,44,45
- 436 818 436 818 347.5 719 c 128,-1,46
- 259 620 259 620 245 505 c 0,47,48
- 217 272 217 272 376 163 c 0,49,50
- 497 80 497 80 621 141 c 0,51,52
- 660 160 660 160 686 191 c 0,53,54
- 743 257 743 257 763.5 413 c 128,-1,55
- 784 569 784 569 808 642 c 0,56,57
- 861 802 861 802 1005 901 c 0,58,59
- 1118 979 1118 979 1255 989 c 1,60,61
- 1277 1090 1277 1090 1252 1171.5 c 128,-1,62
- 1227 1253 1227 1253 1198 1290 c 128,-1,63
- 1169 1327 1169 1327 1169 1354 c 128,-1,0
- 1169 1381 1169 1381 1189.5 1401.5 c 128,-1,1
-1356 843 m 1,64,65
- 1340 801 1340 801 1310 735.5 c 128,-1,66
- 1280 670 1280 670 1268 643 c 0,67,68
- 1158 395 1158 395 1251 240 c 0,69,70
- 1283 188 1283 188 1332 157 c 0,71,72
- 1436 92 1436 92 1542 155 c 0,73,74
- 1592 184 1592 184 1626 236 c 0,75,76
- 1691 336 1691 336 1673 481.5 c 128,-1,77
- 1655 627 1655 627 1564.5 723 c 128,-1,78
- 1474 819 1474 819 1356 843 c 1,64,65
+1279 1426 m 5,0,-1
+ 1279 1426 l 6,1,2
+ 1296 1426 1296 1426 1306 1413 c 4,3,4
+ 1458 1231 1458 1231 1401 989 c 5,5,6
+ 1576 964 1576 964 1703 829 c 132,-1,7
+ 1830 694 1830 694 1853 501 c 132,-1,8
+ 1876 308 1876 308 1785 167 c 4,9,10
+ 1735 90 1735 90 1657 44 c 132,-1,11
+ 1579 -2 1579 -2 1489 -1 c 132,-1,12
+ 1399 -0 1399 -0 1321.5 47.5 c 132,-1,13
+ 1244 95 1244 95 1198.5 170.5 c 132,-1,14
+ 1153 246 1153 246 1140 335.5 c 132,-1,15
+ 1127 425 1127 425 1140.5 492 c 132,-1,16
+ 1154 559 1154 559 1174 615 c 132,-1,17
+ 1194 671 1194 671 1241 770.5 c 132,-1,18
+ 1288 870 1288 870 1308 923 c 5,19,20
+ 1109 910 1109 910 987 747 c 4,21,22
+ 914 649 914 649 892 497 c 4,23,24
+ 888 471 888 471 883 430 c 132,-1,25
+ 878 389 878 389 874 365 c 4,26,27
+ 818 14 818 14 544 -9 c 4,28,29
+ 407 -20 407 -20 296 56 c 132,-1,30
+ 185 132 185 132 136.5 254 c 132,-1,31
+ 88 376 88 376 104 510 c 4,32,33
+ 125 686 125 686 243.5 817.5 c 132,-1,34
+ 362 949 362 949 534 989 c 4,35,36
+ 538 990 538 990 547.5 990 c 132,-1,37
+ 557 990 557 990 567.5 980 c 132,-1,38
+ 578 970 578 970 578 957 c 4,39,40
+ 578 927 578 927 550 921 c 4,41,42
+ 399 886 399 886 295.5 770.5 c 132,-1,43
+ 192 655 192 655 176 520.5 c 132,-1,44
+ 160 386 160 386 201 282 c 132,-1,45
+ 242 178 242 178 334 115 c 4,46,47
+ 463 27 463 27 603 75 c 4,48,49
+ 673 99 673 99 729.5 165.5 c 132,-1,50
+ 786 232 786 232 809 404 c 132,-1,51
+ 832 576 832 576 856 648 c 4,52,53
+ 909 807 909 807 1043.5 900 c 132,-1,54
+ 1178 993 1178 993 1330 994 c 5,55,56
+ 1385 1208 1385 1208 1252 1368 c 4,57,58
+ 1244 1378 1244 1378 1244 1391.5 c 132,-1,59
+ 1244 1405 1244 1405 1254.5 1415.5 c 132,-1,60
+ 1265 1426 1265 1426 1279 1426 c 5,0,-1
+1382 921 m 5,61,62
+ 1362 861 1362 861 1327 787.5 c 132,-1,63
+ 1292 714 1292 714 1260 646 c 4,64,65
+ 1188 490 1188 490 1210.5 337 c 132,-1,66
+ 1233 184 1233 184 1356 108 c 4,67,68
+ 1419 69 1419 69 1489.5 68.5 c 132,-1,69
+ 1560 68 1560 68 1622.5 105 c 132,-1,70
+ 1685 142 1685 142 1726 205 c 4,71,72
+ 1803 325 1803 325 1783 494 c 132,-1,73
+ 1763 663 1763 663 1650.5 782.5 c 132,-1,74
+ 1538 902 1538 902 1382 921 c 5,61,62
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'haln' Halant Forms in Malay+AQEA-lam lookup 10 subtable" lh xx ZWJ
 Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" lh xx ZWJ
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" lh xx ZWJ
@@ -19085,7 +19088,7 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 564 -1 S 1 0 0 1 948.541 112 2
+Refer: 564 -1 S 1 0 0 1 948.541 106 2
 Refer: 77 3370 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p1 u1
 LCarets2: 1 0 
@@ -19100,7 +19103,7 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 565 -1 S 1 0 0 1 1049.47 128 2
+Refer: 565 -1 S 1 0 0 1 1049.47 121 2
 Refer: 77 3370 N 1 0 0 1 -0.404624 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p1 u2
 LCarets2: 1 0 
@@ -20547,28 +20550,30 @@ EndChar
 
 StartChar: m1m1
 Encoding: 482 -1 424
-Width: 2455
+Width: 2512
 GlyphClass: 3
 Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 81 3374 N 1 0 0 1 1058 1 2
+Refer: 81 3374 S 1 0 0 1 1121 1 2
 Refer: 81 3374 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" m1 xx m1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" m1 xx m1
 EndChar
 
 StartChar: m1m1u1
 Encoding: 483 -1 425
-Width: 2455
+Width: 2512
 GlyphClass: 3
 Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 564 -1 N 1 0 0 1 1711 137 2
+Refer: 564 -1 S 1 0 0 1 1761 117 2
 Refer: 424 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" m1m1 u1
 EndChar
 
@@ -20580,7 +20585,7 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 565 -1 N 1 0 0 1 1697 130 2
+Refer: 565 -1 S 1 0 0 1 1969 122 2
 Refer: 424 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" m1m1 u2
 EndChar
@@ -20966,7 +20971,7 @@ StartChar: y1y1u2
 Encoding: 504 -1 446
 Width: 1949
 GlyphClass: 3
-Flags: WO
+Flags: W
 LayerCount: 2
 Back
 Fore
@@ -21151,8 +21156,9 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 564 -1 S 1 0 0 1 947.309 131 2
+Refer: 564 -1 S 1 0 0 1 1029.31 112 2
 Refer: 85 3378 N 1 0 0 1 0 0 2
+LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" l3 u1
 EndChar
 
@@ -21164,7 +21170,7 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 565 -1 N 1 0 0 1 962.309 132 2
+Refer: 565 -1 S 1 0 0 1 1149.31 110 2
 Refer: 85 3378 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" l3 u2
@@ -21179,7 +21185,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 85 3378 N 1 0 0 1 0 -3 2
-Refer: 77 3370 S 0.873657 0 0 0.813232 225.309 -609 2
+Refer: 77 3370 S 0.873657 0 0 0.813232 282.309 -609 2
 LCarets2: 2 0 0 
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" l3xx p1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" l3 xx p1
@@ -21187,26 +21193,27 @@ EndChar
 
 StartChar: l3p1u1
 Encoding: 510 -1 452
-Width: 1620
+Width: 1780
 GlyphClass: 3
 Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 564 -1 N 1 0 0 1 867 -485 2
+Refer: 564 -1 S 1 0 0 1 1029 -511 2
 Refer: 451 -1 N 1 0 0 1 0 0 2
+LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" l3p1 u1
 EndChar
 
 StartChar: l3p1u2
 Encoding: 511 -1 453
-Width: 1629
+Width: 1780
 GlyphClass: 3
 Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 565 -1 N 1 0 0 1 876 -492 2
+Refer: 565 -1 S 1 0 0 1 1142 -498 2
 Refer: 451 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" l3p1 u2
 EndChar
@@ -22540,28 +22547,28 @@ EndChar
 
 StartChar: s1u1
 Encoding: 559 -1 501
-Width: 2655
+Width: 2757
 GlyphClass: 3
 Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 564 -1 S 1 0 0 1 1856.11 130 2
-Refer: 91 3384 N 1 0 0 1 0.113946 -2 2
+Refer: 564 -1 S 1 0 0 1 1856 87 2
+Refer: 91 3384 N 1 0 0 1 0.179398 -2 2
 LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" s1 u1
 EndChar
 
 StartChar: s1u2
 Encoding: 560 -1 502
-Width: 2664
+Width: 2757
 GlyphClass: 3
 Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 565 -1 S 1 0 0 1 1876.11 111 2
-Refer: 91 3384 N 1 0 0 1 0.113946 5 2
+Refer: 565 -1 N 1 0 0 1 1876 87 2
+Refer: 91 3384 N 1 0 0 1 0 5 2
 LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" s1 u2
 EndChar
@@ -24120,7 +24127,7 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 564 -1 N 1 0 0 1 568.694 118 2
+Refer: 564 -1 N 1 0 0 1 568.694 91 2
 Refer: 84 3377 N 1 0 0 1 0 0 2
 LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" rh u1
@@ -24135,7 +24142,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 84 3377 N 1 0 0 1 0 0 2
-Refer: 565 -1 N 1 0 0 1 598 116 2
+Refer: 565 -1 S 1 0 0 1 626 99 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" rh u2
 EndChar
 
@@ -24148,21 +24155,21 @@ LayerCount: 2
 Back
 Fore
 Refer: 84 3377 N 1 0 0 1 0 0 2
-Refer: 609 -1 N 1 0 0 1 288.694 -2 2
+Refer: 609 -1 N 1 0 0 1 316.694 4 2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" rh xx rh
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" rh xx rh
 EndChar
 
 StartChar: rhrhu1
 Encoding: 609 -1 551
-Width: 1446
+Width: 1345
 GlyphClass: 3
 LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 564 -1 N 0.901062 0 0 0.835571 713 -471 2
+Refer: 564 -1 S 0.901062 0 0 0.835571 610 -520 2
 Refer: 550 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" rhrh u1
 LCarets2: 1 0 
@@ -24170,13 +24177,13 @@ EndChar
 
 StartChar: rhrhu2
 Encoding: 610 -1 552
-Width: 1510
+Width: 1345
 GlyphClass: 3
 Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 565 -1 N 0.84082 0 0 0.764954 743 -521 2
+Refer: 565 -1 S 0.84082 0 0 0.764954 685 -521 2
 Refer: 550 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" rhrh u2
 EndChar
