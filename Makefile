@@ -27,7 +27,7 @@ install: compile
 
 test: compile
 # Test the fonts
-	@for font in `echo ${fonts}`;do \
-		echo "Testing font ${font}";\
-		@hb-view ${font}.ttf --text-file tests/tests.txt --output-file tests/${font}.pdf;\
+	@for font in `echo ${fonts}`; do \
+		echo "Testing font $${font}";\
+		hb-view $${font}.ttf --text-file tests/tests.txt --output-file tests/$${font}.pdf;\
 	done;
