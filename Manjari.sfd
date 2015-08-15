@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1439632711
+ModificationTime: 1439651042
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -763,7 +763,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 368 16 6
+WinInfo: 256 16 6
 BeginPrivate: 1
 BlueValues 37 [-24 0 1000 1024 1180 1204 1360 1384]
 EndPrivate
@@ -773,7 +773,7 @@ Grid
   Named: "latin-top"
 EndSplineSet
 AnchorClass2: "Anchor-0" "'abvm' Above Base Mark in Malay+AQEA-lam2 lookup 1 subtable" 
-BeginChars: 674 665
+BeginChars: 674 663
 
 StartChar: .notdef
 Encoding: 175 -1 0
@@ -3574,47 +3574,42 @@ EndChar
 
 StartChar: t1
 Encoding: 116 3359 67
-Width: 1182
+Width: 1134
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-385.154296875 997 m 4,0,1
- 595.154296875 1047 595.154296875 1047 765.654296875 1000.5 c 132,-1,2
- 936.154296875 954 936.154296875 954 1056.15429688 852 c 4,3,4
- 1082.15429688 831 1082.15429688 831 1082.15429688 800 c 132,-1,5
- 1082.15429688 769 1082.15429688 769 1061.15429688 748.5 c 132,-1,6
- 1040.15429688 728 1040.15429688 728 1012.65429688 728 c 132,-1,7
- 985.154296875 728 985.154296875 728 965.154296875 746 c 4,8,9
- 869.154296875 827 869.154296875 827 730.654296875 865 c 132,-1,10
- 592.154296875 903 592.154296875 903 423.654296875 862.5 c 132,-1,11
- 255.154296875 822 255.154296875 822 241.154296875 730 c 4,12,13
- 234.154296875 685 234.154296875 685 268.154296875 645 c 4,14,15
- 326.154296875 574 326.154296875 574 454.154296875 571 c 4,16,17
- 508.154296875 570 508.154296875 570 583.654296875 575.5 c 132,-1,18
- 659.154296875 581 659.154296875 581 735.654296875 582.5 c 132,-1,19
- 812.154296875 584 812.154296875 584 890.154296875 553 c 132,-1,20
- 968.154296875 522 968.154296875 522 1020.65429688 461.5 c 132,-1,21
- 1073.15429688 401 1073.15429688 401 1078.65429688 311 c 132,-1,22
- 1084.15429688 221 1084.15429688 221 1022.65429688 147.5 c 132,-1,23
- 961.154296875 74 961.154296875 74 850.154296875 23 c 132,-1,24
- 739.154296875 -28 739.154296875 -28 592.154296875 -23 c 4,25,26
- 340.154296875 -15 340.154296875 -15 132.154296875 147 c 4,27,28
- 104.154296875 168 104.154296875 168 104.154296875 200 c 132,-1,29
- 104.154296875 232 104.154296875 232 124.654296875 252.5 c 132,-1,30
- 145.154296875 273 145.154296875 273 172.154296875 273 c 132,-1,31
- 199.154296875 273 199.154296875 273 218.154296875 258 c 4,32,33
- 390.154296875 124 390.154296875 124 591.154296875 117 c 4,34,35
- 711.154296875 113 711.154296875 113 792.154296875 151 c 4,36,37
- 944.154296875 221 944.154296875 221 938.154296875 311 c 4,38,39
- 933.154296875 385 933.154296875 385 830.154296875 426 c 4,40,41
- 771.154296875 449 771.154296875 449 612.654296875 436.5 c 132,-1,42
- 454.154296875 424 454.154296875 424 402.154296875 433 c 4,43,44
- 237.154296875 462 237.154296875 462 162.154296875 553 c 132,-1,45
- 87.154296875 644 87.154296875 644 102.654296875 749.5 c 132,-1,46
- 118.154296875 855 118.154296875 855 215.154296875 925 c 4,47,48
- 280.154296875 972 280.154296875 972 385.154296875 997 c 4,0,1
+113 729 m 0,0,1
+ 109 889 109 889 293 988 c 0,2,3
+ 380 1035 380 1035 535 1037 c 0,4,5
+ 824 1042 824 1042 976 844 c 0,6,7
+ 991 825 991 825 991 798.5 c 128,-1,8
+ 991 772 991 772 970.5 751.5 c 128,-1,9
+ 950 731 950 731 918 731 c 128,-1,10
+ 886 731 886 731 865 759 c 0,11,12
+ 756 901 756 901 531 897 c 0,13,14
+ 417 895 417 895 359 864 c 0,15,16
+ 252 807 252 807 253 732 c 0,17,18
+ 254 691 254 691 295 648.5 c 128,-1,19
+ 336 606 336 606 433 594 c 0,20,21
+ 478 588 478 588 561 587 c 0,22,23
+ 772 584 772 584 856 542 c 0,24,25
+ 1018 460 1018 460 1033 314 c 0,26,27
+ 1043 221 1043 221 992 145 c 0,28,29
+ 879 -22 879 -22 613 -29 c 0,30,31
+ 302 -37 302 -37 120 157 c 0,32,33
+ 100 177 100 177 100 206 c 128,-1,34
+ 100 235 100 235 120.5 255.5 c 128,-1,35
+ 141 276 141 276 171 276 c 128,-1,36
+ 201 276 201 276 222 253 c 0,37,38
+ 362 105 362 105 609 111 c 0,39,40
+ 803 116 803 116 871 216 c 0,41,42
+ 922 292 922 292 867 362 c 0,43,44
+ 844 391 844 391 789.5 418.5 c 128,-1,45
+ 735 446 735 446 574 446 c 0,46,47
+ 295 447 295 447 205 540.5 c 128,-1,48
+ 115 634 115 634 113 729 c 0,0,1
 EndSplineSet
 EndChar
 
@@ -5910,7 +5905,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 165.694 -414 2
+Refer: 557 -1 N 1 0 0 1 165.694 -414 2
 Refer: 115 -1 N 1 0 0 1 110.694 1 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" y2 u1
 LCarets2: 1 3
@@ -5924,7 +5919,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 328.694 -377 2
+Refer: 558 -1 N 1 0 0 1 328.694 -377 2
 Refer: 115 -1 N 1 0 0 1 110.694 -1 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" y2 u2
 LCarets2: 1 4
@@ -6689,7 +6684,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 57 3349 N 1 0 0 1 0 10 2
-Refer: 556 3426 N 1.02891 0 0 1.11595 1550.1 -29.245 2
+Refer: 555 3426 N 1.02891 0 0 1.11595 1550.1 -29.245 2
 LCarets2: 1 0
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k1 l1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" k1 l1
@@ -7198,7 +7193,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 2243 14 2
+Refer: 557 -1 S 1 0 0 1 2243 14 2
 Refer: 133 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k1k1r3 u1
 LCarets2: 1 0
@@ -7212,7 +7207,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 2322 21 2
+Refer: 558 -1 S 1 0 0 1 2322 21 2
 Refer: 133 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k1k1r3 u2
 LCarets2: 1 0
@@ -7226,7 +7221,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 656 -1 N 1 0 0 1 -99.7552 -3 2
+Refer: 655 -1 N 1 0 0 1 -99.7552 -3 2
 Refer: 57 3349 N 0.949951 0 0 0.949951 -14.1152 49 2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" k1 xx nh
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" k1 xx nh
@@ -7241,7 +7236,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 657 -1 S 1 0 0 1 -99.5531 -9 2
+Refer: 656 -1 S 1 0 0 1 -99.5531 -9 2
 Refer: 57 3349 N 0.949951 0 0 0.949951 45.4469 42 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k1nh u1
 LCarets2: 1 0
@@ -7255,7 +7250,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 658 -1 S 1 0 0 1 -98 -31 2
+Refer: 657 -1 S 1 0 0 1 -98 -31 2
 Refer: 57 3349 N 1 0 0 1 0 12 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k1nh u2
 LCarets2: 1 0
@@ -7833,7 +7828,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1690 13 2
+Refer: 557 -1 S 1 0 0 1 1690 13 2
 Refer: 143 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k1r3 u1
 LCarets2: 1 0
@@ -7847,7 +7842,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1760 23 2
+Refer: 558 -1 S 1 0 0 1 1760 23 2
 Refer: 143 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k1r3 u2
 LCarets2: 1 0
@@ -7862,7 +7857,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 57 3349 N 1 0 0 1 0 0 2
-Refer: 553 -1 S 0.933044 0 0 0.973877 1775 19 2
+Refer: 552 -1 S 0.933044 0 0 0.973877 1775 19 2
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" k1xx l3
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" k1 l4
 LCarets2: 1 0
@@ -7876,7 +7871,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1329 -313 2
+Refer: 557 -1 S 1 0 0 1 1329 -313 2
 Refer: 146 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k1l3 u1
 LCarets2: 1 0
@@ -7890,7 +7885,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1337 -349 2
+Refer: 558 -1 N 1 0 0 1 1337 -349 2
 Refer: 146 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k1l3 u2
 LCarets2: 1 0
@@ -8003,7 +7998,7 @@ Flags: W
 AnchorPoint: "Anchor-0" 1125 1155 basechar 0
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 2167 128 2
+Refer: 557 -1 N 1 0 0 1 2167 128 2
 Refer: 149 -1 N 1 0 0 1 1 10 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k1sh u1
 LCarets2: 1 0
@@ -8018,7 +8013,7 @@ Flags: W
 AnchorPoint: "Anchor-0" 1764.91 1141 basechar 0
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 2306.91 116 2
+Refer: 558 -1 N 1 0 0 1 2306.91 116 2
 Refer: 149 -1 N 1 0 0 1 -0.0909091 8 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k1sh u2
 LCarets2: 1 0
@@ -8031,7 +8026,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 979.43 122 2
+Refer: 557 -1 N 1 0 0 1 979.43 122 2
 Refer: 58 3350 N 1 0 0 1 0.433333 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k2 u1
@@ -8044,7 +8039,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1105.43 121 2
+Refer: 558 -1 S 1 0 0 1 1105.43 121 2
 Refer: 58 3350 N 1 0 0 1 0.433333 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k2 u2
 EndChar
@@ -8056,7 +8051,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 562 -1 S 1 0 0 1 563.433 359 2
+Refer: 561 -1 S 1 0 0 1 563.433 359 2
 Refer: 58 3350 N 1 0 0 1 0.433333 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k2 r1
@@ -8633,7 +8628,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1002 120 2
+Refer: 557 -1 N 1 0 0 1 1002 120 2
 Refer: 162 -1 N 1 0 0 1 0.000130208 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k3th3 u1
 LCarets2: 1 0
@@ -8647,7 +8642,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1077 126 2
+Refer: 558 -1 N 1 0 0 1 1077 126 2
 Refer: 162 -1 N 1 0 0 1 0.000130208 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k3th3 u2
 LCarets2: 1 0
@@ -8840,7 +8835,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 2328 192 2
+Refer: 557 -1 N 1 0 0 1 2328 192 2
 Refer: 166 -1 N 1 0 0 1 -0.000131806 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k3th3th4 u1
 LCarets2: 1 0
@@ -8854,7 +8849,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 2478 237 2
+Refer: 558 -1 N 1 0 0 1 2478 237 2
 Refer: 166 -1 N 1 0 0 1 -0.000131806 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k3th3th4 u2
 LCarets2: 1 0
@@ -9115,7 +9110,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1260 131 2
+Refer: 557 -1 S 1 0 0 1 1260 131 2
 Refer: 172 -1 N 1 0 0 1 0.000279018 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k3m1 u1
 LCarets2: 1 0
@@ -9129,7 +9124,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1398.96 132 2
+Refer: 558 -1 S 1 0 0 1 1398.96 132 2
 Refer: 172 -1 N 1 0 0 1 -0.0426503 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k3m1 u2
 LCarets2: 1 0
@@ -9221,7 +9216,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 175 -1 N 1 0 0 1 -0.000322927 0 2
-Refer: 558 -1 N 1 0 0 1 1674 14 2
+Refer: 557 -1 N 1 0 0 1 1674 14 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k3r3 u1
 LCarets2: 1 3
 EndChar
@@ -9234,7 +9229,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1676 -30 2
+Refer: 558 -1 S 1 0 0 1 1676 -30 2
 Refer: 175 -1 S 1 0 0 1 -0.000322927 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k3r3 u2
 LCarets2: 1 0
@@ -9248,7 +9243,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 553 -1 S 1 0 0 1 1819.29 5 2
+Refer: 552 -1 S 1 0 0 1 1819.29 5 2
 Refer: 59 3351 N 1 0 0 1 0.304762 1 2
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" k3xx l3
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" k3 l4
@@ -9263,7 +9258,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1291 -379 2
+Refer: 557 -1 S 1 0 0 1 1291 -379 2
 Refer: 178 -1 N 1 0 0 1 7.44048e-05 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k3l3 u1
 LCarets2: 1 0
@@ -9277,7 +9272,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1370 -367 2
+Refer: 558 -1 S 1 0 0 1 1370 -367 2
 Refer: 178 -1 N 1 0 0 1 7.44048e-05 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k3l3 u2
 LCarets2: 1 0
@@ -9291,7 +9286,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1598.02 126 2
+Refer: 557 -1 S 1 0 0 1 1598.02 126 2
 Refer: 60 3352 N 1 0 0 1 0.0137931 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k4 u1
 LCarets2: 1 0
@@ -9305,7 +9300,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1688.02 127 2
+Refer: 558 -1 S 1 0 0 1 1688.02 127 2
 Refer: 60 3352 N 1 0 0 1 0.0137931 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k4 u2
 LCarets2: 1 0
@@ -9319,7 +9314,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 562 -1 S 1 0 0 1 1180.01 359 2
+Refer: 561 -1 S 1 0 0 1 1180.01 359 2
 Refer: 60 3352 N 1 0 0 1 0.0137931 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k4 r1
 LCarets2: 1 0
@@ -9441,7 +9436,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1930 -327 2
+Refer: 557 -1 N 1 0 0 1 1930 -327 2
 Refer: 184 -1 N 1 0 0 1 4.24592e-05 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k4r3 u1
 LCarets2: 1 0
@@ -9455,7 +9450,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 2115 -329 2
+Refer: 558 -1 N 1 0 0 1 2115 -329 2
 Refer: 184 -1 N 1 0 0 1 4.24592e-05 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k4r3 u2
 LCarets2: 1 0
@@ -9463,13 +9458,13 @@ EndChar
 
 StartChar: ngu1
 Encoding: 245 -1 187
-Width: 2199
+Width: 2047
 GlyphClass: 3
 LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1454.22 143 2
+Refer: 557 -1 S 1 0 0 1 1295.22 92 2
 Refer: 61 3353 N 1 0 0 1 0.222222 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" ng u1
 LCarets2: 1 0
@@ -9483,7 +9478,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1451.22 132 2
+Refer: 558 -1 N 1 0 0 1 1451.22 132 2
 Refer: 61 3353 N 1 0 0 1 0.222222 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" ng u2
 LCarets2: 1 0
@@ -9950,7 +9945,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1896 125 2
+Refer: 557 -1 S 1 0 0 1 1896 125 2
 Refer: 193 -1 N 1 0 0 1 -14 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" ngng u1
 LCarets2: 1 0
@@ -9964,7 +9959,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 2028 119 2
+Refer: 558 -1 S 1 0 0 1 2028 119 2
 Refer: 193 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" ngng u2
 LCarets2: 1 0
@@ -9979,7 +9974,7 @@ Flags: W
 AnchorPoint: "Anchor-0" 1161 1155 basechar 0
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 730.136 130 2
+Refer: 557 -1 S 1 0 0 1 730.136 130 2
 Refer: 62 3354 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" ch1 u1
 LCarets2: 1 0
@@ -9994,7 +9989,7 @@ Flags: W
 AnchorPoint: "Anchor-0" 1191 1155 basechar 0
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 880 132 2
+Refer: 558 -1 S 1 0 0 1 880 132 2
 Refer: 62 3354 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" ch1 u2
 LCarets2: 1 0
@@ -10073,7 +10068,7 @@ Flags: W
 AnchorPoint: "Anchor-0" 906 1164 basechar 0
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 732 -291 2
+Refer: 557 -1 S 1 0 0 1 732 -291 2
 Refer: 198 -1 S 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" ch1ch1 u1
 LCarets2: 1 0
@@ -10088,7 +10083,7 @@ Flags: W
 AnchorPoint: "Anchor-0" 968 1155 basechar 0
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 868 -295 2
+Refer: 558 -1 S 1 0 0 1 868 -295 2
 Refer: 198 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" ch1ch1 u2
 LCarets2: 1 0
@@ -11837,7 +11832,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1496 -134 2
+Refer: 557 -1 N 1 0 0 1 1496 -134 2
 Refer: 213 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" ch3r3 u1
 LCarets2: 1 0
@@ -11851,7 +11846,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1551 -138 2
+Refer: 558 -1 N 1 0 0 1 1551 -138 2
 Refer: 213 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" ch3r3 u2
 LCarets2: 1 0
@@ -11865,7 +11860,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 2289 145 2
+Refer: 557 -1 N 1 0 0 1 2289 145 2
 Refer: 65 3357 N 1 0 0 1 0 19 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" ch4 u1
 LCarets2: 1 0
@@ -11879,7 +11874,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 2466 137 2
+Refer: 558 -1 S 1 0 0 1 2466 137 2
 Refer: 65 3357 S 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" ch4 u2
 LCarets2: 1 0
@@ -11893,7 +11888,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1860 130 2
+Refer: 557 -1 S 1 0 0 1 1860 130 2
 Refer: 66 3358 N 1 0 0 1 8 7 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" nj u1
 LCarets2: 1 0
@@ -11907,7 +11902,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1.10072 0 0 0.986102 1909.88 128.687 2
+Refer: 558 -1 S 1.10072 0 0 0.986102 1909.88 128.687 2
 Refer: 66 3358 N 1 0 0 1 1 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" nj u2
 LCarets2: 1 0
@@ -12015,7 +12010,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1998 117 2
+Refer: 557 -1 S 1 0 0 1 1998 117 2
 Refer: 220 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" njch1 u1
 LCarets2: 1 0
@@ -12029,7 +12024,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 2164 133 2
+Refer: 558 -1 N 1 0 0 1 2164 133 2
 Refer: 220 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" njch1 u2
 LCarets2: 1 0
@@ -12043,7 +12038,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 562 -1 S 1 0 0 1 1580.61 350 2
+Refer: 561 -1 S 1 0 0 1 1580.61 350 2
 Refer: 220 -1 N 1 0 0 1 -0.394286 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" njch1 r1
 LCarets2: 1 0
@@ -12615,7 +12610,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 3114 131 2
+Refer: 557 -1 S 1 0 0 1 3114 131 2
 Refer: 227 -1 S 1 0 0 1 1 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" njnj u1
 LCarets2: 1 0
@@ -12629,7 +12624,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 3199 116 2
+Refer: 558 -1 N 1 0 0 1 3199 116 2
 Refer: 227 -1 N 1 0 0 1 1 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" njnj u2
 LCarets2: 1 0
@@ -12637,13 +12632,13 @@ EndChar
 
 StartChar: t1u1
 Encoding: 288 -1 230
-Width: 1206
+Width: 1134
 GlyphClass: 3
 LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 467 134 2
+Refer: 557 -1 N 1 0 0 1 375 113 2
 Refer: 67 3359 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t1 u1
 LCarets2: 1 0
@@ -12651,13 +12646,13 @@ EndChar
 
 StartChar: t1u2
 Encoding: 289 -1 231
-Width: 1261
+Width: 1163
 GlyphClass: 3
 LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 608 171 2
+Refer: 558 -1 S 1 0 0 1 510 111 2
 Refer: 67 3359 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t1 u2
 LCarets2: 1 0
@@ -12665,58 +12660,51 @@ EndChar
 
 StartChar: t1r1
 Encoding: 290 -1 232
-Width: 1202
+Width: 1137
 GlyphClass: 3
 LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1100 794 m 0,0,1
- 1100 713 1100 713 1029 713 c 0,2,3
- 1004 713 1004 713 984 731 c 0,4,5
- 900 804 900 804 789 838.5 c 0,6,7
- 611.010526316 893.821052632 611.010526316 893.821052632 399 836 c 0,8,9
- 268 800 268 800 262 716 c 0,10,11
- 260 677 260 677 282 652 c 0,12,13
- 283 651 283 651 283 650 c 0,14,15
- 319 605 319 605 385.5 588.5 c 128,-1,16
- 452 572 452 572 547 570 c 0,17,18
- 833 572 833 572 985 420 c 0,19,20
- 1077 332 1077 332 1097.5 206.5 c 128,-1,21
- 1118 81 1118 81 1047 -31 c 0,22,23
- 948 -183 948 -183 731 -222 c 0,24,25
- 637 -239 637 -239 532.5 -233 c 128,-1,26
- 428 -227 428 -227 398 -220 c 128,-1,27
- 368 -213 368 -213 311.5 -196.5 c 128,-1,28
- 255 -180 255 -180 185.5 -119 c 128,-1,29
- 116 -58 116 -58 102 48.5 c 128,-1,30
- 88 155 88 155 160 230.5 c 128,-1,31
- 232 306 232 306 335.5 311 c 128,-1,32
- 439 316 439 316 527 271 c 0,33,34
- 709 177 709 177 885 -6 c 1,35,36
- 912 17 912 17 921 31.5 c 128,-1,37
- 930 46 930 46 931 47 c 0,38,39
- 970 108 970 108 957 187.5 c 128,-1,40
- 944 267 944 267 889 319 c 0,41,42
- 888 320 888 320 887 320 c 0,43,44
- 776 432 776 432 548 430 c 0,45,46
- 401 430 401 430 315 462.5 c 128,-1,47
- 229 495 229 495 172 563 c 128,-1,48
- 115 631 115 631 121 725 c 0,49,50
- 129 856 129 856 264 931 c 0,51,52
- 365 988 365 988 535 1003.5 c 128,-1,53
- 705 1019 705 1019 843.5 968.5 c 128,-1,54
- 982 918 982 918 1076 837 c 0,55,56
- 1100 816 1100 816 1100 794 c 0,0,1
-612 51 m 0,57,58
- 362 242 362 242 263 135 c 0,59,60
- 235 107 235 107 241 63 c 128,-1,61
- 247 19 247 19 291.5 -23.5 c 128,-1,62
- 336 -66 336 -66 414.5 -80 c 128,-1,63
- 493 -94 493 -94 590 -93.5 c 128,-1,64
- 687 -93 687 -93 755 -73 c 1,65,66
- 684 -4 684 -4 612 51 c 0,57,58
+111 713 m 4,0,1
+ 106 874 106 874 291 973 c 4,2,3
+ 379 1020 379 1020 533 1022 c 4,4,5
+ 822 1027 822 1027 973 829 c 4,6,7
+ 988 810 988 810 988 783.5 c 132,-1,8
+ 988 757 988 757 967.5 736.5 c 132,-1,9
+ 947 716 947 716 915 716 c 132,-1,10
+ 883 716 883 716 862 744 c 4,11,12
+ 753 886 753 886 528 882 c 4,13,14
+ 414 880 414 880 356 849 c 4,15,16
+ 249 792 249 792 251 717 c 4,17,18
+ 252 677 252 677 285 643.5 c 132,-1,19
+ 318 610 318 610 361.5 597 c 132,-1,20
+ 405 584 405 584 442 580 c 132,-1,21
+ 479 576 479 576 541 574 c 132,-1,22
+ 603 572 603 572 628 571 c 4,23,24
+ 858 557 858 557 965 431 c 4,25,26
+ 1013 375 1013 375 1031.5 295.5 c 132,-1,27
+ 1050 216 1050 216 1013.5 130 c 132,-1,28
+ 977 44 977 44 906 -17 c 4,29,30
+ 797 -111 797 -111 627 -143 c 4,31,32
+ 399 -185 399 -185 236 -85 c 4,33,34
+ 96 1 96 1 100 140 c 4,35,36
+ 102 218 102 218 161 275 c 4,37,38
+ 311 419 311 419 557 294 c 4,39,40
+ 704 219 704 219 814 97 c 4,41,42
+ 816 95 816 95 818 92 c 5,43,44
+ 915 179 915 179 893 276 c 4,45,46
+ 860 416 860 416 619 431 c 4,47,48
+ 602 432 602 432 507 434 c 4,49,50
+ 244 439 244 439 148 593 c 4,51,52
+ 113 649 113 649 111 713 c 4,0,1
+694 20 m 5,53,54
+ 606 112 606 112 500 166 c 4,55,56
+ 336 249 336 249 263 179 c 4,57,58
+ 217 135 217 135 257 80 c 4,59,60
+ 311 5 311 5 469 -14 c 4,61,62
+ 570 -26 570 -26 694 20 c 5,53,54
 EndSplineSet
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t1 r1
 LCarets2: 1 0
@@ -12724,66 +12712,62 @@ EndChar
 
 StartChar: t1t1
 Encoding: 291 -1 233
-Width: 1206
+Width: 1192
 GlyphClass: 3
 LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-392.024414062 1005.68457031 m 0,0,1
- 599.291015625 1058.06347656 599.291015625 1058.06347656 771.772460938 1010.21191406 c 128,-1,2
- 944.254882812 962.361328125 944.254882812 962.361328125 1064.03417969 861.614257812 c 0,3,4
- 1089.75390625 840.60546875 1089.75390625 840.60546875 1089.75390625 809.509765625 c 128,-1,5
- 1089.75390625 778.4140625 1089.75390625 778.4140625 1069.2421875 757.901367188 c 128,-1,6
- 1048.72949219 737.389648438 1048.72949219 737.389648438 1021.18847656 737.389648438 c 128,-1,7
- 993.647460938 737.389648438 993.647460938 737.389648438 973.918945312 754.473632812 c 0,8,9
- 877.461914062 835.604492188 877.461914062 835.604492188 737.5390625 874.422851562 c 128,-1,10
- 597.6171875 913.240234375 597.6171875 913.240234375 433.1328125 871.673828125 c 128,-1,11
- 268.6484375 830.107421875 268.6484375 830.107421875 255.510742188 738.875976562 c 0,12,13
- 249.119140625 694.490234375 249.119140625 694.490234375 281.543945312 654.364257812 c 0,14,15
- 335.815429688 587.200195312 335.815429688 587.200195312 458.068359375 580.883789062 c 0,16,17
- 517.391601562 577.819335938 517.391601562 577.819335938 604.8203125 584.959960938 c 128,-1,18
- 692.25 592.100585938 692.25 592.100585938 727.025390625 592.920898438 c 0,19,20
- 928.725585938 597.677734375 928.725585938 597.677734375 1028.91699219 477.456054688 c 0,21,22
- 1086.04492188 408.909179688 1086.04492188 408.909179688 1086.21875 328.350585938 c 128,-1,23
- 1086.39257812 247.791992188 1086.39257812 247.791992188 1048.20507812 196.879882812 c 128,-1,24
- 1010.01757812 145.967773438 1010.01757812 145.967773438 969.661132812 118.903320312 c 1,25,26
- 970.157226562 118.538085938 970.157226562 118.538085938 971.290039062 117.758789062 c 0,27,28
- 1039.04394531 71.1630859375 1039.04394531 71.1630859375 1074.70800781 -9.73046875 c 128,-1,29
- 1110.37109375 -90.625 1110.37109375 -90.625 1106.41601562 -180.256835938 c 128,-1,30
- 1102.4609375 -269.888671875 1102.4609375 -269.888671875 1057.04882812 -352.609375 c 128,-1,31
- 1011.63574219 -435.331054688 1011.63574219 -435.331054688 938.637695312 -490.734375 c 0,32,33
- 792.334960938 -601.7734375 792.334960938 -601.7734375 606.841796875 -588.975585938 c 128,-1,34
- 421.348632812 -576.176757812 421.348632812 -576.176757812 283.979492188 -461.639648438 c 128,-1,35
- 146.607421875 -347.098632812 146.607421875 -347.098632812 102.416992188 -173.790039062 c 0,36,37
- 100 -164.830078125 100 -164.830078125 100 -145.700195312 c 128,-1,38
- 100 -126.5703125 100 -126.5703125 120.51171875 -106.057617188 c 128,-1,39
- 141.024414062 -85.5458984375 141.024414062 -85.5458984375 166.9375 -85.5458984375 c 128,-1,40
- 192.8515625 -85.5458984375 192.8515625 -85.5458984375 212.795898438 -101.266601562 c 128,-1,41
- 232.740234375 -116.987304688 232.740234375 -116.987304688 238.077148438 -139.200195312 c 0,42,43
- 271.071289062 -268.59765625 271.071289062 -268.59765625 373.633789062 -354.114257812 c 128,-1,44
- 476.194335938 -439.627929688 476.194335938 -439.627929688 612.872070312 -449.05859375 c 128,-1,45
- 749.55078125 -458.490234375 749.55078125 -458.490234375 852.282226562 -380.518554688 c 0,46,47
- 920.057617188 -329.078125 920.057617188 -329.078125 952.900390625 -242.03125 c 128,-1,48
- 985.743164062 -154.984375 985.743164062 -154.984375 946.618164062 -66.23828125 c 128,-1,49
- 907.494140625 22.5068359375 907.494140625 22.5068359375 795.170898438 45.2373046875 c 0,50,51
- 755.787109375 53.2080078125 755.787109375 53.2080078125 675.805664062 53.0009765625 c 2,52,-1
- 181.209960938 51.7216796875 l 2,53,54
- 152.497070312 51.9892578125 152.497070312 51.9892578125 132.17578125 72.5 c 128,-1,55
- 111.85546875 93.01171875 111.85546875 93.01171875 111.85546875 121.583984375 c 128,-1,56
- 111.85546875 150.157226562 111.85546875 150.157226562 131.97265625 170.665039062 c 128,-1,57
- 152.090820312 191.172851562 152.090820312 191.172851562 180.516601562 191.719726562 c 0,58,-1
- 685.676757812 195.415039062 l 2,59,60
- 813.641601562 196.352539062 813.641601562 196.352539062 859.208984375 217.666992188 c 0,61,62
- 946.370117188 258.435546875 946.370117188 258.435546875 946.21875 328.317382812 c 128,-1,63
- 946.067382812 398.200195312 946.067382812 398.200195312 842.47265625 438.39453125 c 0,64,65
- 785.783203125 460.390625 785.783203125 460.390625 608.103515625 444.475585938 c 128,-1,66
- 430.423828125 428.560546875 430.423828125 428.560546875 330.72265625 461.348632812 c 128,-1,67
- 231.020507812 494.137695312 231.020507812 494.137695312 166.431640625 574.0703125 c 128,-1,68
- 101.84375 654.001953125 101.84375 654.001953125 116.830078125 758.0625 c 128,-1,69
- 131.81640625 862.124023438 131.81640625 862.124023438 225.977539062 932.313476562 c 0,70,71
- 289.7265625 979.833007812 289.7265625 979.833007812 392.024414062 1005.68457031 c 0,0,1
+582 569 m 5,0,-1
+ 667 568 l 5,1,2
+ 883 564 883 564 987 448 c 4,3,4
+ 1040 389 1040 389 1052 313 c 132,-1,5
+ 1064 237 1064 237 1031.5 174 c 132,-1,6
+ 999 111 999 111 949 73 c 5,7,8
+ 1031 18 1031 18 1066 -67 c 132,-1,9
+ 1101 -152 1101 -152 1090 -235 c 4,10,11
+ 1067 -401 1067 -401 922 -494 c 4,12,13
+ 804 -570 804 -570 607 -572 c 4,14,15
+ 313 -575 313 -575 173 -396 c 4,16,17
+ 127 -337 127 -337 104 -266 c 4,18,19
+ 100 -255 100 -255 100 -234.5 c 132,-1,20
+ 100 -214 100 -214 120.5 -193.5 c 132,-1,21
+ 141 -173 141 -173 166 -173 c 132,-1,22
+ 191 -173 191 -173 211 -187.5 c 132,-1,23
+ 231 -202 231 -202 241.5 -235.5 c 132,-1,24
+ 252 -269 252 -269 284 -310 c 4,25,26
+ 382 -435 382 -435 608 -432.5 c 132,-1,27
+ 834 -430 834 -430 916 -308 c 4,28,29
+ 977 -217 977 -217 938 -124 c 132,-1,30
+ 899 -31 899 -31 783 -8 c 4,31,32
+ 743 0 743 0 662 -1 c 6,33,-1
+ 213 -2 l 5,34,-1
+ 212 -2 l 6,35,36
+ 183 -2 183 -2 163 18.5 c 132,-1,37
+ 143 39 143 39 143 67.5 c 132,-1,38
+ 143 96 143 96 163 116.5 c 132,-1,39
+ 183 137 183 137 212 138 c 6,40,-1
+ 672 142 l 6,41,42
+ 799 143 799 143 842 170 c 4,43,44
+ 925 221 925 221 913 294 c 4,45,46
+ 892 424 892 424 632 428 c 4,47,48
+ 570 428 570 428 542 430 c 4,49,50
+ 316 437 316 437 232 531.5 c 132,-1,51
+ 148 626 148 626 147 709 c 4,52,53
+ 146 862 146 862 290 952 c 4,54,55
+ 403 1022 403 1022 567 1020 c 4,56,57
+ 814 1017 814 1017 969 867 c 4,58,59
+ 991 846 991 846 991 816.5 c 132,-1,60
+ 991 787 991 787 970.5 766.5 c 132,-1,61
+ 950 746 950 746 921 746 c 132,-1,62
+ 892 746 892 746 863 774 c 4,63,64
+ 757 878 757 878 566 880 c 4,65,66
+ 443 881 443 881 365 833 c 132,-1,67
+ 287 785 287 785 287 718 c 4,68,69
+ 287 679 287 679 317 645.5 c 132,-1,70
+ 347 612 347 612 377 601 c 4,71,72
+ 464.272460938 569 464.272460938 569 582 569 c 5,0,-1
 EndSplineSet
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" t1 xx t1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" t1 xx t1
@@ -12798,7 +12782,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 440 -448 2
+Refer: 557 -1 S 1 0 0 1 559 -397 2
 Refer: 233 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t1t1 u1
 LCarets2: 1 0
@@ -12806,13 +12790,13 @@ EndChar
 
 StartChar: t1t1u2
 Encoding: 293 -1 235
-Width: 1194
+Width: 1172
 GlyphClass: 3
 LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1.03157 0 0 0.977827 616.057 -406.453 2
+Refer: 558 -1 N 1.03157 0 0 0.977827 671.057 -357.453 2
 Refer: 233 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t1t1 u2
 LCarets2: 1 0
@@ -12820,55 +12804,53 @@ EndChar
 
 StartChar: t1r3
 Encoding: 294 -1 236
-Width: 1617
+Width: 1444
 GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-261 1037 m 0,0,1
- 282 1061 282 1061 312 1061 c 128,-1,2
- 342 1061 342 1061 362.5 1040 c 128,-1,3
- 383 1019 383 1019 383 991.5 c 128,-1,4
- 383 964 383 964 365 943 c 0,5,6
- 304 875 304 875 271 786 c 0,7,8
- 216 636 216 636 257.5 499.5 c 128,-1,9
- 299 363 299 363 398 267 c 0,10,11
- 583 88 583 88 1018 99 c 0,12,13
- 1195 103 1195 103 1264 144 c 0,14,15
- 1400 223 1400 223 1373 328 c 0,16,17
- 1362 370 1362 370 1324 400 c 128,-1,18
- 1286 430 1286 430 1233 441 c 128,-1,19
- 1180 452 1180 452 1121.5 447 c 128,-1,20
- 1063 442 1063 442 995 431 c 128,-1,21
- 927 420 927 420 893 416 c 0,22,23
- 672 389 672 389 545 497 c 0,24,25
- 471 560 471 560 454 642.5 c 128,-1,26
- 437 725 437 725 465 796 c 0,27,28
- 539 981 539 981 793 1027 c 0,29,30
- 967 1058 967 1058 1141 1011.5 c 128,-1,31
- 1315 965 1315 965 1451 852 c 0,32,33
- 1477 831 1477 831 1477 800 c 128,-1,34
- 1477 769 1477 769 1456.5 748.5 c 128,-1,35
- 1436 728 1436 728 1408.5 728 c 128,-1,36
- 1381 728 1381 728 1361 744 c 0,37,38
- 1250 837 1250 837 1104.5 875.5 c 128,-1,39
- 959 914 959 914 832 892 c 0,40,41
- 640 858 640 858 597 749 c 0,42,43
- 563 664 563 664 638.5 600.5 c 128,-1,44
- 714 537 714 537 879 556 c 0,45,46
- 914 560 914 560 973 569.5 c 128,-1,47
- 1032 579 1032 579 1063 583 c 0,48,49
- 1282 612 1282 612 1410 510 c 0,50,51
- 1486 450 1486 450 1510 356 c 128,-1,52
- 1534 262 1534 262 1485.5 172.5 c 128,-1,53
- 1437 83 1437 83 1357.5 36.5 c 128,-1,54
- 1278 -10 1278 -10 1199 -24 c 128,-1,55
- 1120 -38 1120 -38 1021 -41 c 0,56,57
- 345 -58 345 -58 155 370 c 0,58,59
- 53 599 53 599 139 834 c 0,60,61
- 181 948 181 948 261 1037 c 0,0,1
+423 721 m 0,0,1
+ 419 881 419 881 603 980 c 0,2,3
+ 690 1027 690 1027 845 1029 c 0,4,5
+ 1134 1034 1134 1034 1285 836 c 0,6,7
+ 1300 817 1300 817 1300 790.5 c 128,-1,8
+ 1300 764 1300 764 1279.5 743.5 c 128,-1,9
+ 1259 723 1259 723 1227 723 c 128,-1,10
+ 1195 723 1195 723 1174 751 c 0,11,12
+ 1065 893 1065 893 841 889 c 0,13,14
+ 727 887 727 887 668 856 c 0,15,16
+ 561 799 561 799 563 724 c 0,17,18
+ 564 683 564 683 605 640.5 c 128,-1,19
+ 646 598 646 598 743 586 c 0,20,21
+ 788 580 788 580 870 579 c 0,22,23
+ 1081 576 1081 576 1165 533 c 0,24,25
+ 1327 451 1327 451 1343 306 c 0,26,27
+ 1353 213 1353 213 1301.5 136.5 c 128,-1,28
+ 1250 60 1250 60 1162.5 15.5 c 128,-1,29
+ 1075 -29 1075 -29 911.5 -37.5 c 128,-1,30
+ 748 -46 748 -46 589 -5.5 c 128,-1,31
+ 430 35 430 35 324.5 127.5 c 128,-1,32
+ 219 220 219 220 164.5 329 c 128,-1,33
+ 110 438 110 438 101.5 557.5 c 128,-1,34
+ 93 677 93 677 131 792.5 c 128,-1,35
+ 169 908 169 908 246 1000 c 0,36,37
+ 267 1025 267 1025 298 1025 c 128,-1,38
+ 329 1025 329 1025 349.5 1004.5 c 128,-1,39
+ 370 984 370 984 370 956.5 c 128,-1,40
+ 370 929 370 929 353 909 c 0,41,42
+ 294 839 294 839 264 749 c 0,43,44
+ 204 565 204 565 290 392 c 0,45,46
+ 391 190 391 190 639 126 c 0,47,48
+ 762 95 762 95 900 102 c 128,-1,49
+ 1038 109 1038 109 1096 139 c 0,50,51
+ 1214 199 1214 199 1204 291 c 0,52,53
+ 1188 438 1188 438 884 438 c 0,54,55
+ 724 439 724 439 639 465.5 c 128,-1,56
+ 554 492 554 492 489.5 559 c 128,-1,57
+ 425 626 425 626 423 721 c 0,0,1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 8 subtable" r4 t1
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 7 subtable" t1xx r3
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 7 subtable" t1 r4
@@ -12876,13 +12858,13 @@ EndChar
 
 StartChar: t1r3u1
 Encoding: 295 -1 237
-Width: 1617
+Width: 1483
 GlyphClass: 3
 LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 834 108 2
+Refer: 557 -1 N 1 0 0 1 738 120 2
 Refer: 236 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t1r3 u1
 LCarets2: 1 0
@@ -12890,13 +12872,13 @@ EndChar
 
 StartChar: t1r3u2
 Encoding: 296 -1 238
-Width: 1617
+Width: 1500
 GlyphClass: 3
 LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1042 134 2
+Refer: 558 -1 N 1 0 0 1 847 119 2
 Refer: 236 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t1r3 u2
 LCarets2: 1 0
@@ -12910,7 +12892,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 518.644 151 2
+Refer: 557 -1 S 1 0 0 1 518.644 151 2
 Refer: 68 3360 N 1 0 0 1 0 -2 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t2 u1
 LCarets2: 1 0
@@ -12924,7 +12906,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 528.644 133 2
+Refer: 558 -1 S 1 0 0 1 528.644 133 2
 Refer: 68 3360 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t2 u2
 LCarets2: 1 0
@@ -12938,7 +12920,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1791.83 177 2
+Refer: 557 -1 S 1 0 0 1 1791.83 177 2
 Refer: 69 3361 N 1 0 0 1 -79.1718 9 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t3 u1
 LCarets2: 1 0
@@ -12952,7 +12934,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1716.83 136 2
+Refer: 558 -1 S 1 0 0 1 1716.83 136 2
 Refer: 69 3361 N 1 0 0 1 -79.1718 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t3 u2
 LCarets2: 1 0
@@ -12966,7 +12948,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 562 -1 S 1 0 0 1 1352.83 441 2
+Refer: 561 -1 S 1 0 0 1 1352.83 441 2
 Refer: 69 3361 S 1 0 0 1 -79.1718 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t3 r1
 LCarets2: 1 0
@@ -13049,7 +13031,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 0.794373 0 0 0.782471 2012 -557 2
+Refer: 557 -1 N 0.794373 0 0 0.782471 2012 -557 2
 Refer: 244 -1 N 1 0 0 1 0.000125606 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t3t3 u1
 LCarets2: 1 0
@@ -13063,7 +13045,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 0.85675 0 0 0.813232 2052 -561 2
+Refer: 558 -1 N 0.85675 0 0 0.813232 2052 -561 2
 Refer: 244 -1 N 1 0 0 1 0.000125606 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t3t3 u2
 LCarets2: 1 0
@@ -13152,7 +13134,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 0.710144 0 0 0.69281 2012 -564 2
+Refer: 557 -1 N 0.710144 0 0 0.69281 2012 -564 2
 Refer: 247 -1 N 1 0 0 1 0.000125606 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t3t4 u1
 LCarets2: 1 0
@@ -13166,7 +13148,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 0.733704 0 0 0.684143 1992 -595 2
+Refer: 558 -1 N 0.733704 0 0 0.684143 1992 -595 2
 Refer: 247 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t3t4 u2
 LCarets2: 1 0
@@ -13279,7 +13261,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 2423 -96 2
+Refer: 557 -1 N 1 0 0 1 2423 -96 2
 Refer: 250 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t3r3 u1
 LCarets2: 1 0
@@ -13293,7 +13275,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 2530 -50 2
+Refer: 558 -1 N 1 0 0 1 2530 -50 2
 Refer: 250 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t3r3 u2
 LCarets2: 1 0
@@ -13307,7 +13289,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1851.61 166 2
+Refer: 557 -1 N 1 0 0 1 1851.61 166 2
 Refer: 70 3362 N 1 0 0 1 0 10 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t4 u1
 LCarets2: 1 0
@@ -13321,7 +13303,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1.13027 0 0 0.969423 1915.58 170.312 2
+Refer: 558 -1 S 1.13027 0 0 0.969423 1915.58 170.312 2
 Refer: 70 3362 N 1 0 0 1 0 6 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" t4 u2
 LCarets2: 1 0
@@ -13741,7 +13723,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1891 102 2
+Refer: 557 -1 S 1 0 0 1 1891 102 2
 Refer: 258 -1 S 1 0 0 1 0 -2 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" nht1 u1
 LCarets2: 1 0
@@ -13755,7 +13737,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 2022 89 2
+Refer: 558 -1 S 1 0 0 1 2022 89 2
 Refer: 258 -1 N 1 0 0 1 0 -4 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" nht1 u2
 LCarets2: 1 0
@@ -13925,7 +13907,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 2933 108 2
+Refer: 557 -1 S 1 0 0 1 2933 108 2
 Refer: 262 -1 N 1 0 0 1 -0.000215605 11 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" nht3 u1
 LCarets2: 1 -300
@@ -13939,7 +13921,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 3142 128 2
+Refer: 558 -1 S 1 0 0 1 3142 128 2
 Refer: 262 -1 N 1 0 0 1 -0.000215605 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" nht3 u2
 LCarets2: 1 0
@@ -13954,7 +13936,7 @@ Flags: W
 AnchorPoint: "Anchor-0" 1768 1335 basechar 0
 LayerCount: 2
 Fore
-Refer: 656 -1 S 1 0 0 1 729.098 -2 2
+Refer: 655 -1 S 1 0 0 1 729.098 -2 2
 Refer: 71 3363 N 1 0 0 1 0 0 2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" nh xx nh
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" nh xx nh
@@ -13969,7 +13951,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 657 -1 S 1 0 0 1 558.098 -4 2
+Refer: 656 -1 S 1 0 0 1 558.098 -4 2
 Refer: 71 3363 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" nhnh u1
 LCarets2: 1 0
@@ -13983,7 +13965,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 658 -1 S 1 0 0 1 525 -14 2
+Refer: 657 -1 S 1 0 0 1 525 -14 2
 Refer: 71 3363 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" nhnh u2
 LCarets2: 1 0
@@ -14092,7 +14074,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 2348 116 2
+Refer: 557 -1 N 1 0 0 1 2348 116 2
 Refer: 268 -1 N 1 0 0 1 -43 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" nhm1 u1
 LCarets2: 1 0
@@ -14100,14 +14082,14 @@ EndChar
 
 StartChar: nhm1u2
 Encoding: 331 -1 270
-Width: 3092
+Width: 3212
 GlyphClass: 3
 LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 2345 124 2
-Refer: 268 -1 N 1 0 0 1 -43 0 2
+Refer: 558 -1 S 1 0 0 1 2558.74 109 2
+Refer: 268 -1 N 1 0 0 1 -0.259067 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" nhm1 u2
 LCarets2: 1 0
 EndChar
@@ -14911,7 +14893,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 2804 18 2
+Refer: 557 -1 S 1 0 0 1 2804 18 2
 Refer: 278 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th1th1r3 u1
 LCarets2: 1 0
@@ -14919,13 +14901,13 @@ EndChar
 
 StartChar: th1th1r3u2
 Encoding: 341 -1 280
-Width: 3520
+Width: 3372
 GlyphClass: 3
 LigCaretCntFixed: 1
-Flags: W
+Flags: WO
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 2863 24 2
+Refer: 558 -1 N 1 0 0 1 2719 -108 2
 Refer: 278 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th1th1r3 u2
 LCarets2: 1 0
@@ -15025,7 +15007,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 2057 131 2
+Refer: 557 -1 S 1 0 0 1 2057 131 2
 Refer: 281 -1 N 1 0 0 1 0 -8 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th1th2 u1
 LCarets2: 1 0
@@ -15039,7 +15021,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 2196 128 2
+Refer: 558 -1 N 1 0 0 1 2196 128 2
 Refer: 281 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th1th2 u2
 LCarets2: 1 0
@@ -15053,7 +15035,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 562 -1 S 1 0 0 1 1637 308 2
+Refer: 561 -1 S 1 0 0 1 1637 308 2
 Refer: 281 -1 N 1 0 0 1 0 -9 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th1th2 r1
 LCarets2: 1 0
@@ -15516,7 +15498,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 2217 129 2
+Refer: 557 -1 N 1 0 0 1 2217 129 2
 Refer: 289 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th1m1 u1
 LCarets2: 1 0
@@ -15530,7 +15512,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 2318 122 2
+Refer: 558 -1 S 1 0 0 1 2318 122 2
 Refer: 289 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th1m1 u2
 LCarets2: 1 0
@@ -15544,7 +15526,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 562 -1 N 1 0 0 1 1801 371 2
+Refer: 561 -1 N 1 0 0 1 1801 371 2
 Refer: 289 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th1m1 r1
 LCarets2: 1 0
@@ -15635,7 +15617,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1506 20 2
+Refer: 557 -1 S 1 0 0 1 1506 20 2
 Refer: 293 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th1r3 u1
 LCarets2: 1 0
@@ -15649,7 +15631,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1627 61 2
+Refer: 558 -1 N 1 0 0 1 1627 61 2
 Refer: 293 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th1r3 u2
 LCarets2: 1 3
@@ -15663,7 +15645,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 553 -1 S 1 0 0 1 1776.88 19 2
+Refer: 552 -1 S 1 0 0 1 1776.88 19 2
 Refer: 72 3364 N 1 0 0 1 0 0 2
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" th1xx l3
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" th1 l4
@@ -15678,7 +15660,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1269 -351 2
+Refer: 557 -1 N 1 0 0 1 1269 -351 2
 Refer: 296 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th1l3 u1
 LCarets2: 1 0
@@ -15692,7 +15674,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1283 -339 2
+Refer: 558 -1 N 1 0 0 1 1283 -339 2
 Refer: 296 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th1l3 u2
 LCarets2: 1 0
@@ -15794,7 +15776,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 2720 210 2
+Refer: 557 -1 N 1 0 0 1 2720 210 2
 Refer: 299 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th1s1 u1
 LCarets2: 1 0
@@ -15808,7 +15790,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 2848 267 2
+Refer: 558 -1 N 1 0 0 1 2848 267 2
 Refer: 299 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th1s1 u2
 LCarets2: 1 0
@@ -15822,7 +15804,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 562 -1 N 1 0 0 1 2184 476 2
+Refer: 561 -1 N 1 0 0 1 2184 476 2
 Refer: 299 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th1s1 r1
 LCarets2: 1 0
@@ -15836,7 +15818,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 861 115 2
+Refer: 557 -1 S 1 0 0 1 861 115 2
 Refer: 73 3365 N 1 0 0 1 0 2 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th2 u1
 LCarets2: 1 0
@@ -15850,7 +15832,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 873 137 2
+Refer: 558 -1 N 1 0 0 1 873 137 2
 Refer: 73 3365 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th2 u2
 LCarets2: 1 0
@@ -15864,7 +15846,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 532.53 104 2
+Refer: 557 -1 S 1 0 0 1 532.53 104 2
 Refer: 74 3366 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th3 u1
 LCarets2: 1 0
@@ -15878,7 +15860,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 550.53 93 2
+Refer: 558 -1 S 1 0 0 1 550.53 93 2
 Refer: 74 3366 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th3 u2
 LCarets2: 1 0
@@ -16028,7 +16010,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 736 -265 2
+Refer: 557 -1 S 1 0 0 1 736 -265 2
 Refer: 308 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th3th3 u1
 LCarets2: 1 0
@@ -16042,7 +16024,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 874 -229 2
+Refer: 558 -1 S 1 0 0 1 874 -229 2
 Refer: 308 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th3th3 u2
 LCarets2: 1 0
@@ -16143,7 +16125,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1566 115 2
+Refer: 557 -1 S 1 0 0 1 1566 115 2
 Refer: 311 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th3th4 u1
 LCarets2: 1 0
@@ -16157,7 +16139,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1.10181 0 0 1.07709 1686 148 2
+Refer: 558 -1 S 1.10181 0 0 1.07709 1686 148 2
 Refer: 311 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th3th4 u2
 LCarets2: 1 0
@@ -16235,7 +16217,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1030 -99 2
+Refer: 557 -1 S 1 0 0 1 1030 -99 2
 Refer: 314 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th3r3 u1
 LCarets2: 1 0
@@ -16249,7 +16231,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1070 -111 2
+Refer: 558 -1 S 1 0 0 1 1070 -111 2
 Refer: 314 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th3r3 u2
 LCarets2: 1 0
@@ -16263,7 +16245,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1205.77 137 2
+Refer: 557 -1 S 1 0 0 1 1205.77 137 2
 Refer: 75 3367 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th4 u1
 LCarets2: 1 0
@@ -16277,7 +16259,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1340.77 159 2
+Refer: 558 -1 S 1 0 0 1 1340.77 159 2
 Refer: 75 3367 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th4 u2
 LCarets2: 1 0
@@ -16292,7 +16274,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 75 3367 N 1 0 0 1 0 0 2
-Refer: 562 -1 S 1 0 0 1 833.772 434 2
+Refer: 561 -1 S 1 0 0 1 833.772 434 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th4 r1
 LCarets2: 1 0
 EndChar
@@ -16396,7 +16378,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1512 -244 2
+Refer: 557 -1 N 1 0 0 1 1512 -244 2
 Refer: 320 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th4r3 u1
 LCarets2: 1 0
@@ -16410,7 +16392,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1867 -55 2
+Refer: 558 -1 N 1 0 0 1 1867 -55 2
 Refer: 320 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th4r3 u2
 LCarets2: 1 0
@@ -17137,7 +17119,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 2419 -24 2
+Refer: 557 -1 S 1 0 0 1 2419 -24 2
 Refer: 330 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1th1r3 u1
 LCarets2: 1 0
@@ -17151,7 +17133,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 2375 -113 2
+Refer: 558 -1 S 1 0 0 1 2375 -113 2
 Refer: 330 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1th1r3 u2
 LCarets2: 1 0
@@ -17166,7 +17148,7 @@ Flags: W
 AnchorPoint: "Anchor-0" 2000.57 1161 basechar 0
 LayerCount: 2
 Fore
-Refer: 561 -1 S 1.09827 0 0 1 1437.57 -2 2
+Refer: 560 -1 S 1.09827 0 0 1 1437.57 -2 2
 Refer: 76 3368 N 1 0 0 1 -0.431818 0 2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" n1 xx th2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" n1 xx th2
@@ -17181,7 +17163,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 2487 122 2
+Refer: 557 -1 N 1 0 0 1 2487 122 2
 Refer: 333 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1th2 u1
 LCarets2: 1 0
@@ -17195,7 +17177,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 2604 103 2
+Refer: 558 -1 S 1 0 0 1 2604 103 2
 Refer: 333 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1th2 u2
 LCarets2: 1 0
@@ -17209,7 +17191,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 562 -1 N 1 0 0 1 2071 307 2
+Refer: 561 -1 N 1 0 0 1 2071 307 2
 Refer: 333 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1th2 r1
 LCarets2: 1 0
@@ -17295,7 +17277,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1256 129 2
+Refer: 557 -1 N 1 0 0 1 1256 129 2
 Refer: 337 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1th3 u1
 LCarets2: 1 0
@@ -17309,7 +17291,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1287 135 2
+Refer: 558 -1 N 1 0 0 1 1287 135 2
 Refer: 337 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1th3 u2
 LCarets2: 1 0
@@ -17496,7 +17478,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1830 -104 2
+Refer: 557 -1 S 1 0 0 1 1830 -104 2
 Refer: 341 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1th3r3 u1
 LCarets2: 1 0
@@ -17510,7 +17492,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1900 -94 2
+Refer: 558 -1 S 1 0 0 1 1900 -94 2
 Refer: 341 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1th3r3 u2
 LCarets2: 1 0
@@ -17627,7 +17609,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 2505 130 2
+Refer: 557 -1 S 1 0 0 1 2505 130 2
 Refer: 344 -1 N 1 0 0 1 0 9 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1th4 u1
 LCarets2: 1 0
@@ -17641,7 +17623,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 2651 180 2
+Refer: 558 -1 S 1 0 0 1 2651 180 2
 Refer: 344 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1th4 u2
 LCarets2: 1 0
@@ -17770,7 +17752,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 3079 -116 2
+Refer: 557 -1 S 1 0 0 1 3079 -116 2
 Refer: 347 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1th4r3 u1
 LCarets2: 1 0
@@ -17784,7 +17766,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 3127 -109 2
+Refer: 558 -1 S 1 0 0 1 3127 -109 2
 Refer: 347 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1th4r3 u2
 LCarets2: 1 0
@@ -18225,7 +18207,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 2649 -54 2
+Refer: 557 -1 N 1 0 0 1 2649 -54 2
 Refer: 354 -1 N 1 0 0 1 1 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1n1r3 u1
 LCarets2: 1 0
@@ -18239,7 +18221,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 2721 -27 2
+Refer: 558 -1 N 1 0 0 1 2721 -27 2
 Refer: 354 -1 N 1 0 0 1 1 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1n1r3 u2
 LCarets2: 1 0
@@ -18323,7 +18305,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1455 124 2
+Refer: 557 -1 S 1 0 0 1 1455 124 2
 Refer: 357 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1m1 u1
 LCarets2: 1 0
@@ -18337,7 +18319,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1553 111 2
+Refer: 558 -1 S 1 0 0 1 1553 111 2
 Refer: 357 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1m1 u2
 LCarets2: 1 0
@@ -18351,7 +18333,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 562 -1 S 1 0 0 1 1047 393 2
+Refer: 561 -1 S 1 0 0 1 1047 393 2
 Refer: 357 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1m1 r1
 LCarets2: 1 0
@@ -18365,7 +18347,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 602 -1 N 1 0 0 1 1187 -23 2
+Refer: 601 -1 N 1 0 0 1 1187 -23 2
 Refer: 121 3451 N 1 0 0 1 0 6 2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" n1 xx rh
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" n1 xx rh
@@ -18380,7 +18362,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 0.779358 0 0 0.749878 1579 -568 2
+Refer: 557 -1 N 0.779358 0 0 0.749878 1579 -568 2
 Refer: 361 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1rh u1
 LCarets2: 1 0
@@ -18394,7 +18376,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 0.79364 0 0 0.749268 1604 -574 2
+Refer: 558 -1 S 0.79364 0 0 0.749268 1604 -574 2
 Refer: 361 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" n1rh u2
 LCarets2: 1 0
@@ -18408,7 +18390,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 921.668 112 2
+Refer: 557 -1 N 1 0 0 1 921.668 112 2
 Refer: 77 3370 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p1 u1
 LCarets2: 1 0
@@ -18422,7 +18404,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1022.6 128 2
+Refer: 558 -1 S 1 0 0 1 1022.6 128 2
 Refer: 77 3370 N 1 0 0 1 -0.404624 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p1 u2
 LCarets2: 1 0
@@ -18433,10 +18415,10 @@ Encoding: 427 -1 366
 Width: 1671
 GlyphClass: 3
 LigCaretCntFixed: 1
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
-Refer: 562 -1 N 1 0 0 1 507.668 355 2
+Refer: 561 -1 N 1 0 0 1 507.668 355 2
 Refer: 77 3370 S 1 0 0 1 0 5 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p1 r1
 LCarets2: 1 0
@@ -18450,7 +18432,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 603 -1 S 1 0 0 1 377 -17 2
+Refer: 602 -1 S 1 0 0 1 377 -17 2
 Refer: 77 3370 N 1 0 0 1 0 2 2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p1 xx th1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" p1 xx th1
@@ -18618,8 +18600,52 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 659 -1 S 1 0 0 1.00532 193.668 -4.10638 2
-Refer: 77 3370 N 1 0 0 1.02814 0 3 2
+SplineSet
+862.66796875 -377.080078125 m 6,0,1
+ 862.66796875 -364.010742188 862.66796875 -364.010742188 863.66796875 -341.893554688 c 4,2,3
+ 859.66796875 -259.458007812 859.66796875 -259.458007812 799.66796875 -193.609375 c 4,4,5
+ 739.66796875 -127.760742188 739.66796875 -127.760742188 640.16796875 -127.760742188 c 4,6,7
+ 540.66796875 -127.760742188 540.66796875 -127.760742188 472.66796875 -205.169921875 c 4,8,9
+ 404.66796875 -282.580078125 404.66796875 -282.580078125 414.66796875 -389.143554688 c 4,10,11
+ 424.66796875 -495.708007812 424.66796875 -495.708007812 511.66796875 -561.556640625 c 4,12,13
+ 598.66796875 -627.404296875 598.66796875 -627.404296875 705.66796875 -606.29296875 c 4,14,15
+ 711.66796875 -605.288085938 711.66796875 -605.288085938 727.16796875 -605.288085938 c 4,16,17
+ 742.66796875 -605.288085938 742.66796875 -605.288085938 760.66796875 -622.880859375 c 4,18,19
+ 778.66796875 -640.473632812 778.66796875 -640.473632812 778.66796875 -659.575195312 c 4,20,21
+ 778.66796875 -715.873046875 778.66796875 -715.873046875 728.66796875 -724.920898438 c 4,22,23
+ 569.66796875 -756.0859375 569.66796875 -756.0859375 440.16796875 -658.067382812 c 4,24,25
+ 310.66796875 -560.048828125 310.66796875 -560.048828125 295.66796875 -401.208007812 c 4,26,27
+ 280.66796875 -242.3671875 280.66796875 -242.3671875 383.16796875 -124.745117188 c 4,28,29
+ 485.66796875 -7.1220703125 485.66796875 -7.1220703125 654.16796875 -6.6201171875 c 4,30,31
+ 822.66796875 -6.1171875 822.66796875 -6.1171875 924.66796875 -156.915039062 c 5,32,33
+ 983.66796875 -71.462890625 983.66796875 -71.462890625 1066.16796875 -37.2822265625 c 4,34,35
+ 1148.66796875 -3.1005859375 1148.66796875 -3.1005859375 1223.16796875 -5.111328125 c 4,36,37
+ 1297.66796875 -7.1220703125 1297.66796875 -7.1220703125 1367.16796875 -41.302734375 c 4,38,39
+ 1436.66796875 -75.484375 1436.66796875 -75.484375 1484.66796875 -134.797851562 c 4,40,41
+ 1586.66796875 -258.452148438 1586.66796875 -258.452148438 1564.16796875 -417.29296875 c 4,42,43
+ 1541.66796875 -576.133789062 1541.66796875 -576.133789062 1410.16796875 -668.120117188 c 4,44,45
+ 1278.66796875 -760.107421875 1278.66796875 -760.107421875 1122.66796875 -725.92578125 c 4,46,47
+ 1102.66796875 -721.905273438 1102.66796875 -721.905273438 1088.66796875 -704.311523438 c 4,48,49
+ 1074.66796875 -686.71875 1074.66796875 -686.71875 1074.66796875 -664.098632812 c 4,50,51
+ 1074.66796875 -641.479492188 1074.66796875 -641.479492188 1092.66796875 -623.885742188 c 4,52,53
+ 1110.66796875 -606.29296875 1110.66796875 -606.29296875 1126.16796875 -606.29296875 c 4,54,55
+ 1141.66796875 -606.29296875 1141.66796875 -606.29296875 1169.66796875 -612.325195312 c 4,56,57
+ 1197.66796875 -618.356445312 1197.66796875 -618.356445312 1249.16796875 -608.303710938 c 4,58,59
+ 1300.66796875 -598.250976562 1300.66796875 -598.250976562 1341.66796875 -569.096679688 c 4,60,61
+ 1429.66796875 -507.771484375 1429.66796875 -507.771484375 1444.66796875 -400.705078125 c 4,62,63
+ 1459.66796875 -293.638671875 1459.66796875 -293.638671875 1392.16796875 -211.202148438 c 4,64,65
+ 1324.66796875 -128.765625 1324.66796875 -128.765625 1221.16796875 -126.252929688 c 4,66,67
+ 1117.66796875 -123.739257812 1117.66796875 -123.739257812 1053.16796875 -190.592773438 c 4,68,69
+ 988.66796875 -257.447265625 988.66796875 -257.447265625 983.66796875 -343.904296875 c 5,70,-1
+ 983.66796875 -679.681640625 l 6,71,72
+ 983.66796875 -704.814453125 983.66796875 -704.814453125 966.16796875 -722.407226562 c 4,73,74
+ 948.66796875 -740.000976562 948.66796875 -740.000976562 924.16796875 -740.000976562 c 4,75,76
+ 899.66796875 -740.000976562 899.66796875 -740.000976562 882.16796875 -722.407226562 c 4,77,78
+ 864.66796875 -704.814453125 864.66796875 -704.814453125 863.66796875 -680.686523438 c 6,79,-1
+ 862.66796875 -378.084960938 l 5,80,-1
+ 862.66796875 -377.080078125 l 6,0,1
+EndSplineSet
+Refer: 77 3370 S 1 0 0 1.02814 0 3 2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p1 xx n1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" p1 xx n1
 LCarets2: 2 0 3
@@ -18633,8 +18659,58 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 323 -1 S 0.695618 0 0 0.732971 219.668 -736 2
-Refer: 77 3370 N 1 0 0 1.02814 0 8 2
+SplineSet
+926.943359375 -152.0546875 m 5,0,1
+ 997.470703125 -56.5224609375 997.470703125 -56.5224609375 1123.8203125 -33.75390625 c 4,2,3
+ 1287.9765625 -4.173828125 1287.9765625 -4.173828125 1420.09277344 -105.85546875 c 4,4,5
+ 1552.20996094 -207.536132812 1552.20996094 -207.536132812 1571.84765625 -363.9453125 c 4,6,7
+ 1591.484375 -520.354492188 1591.484375 -520.354492188 1509 -627 c 4,8,9
+ 1464.18164062 -684.947265625 1464.18164062 -684.947265625 1397.15039062 -714.333984375 c 4,10,11
+ 1330.12011719 -743.719726562 1330.12011719 -743.719726562 1259.55957031 -732.484375 c 4,12,13
+ 1189 -721.248046875 1189 -721.248046875 1136.453125 -675.67578125 c 4,14,15
+ 1084.08886719 -630.262695312 1084.08886719 -630.262695312 1063.3828125 -564.126953125 c 4,16,17
+ 1042.67578125 -497.991210938 1042.67578125 -497.991210938 1059.51464844 -430.903320312 c 4,18,19
+ 1076.35449219 -363.815429688 1076.35449219 -363.815429688 1135.21386719 -305.689453125 c 4,20,21
+ 1194.07324219 -247.564453125 1194.07324219 -247.564453125 1273.85839844 -244.598632812 c 4,22,23
+ 1353.64453125 -241.631835938 1353.64453125 -241.631835938 1410.53320312 -270.171875 c 5,24,25
+ 1353.25292969 -181.375 1353.25292969 -181.375 1251.71972656 -156.055664062 c 4,26,27
+ 1150.28222656 -130.760742188 1150.28222656 -130.760742188 1078.25097656 -175.075195312 c 4,28,29
+ 1006.22070312 -219.389648438 1006.22070312 -219.389648438 990.494140625 -301.884765625 c 4,30,31
+ 984.836914062 -331.557617188 984.836914062 -331.557617188 984.42578125 -391.583984375 c 6,32,-1
+ 982.431640625 -682.55859375 l 6,33,34
+ 981.9453125 -707.010742188 981.9453125 -707.010742188 964.3671875 -724.241210938 c 4,35,36
+ 946.788085938 -741.471679688 946.788085938 -741.471679688 922.291015625 -741.471679688 c 4,37,38
+ 897.793945312 -741.471679688 897.793945312 -741.471679688 880.212890625 -724.03125 c 4,39,40
+ 862.630859375 -706.58984375 862.630859375 -706.58984375 862.43359375 -681.947265625 c 6,41,-1
+ 863.912109375 -391.666015625 l 6,42,43
+ 864.249023438 -325.409179688 864.249023438 -325.409179688 856.510742188 -286.544921875 c 4,44,45
+ 839.408203125 -200.662109375 839.408203125 -200.662109375 758.497070312 -161.756835938 c 4,46,47
+ 677.584960938 -122.852539062 677.584960938 -122.852539062 579.552734375 -162.500976562 c 4,48,49
+ 481.520507812 -202.149414062 481.520507812 -202.149414062 444.633789062 -302.766601562 c 4,50,51
+ 407.748046875 -403.383789062 407.748046875 -403.383789062 460.758789062 -498.79296875 c 4,52,53
+ 513.76953125 -594.202148438 513.76953125 -594.202148438 621.936523438 -614.98046875 c 4,54,55
+ 674.935546875 -625.161132812 674.935546875 -625.161132812 703.421875 -617.916992188 c 4,56,57
+ 731.908203125 -610.671875 731.908203125 -610.671875 748.270507812 -610.671875 c 4,58,59
+ 764.6328125 -610.671875 764.6328125 -610.671875 782.21484375 -628.25390625 c 4,60,61
+ 799.796875 -645.8359375 799.796875 -645.8359375 799.796875 -668.075195312 c 4,62,63
+ 799.796875 -690.315429688 799.796875 -690.315429688 786.274414062 -707.421875 c 4,64,65
+ 772.752929688 -724.528320312 772.752929688 -724.528320312 753.646484375 -729.0625 c 4,66,67
+ 592.194335938 -769.797851562 592.194335938 -769.797851562 457.330078125 -672.140625 c 4,68,69
+ 393.620117188 -626.0078125 393.620117188 -626.0078125 354.961914062 -556.4296875 c 4,70,71
+ 316.3046875 -486.8515625 316.3046875 -486.8515625 310.880859375 -409.724609375 c 4,72,73
+ 299.571289062 -248.891601562 299.571289062 -248.891601562 410.875976562 -134.166015625 c 4,74,75
+ 522.1796875 -19.4404296875 522.1796875 -19.4404296875 682.306640625 -24.107421875 c 4,76,77
+ 842.43359375 -28.7734375 842.43359375 -28.7734375 926.943359375 -152.0546875 c 5,0,1
+1294.75585938 -363.904296875 m 4,78,79
+ 1245.17480469 -365.748046875 1245.17480469 -365.748046875 1214.87109375 -395.674804688 c 4,80,81
+ 1184.56640625 -425.6015625 1184.56640625 -425.6015625 1175.93359375 -459.998046875 c 4,82,83
+ 1157.15917969 -534.79296875 1157.15917969 -534.79296875 1216.02832031 -585.848632812 c 4,84,85
+ 1274.89746094 -636.904296875 1274.89746094 -636.904296875 1356.08984375 -601.309570312 c 4,86,87
+ 1437.28125 -565.71484375 1437.28125 -565.71484375 1426.046875 -475.576171875 c 4,88,89
+ 1419.91015625 -426.345703125 1419.91015625 -426.345703125 1382.12109375 -394.203125 c 4,90,91
+ 1344.33203125 -362.061523438 1344.33203125 -362.061523438 1294.75585938 -363.904296875 c 4,78,79
+EndSplineSet
+Refer: 77 3370 S 1 0 0 1.02814 0 -3 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p1n1 u1
 LCarets2: 1 0
 EndChar
@@ -18647,8 +18723,73 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 77 3370 N 1 0 0 1 0 0 2
-Refer: 324 -1 S 0.748596 0 0 0.702759 131 -706 2
+SplineSet
+258.431640625 -248.190429688 m 4,0,1
+ 284.03125 -172.643554688 284.03125 -172.643554688 336.513671875 -117.244140625 c 4,2,3
+ 452.87890625 5.5908203125 452.87890625 5.5908203125 621.576660156 -3.009765625 c 4,4,5
+ 790.274414062 -11.6103515625 790.274414062 -11.6103515625 878.40234375 -150.5234375 c 5,6,7
+ 952.416992188 -41.638671875 952.416992188 -41.638671875 1086.75390625 -13.3984375 c 4,8,9
+ 1260.21759752 23.0672569242 1260.21759752 23.0672569242 1416.68359375 -98.8984375 c 4,10,11
+ 1496.75292969 -161.3125 1496.75292969 -161.3125 1538.5234375 -275.947265625 c 5,12,13
+ 1604.35058594 -322.109375 1604.35058594 -322.109375 1647.31347656 -400.440429688 c 4,14,15
+ 1690.27636719 -478.772460938 1690.27636719 -478.772460938 1688.97949219 -583.178710938 c 4,16,17
+ 1687.68261719 -687.5859375 1687.68261719 -687.5859375 1631.83203125 -780.060546875 c 4,18,19
+ 1575.98144531 -872.533203125 1575.98144531 -872.533203125 1481 -924 c 4,20,21
+ 1386.01855469 -975.46484375 1386.01855469 -975.46484375 1278.05273438 -971.755859375 c 4,22,23
+ 1170.08496094 -968.044921875 1170.08496094 -968.044921875 1078.86132812 -910.18359375 c 4,24,25
+ 1050.31640625 -892.607421875 1050.31640625 -892.607421875 1050.31640625 -863.42578125 c 4,26,27
+ 1050.31640625 -834.244140625 1050.31640625 -834.244140625 1067.8984375 -816.662109375 c 4,28,29
+ 1085.48046875 -799.080078125 1085.48046875 -799.080078125 1106.83203125 -799.080078125 c 4,30,31
+ 1128.18359375 -799.080078125 1128.18359375 -799.080078125 1143.13671875 -808.84765625 c 4,32,33
+ 1206.8125 -849.236328125 1206.8125 -849.236328125 1282.17382812 -851.826171875 c 4,34,35
+ 1357.53320312 -854.415039062 1357.53320312 -854.415039062 1423.83203125 -818.4921875 c 4,36,37
+ 1490.13183594 -782.567382812 1490.13183594 -782.567382812 1529.11328125 -718.0234375 c 4,38,39
+ 1592.87988281 -612.442382812 1592.87988281 -612.442382812 1557.40820312 -496.841796875 c 5,40,41
+ 1541.68261719 -574.498046875 1541.68261719 -574.498046875 1494.33789062 -633.66015625 c 4,42,43
+ 1446.9921875 -692.822265625 1446.9921875 -692.822265625 1373.92578125 -719.080078125 c 4,44,45
+ 1300.859375 -745.338867188 1300.859375 -745.338867188 1232.55175781 -723.71484375 c 4,46,47
+ 1164.24414062 -702.091796875 1164.24414062 -702.091796875 1122.13574219 -652.7734375 c 4,48,49
+ 1080.02734375 -603.455078125 1080.02734375 -603.455078125 1071.04785156 -556.192382812 c 4,50,51
+ 1043.93422206 -413.466874105 1043.93422206 -413.466874105 1134.40607587 -312.652382365 c 4,52,53
+ 1224.87792969 -211.837890625 1224.87792969 -211.837890625 1365.76953125 -217.095703125 c 5,54,55
+ 1309.01757812 -153.786132812 1309.01757812 -153.786132812 1237.83886719 -136.504882812 c 4,56,57
+ 1166.65917969 -119.223632812 1166.65917969 -119.223632812 1117.56347656 -129.544921875 c 4,58,59
+ 968.595703125 -160.860351562 968.595703125 -160.860351562 942.349609375 -308.671875 c 4,60,61
+ 936.390625 -342.231445312 936.390625 -342.231445312 935.841796875 -409.32421875 c 6,62,-1
+ 933.7265625 -667.83203125 l 5,63,-1
+ 933.7265625 -668.275390625 l 6,64,65
+ 933.196289062 -692.701171875 933.196289062 -692.701171875 915.619140625 -709.8984375 c 4,66,67
+ 898.041015625 -727.096679688 898.041015625 -727.096679688 873.560546875 -727.096679688 c 4,68,69
+ 849.080078125 -727.096679688 849.080078125 -727.096679688 831.499023438 -709.647460938 c 4,70,71
+ 813.91796875 -692.19921875 813.91796875 -692.19921875 813.731445312 -667.544921875 c 6,72,-1
+ 813.731445312 -667.056640625 l 5,73,-1
+ 815.298828125 -409.318359375 l 6,74,75
+ 815.747070312 -335.599609375 815.747070312 -335.599609375 807.626953125 -291.399414062 c 4,76,77
+ 789.53125 -192.900390625 789.53125 -192.900390625 701.958496094 -145.996582031 c 4,78,79
+ 614.385742188 -99.0927734375 614.385742188 -99.0927734375 511.28125 -140.365234375 c 4,80,81
+ 408.16015625 -181.64453125 408.16015625 -181.64453125 372.512695312 -286.846679688 c 4,82,83
+ 336.865234375 -392.049804688 336.865234375 -392.049804688 393.650390625 -487.51171875 c 4,84,85
+ 450.435546875 -582.975585938 450.435546875 -582.975585938 559.893554688 -601.86328125 c 4,86,87
+ 613.541015625 -611.12109375 613.541015625 -611.12109375 642.375976562 -603.3671875 c 4,88,89
+ 671.211914062 -595.61328125 671.211914062 -595.61328125 687.776367188 -595.61328125 c 4,90,91
+ 704.33984375 -595.61328125 704.33984375 -595.61328125 721.921875 -613.1953125 c 4,92,93
+ 739.50390625 -630.77734375 739.50390625 -630.77734375 739.50390625 -652.874023438 c 4,94,95
+ 739.50390625 -674.970703125 739.50390625 -674.970703125 726.225585938 -692.017578125 c 4,96,97
+ 712.947265625 -709.065429688 712.947265625 -709.065429688 694.184570312 -713.80078125 c 4,98,99
+ 533.163085938 -756.770507812 533.163085938 -756.770507812 395.856445312 -662.322265625 c 4,100,101
+ 330.90625 -617.645507812 330.90625 -617.645507812 290.126953125 -549.08984375 c 4,102,103
+ 249.348632812 -480.53515625 249.348632812 -480.53515625 241.08984375 -402.13671875 c 4,104,105
+ 232.83203125 -323.73828125 232.83203125 -323.73828125 258.431640625 -248.190429688 c 4,0,1
+1437.05664062 -355.326171875 m 5,106,107
+ 1383.26074219 -330.756835938 1383.26074219 -330.756835938 1323.67089844 -339.288085938 c 4,108,109
+ 1264.08105469 -347.8203125 1264.08105469 -347.8203125 1232.14550781 -383.407226562 c 4,110,111
+ 1172.85351562 -449.479492188 1172.85351562 -449.479492188 1185.97851562 -518.369140625 c 4,112,113
+ 1199.10351562 -587.258789062 1199.10351562 -587.258789062 1262.46386719 -607.31640625 c 4,114,115
+ 1298.42480469 -618.700195312 1298.42480469 -618.700195312 1336.45898438 -605.03125 c 4,116,117
+ 1416.37207031 -576.3125 1416.37207031 -576.3125 1438.7109375 -478.5546875 c 4,118,119
+ 1452.00683594 -420.389648438 1452.00683594 -420.389648438 1437.05664062 -355.326171875 c 5,106,107
+EndSplineSet
+Refer: 77 3370 S 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p1n1 u2
 LCarets2: 1 0
 EndChar
@@ -18729,7 +18870,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 984 133 2
+Refer: 557 -1 N 1 0 0 1 984 133 2
 Refer: 373 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p1p1 u1
 LCarets2: 1 0
@@ -18743,7 +18884,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 968 138 2
+Refer: 558 -1 N 1 0 0 1 1151 129 2
 Refer: 373 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p1p1 u2
 LCarets2: 1 0
@@ -18757,7 +18898,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 562 -1 S 1 0 0 1 567 360 2
+Refer: 561 -1 S 1 0 0 1 567 360 2
 Refer: 373 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p1p1 r1
 LCarets2: 1 0
@@ -18907,7 +19048,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1565 -143 2
+Refer: 557 -1 N 1 0 0 1 1565 -143 2
 Refer: 378 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p1r3 u1
 LCarets2: 1 0
@@ -18921,7 +19062,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1581 -173 2
+Refer: 558 -1 S 1 0 0 1 1581 -173 2
 Refer: 378 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p1r3 u2
 LCarets2: 1 0
@@ -18934,7 +19075,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 553 -1 S 1 0 0 1 1681.67 9 2
+Refer: 552 -1 S 1 0 0 1 1681.67 9 2
 Refer: 77 3370 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" p1xx l3
@@ -18949,7 +19090,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 0.886047 0 0 0.742126 1178 -422 2
+Refer: 557 -1 S 0.886047 0 0 0.742126 1178 -422 2
 Refer: 381 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p1l3 u1
 LCarets2: 1 0
@@ -18963,7 +19104,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1218 -373 2
+Refer: 558 -1 N 1 0 0 1 1218 -373 2
 Refer: 381 -1 S 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p1l3 u2
 LCarets2: 1 0
@@ -18977,7 +19118,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1441.31 125 2
+Refer: 557 -1 S 1 0 0 1 1441.31 125 2
 Refer: 78 3371 N 1 0 0 1 0 3 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p2 u1
 LCarets2: 1 0
@@ -18991,7 +19132,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1618.31 129 2
+Refer: 558 -1 N 1 0 0 1 1618.31 129 2
 Refer: 78 3371 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p2 u2
 LCarets2: 1 0
@@ -19087,7 +19228,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 2071 -250 2
+Refer: 557 -1 N 1 0 0 1 2071 -250 2
 Refer: 386 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p2r3 u1
 EndChar
@@ -19099,7 +19240,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 2166 -223 2
+Refer: 558 -1 N 1 0 0 1 2166 -223 2
 Refer: 386 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p2r3 u2
 EndChar
@@ -19111,7 +19252,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 553 -1 S 1 0 0 1 2242.31 7 2
+Refer: 552 -1 S 1 0 0 1 2242.31 7 2
 Refer: 78 3371 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" p2xx l3
@@ -19125,7 +19266,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1683 -359 2
+Refer: 557 -1 S 1 0 0 1 1683 -359 2
 Refer: 389 -1 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p2l3 u1
@@ -19138,7 +19279,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1713 -399 2
+Refer: 558 -1 N 1 0 0 1 1713 -399 2
 Refer: 389 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p2l3 u2
 EndChar
@@ -19150,7 +19291,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1800.86 113 2
+Refer: 557 -1 S 1 0 0 1 1800.86 113 2
 Refer: 79 3372 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p3 u1
 EndChar
@@ -19162,7 +19303,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1958.22 126 2
+Refer: 558 -1 N 1 0 0 1 1958.22 126 2
 Refer: 79 3372 S 1 0 0 1 0.22 -10 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p3 u2
@@ -19175,7 +19316,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 562 -1 S 1 0 0 1 1388.86 357 2
+Refer: 561 -1 S 1 0 0 1 1388.86 357 2
 Refer: 79 3372 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p3 r1
@@ -19188,7 +19329,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 560 -1 S 1 0 0 1 1141.86 56 2
+Refer: 559 -1 S 1 0 0 1 1141.86 56 2
 Refer: 79 3372 N 1 0 0 1 0 0 2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" p3 xx p3
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" p3 xx p3
@@ -19201,7 +19342,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1803 -420 2
+Refer: 557 -1 S 1 0 0 1 1803 -420 2
 Refer: 395 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p3p3 u1
 EndChar
@@ -19213,7 +19354,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1947 -446 2
+Refer: 558 -1 S 1 0 0 1 1947 -446 2
 Refer: 395 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p3p3 u2
 EndChar
@@ -19323,7 +19464,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 2361 -201 2
+Refer: 557 -1 N 1 0 0 1 2361 -201 2
 Refer: 398 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p3r3 u1
 EndChar
@@ -19335,7 +19476,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 2235 -298 2
+Refer: 558 -1 N 1 0 0 1 2235 -298 2
 Refer: 398 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p3r3 u2
 EndChar
@@ -19347,7 +19488,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 553 -1 S 1 0 0 1 2543.86 6 2
+Refer: 552 -1 S 1 0 0 1 2543.86 6 2
 Refer: 79 3372 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" p3xx l3
@@ -19361,7 +19502,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 2014 -390 2
+Refer: 557 -1 N 1 0 0 1 2014 -390 2
 Refer: 401 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p3l3 u1
 EndChar
@@ -19373,7 +19514,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 2086 -373 2
+Refer: 558 -1 N 1 0 0 1 2086 -373 2
 Refer: 401 -1 S 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p3l3 u2
 EndChar
@@ -19701,7 +19842,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1249 -33 2
+Refer: 557 -1 N 1 0 0 1 1249 -33 2
 Refer: 407 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p4r3 u1
 EndChar
@@ -19713,7 +19854,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1209 -93 2
+Refer: 558 -1 N 1 0 0 1 1209 -93 2
 Refer: 407 -1 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p4r3 u2
@@ -19726,7 +19867,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 648 130 2
+Refer: 557 -1 N 1 0 0 1 648 130 2
 Refer: 81 3374 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" m1 u1
@@ -19739,7 +19880,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 756 125 2
+Refer: 558 -1 N 1 0 0 1 756 125 2
 Refer: 81 3374 N 1 0 0 1 -13 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" m1 u2
@@ -19753,7 +19894,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 81 3374 N 1 0 0 1 0 0 2
-Refer: 562 -1 N 1 0 0 1 241 364 2
+Refer: 561 -1 N 1 0 0 1 241 364 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" m1 r1
 EndChar
@@ -19837,7 +19978,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1683 132 2
+Refer: 557 -1 N 1 0 0 1 1683 132 2
 Refer: 413 -1 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" m1p1 u1
@@ -19850,7 +19991,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1846 134 2
+Refer: 558 -1 S 1 0 0 1 1846 134 2
 Refer: 413 -1 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" m1p1 u2
@@ -19864,7 +20005,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 413 -1 N 1 0 0 1 0 0 2
-Refer: 562 -1 S 1 0 0 1 1289 405 2
+Refer: 561 -1 S 1 0 0 1 1289 405 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" m1p1 r1
 EndChar
 
@@ -19965,7 +20106,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 2277 -140 2
+Refer: 557 -1 N 1 0 0 1 2277 -140 2
 Refer: 417 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" m1p1r3 u1
 EndChar
@@ -19977,7 +20118,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 2318 -162 2
+Refer: 558 -1 N 1 0 0 1 2318 -162 2
 Refer: 417 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" m1p1r3 u2
 EndChar
@@ -20002,7 +20143,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1711 137 2
+Refer: 557 -1 N 1 0 0 1 1711 137 2
 Refer: 420 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" m1m1 u1
 EndChar
@@ -20014,7 +20155,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1697 130 2
+Refer: 558 -1 N 1 0 0 1 1697 130 2
 Refer: 420 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" m1m1 u2
 EndChar
@@ -20095,7 +20236,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1212 -147 2
+Refer: 557 -1 N 1 0 0 1 1212 -147 2
 Refer: 423 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" m1r3 u1
 EndChar
@@ -20107,7 +20248,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1435 12 2
+Refer: 558 -1 N 1 0 0 1 1435 12 2
 Refer: 423 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" m1r3 u2
 EndChar
@@ -20120,7 +20261,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 81 3374 N 1 0 0 1 0 0 2
-Refer: 553 -1 N 0.928894 0 0 0.951355 1419 1 2
+Refer: 552 -1 N 0.928894 0 0 0.951355 1419 1 2
+LCarets2: 1 0
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" m1xx l3
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" m1 l4
 EndChar
@@ -20132,7 +20274,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1097 137 2
+Refer: 557 -1 N 1 0 0 1 1097 137 2
 Refer: 82 3375 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" y1 u1
@@ -20145,7 +20287,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1171.98 126 2
+Refer: 558 -1 S 1 0 0 1 1171.98 126 2
 Refer: 82 3375 N 1 0 0 1 5.98201 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" y1 u2
 EndChar
@@ -20482,7 +20624,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 603 -1 N 1 0 0 1 510.728 -7 2
+Refer: 602 -1 N 1 0 0 1 510.728 -7 2
 Refer: 82 3375 N 1 0 0 1 0 19 2
 LCarets2: 2 0 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" y1xx th1
@@ -21023,7 +21165,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1026 -285 2
+Refer: 557 -1 S 1 0 0 1 1026 -285 2
 Refer: 439 -1 N 1 0 0 1 0 0 2
 LCarets2: 2 0 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" y1y1 u1
@@ -21037,7 +21179,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1292 -274 2
+Refer: 558 -1 S 1 0 0 1 1292 -274 2
 Refer: 439 -1 N 1 0 0 1 0 12 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" y1y1 u2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" y1 y2 u2
@@ -21219,7 +21361,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 900.61 113 2
+Refer: 557 -1 S 1 0 0 1 900.61 113 2
 Refer: 85 3378 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" l3 u1
@@ -21232,7 +21374,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1058 116 2
+Refer: 558 -1 S 1 0 0 1 1058 116 2
 Refer: 85 3378 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" l3 u2
@@ -21259,7 +21401,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 900 -479 2
+Refer: 557 -1 S 1 0 0 1 900 -479 2
 Refer: 446 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" l3p1 u1
 EndChar
@@ -21271,7 +21413,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1060 -478 2
+Refer: 558 -1 S 1 0 0 1 1060 -478 2
 Refer: 446 -1 N 1 0 0 1 0 -6 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" l3p1 u2
 EndChar
@@ -21336,7 +21478,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 449 -1 N 1 0 0 1 0 0 2
-Refer: 558 -1 S 1 0 0 1 940 -487 2
+Refer: 557 -1 S 1 0 0 1 940 -487 2
 LCarets2: 2 0 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" l3l3 u1
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" l3 l4 u1
@@ -21350,7 +21492,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 449 -1 N 1 0 0 1 0 0 2
-Refer: 559 -1 S 1 0 0 1 1062 -489 2
+Refer: 558 -1 S 1 0 0 1 1062 -489 2
 LCarets2: 2 0 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" l3l3 u2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" l3 l4 u2
@@ -21363,7 +21505,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 978 136 2
+Refer: 557 -1 N 1 0 0 1 978 136 2
 Refer: 88 3381 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" v1 u1
 EndChar
@@ -21375,7 +21517,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1134.74 121 2
+Refer: 558 -1 S 1 0 0 1 1134.74 121 2
 Refer: 88 3381 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" v1 u2
@@ -21388,7 +21530,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 562 -1 S 1 0 0 1 554.741 358 2
+Refer: 561 -1 S 1 0 0 1 554.741 358 2
 Refer: 88 3381 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" v1 r1
@@ -21476,7 +21618,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1366 -227 2
+Refer: 557 -1 S 1 0 0 1 1366 -227 2
 Refer: 455 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" v1r3 u1
 EndChar
@@ -21488,7 +21630,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1551 -210 2
+Refer: 558 -1 S 1 0 0 1 1551 -210 2
 Refer: 455 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" v1r3 u2
 EndChar
@@ -21502,7 +21644,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 88 3381 N 1 0 0 1 0 0 2
-Refer: 553 -1 N 0.905151 0 0 1 1713 42 2
+Refer: 552 -1 N 0.905151 0 0 1 1713 42 2
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" v1xx l3
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" v1 l4
 LCarets2: 1 0
@@ -21515,7 +21657,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1207 -352 2
+Refer: 557 -1 N 1 0 0 1 1207 -352 2
 Refer: 458 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" v1l3 u1
 EndChar
@@ -21527,7 +21669,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1144 -388 2
+Refer: 558 -1 N 1 0 0 1 1144 -388 2
 Refer: 458 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" v1l3 u2
 EndChar
@@ -21605,7 +21747,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 887.268 -278 2
+Refer: 557 -1 S 1 0 0 1 887.268 -278 2
 Refer: 461 -1 N 1 0 0 1 1.26772 0 2
 LCarets2: 2 0 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" v1v1 u1
@@ -21619,7 +21761,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1049 -287 2
+Refer: 558 -1 N 1 0 0 1 1049 -287 2
 Refer: 461 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" v1v1 u2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" v1 v2 u2
@@ -21976,7 +22118,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1800.18 133 2
+Refer: 557 -1 S 1 0 0 1 1800.18 133 2
 Refer: 467 -1 N 1 0 0 1 0.181818 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" z1ch1 u1
@@ -21989,7 +22131,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1799.18 127 2
+Refer: 558 -1 S 1 0 0 1 1799.18 127 2
 Refer: 467 -1 N 1 0 0 1 0.181818 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" z1ch1 u2
 EndChar
@@ -22001,7 +22143,51 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 659 -1 S 1 0 0 1 438.149 -1 2
+SplineSet
+1107.14941406 -372 m 6,0,1
+ 1107.14941406 -359 1107.14941406 -359 1108.14941406 -337 c 4,2,3
+ 1104.14941406 -255 1104.14941406 -255 1044.14941406 -189.5 c 4,4,5
+ 984.149414062 -124 984.149414062 -124 884.649414062 -124 c 4,6,7
+ 785.149414062 -124 785.149414062 -124 717.149414062 -201 c 4,8,9
+ 649.149414062 -278 649.149414062 -278 659.149414062 -384 c 4,10,11
+ 669.149414062 -490 669.149414062 -490 756.149414062 -555.5 c 4,12,13
+ 843.149414062 -621 843.149414062 -621 950.149414062 -600 c 4,14,15
+ 956.149414062 -599 956.149414062 -599 971.649414062 -599 c 4,16,17
+ 987.149414062 -599 987.149414062 -599 1005.14941406 -616.5 c 4,18,19
+ 1023.14941406 -634 1023.14941406 -634 1023.14941406 -653 c 4,20,21
+ 1023.14941406 -709 1023.14941406 -709 973.149414062 -718 c 4,22,23
+ 814.149414062 -749 814.149414062 -749 684.649414062 -651.5 c 4,24,25
+ 555.149414062 -554 555.149414062 -554 540.149414062 -396 c 4,26,27
+ 525.149414062 -238 525.149414062 -238 627.649414062 -121 c 4,28,29
+ 730.149414062 -4 730.149414062 -4 898.649414062 -3.5 c 4,30,31
+ 1067.14941406 -3 1067.14941406 -3 1169.14941406 -153 c 5,32,33
+ 1228.14941406 -68 1228.14941406 -68 1310.64941406 -34 c 4,34,35
+ 1393.14941406 0 1393.14941406 0 1467.64941406 -2 c 4,36,37
+ 1542.14941406 -4 1542.14941406 -4 1611.64941406 -38 c 4,38,39
+ 1681.14941406 -72 1681.14941406 -72 1729.14941406 -131 c 4,40,41
+ 1831.14941406 -254 1831.14941406 -254 1808.64941406 -412 c 4,42,43
+ 1786.14941406 -570 1786.14941406 -570 1654.64941406 -661.5 c 4,44,45
+ 1523.14941406 -753 1523.14941406 -753 1367.14941406 -719 c 4,46,47
+ 1347.14941406 -715 1347.14941406 -715 1333.14941406 -697.5 c 4,48,49
+ 1319.14941406 -680 1319.14941406 -680 1319.14941406 -657.5 c 4,50,51
+ 1319.14941406 -635 1319.14941406 -635 1337.14941406 -617.5 c 4,52,53
+ 1355.14941406 -600 1355.14941406 -600 1370.64941406 -600 c 4,54,55
+ 1386.14941406 -600 1386.14941406 -600 1414.14941406 -606 c 4,56,57
+ 1442.14941406 -612 1442.14941406 -612 1493.64941406 -602 c 4,58,59
+ 1545.14941406 -592 1545.14941406 -592 1586.14941406 -563 c 4,60,61
+ 1674.14941406 -502 1674.14941406 -502 1689.14941406 -395.5 c 4,62,63
+ 1704.14941406 -289 1704.14941406 -289 1636.64941406 -207 c 4,64,65
+ 1569.14941406 -125 1569.14941406 -125 1465.64941406 -122.5 c 4,66,67
+ 1362.14941406 -120 1362.14941406 -120 1297.64941406 -186.5 c 4,68,69
+ 1233.14941406 -253 1233.14941406 -253 1228.14941406 -339 c 5,70,-1
+ 1228.14941406 -673 l 6,71,72
+ 1228.14941406 -698 1228.14941406 -698 1210.64941406 -715.5 c 4,73,74
+ 1193.14941406 -733 1193.14941406 -733 1168.64941406 -733 c 4,75,76
+ 1144.14941406 -733 1144.14941406 -733 1126.64941406 -715.5 c 4,77,78
+ 1109.14941406 -698 1109.14941406 -698 1108.14941406 -674 c 6,79,-1
+ 1107.14941406 -373 l 5,80,-1
+ 1107.14941406 -372 l 6,0,1
+EndSplineSet
 Refer: 89 3382 N 1 0 0 0.943176 -1 5 2
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" z1 xx n1
@@ -22130,7 +22316,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 2105 18 2
+Refer: 557 -1 S 1 0 0 1 2105 18 2
 Refer: 473 -1 N 0.995239 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" z1r3 u1
 EndChar
@@ -22142,7 +22328,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 2216 75 2
+Refer: 558 -1 N 1 0 0 1 2216 75 2
 Refer: 473 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" z1r3 u2
 EndChar
@@ -22154,7 +22340,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 553 -1 N 1 0 0 1 1801 5 2
+Refer: 552 -1 N 1 0 0 1 1801 5 2
 Refer: 89 3382 N 1 0 0 1 0 18 2
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" z1xx l3
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" z1 l4
@@ -22168,7 +22354,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 476 -1 N 1 0 0 1 0 0 2
-Refer: 558 -1 N 1 0 0 1 1297 -374 2
+Refer: 557 -1 N 1 0 0 1 1297 -374 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" z1l3 u1
 EndChar
 
@@ -22179,7 +22365,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1344 -384 2
+Refer: 558 -1 N 1 0 0 1 1344 -384 2
 Refer: 476 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" z1l3 u2
 EndChar
@@ -22422,7 +22608,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1180.66 133 2
+Refer: 557 -1 N 1 0 0 1 1180.66 133 2
 Refer: 90 3383 N 1 0 0 1 0.326797 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" sh u1
@@ -22435,7 +22621,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1277.66 129 2
+Refer: 558 -1 N 1 0 0 1 1277.66 129 2
 Refer: 90 3383 N 1 0 0 1 0.326797 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" sh u2
 EndChar
@@ -22447,7 +22633,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 562 -1 S 1 0 0 1 765.654 354 2
+Refer: 561 -1 S 1 0 0 1 765.654 354 2
 Refer: 90 3383 N 1 0 0 1 0.326797 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" sh r1
 EndChar
@@ -22460,37 +22646,37 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1338 -31 m 0,0,1
- 1484 4 1484 4 1603 -28.5 c 0,2,3
- 1722 -61 1722 -61 1806 -132 c 0,4,5
- 1828 -150 1828 -150 1828 -176.5 c 0,6,7
- 1828 -203 1828 -203 1810 -221 c 0,8,9
- 1792 -239 1792 -239 1768.5 -238.5 c 0,10,11
- 1745 -238 1745 -238 1728 -223 c 0,12,13
- 1578 -96 1578 -96 1366 -148 c 0,14,15
- 1264 -173 1264 -173 1256 -227 c 0,16,17
- 1252 -252 1252 -252 1278.5 -284.5 c 0,18,19
- 1305 -317 1305 -317 1364.5 -320 c 0,20,21
- 1424 -323 1424 -323 1524 -314 c 0,22,23
- 1702 -299 1702 -299 1783 -395 c 0,24,25
- 1825 -445 1825 -445 1825.5 -510 c 0,26,27
- 1826.47265625 -636.504882812 1826.47265625 -636.504882812 1658 -706 c 0,28,29
- 1579 -740 1579 -740 1479 -737 c 0,30,31
- 1305 -732 1305 -732 1161 -620 c 0,32,33
- 1137 -602 1137 -602 1138 -579 c 0,34,35
- 1138 -556 1138 -556 1150 -534 c 0,36,37
- 1163 -512 1163 -512 1191 -512 c 0,38,39
- 1219 -512 1219 -512 1249.5 -536 c 0,40,41
- 1280 -560 1280 -560 1342 -587 c 0,42,43
- 1404 -614 1404 -614 1481.5 -616.5 c 0,44,45
- 1559 -619 1559 -619 1613 -596 c 0,46,47
- 1706 -556 1706 -556 1705 -507 c 0,48,49
- 1704 -417 1704 -417 1484 -437.5 c 0,50,51
- 1264 -458 1264 -458 1178 -352 c 0,52,53
- 1125 -287 1125 -287 1137 -209 c 0,54,55
- 1157 -75 1157 -75 1338 -31 c 0,0,1
+1232 -129 m 4,0,1
+ 1308 -25 1308 -25 1487 -22 c 4,2,3
+ 1683 -19 1683 -19 1787 -154 c 4,4,5
+ 1800 -170 1800 -170 1800 -193 c 4,6,7
+ 1800 -216 1800 -216 1782 -233 c 4,8,9
+ 1764 -251 1764 -251 1746 -251 c 4,10,11
+ 1710 -251 1710 -251 1686 -220 c 4,12,13
+ 1625 -140 1625 -140 1485 -142 c 4,14,15
+ 1370 -144 1370 -144 1329 -200 c 4,16,17
+ 1300 -240 1300 -240 1335 -276 c 4,18,19
+ 1373 -315 1373 -315 1504 -317 c 4,20,21
+ 1646 -319 1646 -319 1702 -347 c 4,22,23
+ 1817 -405 1817 -405 1827 -508 c 4,24,25
+ 1834 -574 1834 -574 1799 -628 c 4,26,27
+ 1721 -744 1721 -744 1539 -749 c 4,28,29
+ 1329 -754 1329 -754 1205 -622 c 4,30,31
+ 1188 -605 1188 -605 1188 -580 c 4,32,33
+ 1188 -555 1188 -555 1205 -538 c 4,34,35
+ 1223 -520 1223 -520 1241 -521 c 4,36,37
+ 1274 -521 1274 -521 1300 -549 c 4,38,39
+ 1326 -577 1326 -577 1384 -604 c 4,40,41
+ 1441 -631 1441 -631 1524 -629 c 4,42,43
+ 1655 -626 1655 -626 1695 -566 c 4,44,45
+ 1723 -525 1723 -525 1693 -487 c 4,46,47
+ 1656 -440 1656 -440 1545 -438 c 4,48,49
+ 1407 -438 1407 -438 1348 -419 c 4,50,51
+ 1289 -400 1289 -400 1244 -353 c 4,52,53
+ 1199 -306 1199 -306 1197 -243 c 4,54,55
+ 1195 -180 1195 -180 1232 -129 c 4,0,1
 EndSplineSet
-Refer: 90 3383 N 1 0 0 1 0.326797 0 2
+Refer: 90 3383 S 1 0 0 1 0 0 2
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" sh xx t1
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" sh xx t1
@@ -22503,7 +22689,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 0.747779 0 0 0.715088 1381.68 -630 2
+Refer: 557 -1 S 0.747779 0 0 0.715088 1375.68 -648 2
 Refer: 485 -1 N 1 0 0 1 -0.000351052 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" sht1 u1
 EndChar
@@ -22515,7 +22701,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 0.891846 0 0 0.768555 1438 -600 2
+Refer: 558 -1 S 0.871503 0 0 0.738997 1450.63 -621.665 2
 Refer: 485 -1 N 1 0 0 1 -0.000351052 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" sht1 u2
@@ -22618,7 +22804,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 0.64856 0 0 0.669128 1519 -581 2
+Refer: 557 -1 S 0.64856 0 0 0.669128 1519 -581 2
 Refer: 489 -1 N 1 0 0 1 -0.000351052 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" sht2 u1
@@ -22631,7 +22817,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 0.742188 0 0 0.680847 1499 -590 2
+Refer: 558 -1 S 0.742188 0 0 0.680847 1499 -590 2
 Refer: 489 -1 N 1 0 0 1 -0.000351052 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" sht2 u2
 EndChar
@@ -22643,7 +22829,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 656 -1 N 1 0 0 1 54.935 -14 2
+Refer: 655 -1 N 1 0 0 1 54.935 -14 2
 Refer: 90 3383 S 1.07416 0 0 1.05957 -7.0652 19 2
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" sh xx nh
@@ -22657,7 +22843,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 657 -1 N 1 0 0 1 -49.553 -2 2
+Refer: 656 -1 N 1 0 0 1 -49.553 -2 2
 Refer: 90 3383 S 1 0 0 1 54.447 15 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" shnh u1
 EndChar
@@ -22669,7 +22855,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 658 -1 N 1 0 0 1 -49.9998 -9 2
+Refer: 657 -1 N 1 0 0 1 -49.9998 -9 2
 Refer: 90 3383 S 1 0 0 1 3.00021 14 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" shnh u2
@@ -22682,7 +22868,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1740.71 132 2
+Refer: 557 -1 S 1 0 0 1 1740.71 132 2
 Refer: 91 3384 N 1 0 0 1 -31.2896 -2 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" s1 u1
@@ -22695,7 +22881,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1844.71 140 2
+Refer: 558 -1 S 1 0 0 1 1844.71 140 2
 Refer: 91 3384 N 1 0 0 1 -31.2896 5 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" s1 u2
@@ -22794,7 +22980,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 603 -1 N 1 0 0 1 1141.04 -34 2
+Refer: 602 -1 N 1 0 0 1 1141.04 -34 2
 Refer: 91 3384 N 0.997033 0 0 0.985892 0.00837935 -3.22201 2
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" s1 xx th1
@@ -23100,7 +23286,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 2277 -589 2
+Refer: 557 -1 N 1 0 0 1 2277 -589 2
 Refer: 502 -1 N 1 0 0 1 -0.00035184 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" s1th1r3 u1
@@ -23113,7 +23299,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 2346 -580 2
+Refer: 558 -1 S 1 0 0 1 2346 -580 2
 Refer: 502 -1 N 1 0 0 1 -0.00035184 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" s1th1r3 u2
@@ -23127,7 +23313,7 @@ Flags: W
 AnchorPoint: "Anchor-0" 1662.71 1146 basechar 0
 LayerCount: 2
 Fore
-Refer: 561 -1 S 1.02539 0 0 1.01062 2016.71 -2 2
+Refer: 560 -1 S 1.02539 0 0 1.01062 2016.71 -2 2
 Refer: 91 3384 N 1 0 0 1 -31.2896 9 2
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" s1 xx th2
@@ -23141,7 +23327,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 3752 124 2
+Refer: 557 -1 N 1 0 0 1 3752 124 2
 Refer: 505 -1 N 1 0 0 1 -0.000312234 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" s1th2 u1
 EndChar
@@ -23153,7 +23339,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 3896 132 2
+Refer: 558 -1 N 1 0 0 1 3896 132 2
 Refer: 505 -1 N 1 0 0 1 -0.000312234 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" s1th2 u2
 EndChar
@@ -23165,7 +23351,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 562 -1 N 1 0 0 1 2576 360 2
+Refer: 561 -1 N 1 0 0 1 2576 360 2
 Refer: 505 -1 N 1 0 0 1 -0.000312234 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" s1th2 r1
 EndChar
@@ -23269,7 +23455,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 2436 -90 2
+Refer: 557 -1 S 1 0 0 1 2436 -90 2
 Refer: 509 -1 N 1 0 0 1 -0.000331232 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" s1r3 u1
@@ -23282,7 +23468,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 2479 -97 2
+Refer: 558 -1 S 1 0 0 1 2479 -97 2
 Refer: 509 -1 N 1 0 0 1 -0.000331232 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" s1r3 u2
 EndChar
@@ -23295,7 +23481,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 553 -1 N 1 0 0 1 2429.39 -7 2
+Refer: 552 -1 N 1 0 0 1 2429.39 -7 2
 Refer: 91 3384 N 1 0 0 1 -31.2896 0 2
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" s1xx l3
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" s1 l4
@@ -23309,7 +23495,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1877 -434 2
+Refer: 557 -1 N 1 0 0 1 1877 -434 2
 Refer: 512 -1 N 1 0 0 1 -0.000312234 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" s1l3 u1
@@ -23322,7 +23508,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 0.945557 0 0 0.789856 1909 -485 2
+Refer: 558 -1 N 0.945557 0 0 0.789856 1909 -485 2
 Refer: 512 -1 N 1 0 0 1 -0.000312234 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" s1l3 u2
 EndChar
@@ -23402,7 +23588,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 0.749268 0 0 0.760315 1907 -589 2
+Refer: 557 -1 S 0.749268 0 0 0.760315 1907 -589 2
 Refer: 515 -1 N 1 0 0 1 -0.000312234 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" s1s1 u1
@@ -23415,7 +23601,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 0.891754 0 0 0.815654 1927.4 -579.785 2
+Refer: 558 -1 N 0.891754 0 0 0.815654 1927.4 -579.785 2
 Refer: 515 -1 N 1 0 0 1 -0.000312234 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" s1s1 u2
@@ -23428,8 +23614,8 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 602 -1 N 1 0 0 1 1510.73 -35 2
-Refer: 602 -1 N 1 0 0 1 597.733 -11 2
+Refer: 601 -1 N 1 0 0 1 1510.73 -35 2
+Refer: 601 -1 N 1 0 0 1 597.733 -11 2
 Refer: 91 3384 N 1 0 0 1 -31.2896 36 2
 LCarets2: 4 0 0 0 0
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" s1 xx rh xx rh
@@ -23443,7 +23629,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 0.845654 0 0 0.830881 1927.55 -562.258 2
+Refer: 557 -1 N 0.845654 0 0 0.830881 1927.55 -562.258 2
 Refer: 518 -1 N 1 0 0 1 -0.000312234 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" s1rhrh u1
 EndChar
@@ -23455,7 +23641,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 0.961921 0 0 0.851656 1897.56 -587.071 2
+Refer: 558 -1 N 0.961921 0 0 0.851656 1897.56 -587.071 2
 Refer: 518 -1 N 1 0 0 1 -0.000312234 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" s1rhrh u2
@@ -24085,7 +24271,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1577 126 2
+Refer: 557 -1 S 1 0 0 1 1577 126 2
 Refer: 527 -1 N 1 0 0 1 0 -3 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" h1m1 u1
@@ -24098,7 +24284,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 1669 124 2
+Refer: 558 -1 S 1 0 0 1 1669 124 2
 Refer: 527 -1 N 1 0 0 1 0 -4 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" h1m1 u2
 EndChar
@@ -24110,7 +24296,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 562 -1 N 1 0 0 1 1159 378 2
+Refer: 561 -1 N 1 0 0 1 1159 378 2
 Refer: 527 -1 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" h1m1 r1
@@ -24204,7 +24390,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 2039 -192 2
+Refer: 557 -1 N 1 0 0 1 2039 -192 2
 Refer: 531 -1 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" h1r3 u1
@@ -24217,7 +24403,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 2261 -97 2
+Refer: 558 -1 N 1 0 0 1 2261 -97 2
 Refer: 531 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" h1r3 u2
 EndChar
@@ -24229,7 +24415,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 553 -1 S 1 0 0 1 1991 -4 2
+Refer: 552 -1 S 1 0 0 1 1991 -4 2
 Refer: 92 3385 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" h1xx l3
@@ -24243,7 +24429,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 569.347 -194 2
+Refer: 557 -1 S 1 0 0 1 569.347 -194 2
 Refer: 86 3379 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" lh u1
@@ -24256,7 +24442,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 634.347 -185 2
+Refer: 558 -1 S 1 0 0 1 634.347 -185 2
 Refer: 86 3379 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" lh u2
 EndChar
@@ -24338,7 +24524,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 1655 -184 2
+Refer: 557 -1 S 1 0 0 1 1655 -184 2
 Refer: 537 -1 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" lhlh u1
@@ -24351,7 +24537,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1755 -195 2
+Refer: 558 -1 N 1 0 0 1 1755 -195 2
 Refer: 537 -1 N 1 0 0 1 -4 -5 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" lhlh u2
 EndChar
@@ -24363,7 +24549,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 260.727 134 2
+Refer: 557 -1 S 1 0 0 1 260.727 134 2
 Refer: 87 3380 N 1 0 0 1 0 -5 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" zh u1
@@ -24376,7 +24562,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 1 0 0 1 437.727 138 2
+Refer: 558 -1 S 1 0 0 1 437.727 138 2
 Refer: 87 3380 N 1 0 0 1 0 -9 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" zh u2
 EndChar
@@ -24388,7 +24574,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 1 0 0 1 575 138 2
+Refer: 557 -1 S 1 0 0 1 575 138 2
 Refer: 84 3377 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" rh u1
@@ -24402,7 +24588,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 84 3377 N 1 0 0 1 0 0 2
-Refer: 559 -1 N 1 0 0 1 598 116 2
+Refer: 558 -1 N 1 0 0 1 598 116 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" rh u2
 EndChar
 
@@ -24414,7 +24600,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 84 3377 N 1 0 0 1 0 0 2
-Refer: 602 -1 S 1 0 0 1 279 -2 2
+Refer: 601 -1 S 1 0 0 1 279 -2 2
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" rh xx rh
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" rh xx rh
 EndChar
@@ -24427,7 +24613,7 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 S 0.985176 0 0 0.947623 577.562 -536.431 2
+Refer: 557 -1 S 0.985176 0 0 0.947623 577.562 -536.431 2
 Refer: 544 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" rhrh u1
 LCarets2: 1 0
@@ -24440,7 +24626,7 @@ GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 S 0.95439 0 0 0.915618 672.479 -541.611 2
+Refer: 558 -1 S 0.95439 0 0 0.915618 672.479 -541.611 2
 Refer: 544 -1 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" rhrh u2
@@ -24540,7 +24726,7 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 558 -1 N 1 0 0 1 1653 -39 2
+Refer: 557 -1 N 1 0 0 1 1653 -39 2
 Refer: 547 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k2r3 u1
 EndChar
@@ -24552,7 +24738,7 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 559 -1 N 1 0 0 1 1679 -75 2
+Refer: 558 -1 N 1 0 0 1 1679 -75 2
 Refer: 547 -1 N 1 0 0 1 0 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" k2r3 u2
 EndChar
@@ -24564,7 +24750,7 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 562 -1 S 1 0 0 1 387 382 2
+Refer: 561 -1 S 1 0 0 1 387 382 2
 Refer: 73 3365 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" th2 r1
@@ -24640,21 +24826,8 @@ Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 8 subtable" 
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 7 subtable" th2 r4
 EndChar
 
-StartChar: th3l3
-Encoding: 616 -1 552
-Width: 1209
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-Refer: 74 3366 N 1 0 0 1 -1 0 2
-Refer: 553 -1 N 0.742981 0 0 0.829468 1182 6 2
-LCarets2: 1 0
-Ligature2: "'blws' Below Base Substitutions lookup 6 subtable" th3 l4
-EndChar
-
 StartChar: l4
-Encoding: 617 -1 553
+Encoding: 617 -1 552
 Width: 1
 GlyphClass: 3
 Flags: W
@@ -24710,7 +24883,7 @@ Ligature2: "'blwf' Below Base Forms in Malay+AQEA-lam lookup 4 subtable" l3 xx
 EndChar
 
 StartChar: rh_half
-Encoding: 143 3386 554
+Encoding: 143 3386 553
 Width: 1266
 GlyphClass: 2
 Flags: W
@@ -24745,7 +24918,7 @@ EndSplineSet
 EndChar
 
 StartChar: n2
-Encoding: 126 3369 555
+Encoding: 126 3369 554
 Width: 2066
 GlyphClass: 2
 Flags: W
@@ -24755,7 +24928,7 @@ Refer: 323 -1 S -1 0 0 1 2066.42 2 2
 EndChar
 
 StartChar: l1
-Encoding: 163 3426 556
+Encoding: 163 3426 555
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -24765,7 +24938,7 @@ Refer: 50 3340 N 0.730469 0 0 0.626526 -1306 -605 2
 EndChar
 
 StartChar: r2
-Encoding: 151 3396 557
+Encoding: 151 3396 556
 Width: 635
 GlyphClass: 2
 Flags: W
@@ -24810,7 +24983,7 @@ EndSplineSet
 EndChar
 
 StartChar: u_sign_drop
-Encoding: 618 -1 558
+Encoding: 618 -1 557
 Width: 645
 VWidth: 0
 GlyphClass: 2
@@ -24840,7 +25013,7 @@ EndSplineSet
 EndChar
 
 StartChar: uu_sign_drop
-Encoding: 619 -1 559
+Encoding: 619 -1 558
 Width: 622
 VWidth: 0
 GlyphClass: 2
@@ -24883,7 +25056,7 @@ EndSplineSet
 EndChar
 
 StartChar: va_sign
-Encoding: 620 -1 560
+Encoding: 620 -1 559
 Width: 2048
 GlyphClass: 2
 Flags: W
@@ -24914,7 +25087,7 @@ EndSplineSet
 EndChar
 
 StartChar: th2_half
-Encoding: 621 -1 561
+Encoding: 621 -1 560
 Width: 1611
 GlyphClass: 2
 Flags: W
@@ -24950,7 +25123,7 @@ EndSplineSet
 EndChar
 
 StartChar: vocalic_r_sign_drop
-Encoding: 622 -1 562
+Encoding: 622 -1 561
 Width: 877
 GlyphClass: 2
 Flags: W
@@ -24982,7 +25155,7 @@ EndSplineSet
 EndChar
 
 StartChar: ml_rr
-Encoding: 161 3424 563
+Encoding: 161 3424 562
 Width: 1680
 GlyphClass: 2
 Flags: W
@@ -24993,7 +25166,7 @@ Refer: 49 3339 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ml_ll
-Encoding: 162 3425 564
+Encoding: 162 3425 563
 Width: 2378
 GlyphClass: 2
 Flags: W
@@ -25233,7 +25406,7 @@ EndSplineSet
 EndChar
 
 StartChar: k1xx
-Encoding: 623 -1 565
+Encoding: 623 -1 564
 Width: 1950
 GlyphClass: 3
 Flags: W
@@ -25246,7 +25419,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" k1 xx
 EndChar
 
 StartChar: k2xx
-Encoding: 624 -1 566
+Encoding: 624 -1 565
 Width: 1973
 GlyphClass: 3
 Flags: W
@@ -25259,7 +25432,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" k2 xx
 EndChar
 
 StartChar: k3xx
-Encoding: 625 -1 567
+Encoding: 625 -1 566
 Width: 1931
 GlyphClass: 3
 Flags: W
@@ -25272,7 +25445,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" k3 xx
 EndChar
 
 StartChar: k4xx
-Encoding: 626 -1 568
+Encoding: 626 -1 567
 Width: 2692
 GlyphClass: 3
 Flags: W
@@ -25285,7 +25458,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" k4 xx
 EndChar
 
 StartChar: ngxx
-Encoding: 627 -1 569
+Encoding: 627 -1 568
 Width: 2073
 GlyphClass: 3
 Flags: W
@@ -25298,7 +25471,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" ng xx
 EndChar
 
 StartChar: ch1xx
-Encoding: 628 -1 570
+Encoding: 628 -1 569
 Width: 1502
 GlyphClass: 3
 Flags: W
@@ -25311,7 +25484,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" ch1 xx
 EndChar
 
 StartChar: ch2xx
-Encoding: 629 -1 571
+Encoding: 629 -1 570
 Width: 2469
 GlyphClass: 3
 Flags: W
@@ -25325,7 +25498,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" ch2 xx
 EndChar
 
 StartChar: ch3xx
-Encoding: 630 -1 572
+Encoding: 630 -1 571
 Width: 1613
 GlyphClass: 3
 Flags: W
@@ -25338,7 +25511,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" ch3 xx
 EndChar
 
 StartChar: ch4xx
-Encoding: 631 -1 573
+Encoding: 631 -1 572
 Width: 3401
 GlyphClass: 3
 Flags: W
@@ -25350,7 +25523,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" ch4 xx
 EndChar
 
 StartChar: njxx
-Encoding: 632 -1 574
+Encoding: 632 -1 573
 Width: 2517
 GlyphClass: 3
 Flags: W
@@ -25363,7 +25536,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" nj xx
 EndChar
 
 StartChar: t1xx
-Encoding: 633 -1 575
+Encoding: 633 -1 574
 Width: 1247
 GlyphClass: 3
 Flags: W
@@ -25375,7 +25548,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" t1 xx
 EndChar
 
 StartChar: t2xx
-Encoding: 634 -1 576
+Encoding: 634 -1 575
 Width: 1201
 GlyphClass: 3
 Flags: W
@@ -25388,7 +25561,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" t2 xx
 EndChar
 
 StartChar: t3xx
-Encoding: 635 -1 577
+Encoding: 635 -1 576
 Width: 2300
 GlyphClass: 3
 Flags: W
@@ -25401,7 +25574,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" t3 xx
 EndChar
 
 StartChar: t4xx
-Encoding: 636 -1 578
+Encoding: 636 -1 577
 Width: 2893
 GlyphClass: 3
 Flags: W
@@ -25414,7 +25587,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" t4 xx
 EndChar
 
 StartChar: nhxx
-Encoding: 637 -1 579
+Encoding: 637 -1 578
 Width: 2696
 GlyphClass: 3
 Flags: W
@@ -25428,7 +25601,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" nh xx
 EndChar
 
 StartChar: th1xx
-Encoding: 638 -1 580
+Encoding: 638 -1 579
 Width: 1788
 GlyphClass: 3
 Flags: W
@@ -25441,7 +25614,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" th1 xx
 EndChar
 
 StartChar: th2xx
-Encoding: 639 -1 581
+Encoding: 639 -1 580
 Width: 1557
 GlyphClass: 3
 Flags: W
@@ -25454,7 +25627,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" th2 xx
 EndChar
 
 StartChar: th3xx
-Encoding: 640 -1 582
+Encoding: 640 -1 581
 Width: 1291
 GlyphClass: 3
 Flags: W
@@ -25467,7 +25640,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" th3 xx
 EndChar
 
 StartChar: th4xx
-Encoding: 641 -1 583
+Encoding: 641 -1 582
 Width: 1892
 GlyphClass: 3
 Flags: W
@@ -25481,7 +25654,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" th4 xx
 EndChar
 
 StartChar: n1xx
-Encoding: 642 -1 584
+Encoding: 642 -1 583
 Width: 2140
 GlyphClass: 3
 Flags: W
@@ -25494,7 +25667,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" n1 xx
 EndChar
 
 StartChar: p1xx
-Encoding: 643 -1 585
+Encoding: 643 -1 584
 Width: 1781
 GlyphClass: 3
 Flags: W
@@ -25508,7 +25681,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" p1 xx
 EndChar
 
 StartChar: p2xx
-Encoding: 644 -1 586
+Encoding: 644 -1 585
 Width: 2251
 GlyphClass: 3
 Flags: W
@@ -25521,7 +25694,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" p2 xx
 EndChar
 
 StartChar: p3xx
-Encoding: 645 -1 587
+Encoding: 645 -1 586
 Width: 2608
 GlyphClass: 3
 Flags: W
@@ -25534,7 +25707,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" p3 xx
 EndChar
 
 StartChar: p4xx
-Encoding: 646 -1 588
+Encoding: 646 -1 587
 Width: 1387
 GlyphClass: 3
 Flags: W
@@ -25547,7 +25720,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" p4 xx
 EndChar
 
 StartChar: m1xx
-Encoding: 647 -1 589
+Encoding: 647 -1 588
 Width: 1442
 GlyphClass: 3
 Flags: W
@@ -25561,7 +25734,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" m1 xx
 EndChar
 
 StartChar: y1xx
-Encoding: 648 -1 590
+Encoding: 648 -1 589
 Width: 1987
 GlyphClass: 3
 Flags: W
@@ -25574,7 +25747,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" y1 xx
 EndChar
 
 StartChar: r3xx
-Encoding: 649 -1 591
+Encoding: 649 -1 590
 Width: 1393
 GlyphClass: 3
 Flags: W
@@ -25587,7 +25760,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" r3 xx
 EndChar
 
 StartChar: rhxx
-Encoding: 650 -1 592
+Encoding: 650 -1 591
 Width: 1391
 GlyphClass: 3
 Flags: W
@@ -25599,7 +25772,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" rh xx
 EndChar
 
 StartChar: l3xx
-Encoding: 651 -1 593
+Encoding: 651 -1 592
 Width: 1840
 GlyphClass: 3
 Flags: W
@@ -25611,7 +25784,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" l3 xx
 EndChar
 
 StartChar: lhxx
-Encoding: 652 -1 594
+Encoding: 652 -1 593
 Width: 1426
 GlyphClass: 3
 Flags: W
@@ -25624,7 +25797,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" lh xx
 EndChar
 
 StartChar: zhxx
-Encoding: 653 -1 595
+Encoding: 653 -1 594
 Width: 1575
 GlyphClass: 3
 Flags: W
@@ -25637,7 +25810,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" zh xx
 EndChar
 
 StartChar: v1xx
-Encoding: 654 -1 596
+Encoding: 654 -1 595
 Width: 1815
 GlyphClass: 3
 Flags: W
@@ -25650,7 +25823,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" v1 xx
 EndChar
 
 StartChar: z1xx
-Encoding: 655 -1 597
+Encoding: 655 -1 596
 Width: 1923
 GlyphClass: 3
 Flags: W
@@ -25663,7 +25836,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" z1 xx
 EndChar
 
 StartChar: shxx
-Encoding: 656 -1 598
+Encoding: 656 -1 597
 Width: 2122
 GlyphClass: 3
 Flags: W
@@ -25676,7 +25849,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" sh xx
 EndChar
 
 StartChar: s1xx
-Encoding: 657 -1 599
+Encoding: 657 -1 598
 Width: 2640
 GlyphClass: 3
 Flags: W
@@ -25689,7 +25862,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" s1 xx
 EndChar
 
 StartChar: h1xx
-Encoding: 658 -1 600
+Encoding: 658 -1 599
 Width: 2220
 GlyphClass: 3
 Flags: W
@@ -25702,7 +25875,7 @@ Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable" h1 xx
 EndChar
 
 StartChar: zhch1
-Encoding: 660 -1 601
+Encoding: 660 -1 600
 Width: 1227
 GlyphClass: 3
 Flags: W
@@ -25716,7 +25889,7 @@ Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" zh xx ch1
 EndChar
 
 StartChar: _rh
-Encoding: 661 -1 602
+Encoding: 661 -1 601
 Width: 761
 GlyphClass: 2
 Flags: W
@@ -25754,7 +25927,7 @@ EndSplineSet
 EndChar
 
 StartChar: _th1
-Encoding: 662 -1 603
+Encoding: 662 -1 602
 Width: 1169
 GlyphClass: 2
 Flags: W
@@ -25809,7 +25982,7 @@ EndSplineSet
 EndChar
 
 StartChar: a
-Encoding: 59 97 604
+Encoding: 59 97 603
 Width: 1273
 GlyphClass: 2
 Flags: W
@@ -25850,7 +26023,7 @@ EndSplineSet
 EndChar
 
 StartChar: b
-Encoding: 60 98 605
+Encoding: 60 98 604
 Width: 1288
 GlyphClass: 2
 Flags: W
@@ -25891,7 +26064,7 @@ EndSplineSet
 EndChar
 
 StartChar: c
-Encoding: 61 99 606
+Encoding: 61 99 605
 Width: 1166
 GlyphClass: 2
 Flags: W
@@ -25926,17 +26099,17 @@ EndSplineSet
 EndChar
 
 StartChar: d
-Encoding: 62 100 607
+Encoding: 62 100 606
 Width: 1288
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 605 98 S -1 0 0 1 1288.12 -7 2
+Refer: 604 98 S -1 0 0 1 1288.12 -7 2
 EndChar
 
 StartChar: e
-Encoding: 63 101 608
+Encoding: 63 101 607
 Width: 1212
 GlyphClass: 2
 Flags: W
@@ -25976,7 +26149,7 @@ EndSplineSet
 EndChar
 
 StartChar: f
-Encoding: 64 102 609
+Encoding: 64 102 608
 Width: 821
 GlyphClass: 2
 Flags: W
@@ -26025,7 +26198,7 @@ EndSplineSet
 EndChar
 
 StartChar: g
-Encoding: 65 103 610
+Encoding: 65 103 609
 Width: 1258
 GlyphClass: 2
 Flags: W
@@ -26078,7 +26251,7 @@ EndSplineSet
 EndChar
 
 StartChar: h
-Encoding: 66 104 611
+Encoding: 66 104 610
 Width: 1168
 GlyphClass: 2
 Flags: W
@@ -26117,7 +26290,7 @@ EndSplineSet
 EndChar
 
 StartChar: i
-Encoding: 67 105 612
+Encoding: 67 105 611
 Width: 457
 GlyphClass: 2
 Flags: W
@@ -26155,7 +26328,7 @@ EndSplineSet
 EndChar
 
 StartChar: j
-Encoding: 68 106 613
+Encoding: 68 106 612
 Width: 545
 GlyphClass: 2
 Flags: W
@@ -26201,7 +26374,7 @@ EndSplineSet
 EndChar
 
 StartChar: k
-Encoding: 69 107 614
+Encoding: 69 107 613
 Width: 983
 GlyphClass: 2
 Flags: W
@@ -26235,7 +26408,7 @@ EndSplineSet
 EndChar
 
 StartChar: l
-Encoding: 70 108 615
+Encoding: 70 108 614
 Width: 450
 GlyphClass: 2
 Flags: W
@@ -26261,7 +26434,7 @@ EndSplineSet
 EndChar
 
 StartChar: m
-Encoding: 71 109 616
+Encoding: 71 109 615
 Width: 1789
 GlyphClass: 2
 Flags: W
@@ -26318,7 +26491,7 @@ EndSplineSet
 EndChar
 
 StartChar: n
-Encoding: 72 110 617
+Encoding: 72 110 616
 Width: 1195
 GlyphClass: 2
 Flags: W
@@ -26360,7 +26533,7 @@ EndSplineSet
 EndChar
 
 StartChar: o
-Encoding: 73 111 618
+Encoding: 73 111 617
 Width: 1242
 GlyphClass: 2
 Flags: W
@@ -26389,27 +26562,27 @@ EndSplineSet
 EndChar
 
 StartChar: p
-Encoding: 74 112 619
+Encoding: 74 112 618
 Width: 1288
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 605 98 S 1 0 0 -1 0 1003 2
+Refer: 604 98 S 1 0 0 -1 0 1003 2
 EndChar
 
 StartChar: q
-Encoding: 75 113 620
+Encoding: 75 113 619
 Width: 1288
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 607 100 S 1 0 0 -1 0 1000 2
+Refer: 606 100 S 1 0 0 -1 0 1000 2
 EndChar
 
 StartChar: r
-Encoding: 76 114 621
+Encoding: 76 114 620
 Width: 853
 GlyphClass: 2
 Flags: W
@@ -26438,7 +26611,7 @@ EndSplineSet
 EndChar
 
 StartChar: s
-Encoding: 77 115 622
+Encoding: 77 115 621
 Width: 941
 GlyphClass: 2
 Flags: W
@@ -26474,7 +26647,7 @@ EndSplineSet
 EndChar
 
 StartChar: t
-Encoding: 78 116 623
+Encoding: 78 116 622
 Width: 859
 GlyphClass: 2
 Flags: W
@@ -26520,17 +26693,17 @@ EndSplineSet
 EndChar
 
 StartChar: u
-Encoding: 79 117 624
+Encoding: 79 117 623
 Width: 1195
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 617 110 S -1 0 0 -1 1195.24 998 2
+Refer: 616 110 S -1 0 0 -1 1195.24 998 2
 EndChar
 
 StartChar: v
-Encoding: 80 118 625
+Encoding: 80 118 624
 Width: 1061
 GlyphClass: 2
 Flags: W
@@ -26556,7 +26729,7 @@ EndSplineSet
 EndChar
 
 StartChar: w
-Encoding: 81 119 626
+Encoding: 81 119 625
 Width: 1432
 GlyphClass: 2
 Flags: W
@@ -26598,7 +26771,7 @@ EndSplineSet
 EndChar
 
 StartChar: x
-Encoding: 82 120 627
+Encoding: 82 120 626
 Width: 1062
 GlyphClass: 2
 Flags: W
@@ -26632,7 +26805,7 @@ EndSplineSet
 EndChar
 
 StartChar: y
-Encoding: 83 121 628
+Encoding: 83 121 627
 Width: 1264
 GlyphClass: 2
 Flags: W
@@ -26682,7 +26855,7 @@ EndSplineSet
 EndChar
 
 StartChar: z
-Encoding: 84 122 629
+Encoding: 84 122 628
 Width: 1056
 GlyphClass: 2
 Flags: W
@@ -26716,7 +26889,7 @@ EndSplineSet
 EndChar
 
 StartChar: A
-Encoding: 33 65 630
+Encoding: 33 65 629
 Width: 1350
 GlyphClass: 2
 Flags: W
@@ -26749,7 +26922,7 @@ EndSplineSet
 EndChar
 
 StartChar: B
-Encoding: 34 66 631
+Encoding: 34 66 630
 Width: 1267
 GlyphClass: 2
 Flags: W
@@ -26797,7 +26970,7 @@ EndSplineSet
 EndChar
 
 StartChar: C
-Encoding: 35 67 632
+Encoding: 35 67 631
 Width: 1525
 GlyphClass: 2
 Flags: W
@@ -26833,7 +27006,7 @@ EndSplineSet
 EndChar
 
 StartChar: D
-Encoding: 36 68 633
+Encoding: 36 68 632
 Width: 1406
 GlyphClass: 2
 Flags: W
@@ -26872,7 +27045,7 @@ EndSplineSet
 EndChar
 
 StartChar: E
-Encoding: 37 69 634
+Encoding: 37 69 633
 Width: 1338
 GlyphClass: 2
 Flags: W
@@ -26915,7 +27088,7 @@ EndSplineSet
 EndChar
 
 StartChar: F
-Encoding: 38 70 635
+Encoding: 38 70 634
 Width: 1166
 GlyphClass: 2
 Flags: W
@@ -26956,7 +27129,7 @@ EndSplineSet
 EndChar
 
 StartChar: G
-Encoding: 39 71 636
+Encoding: 39 71 635
 Width: 1667
 GlyphClass: 2
 Flags: W
@@ -27010,7 +27183,7 @@ EndSplineSet
 EndChar
 
 StartChar: H
-Encoding: 40 72 637
+Encoding: 40 72 636
 Width: 1221
 GlyphClass: 2
 Flags: W
@@ -27052,7 +27225,7 @@ EndSplineSet
 EndChar
 
 StartChar: I
-Encoding: 41 73 638
+Encoding: 41 73 637
 Width: 450
 GlyphClass: 2
 Flags: W
@@ -27078,7 +27251,7 @@ EndSplineSet
 EndChar
 
 StartChar: J
-Encoding: 42 74 639
+Encoding: 42 74 638
 Width: 974
 GlyphClass: 2
 Flags: W
@@ -27113,7 +27286,7 @@ EndSplineSet
 EndChar
 
 StartChar: K
-Encoding: 43 75 640
+Encoding: 43 75 639
 Width: 1245
 GlyphClass: 2
 Flags: W
@@ -27149,7 +27322,7 @@ EndSplineSet
 EndChar
 
 StartChar: L
-Encoding: 44 76 641
+Encoding: 44 76 640
 Width: 1278
 GlyphClass: 2
 Flags: W
@@ -27179,7 +27352,7 @@ EndSplineSet
 EndChar
 
 StartChar: M
-Encoding: 45 77 642
+Encoding: 45 77 641
 Width: 1658
 GlyphClass: 2
 Flags: W
@@ -27218,7 +27391,7 @@ EndSplineSet
 EndChar
 
 StartChar: N
-Encoding: 46 78 643
+Encoding: 46 78 642
 Width: 1385
 GlyphClass: 2
 Flags: W
@@ -27251,7 +27424,7 @@ EndSplineSet
 EndChar
 
 StartChar: O
-Encoding: 47 79 644
+Encoding: 47 79 643
 Width: 1590
 GlyphClass: 2
 Flags: W
@@ -27280,7 +27453,7 @@ EndSplineSet
 EndChar
 
 StartChar: P
-Encoding: 48 80 645
+Encoding: 48 80 644
 Width: 1140
 GlyphClass: 2
 Flags: W
@@ -27321,7 +27494,7 @@ EndSplineSet
 EndChar
 
 StartChar: Q
-Encoding: 49 81 646
+Encoding: 49 81 645
 Width: 1610
 GlyphClass: 2
 Flags: W
@@ -27358,7 +27531,7 @@ EndSplineSet
 EndChar
 
 StartChar: R
-Encoding: 50 82 647
+Encoding: 50 82 646
 Width: 1267
 GlyphClass: 2
 Flags: W
@@ -27401,7 +27574,7 @@ EndSplineSet
 EndChar
 
 StartChar: S
-Encoding: 51 83 648
+Encoding: 51 83 647
 Width: 1155
 GlyphClass: 2
 Flags: W
@@ -27447,7 +27620,7 @@ EndSplineSet
 EndChar
 
 StartChar: T
-Encoding: 52 84 649
+Encoding: 52 84 648
 Width: 1251
 GlyphClass: 2
 Flags: W
@@ -27482,7 +27655,7 @@ EndSplineSet
 EndChar
 
 StartChar: U
-Encoding: 53 85 650
+Encoding: 53 85 649
 Width: 1426
 GlyphClass: 2
 Flags: W
@@ -27520,7 +27693,7 @@ EndSplineSet
 EndChar
 
 StartChar: V
-Encoding: 54 86 651
+Encoding: 54 86 650
 Width: 1353
 GlyphClass: 2
 Flags: W
@@ -27547,7 +27720,7 @@ EndSplineSet
 EndChar
 
 StartChar: W
-Encoding: 55 87 652
+Encoding: 55 87 651
 Width: 1935
 GlyphClass: 2
 Flags: W
@@ -27587,7 +27760,7 @@ EndSplineSet
 EndChar
 
 StartChar: X
-Encoding: 56 88 653
+Encoding: 56 88 652
 Width: 1358
 GlyphClass: 2
 Flags: W
@@ -27623,7 +27796,7 @@ EndSplineSet
 EndChar
 
 StartChar: Y
-Encoding: 57 89 654
+Encoding: 57 89 653
 Width: 1039
 GlyphClass: 2
 Flags: W
@@ -27656,7 +27829,7 @@ EndSplineSet
 EndChar
 
 StartChar: Z
-Encoding: 58 90 655
+Encoding: 58 90 654
 Width: 1369
 GlyphClass: 2
 Flags: W
@@ -27692,7 +27865,7 @@ EndSplineSet
 EndChar
 
 StartChar: _nh
-Encoding: 663 -1 656
+Encoding: 663 -1 655
 Width: 2005
 VWidth: 0
 Flags: W
@@ -27769,7 +27942,7 @@ EndSplineSet
 EndChar
 
 StartChar: _nhu1
-Encoding: 664 -1 657
+Encoding: 664 -1 656
 Width: 2173
 VWidth: 0
 Flags: W
@@ -27854,7 +28027,7 @@ EndSplineSet
 EndChar
 
 StartChar: _nhu2
-Encoding: 665 -1 658
+Encoding: 665 -1 657
 Width: 2412
 VWidth: 0
 Flags: W
@@ -27953,67 +28126,57 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: _n1
-Encoding: 666 -1 659
-Width: 1473
-VWidth: 0
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-669 -371 m 6,0,1
- 669 -358 669 -358 670 -336 c 4,2,3
- 666 -254 666 -254 606 -188.5 c 132,-1,4
- 546 -123 546 -123 446.5 -123 c 132,-1,5
- 347 -123 347 -123 279 -200 c 132,-1,6
- 211 -277 211 -277 221 -383 c 132,-1,7
- 231 -489 231 -489 318 -554.5 c 132,-1,8
- 405 -620 405 -620 512 -599 c 4,9,10
- 518 -598 518 -598 533.5 -598 c 132,-1,11
- 549 -598 549 -598 567 -615.5 c 132,-1,12
- 585 -633 585 -633 585 -652 c 4,13,14
- 585 -708 585 -708 535 -717 c 4,15,16
- 376 -748 376 -748 246.5 -650.5 c 132,-1,17
- 117 -553 117 -553 102 -395 c 132,-1,18
- 87 -237 87 -237 189.5 -120 c 132,-1,19
- 292 -3 292 -3 460.5 -2.5 c 132,-1,20
- 629 -2 629 -2 731 -152 c 5,21,22
- 790 -67 790 -67 872.5 -33 c 132,-1,23
- 955 1 955 1 1029.5 -1 c 132,-1,24
- 1104 -3 1104 -3 1173.5 -37 c 132,-1,25
- 1243 -71 1243 -71 1291 -130 c 4,26,27
- 1393 -253 1393 -253 1370.5 -411 c 132,-1,28
- 1348 -569 1348 -569 1216.5 -660.5 c 132,-1,29
- 1085 -752 1085 -752 929 -718 c 4,30,31
- 909 -714 909 -714 895 -696.5 c 132,-1,32
- 881 -679 881 -679 881 -656.5 c 132,-1,33
- 881 -634 881 -634 899 -616.5 c 132,-1,34
- 917 -599 917 -599 932.5 -599 c 132,-1,35
- 948 -599 948 -599 976 -605 c 132,-1,36
- 1004 -611 1004 -611 1055.5 -601 c 132,-1,37
- 1107 -591 1107 -591 1148 -562 c 4,38,39
- 1236 -501 1236 -501 1251 -394.5 c 132,-1,40
- 1266 -288 1266 -288 1198.5 -206 c 132,-1,41
- 1131 -124 1131 -124 1027.5 -121.5 c 132,-1,42
- 924 -119 924 -119 859.5 -185.5 c 132,-1,43
- 795 -252 795 -252 790 -338 c 5,44,45
- 790 -672 l 6,46,47
- 790 -697 790 -697 772.5 -714.5 c 132,-1,48
- 755 -732 755 -732 730.5 -732 c 132,-1,49
- 706 -732 706 -732 688.5 -714.5 c 132,-1,50
- 671 -697 671 -697 670 -673 c 6,51,-1
- 669 -372 l 5,52,-1
- 669 -371 l 6,0,1
-EndSplineSet
-EndChar
-
 StartChar: s1n1
-Encoding: 667 -1 660
+Encoding: 667 -1 658
 Width: 2521
 Flags: W
 LayerCount: 2
 Fore
-Refer: 659 -1 S 1 0 0 1 910.11 -34 2
+SplineSet
+1579.11035156 -405 m 6,0,1
+ 1579.11035156 -392 1579.11035156 -392 1580.11035156 -370 c 4,2,3
+ 1576.11035156 -288 1576.11035156 -288 1516.11035156 -222.5 c 4,4,5
+ 1456.11035156 -157 1456.11035156 -157 1356.61035156 -157 c 4,6,7
+ 1257.11035156 -157 1257.11035156 -157 1189.11035156 -234 c 4,8,9
+ 1121.11035156 -311 1121.11035156 -311 1131.11035156 -417 c 4,10,11
+ 1141.11035156 -523 1141.11035156 -523 1228.11035156 -588.5 c 4,12,13
+ 1315.11035156 -654 1315.11035156 -654 1422.11035156 -633 c 4,14,15
+ 1428.11035156 -632 1428.11035156 -632 1443.61035156 -632 c 4,16,17
+ 1459.11035156 -632 1459.11035156 -632 1477.11035156 -649.5 c 4,18,19
+ 1495.11035156 -667 1495.11035156 -667 1495.11035156 -686 c 4,20,21
+ 1495.11035156 -742 1495.11035156 -742 1445.11035156 -751 c 4,22,23
+ 1286.11035156 -782 1286.11035156 -782 1156.61035156 -684.5 c 4,24,25
+ 1027.11035156 -587 1027.11035156 -587 1012.11035156 -429 c 4,26,27
+ 997.110351562 -271 997.110351562 -271 1099.61035156 -154 c 4,28,29
+ 1202.11035156 -37 1202.11035156 -37 1370.61035156 -36.5 c 4,30,31
+ 1539.11035156 -36 1539.11035156 -36 1641.11035156 -186 c 5,32,33
+ 1700.11035156 -101 1700.11035156 -101 1782.61035156 -67 c 4,34,35
+ 1865.11035156 -33 1865.11035156 -33 1939.61035156 -35 c 4,36,37
+ 2014.11035156 -37 2014.11035156 -37 2083.61035156 -71 c 4,38,39
+ 2153.11035156 -105 2153.11035156 -105 2201.11035156 -164 c 4,40,41
+ 2303.11035156 -287 2303.11035156 -287 2280.61035156 -445 c 4,42,43
+ 2258.11035156 -603 2258.11035156 -603 2126.61035156 -694.5 c 4,44,45
+ 1995.11035156 -786 1995.11035156 -786 1839.11035156 -752 c 4,46,47
+ 1819.11035156 -748 1819.11035156 -748 1805.11035156 -730.5 c 4,48,49
+ 1791.11035156 -713 1791.11035156 -713 1791.11035156 -690.5 c 4,50,51
+ 1791.11035156 -668 1791.11035156 -668 1809.11035156 -650.5 c 4,52,53
+ 1827.11035156 -633 1827.11035156 -633 1842.61035156 -633 c 4,54,55
+ 1858.11035156 -633 1858.11035156 -633 1886.11035156 -639 c 4,56,57
+ 1914.11035156 -645 1914.11035156 -645 1965.61035156 -635 c 4,58,59
+ 2017.11035156 -625 2017.11035156 -625 2058.11035156 -596 c 4,60,61
+ 2146.11035156 -535 2146.11035156 -535 2161.11035156 -428.5 c 4,62,63
+ 2176.11035156 -322 2176.11035156 -322 2108.61035156 -240 c 4,64,65
+ 2041.11035156 -158 2041.11035156 -158 1937.61035156 -155.5 c 4,66,67
+ 1834.11035156 -153 1834.11035156 -153 1769.61035156 -219.5 c 4,68,69
+ 1705.11035156 -286 1705.11035156 -286 1700.11035156 -372 c 5,70,-1
+ 1700.11035156 -706 l 6,71,72
+ 1700.11035156 -731 1700.11035156 -731 1682.61035156 -748.5 c 4,73,74
+ 1665.11035156 -766 1665.11035156 -766 1640.61035156 -766 c 4,75,76
+ 1616.11035156 -766 1616.11035156 -766 1598.61035156 -748.5 c 4,77,78
+ 1581.11035156 -731 1581.11035156 -731 1580.11035156 -707 c 6,79,-1
+ 1579.11035156 -406 l 5,80,-1
+ 1579.11035156 -405 l 6,0,1
+EndSplineSet
 Refer: 91 3384 N 1 0 0 1 0.113946 -2 2
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable" s1 xx n1
@@ -28021,7 +28184,7 @@ Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" s1 xx n1
 EndChar
 
 StartChar: s1p1
-Encoding: 668 -1 661
+Encoding: 668 -1 659
 Width: 2521
 Flags: W
 LayerCount: 2
@@ -28071,7 +28234,7 @@ Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" s1 xx p1
 EndChar
 
 StartChar: k1s1
-Encoding: 669 -1 662
+Encoding: 669 -1 660
 Width: 1896
 VWidth: 0
 Flags: W
@@ -28139,7 +28302,7 @@ Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" k1 xx s1
 EndChar
 
 StartChar: p1s1
-Encoding: 670 -1 663
+Encoding: 670 -1 661
 Width: 1773
 Flags: W
 LayerCount: 2
@@ -28205,7 +28368,7 @@ Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable" p1 xx s1
 EndChar
 
 StartChar: p3xxth3
-Encoding: 672 -1 664
+Encoding: 672 -1 662
 Width: 2550
 Flags: W
 LayerCount: 2
