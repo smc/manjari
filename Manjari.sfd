@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1440860208
+ModificationTime: 1440908371
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -54,19 +54,19 @@ OS2StrikeYPos: 530
 OS2Vendor: 'SMC '
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80800003.00002000.00000000.00000000
-Lookup: 4 0 0 "'akhn' Akhand in Malay+AQEA-lam lookup 0" { "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable"  } ['akhn' ('mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'akhn' Akhand in Malay+AQEA-lam2 lookup 1" { "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable"  } ['akhn' ('mlm2' <'dflt' > ) ]
 Lookup: 4 0 0 "'pref' Pre Base Forms in Malay+AQEA-lam2 lookup 2" { "'pref' Pre Base Forms in Malay+AQEA-lam2 lookup 2 subtable"  } ['pref' ('mlm2' <'dflt' > ) ]
-Lookup: 4 0 0 "'half' Half Forms in Malay+AQEA-lam lookup 3" { "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable"  } ['half' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'akhn' Akhand in Malay+AQEA-lam2 lookup 1" { "'akhn' Akhand in Malay+AQEA-lam2 lookup 1 subtable"  } ['akhn' ('mlm2' <'dflt' > ) ]
+Lookup: 4 0 0 "'akhn' Akhand in Malay+AQEA-lam lookup 0" { "'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable"  } ['akhn' ('mlym' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms in Malay+AQEA-lam lookup 4" { "'blwf' Below Base Forms in Malay+AQEA-lam lookup 4 subtable"  } ['blwf' ('mlym' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms in Malay+AQEA-lam2 lookup 5" { "'blwf' Below Base Forms in Malay+AQEA-lam2 lookup 5 subtable"  } ['blwf' ('mlm2' <'dflt' > ) ]
-Lookup: 4 0 0 "'blws' Below Base Substitutions lookup 6" { "'blws' Below Base Substitutions lookup 6 subtable"  } ['blws' ('mlm2' <'dflt' > 'mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 7" { "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 7 subtable"  } ['pres' ('mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 8" { "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 8 subtable"  } ['pres' ('mlm2' <'dflt' > ) ]
-Lookup: 4 256 0 "'psts' Post Base Substitutions lookup 9" { "'psts' Post Base Substitutions lookup 9 subtable"  } ['psts' ('mlm2' <'dflt' > 'mlym' <'dflt' > ) ]
-Lookup: 4 0 0 "'haln' Halant Forms in Malay+AQEA-lam lookup 10" { "'haln' Halant Forms in Malay+AQEA-lam lookup 10 subtable"  } ['haln' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'half' Half Forms in Malay+AQEA-lam lookup 3" { "'half' Half Forms in Malay+AQEA-lam lookup 3 subtable"  } ['half' ('mlym' <'dflt' > ) ]
 Lookup: 4 0 0 "'pstf' Post Base Forms in Malay+AQEA-lam lookup 11" { "'pstf' Post Base Forms in Malay+AQEA-lam lookup 11 subtable"  } ['pstf' ('mlym' <'dflt' > ) ]
 Lookup: 4 0 0 "'pstf' Post Base Forms in Malay+AQEA-lam2 lookup 12" { "'pstf' Post Base Forms in Malay+AQEA-lam2 lookup 12 subtable"  } ['pstf' ('mlm2' <'dflt' > ) ]
+Lookup: 4 0 0 "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 7" { "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 7 subtable"  } ['pres' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 8" { "'pres' Pre Base Substitutions in Malay+AQEA-lam2 lookup 8 subtable"  } ['pres' ('mlm2' <'dflt' > ) ]
+Lookup: 4 0 0 "'blws' Below Base Substitutions lookup 6" { "'blws' Below Base Substitutions lookup 6 subtable"  } ['blws' ('mlm2' <'dflt' > 'mlym' <'dflt' > ) ]
+Lookup: 4 256 0 "'psts' Post Base Substitutions lookup 9" { "'psts' Post Base Substitutions lookup 9 subtable"  } ['psts' ('mlm2' <'dflt' > 'mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'haln' Halant Forms in Malay+AQEA-lam lookup 10" { "'haln' Halant Forms in Malay+AQEA-lam lookup 10 subtable"  } ['haln' ('mlym' <'dflt' > ) ]
 Lookup: 260 0 0 "'abvm' Above Base Mark in Malay+AQEA-lam2 lookup 1" { "'abvm' Above Base Mark in Malay+AQEA-lam2 lookup 1 subtable"  } ['abvm' ('DFLT' <'dflt' > 'mlm2' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -763,10 +763,10 @@ Encoding: Custom
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -96
+DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 576 16 6
+WinInfo: 504 21 8
 BeginPrivate: 1
 BlueValues 37 [-24 0 1000 1024 1180 1204 1360 1384]
 EndPrivate
@@ -3349,57 +3349,57 @@ SplineSet
  446.139648438 628.5078125 446.139648438 628.5078125 446.139648438 673.243164062 c 128,-1,11
 772.74609375 871.9140625 m 1,18,19
  845 993 845 993 979.055664062 1022.14941406 c 0,20,21
- 1071 1042 1071 1042 1176 1009 c 128,-1,23
- 1281 976 1281 976 1354.19238281 877.515625 c 0,24,25
- 1427 779 1427 779 1423.56054688 675.862304688 c 0,26,27
- 1417 504 1417 504 1295.96484375 391.0390625 c 1,28,29
- 1361 359 1361 359 1400.5 295.5 c 128,-1,31
- 1440 232 1440 232 1426 148.5 c 128,-1,33
- 1412 65 1412 65 1345.5 12 c 128,-1,35
- 1279 -41 1279 -41 1194.5 -37 c 128,-1,37
- 1110 -33 1110 -33 1060.66015625 15.56640625 c 0,38,39
- 968 106 968 106 984.0859375 218 c 1,40,41
- 936 192 936 192 868 150 c 128,-1,43
- 800 108 800 108 754.029296875 82.029296875 c 0,44,45
- 425 -105 425 -105 232.94140625 0.224609375 c 0,46,47
- 175 32 175 32 141 89.5 c 128,-1,49
- 107 147 107 147 115.786132812 210.5 c 0,50,51
- 124 274 124 274 162.850585938 318.377929688 c 0,52,53
- 247 414 247 414 423.952148438 406.470703125 c 128,-1,54
- 601 399 601 399 757 392 c 128,-1,56
- 913 385 913 385 970.412109375 392.609375 c 0,57,58
- 1176 419 1176 419 1254.8515625 562.666015625 c 0,59,60
- 1281 611 1281 611 1283.28613281 673 c 0,61,62
- 1285 735 1285 735 1240.65234375 795.583007812 c 0,63,64
- 1195 856 1195 856 1130.27441406 876.783203125 c 0,65,66
- 1000 918 1000 918 919.36328125 835.01171875 c 0,67,68
- 859 773 859 773 858.322265625 665.551757812 c 0,69,70
- 858 627 858 627 856.966796875 608.44921875 c 2,71,-1
- 854.771484375 490.98828125 l 2,72,73
- 854 463 854 463 833 443 c 128,-1,75
- 812 423 812 423 783.5 423 c 128,-1,77
- 755 423 755 423 734.766601562 444.247558594 c 128,-1,79
- 714.533203125 465.495117188 714.533203125 465.495117188 714.787109375 492.9453125 c 2,80,-1
- 715.859375 608.72265625 l 2,81,82
- 716 647 716 647 716.48046875 647.51171875 c 0,83,84
- 707 774 707 774 598.025390625 843.61328125 c 0,85,86
- 525 890 525 890 441.5546875 882.4296875 c 1,87,88
- 442 882 442 882 443.256835938 881.65234375 c 0,89,90
- 528 843 528 843 564 756.5 c 128,-1,92
- 600 670 600 670 565 587 c 0,93,94
- 509 455 509 455 361 450 c 128,-1,96
- 213 445 213 445 155 534 c 0,97,98
- 78 652 78 652 116 780.5 c 128,-1,100
- 154 909 154 909 279.5 977 c 128,-1,102
- 405 1045 405 1045 544.5 1015 c 128,-1,104
+ 1071 1042 1071 1042 1176 1009 c 128,-1,22
+ 1281 976 1281 976 1354.19238281 877.515625 c 0,23,24
+ 1427 779 1427 779 1423.56054688 675.862304688 c 0,25,26
+ 1417 504 1417 504 1295.96484375 391.0390625 c 1,27,28
+ 1361 359 1361 359 1400.5 295.5 c 128,-1,29
+ 1440 232 1440 232 1426 148.5 c 128,-1,30
+ 1412 65 1412 65 1345.5 12 c 128,-1,31
+ 1279 -41 1279 -41 1194.5 -37 c 128,-1,32
+ 1110 -33 1110 -33 1060.66015625 15.56640625 c 0,33,34
+ 968 106 968 106 984.0859375 218 c 1,35,36
+ 936 192 936 192 868 150 c 128,-1,37
+ 800 108 800 108 754.029296875 82.029296875 c 0,38,39
+ 425 -105 425 -105 232.94140625 0.224609375 c 0,40,41
+ 175 32 175 32 141 89.5 c 128,-1,42
+ 107 147 107 147 115.786132812 210.5 c 0,43,44
+ 124 274 124 274 162.850585938 318.377929688 c 0,45,46
+ 247 414 247 414 423.952148438 406.470703125 c 128,-1,47
+ 601 399 601 399 757 392 c 128,-1,48
+ 913 385 913 385 970.412109375 392.609375 c 0,49,50
+ 1176 419 1176 419 1254.8515625 562.666015625 c 0,51,52
+ 1281 611 1281 611 1283.28613281 673 c 0,53,54
+ 1285 735 1285 735 1240.65234375 795.583007812 c 0,55,56
+ 1195 856 1195 856 1130.27441406 876.783203125 c 0,57,58
+ 1000 918 1000 918 919.36328125 835.01171875 c 0,59,60
+ 859 773 859 773 858.322265625 665.551757812 c 0,61,62
+ 858 627 858 627 856.966796875 608.44921875 c 2,63,-1
+ 854.771484375 490.98828125 l 2,64,65
+ 854 463 854 463 833 443 c 128,-1,66
+ 812 423 812 423 783.5 423 c 128,-1,67
+ 755 423 755 423 734.766601562 444.247558594 c 128,-1,68
+ 714.533203125 465.495117188 714.533203125 465.495117188 714.787109375 492.9453125 c 2,69,-1
+ 715.859375 608.72265625 l 2,70,71
+ 716 647 716 647 716.48046875 647.51171875 c 0,72,73
+ 707 774 707 774 598.025390625 843.61328125 c 0,74,75
+ 525 890 525 890 441.5546875 882.4296875 c 1,76,77
+ 442 882 442 882 443.256835938 881.65234375 c 0,78,79
+ 528 843 528 843 564 756.5 c 128,-1,80
+ 600 670 600 670 565 587 c 0,81,82
+ 509 455 509 455 361 450 c 128,-1,83
+ 213 445 213 445 155 534 c 0,84,85
+ 78 652 78 652 116 780.5 c 128,-1,86
+ 154 909 154 909 279.5 977 c 128,-1,87
+ 405 1045 405 1045 544.5 1015 c 128,-1,88
  684 985 684 985 772.74609375 871.9140625 c 1,18,19
-759.146484375 248.01171875 m 1,105,-1
- 535.659179688 268.712890625 l 2,106,107
- 370.40625 283.361328125 370.40625 283.361328125 315.346679688 259.31640625 c 128,-1,108
- 260.286132812 235.271484375 260.286132812 235.271484375 254.704101562 193.34375 c 128,-1,109
- 249.123046875 151.416992188 249.123046875 151.416992188 299.018554688 123.671875 c 128,-1,110
- 348.9140625 95.92578125 348.9140625 95.92578125 451.297851562 109.125 c 128,-1,111
- 553.681640625 122.32421875 553.681640625 122.32421875 759.146484375 248.01171875 c 1,105,-1
+759.146484375 248.01171875 m 1,89,-1
+ 535.659179688 268.712890625 l 2,90,91
+ 370.40625 283.361328125 370.40625 283.361328125 315.346679688 259.31640625 c 128,-1,92
+ 260.286132812 235.271484375 260.286132812 235.271484375 254.704101562 193.34375 c 128,-1,93
+ 249.123046875 151.416992188 249.123046875 151.416992188 299.018554688 123.671875 c 128,-1,94
+ 348.9140625 95.92578125 348.9140625 95.92578125 451.297851562 109.125 c 128,-1,95
+ 553.681640625 122.32421875 553.681640625 122.32421875 759.146484375 248.01171875 c 1,89,-1
 EndSplineSet
 EndChar
 
@@ -18464,8 +18464,8 @@ LigCaretCntFixed: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 556 -1 N 1 0 0 1 505.668 326 2
-Refer: 77 3370 N 1 0 0 1 0 5 2
+Refer: 556 -1 N 1 0 0 1 505.668 298 2
+Refer: 77 3370 N 1 0 0 1 0 -3 2
 Ligature2: "'psts' Post Base Substitutions lookup 9 subtable" p1 r1
 LCarets2: 1 0
 EndChar
