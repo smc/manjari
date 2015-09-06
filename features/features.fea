@@ -9,25 +9,26 @@ include (lookups.fea)
 # BASIC SHAPING FORMS
 # -------------------
 
-# Akhand Ligatures
-# ----------------
-
 feature pref {
 
  script mlm2;
      language dflt ;
-      lookup prefPreBaseFormsinMalaylam2look;
+      lookup pref_reph;
 } pref;
 
+# Akhand Ligatures
+# ----------------
 feature akhn {
 
  script mlm2;
      language dflt ;
-      lookup akhnAkhandinMalaylam2lookup1;
+      lookup akhn_chillu;
+      lookup akhn_conjuncts;
 
  script mlym;
      language dflt ;
-      lookup akhnAkhandinMalaylamlookup0;
+      lookup akhn_chillu;
+      lookup akhn_conjuncts;
 } akhn;
 
 feature blwf {

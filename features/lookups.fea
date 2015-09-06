@@ -1,104 +1,22 @@
 # GSUB 
 
-lookup prefPreBaseFormsinMalaylam2look {
+lookup pref_reph {
   lookupflag 0;
     sub xx r3  by r4;
-} prefPreBaseFormsinMalaylam2look;
+} pref_reph;
 
-lookup akhnAkhandinMalaylam2lookup1 {
-  lookupflag 0;
+lookup akhn_chillu {
     sub k1 xx ZWJ  by k1cil;
     sub nh xx ZWJ  by nhcil;
     sub n1 xx ZWJ  by n1cil;
     sub l3 xx ZWJ  by l3cil;
     sub lh xx ZWJ  by lhcil;
     sub r3 xx ZWJ  by r3cil;
-    sub k1 l1  by k1l1;
-    sub k1 xx k1  by k1k1;
-    sub k1 xx nh  by k1nh;
-    sub k1 xx th1  by k1th1;
-    sub k1 xx sh  by k1sh;
-    sub k3 xx k3  by k3k3;
-    sub k3 xx th3  by k3th3;
-    sub k3 xx th3 xx th4  by k3th3th4;
-    sub k3 xx n1  by k3n1;
-    sub k3 xx m1  by k3m1;
-    sub ng xx k1  by ngk1;
-    sub ng xx ng  by ngng;
-    sub ch1 xx ch1  by ch1ch1;
-    sub ch1 xx ch2  by ch1ch2;
-    sub ch3 xx ch3  by ch3ch3;
-    sub ch3 xx nj  by ch3nj;
-    sub nj xx ch1  by njch1;
-    sub nj xx ch3  by njch3;
-    sub nj xx nj  by njnj;
-    sub t1 xx t1  by t1t1;
-    sub t3 xx t3  by t3t3;
-    sub t3 xx t4  by t3t4;
-    sub nh xx t1  by nht1;
-    sub nh xx t2  by nht2;
-    sub nh xx t3  by nht3;
-    sub nh xx nh  by nhnh;
-    sub nh xx m1  by nhm1;
-    sub th1 xx th1  by th1th1;
-    sub th1 xx th2  by th1th2;
-    sub th1 xx n1  by th1n1;
-    sub th1 xx p4  by th1p4;
-    sub th1 xx m1  by th1m1;
-    sub th1 xx s1  by th1s1;
-    sub th3 xx th3  by th3th3;
-    sub th3 xx th4  by th3th4;
-    sub n1 xx th1  by n1th1;
-    sub n1 xx th2  by n1th2;
-    sub n1 xx th3  by n1th3;
-    sub n1 xx th4  by n1th4;
-    sub n1 xx n1  by n1n1;
-    sub n1 xx m1  by n1m1;
-    sub n1 xx rh  by n1rh;
-    sub p1 xx th1  by p1th1;
-    sub p1 xx n1  by p1n1;
-    sub p1 xx p1  by p1p1;
-    sub p1 xx p2  by p1p2;
-    sub p3 xx p3  by p3p3;
-    sub m1 xx p1  by m1p1;
-    sub m1 xx m1  by m1m1;
-    sub y1 xx k1  by y1k1;
-    sub y1 xx k1 xx k1  by y1k1k1;
-    sub y1 xx th1  by y1th1;
-    sub y1 xx th1 xx th1  by y1th1th1;
-    sub y1 xx y1  by y1y1;
-    sub l3 xx p1  by l3p1;
-    sub l3 xx l3  by l3l3;
-    sub v1 xx v1  by v1v1;
-    sub z1 xx ch1  by z1ch1;
-    sub z1 xx n1  by z1n1;
-    sub z1 xx z1  by z1z1;
-    sub sh xx t1  by sht1;
-    sub sh xx t2  by sht2;
-    sub sh xx nh  by shnh;
-    sub s1 xx th1  by s1th1;
-    sub s1 xx th2  by s1th2;
-    sub s1 xx s1  by s1s1;
-    sub s1 xx rh xx rh  by s1rhrh;
-    sub h1 xx n1  by h1n1;
-    sub h1 xx m1  by h1m1;
-    sub lh xx lh  by lhlh;
-    sub rh xx rh  by rhrh;
-    sub zh xx ch1  by zhch1;
-    sub s1 xx n1  by s1n1;
-    sub k1 xx s1  by k1s1;
-    sub p1 xx s1  by p1s1;
-    sub p3 xx th3  by p3xxth3;
-} akhnAkhandinMalaylam2lookup1;
+} akhn_chillu;
 
-lookup akhnAkhandinMalaylamlookup0 {
+
+lookup akhn_conjuncts {
   lookupflag 0;
-    sub k1 xx ZWJ  by k1cil;
-    sub nh xx ZWJ  by nhcil;
-    sub n1 xx ZWJ  by n1cil;
-    sub l3 xx ZWJ  by l3cil;
-    sub lh xx ZWJ  by lhcil;
-    sub r3 xx ZWJ  by r3cil;
     sub k1 l1  by k1l1;
     sub k1 xx k1  by k1k1;
     sub k1 xx nh  by k1nh;
@@ -167,7 +85,7 @@ lookup akhnAkhandinMalaylamlookup0 {
     sub k1 xx s1  by k1s1;
     sub p1 xx s1  by p1s1;
     sub p3 xx th3  by p3xxth3;
-} akhnAkhandinMalaylamlookup0;
+}  akhn_conjuncts;
 
 lookup blwfBelowBaseFormsinMalaylamloo {
   lookupflag 0;
