@@ -66,7 +66,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 546 13 5
+WinInfo: 611 13 5
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -25123,7 +25123,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: zhch1
+StartChar: zh1ch1
 Encoding: 660 -1 605
 Width: 1227
 GlyphClass: 3

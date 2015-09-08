@@ -66,7 +66,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 336 21 8
+WinInfo: 504 21 8
 BeginPrivate: 1
 BlueValues 37 [-24 0 1000 1024 1180 1204 1360 1384]
 EndPrivate
@@ -24630,7 +24630,7 @@ Refer: 92 3385 N 1 0 0 1 0 0 2
 Refer: 106 3405 N 1 0 0 1 2222 -8 2
 EndChar
 
-StartChar: zhch1
+StartChar: zh1ch1
 Encoding: 660 -1 595
 Width: 1368
 GlyphClass: 3
@@ -24639,7 +24639,6 @@ LayerCount: 2
 Fore
 Refer: 62 3354 N 1 0 0 1 -53 -777 2
 Refer: 87 3380 S 1 0 0 1 45 7 2
-LCarets2: 2 0 0
 EndChar
 
 StartChar: _rh
