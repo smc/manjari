@@ -243,8 +243,7 @@ lookup sub_ligature_presmlm2_0 {
     sub r4 h1  by h1r3;
 } sub_ligature_presmlm2_0;
 
-lookup blwsBelowBaseSubstitutionslooku {
-  lookupflag 0;
+lookup blws_la_signs {
     sub k1xx l3  by k1l3;
     sub k1 l4  by k1l3;
     sub k3xx l3  by k3l3;
@@ -268,7 +267,22 @@ lookup blwsBelowBaseSubstitutionslooku {
     sub s1 l4  by s1l3;
     sub h1xx l3  by h1l3;
     sub h1 l4  by h1l3;
-} blwsBelowBaseSubstitutionslooku;
+} blws_la_signs;
+
+lookup restore_virama {
+   sub l4 by xx l3;
+} restore_virama;
+
+lookup blws_la_sign_excludes {
+    sub
+        [
+           r3 va_sign
+           k1l3 k3l3 th1l3 p1l3 p2l3 m1l3 l3l3 v1l3 z1l3 s1l3 h1l3
+           ch1ch1 ch1ch2 k3k3 rhrh s1s1 z1z1
+        ]
+        l4'
+        lookup restore_virama;
+} blws_la_sign_excludes;
 
 lookup pstsPostBaseSubstitutionslookup {
   lookupflag 0;

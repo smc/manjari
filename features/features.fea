@@ -75,11 +75,13 @@ feature blws {
 
  script mlm2;
      language dflt ;
-      lookup blwsBelowBaseSubstitutionslooku;
+      lookup blws_la_signs;
+      lookup blws_la_sign_excludes;
 
  script mlym;
      language dflt ;
-      lookup blwsBelowBaseSubstitutionslooku;
+      lookup blws_la_signs;
+      lookup blws_la_sign_excludes;
 } blws;
 
 feature psts {
