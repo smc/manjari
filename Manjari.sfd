@@ -27064,7 +27064,7 @@ Refer: 77 3370 S 1 0 0 1 -0.404624 0 2
 LCarets2: 2 0 0
 EndChar
 
-StartChar: p3xxth3
+StartChar: p3th3
 Encoding: 672 -1 656
 Width: 2550
 Flags: W
@@ -27112,7 +27112,6 @@ SplineSet
  1713.86523438 -648 1713.86523438 -648 1679.86523438 -530 c 4,0,1
 EndSplineSet
 Refer: 79 3372 N 1 0 0 1 0 0 2
-LCarets2: 2 0 0
 EndChar
 EndChars
 EndSplineFont
