@@ -66,6 +66,14 @@ lookup akhn_conjuncts {
     sub p3 xx p3  by p3p3;
     sub m1 xx p1  by m1p1;
     sub m1 xx m1  by m1m1;
+    sub y1 xx k1  by y1k1;
+    sub y1 xx k1 xx k1  by y1k1k1;
+    sub y1 xx th1  by y1th1;
+    sub y1 xx th1 xx th1  by y1th1th1;
+    sub y1 xx y1  by y1y1;
+    sub l3 xx p1  by l3p1;
+    sub l3 xx l3  by l3l3;
+    sub v1 xx v1  by v1v1;
     sub z1 xx ch1  by z1ch1;
     sub z1 xx n1  by z1n1;
     sub z1 xx z1  by z1z1;
@@ -87,17 +95,21 @@ lookup akhn_conjuncts {
     sub p3 xx th3  by p3xxth3;
 }  akhn_conjuncts;
 
-lookup blwfBelowBaseFormsinMalaylamloo {
+lookup akhn_doubles {
+  sub ch1 xx ch1  by ch1ch1;
+} akhn_doubles;
+
+lookup blwf_la_sign_mlym {
   lookupflag 0;
     sub l3 xx  by l4;
-} blwfBelowBaseFormsinMalaylamloo;
+} blwf_la_sign_mlym;
 
-lookup blwfBelowBaseFormsinMalaylam2lo {
+lookup blwf_la_sign {
   lookupflag 0;
     sub xx l3  by l4;
-} blwfBelowBaseFormsinMalaylam2lo;
+} blwf_la_sign;
 
-lookup halfHalfFormsinMalaylamlookup3 {
+lookup half_forms_mlym {
   lookupflag 0;
     sub k1 xx ZWJ  by k1cil;
     sub nh xx ZWJ  by nhcil;
@@ -141,22 +153,22 @@ lookup halfHalfFormsinMalaylamlookup3 {
     sub sh xx  by shxx;
     sub s1 xx  by s1xx;
     sub h1 xx  by h1xx;
-} halfHalfFormsinMalaylamlookup3;
+} half_forms_mlym;
 
-lookup pstfPostBaseFormsinMalaylamlook {
+lookup pstf_cons_signs_mlym {
   lookupflag 0;
     sub r3 xx  by r4;
     sub y1 xx  by y2;
     sub v1 xx  by v2;
-} pstfPostBaseFormsinMalaylamlook;
+} pstf_cons_signs_mlym;
 
-lookup pstfPostBaseFormsinMalaylam2loo {
+lookup pstf_cons_signs {
   lookupflag 0;
     sub xx y1  by y2;
     sub xx v1  by v2;
-} pstfPostBaseFormsinMalaylam2loo;
+} pstf_cons_signs;
 
-lookup presPreBaseSubstitutionsinMalay {
+lookup pres_reph_mlym {
   lookupflag 0;
     sub k1k1 r4  by k1k1r3;
     sub k1k1 xx r3  by k1k1r3;
@@ -210,9 +222,9 @@ lookup presPreBaseSubstitutionsinMalay {
     sub s1xx r3  by s1r3;
     sub s1 r4  by s1r3;
     sub h1 r4  by h1r3;
-} presPreBaseSubstitutionsinMalay;
+} pres_reph_mlym;
 
-lookup sub_ligature_presmlm2_0 {
+lookup pres_reph {
   lookupflag 0;
     sub r4 k1k1  by k1k1r3;
     sub r4 k1  by k1r3;
@@ -241,7 +253,7 @@ lookup sub_ligature_presmlm2_0 {
     sub r4 s1th1  by s1th1r3;
     sub r4 s1  by s1r3;
     sub r4 h1  by h1r3;
-} sub_ligature_presmlm2_0;
+} pres_reph;
 
 lookup blws_la_signs {
     sub k1xx l3  by k1l3;
@@ -284,7 +296,7 @@ lookup blws_la_sign_excludes {
         lookup restore_virama;
 } blws_la_sign_excludes;
 
-lookup pstsPostBaseSubstitutionslookup {
+lookup psts_vowel_signs {
   lookupflag 0;
     sub y2 u1  by y2u1;
     sub y2 u2  by y2u2;
@@ -522,7 +534,6 @@ lookup pstsPostBaseSubstitutionslookup {
     sub y1xx th1  by y1th1;
     sub y1th1 u1  by y1th1u1;
     sub y1th1 u2  by y1th1u2;
-    sub y1xx th1th1  by y1th1th1;
     sub y1th1th1 u1  by y1th1th1u1;
     sub y1th1th1 u2  by y1th1th1u2;
     sub y1 y2  by y1y1;
@@ -614,9 +625,9 @@ lookup pstsPostBaseSubstitutionslookup {
     sub rh u2  by rhu2;
     sub rhrh u1  by rhrhu1;
     sub rhrh u2  by rhrhu2;
-} pstsPostBaseSubstitutionslookup;
+} psts_vowel_signs;
 
-lookup halnHalantFormsinMalaylamlookup {
+lookup haln_chillu {
   lookupflag 0;
     sub k1 xx ZWJ  by k1cil;
     sub nh xx ZWJ  by nhcil;
@@ -624,11 +635,9 @@ lookup halnHalantFormsinMalaylamlookup {
     sub l3 xx ZWJ  by l3cil;
     sub lh xx ZWJ  by lhcil;
     sub r3 xx ZWJ  by r3cil;
-} halnHalantFormsinMalaylamlookup;
+} haln_chillu;
 
-
-
-lookup abvmAboveBaseMarkinMalaylam2loo {
+lookup abvm_dotreph {
   lookupflag 0;
   markClass [dotreph ] <anchor -604 1076> @Anchor0;
   pos base [t3 ] <anchor 1515 1167> mark @Anchor0;
@@ -668,5 +677,5 @@ lookup abvmAboveBaseMarkinMalaylam2loo {
   pos base [shxx ] <anchor 795 1068> mark @Anchor0;
   pos base [s1xx ] <anchor 891 1195> mark @Anchor0;
   pos base [h1xx ] <anchor 891 1068> mark @Anchor0;
-} abvmAboveBaseMarkinMalaylam2loo;
+} abvm_dotreph;
 

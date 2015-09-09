@@ -35,40 +35,40 @@ feature blwf {
 
  script mlm2;
      language dflt ;
-      lookup blwfBelowBaseFormsinMalaylam2lo;
+      lookup blwf_la_sign;
 
  script mlym;
      language dflt ;
-      lookup blwfBelowBaseFormsinMalaylamloo;
+      lookup blwf_la_sign_mlym;
 } blwf;
 
 feature half {
 
  script mlym;
      language dflt ;
-      lookup halfHalfFormsinMalaylamlookup3;
+      lookup half_forms_mlym;
 } half;
 
 feature pstf {
 
  script mlm2;
      language dflt ;
-      lookup pstfPostBaseFormsinMalaylam2loo;
+      lookup pstf_cons_signs;
 
  script mlym;
      language dflt ;
-      lookup pstfPostBaseFormsinMalaylamlook;
+      lookup pstf_cons_signs_mlym;
 } pstf;
 
 feature pres {
 
  script mlm2;
      language dflt ;
-      lookup sub_ligature_presmlm2_0;
+      lookup pres_reph;
 
  script mlym;
      language dflt ;
-      lookup presPreBaseSubstitutionsinMalay;
+      lookup pres_reph_mlym;
 } pres;
 
 feature blws {
@@ -88,18 +88,18 @@ feature psts {
 
  script mlm2;
      language dflt ;
-      lookup pstsPostBaseSubstitutionslookup;
+      lookup psts_vowel_signs;
 
  script mlym;
      language dflt ;
-      lookup pstsPostBaseSubstitutionslookup;
+      lookup psts_vowel_signs;
 } psts;
 
 feature haln {
 
  script mlym;
      language dflt ;
-      lookup halnHalantFormsinMalaylamlookup;
+      lookup haln_chillu;
 } haln;
 
 # GPOS 
@@ -108,9 +108,9 @@ feature abvm {
 
  script DFLT;
      language dflt ;
-      lookup abvmAboveBaseMarkinMalaylam2loo;
+      lookup abvm_dotreph;
 
  script mlm2;
      language dflt ;
-      lookup abvmAboveBaseMarkinMalaylam2loo;
+      lookup abvm_dotreph;
 } abvm;
