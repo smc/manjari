@@ -63,19 +63,4 @@
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Malayalam_Vowel_Signs, @GDEF_Ligature, @GDEF_Mark ;
-
-  LigatureCaretByPos y2 3;
-  LigatureCaretByPos y2u1 3;
-  LigatureCaretByPos y2u2 4;
-  LigatureCaretByPos k1k1u2 3;
-  LigatureCaretByPos k1th1 3;
-  LigatureCaretByPos k3th3th4 -225 -225 0 0;
-  LigatureCaretByPos k3n1 0 2;
-  LigatureCaretByPos k3r3u1 3;
-  LigatureCaretByPos nhu2 3;
-  LigatureCaretByPos nht3u1 -300;
-  LigatureCaretByPos th1r3u2 3;
-  LigatureCaretByPos n1u1 2;
-  LigatureCaretByPos n1n1 0 2;
-  LigatureCaretByPos p1n1 0 3;
 } GDEF;

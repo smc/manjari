@@ -89,10 +89,6 @@ lookup akhn_conjuncts {
     sub rh xx rh  by rhrh;
 }  akhn_conjuncts;
 
-lookup akhn_doubles {
-  sub ch1 xx ch1  by ch1ch1;
-} akhn_doubles;
-
 lookup akhn_conditional_stacking {
     ignore sub k1' xx' s1' [ u1 u2 r1 r2];
     ignore sub k1' xx' s1' xx r3;
