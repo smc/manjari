@@ -14,7 +14,6 @@ lookup akhn_chillu {
     sub r3 xx ZWJ  by r3cil;
 } akhn_chillu;
 
-
 lookup akhn_conjuncts {
   lookupflag 0;
     sub k1 l1  by k1l1;
@@ -88,16 +87,25 @@ lookup akhn_conjuncts {
     sub h1 xx m1  by h1m1;
     sub lh xx lh  by lhlh;
     sub rh xx rh  by rhrh;
-    sub zh xx ch1  by zh1ch1;
-    sub s1 xx n1  by s1n1;
-    sub k1 xx s1  by k1s1;
-    sub p1 xx s1  by p1s1;
-    sub p3 xx th3  by p3th3;
 }  akhn_conjuncts;
 
 lookup akhn_doubles {
   sub ch1 xx ch1  by ch1ch1;
 } akhn_doubles;
+
+lookup akhn_conditional_stacking {
+    ignore sub k1' xx' s1' [ u1 u2 r1 r2];
+    ignore sub k1' xx' s1' xx r3;
+    sub k1' xx' s1'  by k1s1;
+    ignore sub p1' xx' s1' [ xx u1 u2 r1 r2];
+    sub p1' xx' s1'  by p1s1;
+    ignore sub s1' xx' n1' [ xx u1 u2 r1 r2];
+    sub s1' xx' n1'  by s1n1;
+    ignore sub p3' xx' th3' [xx u1 u2 r1 r2];
+    sub p3' xx' th3'  by p3th3;
+    ignore sub zh' xx' ch1' [xx u1 u2 r1 r2];
+    sub zh' xx' ch1'  by zh1ch1;
+} akhn_conditional_stacking;
 
 lookup blwf_la_sign_mlym {
   lookupflag 0;
@@ -288,7 +296,7 @@ lookup restore_virama {
 lookup blws_la_sign_excludes {
     sub
         [
-           r3 va_sign
+           t1 r3 va_sign
            k1l3 k3l3 th1l3 p1l3 p2l3 m1l3 l3l3 v1l3 z1l3 s1l3 h1l3
            ch1ch1 ch1ch2 k3k3 rhrh s1s1 z1z1
         ]

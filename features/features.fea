@@ -24,11 +24,12 @@ feature akhn {
      language dflt ;
       lookup akhn_chillu;
       lookup akhn_conjuncts;
-
+      lookup akhn_conditional_stacking;
  script mlym;
      language dflt ;
       lookup akhn_chillu;
       lookup akhn_conjuncts;
+      lookup akhn_conditional_stacking;
 } akhn;
 
 feature blwf {
@@ -89,7 +90,6 @@ feature psts {
  script mlm2;
      language dflt ;
       lookup psts_vowel_signs;
-
  script mlym;
      language dflt ;
       lookup psts_vowel_signs;
