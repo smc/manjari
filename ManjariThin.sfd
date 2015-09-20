@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1442154853
+ModificationTime: 1442742768
 PfmFamily: 17
 TTFWeight: 100
 TTFWidth: 5
@@ -751,7 +751,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 169 13 5
+WinInfo: 130 13 5
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4392,11 +4392,17 @@ StartChar: dotreph
 Encoding: 159 3406 107
 Width: 0
 GlyphClass: 4
-Flags: HW
-AnchorPoint: "Anchor-0" -604 1076 mark 0
+Flags: HWO
 LayerCount: 2
 Fore
-Refer: 17 46 N 1.03806 0 0 1.00567 -861.806 1125.02 2
+SplineSet
+-716 1366 m 5
+ -715.5234375 1366 l 6
+ -649.977539062 1365.64941406 -648.5625 1252.43261719 -676.413085938 1212.29199219 c 4
+ -699.515625 1178.99902344 -744.27734375 1188.30859375 -760.287109375 1221.83789062 c 4
+ -785.090820312 1273.64648438 -772.83984375 1363.58984375 -716.477539062 1365.98242188 c 6
+ -716 1366 l 5
+EndSplineSet
 EndChar
 
 StartChar: au2
