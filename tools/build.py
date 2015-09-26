@@ -16,6 +16,5 @@ font.appendSFNTName('English (US)', 'Version', sys.argv[3] + '+' + time.strftime
 font.selection.all()
 font.simplify()
 font.round()
-font.addExtrema()
-font.generate(sys.argv[1].replace(".sfd",".ttf"), flags=("omit-instructions", "round", "opentype"))
+font.generate(sys.argv[1].replace(".sfd",".otf"), flags=("omit-instructions", "round", "opentype"))
 font.close() 
