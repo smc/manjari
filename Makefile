@@ -4,6 +4,7 @@ fontpath=/usr/share/fonts/truetype/malayalam
 fonts=Manjari ManjariThin
 feature=features/features.fea
 PY=python2.7
+version=0.1
 buildscript=tools/build.py
 default: compile
 all: compile webfonts
@@ -11,7 +12,7 @@ all: compile webfonts
 compile:
 	@for font in `echo ${fonts}`;do \
 		echo "Generating $$font.ttf";\
-		$(PY) $(buildscript) $$font.sfd $(feature);\
+		$(PY) $(buildscript) $$font.sfd $(feature) $(version);\
 	done;
 
 webfonts:compile
