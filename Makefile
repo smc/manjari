@@ -31,5 +31,5 @@ test: compile
 # Test the fonts
 	@for font in `echo ${fonts}`; do \
 		echo "Testing font $${font}";\
-		hb-view $${font}.otf --text-file tests/tests.txt --output-file tests/$${font}.pdf;\
+		hb-view $${font}.otf --font-size 14 --margin 20  --text-file tests/tests.txt --output-file tests/$${font}.pdf;\
 	done;
