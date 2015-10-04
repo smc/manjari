@@ -7,12 +7,12 @@ PY=python2.7
 version=0.1
 buildscript=tools/build.py
 default: compile
-all: compile webfonts
+all: compile webfonts test
 
-compile:
+compile: clean
 	@for font in `echo ${fonts}`;do \
 		echo "Generating $$font.otf";\
-		$(PY) $(buildscript) $$font.sfd $(feature) $(version);\
+		$(PY) $(buildscript) $$font.sfd $(feature) $(version) > /dev/null 2>&1;\
 	done;
 
 webfonts:compile
@@ -33,3 +33,5 @@ test: compile
 		echo "Testing font $${font}";\
 		hb-view $${font}.otf --font-size 14 --margin 20  --text-file tests/tests.txt --output-file tests/$${font}.pdf;\
 	done;
+clean:
+	@rm -rf *.otf *.woff *.woff2
