@@ -58,7 +58,7 @@
 	k2xx k3xx k4xx ngxx ch1xx ch2xx ch3xx ch4xx njxx t1xx t2xx t3xx t4xx 
 	nhxx th1xx th2xx th3xx th4xx n1xx p1xx p2xx p3xx p4xx m1xx y1xx r3xx 
 	rhxx l3xx lhxx zhxx v1xx z1xx shxx s1xx h1xx zh1ch1 s1n1 k1s1 p1s1 
-	p3th3 ];
+	p3th3 s1p1 sh1p1 s1k1 s1k1u1 s1k1k1 s1k1k1u1];
 @GDEF_Mark = [xx dotreph ];
 table GDEF {
     # 1. Bases:      single character, spacing glyphs.
