@@ -750,7 +750,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 16 6
+WinInfo: 592 16 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -22067,7 +22067,7 @@ EndSplineSet
 Refer: 79 3372 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: NameMe.673
+StartChar: k1th1r3
 Encoding: 669 -1 669
 Width: 3755
 VWidth: 0

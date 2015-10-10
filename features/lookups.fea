@@ -190,7 +190,9 @@ lookup pres_reph_mlym {
     sub k3 r4  by k3r3;
     sub k4xx r3  by k4r3;
     sub k4 r4  by k4r3;
-    sub ch3xx r3  by ch3r3;
+    sub k1th1 r4 by k1th1r3;
+    sub k1th1 xx r3 by k1th1r3;
+    sub ch3xx r3 by ch3r3;
     sub ch3 r4  by ch3r3;
     sub t1xx r3  by t1r3;
     sub t1 r4  by t1r3;
@@ -239,6 +241,7 @@ lookup pres_reph_mlym {
 lookup pres_reph {
   lookupflag 0;
     sub r4 k1k1  by k1k1r3;
+    sub r4 k1th1  by k1th1r3;
     sub r4 k1  by k1r3;
     sub r4 k3  by k3r3;
     sub r4 k4  by k4r3;
@@ -302,7 +305,7 @@ lookup blws_la_sign_excludes {
         [
            t1 r3 va_sign
            k1l3 k3l3 th1l3 p1l3 p2l3 m1l3 l3l3 v1v1 v1l3 z1l3 s1l3 h1l3
-           ch1ch1 ch1ch2 k3k3 rhrh s1s1 z1z1
+           ch1ch1 ch1ch2 k3k3 rhrh s1s1 t1t1 z1z1
         ]
         l4'
         lookup restore_virama;
