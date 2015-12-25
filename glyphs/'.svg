@@ -18,8 +18,8 @@
   <defs
      id="defs5498" />
   <sodipodi:namedview
-     inkscape:window-height="871"
-     inkscape:window-width="1600"
+     inkscape:window-height="704"
+     inkscape:window-width="1366"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -29,9 +29,9 @@
      showgrid="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="0.454"
-     inkscape:cx="-413.62718"
-     inkscape:cy="1384.334"
+     inkscape:zoom="0.32102648"
+     inkscape:cx="544.49575"
+     inkscape:cy="1346.576"
      inkscape:window-x="-4"
      inkscape:window-y="0"
      inkscape:current-layer="layer1"
@@ -85,5 +85,11 @@
        id="path4145-1-1"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sccsccs" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:150;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 821.77805,-503.4782 c -41.39583,0.4143 -48.62912,34.2874 -48.2539,75.68364 l 10.38671,317.58789 c 1.36767,41.818229 8.35849,76.580139 36.61274,76.448589 27.84974,-0.12967 32.54444,-33.94282 35.38531,-75.686869 l 21.61326,-317.58789 c 0.8127,-42.27636 -13.46203,-76.86836 -55.74412,-76.44536 z"
+       id="path4145-1-1-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="scsascs" />
   </g>
 </svg>
