@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 fontpath=/usr/share/fonts/truetype/malayalam
-fonts=Manjari ManjariThin
+fonts=Manjari ManjariThin ManjariBold
 features=features
 PY=python2.7
 version=0.1
