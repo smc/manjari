@@ -3,11 +3,15 @@
 lookup abvm_dotreph {
   lookupflag 0;
   markClass [dotreph ] <anchor 150 0> @Anchor0;
-  pos base [k1 k1xx k1u1 k1u2 k1r1 k1l1 k1nh k1nhu1 k1nhu2 k1r3 k1r3u1 k1r3u2 k1l3 k1l3u1 k1l3u2] <anchor 1000 0> mark @Anchor0;
-  pos base [k1k1 k1k1u1 k1k1u2 k1k1r1 k1k1r3 k1k1r3u1 k1k1r3u2] <anchor 1400 0> mark @Anchor0;
-  pos base [k1th1 k1th1u1 k1th1u2 k1th1r1 k1th1r3] <anchor 1500 0> mark @Anchor0;
-  pos base [t1 t1xx t1u1 t1u2 t1r1 t1r3 t1r3u1 t1r3u2] <anchor 550 0> mark @Anchor0;
-  pos base [t2 t2xx t2u1 t2u2] <anchor 600 0> mark @Anchor0;
+  pos base [k1 k1xx k1u1 k1u2 k1r1 k1l1 k1nh k1nhu1 k1nhu2 k1l3 k1l3u1 k1l3u2] <anchor 1050 0> mark @Anchor0;
+  pos base [k1r3 k1r3u1 k1r3u2] <anchor 1400 0> mark @Anchor0;
+  pos base [k1k1 k1k1u1 k1k1u2 k1k1r1] <anchor 1500 0> mark @Anchor0;
+  pos base [k1k1r3 k1k1r3u1 k1k1r3u2] <anchor 1450 0> mark @Anchor0;
+  pos base [k1th1 k1th1u1 k1th1u2 k1th1r1] <anchor 1600 0> mark @Anchor0;
+  pos base [k1th1r3] <anchor 1950 0> mark @Anchor0;
+  pos base [t1 t1xx t1u1 t1u2 t1r1] <anchor 650 0> mark @Anchor0;
+  pos base [t1r3 t1r3u1 t1r3u2] <anchor 900 0> mark @Anchor0;
+  pos base [t2 t2xx t2u1 t2u2] <anchor 700 0> mark @Anchor0;
   pos base [th1 th1xx th1u1 th1u2] <anchor 900 0> mark @Anchor0;
   pos base [th1s1 th1s1u1 th1s1u2] <anchor 1450 0> mark @Anchor0;
   pos base [th2 th2xx th2u1 th2u2] <anchor 750 0> mark @Anchor0;
