@@ -105,10 +105,16 @@ lookup akhn_conditional_stacking {
     sub s1' xx' p1' by s1p1;
     ignore sub s1' xx' k1' [xx u2 r1 r2];
     sub s1' xx' k1' by s1k1;
+    ignore sub s1' xx' m1' [xx u1 u2 r1 r2];
+    sub s1' xx' m1' by s1m1;
     ignore sub s1' xx' k1k1' [xx u2 r1 r2];
     sub s1' xx' k1k1' by s1k1k1;
     ignore sub sh' xx' p1' [xx u1 u2 r1 r2];
     sub sh' xx' p1' by sh1p1;
+    ignore sub sh' xx' m1' [xx u1 u2 r1 r2];
+    sub sh' xx' m1' by shm1;
+    ignore sub z1' xx' m1' [xx u1 u2 r1 r2];
+    sub z1' xx' m1' by z1m1;
 } akhn_conditional_stacking;
 
 lookup blwf_la_sign_mlym {
