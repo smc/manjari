@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1456573674
+ModificationTime: 1456640887
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -768,9 +768,9 @@ EndChar
 
 StartChar: seven
 Encoding: 23 55 26
-Width: 1235
+Width: 1260
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -25 21G<525.5 561.5> 1230 150<106.691 940>
 LayerCount: 2
 Fore
