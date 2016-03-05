@@ -21,25 +21,25 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1457024515
+ModificationTime: 1457169150
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 2 0 5 3 0 0 0 0 0 0
-OS2TypoAscent: 1400
+OS2TypoAscent: 1500
 OS2TypoAOffset: 0
-OS2TypoDescent: -800
+OS2TypoDescent: -750
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: 1400
+OS2WinAscent: 1500
 OS2WinAOffset: 0
-OS2WinDescent: 800
+OS2WinDescent: 750
 OS2WinDOffset: 0
-HheadAscent: 1400
+HheadAscent: 1500
 HheadAOffset: 0
-HheadDescent: -800
+HheadDescent: -750
 HheadDOffset: 0
 OS2SubXSize: 1331
 OS2SubYSize: 1433
@@ -51,6 +51,8 @@ OS2SupXOff: -944
 OS2SupYOff: 983
 OS2StrikeYSize: 102
 OS2StrikeYPos: 530
+OS2CapHeight: 1400
+OS2XHeight: 1000
 OS2Vendor: 'SMC '
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80800003.00002000.00000000.00000000
@@ -60,12 +62,13 @@ LangName: 1100 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "+DS4NHg1ND
 LangName: 1033 "" "" "Regular" "SMCManjari2015" "" "1.0.0-alpha.20151120" "" "" "" "Santhosh Thottingal <santhosh.thottingal@gmail.com>" "Malayalam unicode font with rounded terminals suitable for body text" "http://smc.org.in" "http://thottingal.in" "Digitized data copyright (c) 2014, Santhosh Thottingal, Kavya Manohar,+AAoA-Swathanthra Malayalam Computing(http://smc.org.in)+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "Manjari" "Regular" "Manjari"
 GaspTable: 1 65535 15 1
 Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 147 21 8
+WinInfo: 0 21 8
 BeginPrivate: 1
 BlueValues 37 [-24 0 1000 1024 1180 1204 1360 1384]
 EndPrivate
@@ -527,20 +530,20 @@ EndChar
 
 StartChar: slash
 Encoding: 47 47 18
-Width: 1011
+Width: 912
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-864 1424 m 0
- 911 1403 920 1355 905 1322 c 2
- 244 -8 l 2
- 244 -8 242 -12 239 -18 c 0
- 224 -50 176 -60 150 -48 c 0
- 107 -29 88 14 107 54 c 2
- 769 1384 l 2
- 787 1419 827 1441 864 1424 c 0
+814.360351562 1424 m 4
+ 861.360351562 1403 870.360351562 1355 855.360351562 1322 c 6
+ 194.360351562 -8 l 2
+ 194.360351562 -8 192.360351562 -12 189.360351562 -18 c 0
+ 174.360351562 -50 126.360351562 -60 100.360351562 -48 c 0
+ 57.3603515625 -29 38.3603515625 14 57.3603515625 54 c 2
+ 719.360351562 1384 l 6
+ 737.360351562 1419 777.360351562 1441 814.360351562 1424 c 4
 EndSplineSet
 EndChar
 
@@ -836,13 +839,13 @@ StartChar: colon
 Encoding: 58 58 29
 Width: 399
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -2 279<140.318 348.206> 686 279<148.318 356.206>
 VStem: 100 289<39.125 236.375> 108 289<727.125 924.375>
 LayerCount: 2
 Fore
-Refer: 17 46 S 1 0 0 1 8 690 2
-Refer: 17 46 N 1 0 0 1 0 2 2
+Refer: 17 46 N 1 0 0 1 8 690 2
+Refer: 17 46 S 1 0 0 1 9 133 2
 EndChar
 
 StartChar: semicolon
@@ -19691,38 +19694,38 @@ EndChar
 
 StartChar: f
 Encoding: 102 102 603
-Width: 811
+Width: 781
 GlyphClass: 2
 Flags: HW
-HStem: -23 21G<345.5 386.5> 862 141<65.2344 289 439 728.219> 1238.23 149.99<457.871 753.532>
-VStem: 289 150<-15.5323 859 1001 1217.02>
+HStem: -23 21G<315.5 356.5> 862 141<35.2344 259 409 698.219> 1238.23 149.99<427.871 723.532>
+VStem: 259 150<-15.5323 859 1001 1217.02>
 LayerCount: 2
 Fore
 SplineSet
-80 937 m 4
- 80 964 111 1003 136 1003 c 6
- 152 1003 l 5
- 289 1001 l 1
- 289 1060 l 2
- 289 1273.56075793 368 1392 576.787792002 1388.22340027 c 2
- 687 1386 l 2
- 728 1386 761 1352 761 1311 c 0
- 761 1270 727 1236 686 1236 c 2
- 573.967267237 1238.23316687 l 2
- 452.889178805 1241.09724051 437.05859375 1193.15332031 438 1067 c 2
- 439 1000 l 1
- 666 999 l 2
- 704 999 736 965 736 927 c 0
- 736 897 703 861 676 861 c 2
- 439 859 l 1
- 441 53 l 1
- 441 52 l 2
- 441 11 407 -23 366 -23 c 0
- 325 -23 291 11 291 52 c 2
- 291 53 l 1
- 289 861 l 1
- 150 862 l 6
- 109 862 80 890 80 937 c 4
+50 937 m 0
+ 50 964 81 1003 106 1003 c 2
+ 122 1003 l 1
+ 259 1001 l 1
+ 259 1060 l 2
+ 259 1273.56054688 338 1392 546.788085938 1388.22363281 c 2
+ 657 1386 l 2
+ 698 1386 731 1352 731 1311 c 0
+ 731 1270 697 1236 656 1236 c 2
+ 543.966796875 1238.23339844 l 2
+ 422.889648438 1241.09765625 407.05859375 1193.15332031 408 1067 c 2
+ 409 1000 l 1
+ 636 999 l 2
+ 674 999 706 965 706 927 c 0
+ 706 897 673 861 646 861 c 2
+ 409 859 l 1
+ 411 53 l 1
+ 411 52 l 2
+ 411 11 377 -23 336 -23 c 0
+ 295 -23 261 11 261 52 c 2
+ 261 53 l 1
+ 259 861 l 1
+ 120 862 l 2
+ 79 862 50 890 50 937 c 0
 EndSplineSet
 EndChar
 
@@ -19994,16 +19997,16 @@ VStem: 80 149<318.463 673.481> 911 151<322.07 675.132>
 LayerCount: 2
 Fore
 SplineSet
-572 1018 m 4
- 847 1018 1062 773 1062 499 c 4
- 1062 224 848 -22 570 -22 c 4
- 298 -22 80 219 80 494 c 4
- 80 770 291 1018 572 1018 c 4
-572 868 m 4
- 379 868 229 694 229 497 c 4
- 229 300 380 128 570 128 c 4
- 764 128 911 305 911 499 c 4
- 911 692 764 868 572 868 c 4
+572 1018 m 0
+ 847 1018 1062 773 1062 499 c 0
+ 1062 224 848 -22 570 -22 c 0
+ 298 -22 80 219 80 494 c 0
+ 80 770 291 1018 572 1018 c 0
+572 868 m 0
+ 379 868 229 694 229 497 c 0
+ 229 300 380 128 570 128 c 0
+ 764 128 911 305 911 499 c 0
+ 911 692 764 868 572 868 c 0
 EndSplineSet
 EndChar
 
@@ -22303,10 +22306,10 @@ StartChar: backslash
 Encoding: 92 92 677
 Width: 912
 Flags: HW
-HStem: -11 145<-251.346 668.654 -321.546 -251.346> 1222 153<-122.346 901.881>
+HStem: -11 145<-300.986 619.014 -371.186 -300.986> 1222 153<-171.986 852.241>
 LayerCount: 2
 Fore
-Refer: 18 47 N -1 0 0 1 961.654 0 2
+Refer: 18 47 N -1 0 0 1 912.014 0 2
 EndChar
 
 StartChar: bracketright
