@@ -1,0 +1,2 @@
+git+https://github.com/google/brotli@v0.3.0#egg=Brotli
+fonttools >= 3.0
