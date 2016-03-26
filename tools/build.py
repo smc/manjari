@@ -81,7 +81,7 @@ font.appendSFNTName('English (US)', 'Version',
                     sys.argv[3] + '.0+' + time.strftime('%Y%m%d'))
 font.selection.all()
 font.correctReferences()
-font.simplify()
+#font.simplify()
 font.selection.none()
 # fix some common font issues
 validateGlyphs(font)
