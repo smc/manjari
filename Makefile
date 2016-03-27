@@ -31,7 +31,7 @@ test: compile
 # Test the fonts
 	@for font in `echo ${fonts}`; do \
 		echo "Testing font $${font}";\
-		hb-view $${font}.otf --font-size 14 --margin 20  --text-file tests/tests.txt --output-file tests/$${font}.pdf;\
+		hb-view $${font}.otf --font-size 14 --margin 100 --line-space 1.5 --foreground=333333  --text-file tests/tests.txt --output-file tests/$${font}.pdf;\
 	done;
 clean:
 	@rm -rf *.otf *.woff *.woff2
