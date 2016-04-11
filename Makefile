@@ -34,4 +34,4 @@ test: compile
 		hb-view $${font}.otf --font-size 14 --margin 100 --line-space 1.5 --foreground=333333  --text-file tests/tests.txt --output-file tests/$${font}.pdf;\
 	done;
 clean:
-	@rm -rf *.otf *.woff *.woff2
+	@rm -rf *.otf *.woff *.woff2 *.sfd-*
