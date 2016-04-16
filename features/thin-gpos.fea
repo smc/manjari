@@ -19,7 +19,7 @@ lookup abvm_dotreph {
   pos base [th1th1 th1th1u1 th1th1u2 th1th1r1] <anchor 1650 0> mark @Anchor0;
   pos base [th1th1r3 th1th1r3u1 th1th1r3u2] <anchor 2050 0> mark @Anchor0;
   pos base [th1th2 th1th2 th1th2u1 th1th2u2 th1th2r1] <anchor 1800 0> mark @Anchor0;
-  pos base [th3 th3xx th3u1 th3u2 th3th3 th3th3xx th3th3u1 th3th3u2 p4 p4u1] <anchor 750 0> mark @Anchor0;
+  pos base [th3 th3xx th3u1 th3u2 p4 p4u1] <anchor 750 0> mark @Anchor0;
   pos base [th3th4 th3th4u1 th3th4u2] <anchor 1400 0> mark @Anchor0;
   pos base [k2 k2xx k2u1 k2u2 v1 v1u1 v1u2 v1v1 v1v1u1 v1v1u2] <anchor 800 0> mark @Anchor0;
   pos base [k3 k3xx k3u1 k3u2 k3k3 k3k3r1 k3k3u1 k3k3u2] <anchor 1000 0> mark @Anchor0;

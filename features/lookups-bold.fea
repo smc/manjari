@@ -58,7 +58,6 @@ lookup akhn_conjuncts {
     sub n1 xx n1  by n1n1;
     sub n1 xx m1  by n1m1;
     sub n1 xx rh  by n1rh;
-    sub p1 xx th1  by p1th1;
     sub p1 xx n1  by p1n1;
     sub p1 xx p1  by p1p1;
     sub p1 xx p2  by p1p2;
@@ -75,7 +74,6 @@ lookup akhn_conjuncts {
     sub sh xx t1  by sht1;
     sub sh xx t2  by sht2;
     sub sh xx nh  by shnh;
-    sub s1 xx th1  by s1th1;
     sub s1 xx th2  by s1th2;
     sub s1 xx s1  by s1s1;
     sub s1 xx rh xx rh  by s1rhrh;
@@ -101,6 +99,10 @@ lookup akhn_conditional_stacking {
     sub s1' xx' p1' by s1p1;
     ignore sub sh' xx' p1' [xx u1 u2 r1 r2];
     sub sh' xx' p1' by sh1p1;
+    ignore sub p1' xx' th1' [xx u1 u2 r1 r2];
+    sub p1' xx' th1' by p1th1;
+    ignore sub s1' xx' th1' [u1 u2 r1 r2];
+    sub s1' xx' th1' by s1th1;
 } akhn_conditional_stacking;
 
 lookup blwf_la_sign_mlym {
@@ -489,8 +491,6 @@ lookup psts_vowel_signs {
     sub p1 u1  by p1u1;
     sub p1 u2  by p1u2;
     sub p1 r1  by p1r1;
-    sub p1th1 u1  by p1th1u1;
-    sub p1th1 u2  by p1th1u2;
     sub p1n1 u1  by p1n1u1;
     sub p1n1 u2  by p1n1u2;
     sub p1p1 u1  by p1p1u1;
