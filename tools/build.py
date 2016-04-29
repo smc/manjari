@@ -12,6 +12,7 @@ import psMat
 from tempfile import mkstemp
 from fontTools.ttLib import TTFont
 from fontTools.ttx import makeOutputFileName
+import argparse
 
 
 def flattenNestedReferences(font, ref, new_transform=(1, 0, 0, 1, 0, 0)):
@@ -61,81 +62,96 @@ def validateGlyphs(font):
         if refs:
             glyph.references = refs
 
-infont = sys.argv[1]
-font = fontforge.open(infont)
-outfont = infont.replace(".sfd", ".otf")
-tmpfont = mkstemp(suffix=os.path.basename(outfont))[1]
 
-# Remove all GSUB lookups
-for lookup in font.gsub_lookups:
-    font.removeLookup(lookup)
+def opentype(infont, type, feature, version):
+    font = fontforge.open(infont)
+    if args.type == 'otf':
+        outfont = infont.replace(".sfd", ".otf")
+    else:
+        outfont = infont.replace(".sfd", ".ttf")
+    print("Generating %s => %s" % (infont, outfont))
+    tmpfont = mkstemp(suffix=os.path.basename(outfont))[1]
 
-# Remove all GPOS lookups
-for lookup in font.gpos_lookups:
-    font.removeLookup(lookup)
+    # Remove all GSUB lookups
+    for lookup in font.gsub_lookups:
+        font.removeLookup(lookup)
 
-# Merge the new featurefile
-font.mergeFeature(sys.argv[2])
-font.version = sys.argv[3]
-font.appendSFNTName('English (US)', 'Version',
-                    sys.argv[3] + '.0+' + time.strftime('%Y%m%d'))
-font.selection.all()
-font.correctReferences()
-#font.simplify()
-font.selection.none()
-# fix some common font issues
-validateGlyphs(font)
-font.generate(tmpfont, flags=("omit-instructions", "round", "opentype"))
-font.close()
-# now open in fontTools
-font = TTFont(tmpfont, recalcBBoxes=0)
+    # Remove all GPOS lookups
+    for lookup in font.gpos_lookups:
+        font.removeLookup(lookup)
 
-# our 'name' table is a bit bulky, and of almost no use in for web fonts,
-# so we strip all unnecessary entries.
-name = font['name']
-names = []
-for record in name.names:
-    platID = record.platformID
-    langID = record.langID
-    nameID = record.nameID
+    # Merge the new featurefile
+    font.mergeFeature(feature)
+    font.version = version
+    font.appendSFNTName('English (US)', 'Version',
+                        sys.argv[3] + '.0+' + time.strftime('%Y%m%d'))
+    font.selection.all()
+    font.correctReferences()
+    # font.simplify()
+    font.selection.none()
+    # fix some common font issues
+    validateGlyphs(font)
+    font.generate(tmpfont, flags=("omit-instructions", "round", "opentype"))
+    font.close()
+    # now open in fontTools
+    font = TTFont(tmpfont, recalcBBoxes=0)
 
-    # we keep only en_US entries in Windows and Mac platform id, every
-    # thing else is dropped
-    if (platID == 1 and langID == 0) or (platID == 3 and langID == 1033):
-        if nameID == 13:
-            # the full OFL text is too much, replace it with a simple
-            # string
-            if platID == 3:
-                # MS strings are UTF-16 encoded
-                text = 'OFL v1.1'.encode('utf_16_be')
-            else:
-                text = 'OFL v1.1'
-            record.string = text
-            names.append(record)
-        # keep every thing else except Descriptor, Sample Text
-        elif nameID not in (10, 19):
-            names.append(record)
+    # our 'name' table is a bit bulky, and of almost no use in for web fonts,
+    # so we strip all unnecessary entries.
+    name = font['name']
+    names = []
+    for record in name.names:
+        platID = record.platformID
+        langID = record.langID
+        nameID = record.nameID
 
-name.names = names
+        # we keep only en_US entries in Windows and Mac platform id, every
+        # thing else is dropped
+        if (platID == 1 and langID == 0) or (platID == 3 and langID == 1033):
+            if nameID == 13:
+                # the full OFL text is too much, replace it with a simple
+                # string
+                if platID == 3:
+                    # MS strings are UTF-16 encoded
+                    text = 'OFL v1.1'.encode('utf_16_be')
+                else:
+                    text = 'OFL v1.1'
+                record.string = text
+                names.append(record)
+                # keep every thing else except Descriptor, Sample Text
+            elif nameID not in (10, 19):
+                names.append(record)
 
-# FFTM is FontForge specific, remove it
-del(font['FFTM'])
-# force compiling GPOS/GSUB tables by fontTools, saves few tens of KBs
-for tag in ('GPOS', 'GSUB'):
-    font[tag].compile(font)
+    name.names = names
 
-font.save(outfont)
-# Generate WOFF
-woffFileName = makeOutputFileName(infont, outputDir=None, extension='.woff')
-print("Processing %s => %s" % (infont, woffFileName))
-font.flavor = "woff"
-font.save(woffFileName, reorderTables=False)
-# Generate WOFF2
-woff2FileName = makeOutputFileName(infont, outputDir=None, extension='.woff2')
-print("Processing %s => %s" % (infont, woff2FileName))
-font.flavor = "woff2"
-font.save(woff2FileName, reorderTables=False)
+    # FFTM is FontForge specific, remove it
+    del(font['FFTM'])
+    # force compiling GPOS/GSUB tables by fontTools, saves few tens of KBs
+    for tag in ('GPOS', 'GSUB'):
+        font[tag].compile(font)
 
-font.close()
+    font.save(outfont)
+    os.remove(tmpfont)
 
-os.remove(tmpfont)
+def webfonts(infont, type):
+    font = TTFont(infont, recalcBBoxes=0)
+    # Generate WOFF2
+    woffFileName = makeOutputFileName(infont, outputDir=None, extension='.' + type)
+    print("Processing %s => %s" % (infont, woffFileName))
+    font.flavor = type
+    font.save(woffFileName, reorderTables=False)
+
+    font.close()
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Build fonts')
+    parser.add_argument('-i', '--input', help='Input font', required=True)
+    parser.add_argument('-v', '--version', help='Version')
+    parser.add_argument('-f', '--feature', help='Feature file')
+    parser.add_argument('-t', '--type', help='Output type', default='otf')
+    args = parser.parse_args()
+    if args.type == 'otf' or args.type == 'ttf':
+        opentype(args.input, args.type, args.feature, args.version)
+    if args.type == 'woff' or args.type == 'woff2':
+        webfonts(args.input, args.type)

@@ -6,20 +6,27 @@ features=features
 PY=python2.7
 version=0.1
 buildscript=tools/build.py
-default: compile
+default: otf
 all: compile webfonts test
-
-compile: clean
+compile: ttf otf
+otf: clean
 	@for font in `echo ${fonts}`;do \
-		echo "Generating $$font.otf";\
-		$(PY) $(buildscript) $$font.sfd $(features)/$$font.fea $(version) > /dev/null 2>&1;\
+		$(PY) $(buildscript) -t otf -i $$font.sfd -f $(features)/$$font.fea -v $(version);\
 	done;
 
-webfonts:compile
-	@echo "Generating webfonts";
+ttf: clean
 	@for font in `echo ${fonts}`;do \
-		sfntly -w $${font}.otf $${font}.woff;\
-		[ -x `which woff2_compress` ] && woff2_compress $${font}.otf;\
+		$(PY) $(buildscript) -t ttf -i $$font.sfd -f $(features)/$$font.fea -v $(version);\
+	done;
+
+webfonts:woff woff2
+woff: ttf
+	@for font in `echo ${fonts}`;do \
+		$(PY) $(buildscript) -t woff -i $$font.ttf;\
+	done;
+woff2: ttf
+	@for font in `echo ${fonts}`;do \
+		$(PY) $(buildscript) -t woff2 -i $$font.ttf;\
 	done;
 
 install: compile
@@ -27,11 +34,11 @@ install: compile
 		install -D -m 0644 $${font}.otf ${DESTDIR}/${fontpath}/$${font}.otf;\
 	done;
 
-test: compile
+test: otf
 # Test the fonts
 	@for font in `echo ${fonts}`; do \
 		echo "Testing font $${font}";\
 		hb-view $${font}.otf --font-size 14 --margin 100 --line-space 1.5 --foreground=333333  --text-file tests/tests.txt --output-file tests/$${font}.pdf;\
 	done;
 clean:
-	@rm -rf *.otf *.woff *.woff2 *.sfd-*
+	@rm -rf *.otf *.ttf *.woff *.woff2 *.sfd-*
