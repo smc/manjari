@@ -9,22 +9,24 @@ buildscript=tools/build.py
 default: otf
 all: compile webfonts test
 compile: ttf otf
-otf: clean
+otf:
 	@for font in `echo ${fonts}`;do \
 		$(PY) $(buildscript) -t otf -i $$font.sfd -f $(features)/$$font.fea -v $(version);\
 	done;
 
-ttf: clean
+ttf:
 	@for font in `echo ${fonts}`;do \
 		$(PY) $(buildscript) -t ttf -i $$font.sfd -f $(features)/$$font.fea -v $(version);\
 	done;
 
 webfonts:woff woff2
 woff: ttf
+	@rm -rf *.woff
 	@for font in `echo ${fonts}`;do \
 		$(PY) $(buildscript) -t woff -i $$font.ttf;\
 	done;
 woff2: ttf
+	@rm -rf *.woff2
 	@for font in `echo ${fonts}`;do \
 		$(PY) $(buildscript) -t woff2 -i $$font.ttf;\
 	done;
