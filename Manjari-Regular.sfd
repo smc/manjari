@@ -5087,7 +5087,6 @@ StartChar: k1l3u1
 Encoding: 1114142 -1 147
 Width: 1924
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -5099,7 +5098,6 @@ StartChar: k1l3u2
 Encoding: 1114143 -1 148
 Width: 1990
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -5209,7 +5207,6 @@ StartChar: k2u1
 Encoding: 1114147 -1 152
 Width: 1727
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -5221,7 +5218,6 @@ StartChar: k2u2
 Encoding: 1114148 -1 153
 Width: 1762
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -5592,7 +5588,6 @@ StartChar: k3th3u1
 Encoding: 1114158 -1 163
 Width: 1737
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -5604,7 +5599,6 @@ StartChar: k3th3u2
 Encoding: 1114159 -1 164
 Width: 1729
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -5727,7 +5721,6 @@ StartChar: k3th3th4u1
 Encoding: 1114162 -1 167
 Width: 2954
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -5739,7 +5732,6 @@ StartChar: k3th3th4u2
 Encoding: 1114163 -1 168
 Width: 2954
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -6109,7 +6101,6 @@ StartChar: k4r1
 Encoding: 1114178 -1 183
 Width: 2345
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -6575,7 +6566,6 @@ StartChar: ch1u1
 Encoding: 1114191 -1 196
 Width: 1523
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -6587,7 +6577,6 @@ StartChar: ch1u2
 Encoding: 1114192 -1 197
 Width: 1533
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 AnchorPoint: "Anchor-0" 1191 1155 basechar 0
 LayerCount: 2
@@ -7841,7 +7830,6 @@ StartChar: njch1u1
 Encoding: 1114216 -1 221
 Width: 2743
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -7853,7 +7841,6 @@ StartChar: njch1u2
 Encoding: 1114217 -1 222
 Width: 2817
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -7865,7 +7852,6 @@ StartChar: njch1r1
 Encoding: 1114218 -1 223
 Width: 2743
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -8227,7 +8213,6 @@ StartChar: njnju1
 Encoding: 1114223 -1 228
 Width: 3859
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -8239,7 +8224,6 @@ StartChar: njnju2
 Encoding: 1114224 -1 229
 Width: 3852
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -8251,7 +8235,6 @@ StartChar: t1u1
 Encoding: 1114225 -1 230
 Width: 1134
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -8263,7 +8246,6 @@ StartChar: t1u2
 Encoding: 1114226 -1 231
 Width: 1163
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -8358,7 +8340,6 @@ StartChar: t1t1u1
 Encoding: 1114229 -1 234
 Width: 1206
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -8466,7 +8447,6 @@ StartChar: t3u1
 Encoding: 1114236 -1 241
 Width: 2442
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -8478,7 +8458,6 @@ StartChar: t3u2
 Encoding: 1114237 -1 242
 Width: 2449
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -8490,7 +8469,6 @@ StartChar: t3r1
 Encoding: 1114238 -1 243
 Width: 2477
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -9037,7 +9015,6 @@ StartChar: nht1u1
 Encoding: 1114254 -1 259
 Width: 2639
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -9049,7 +9026,6 @@ StartChar: nht1u2
 Encoding: 1114255 -1 260
 Width: 2675
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -9393,7 +9369,6 @@ StartChar: nhm1u1
 Encoding: 1114264 -1 269
 Width: 2911
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -9405,7 +9380,6 @@ StartChar: nhm1u2
 Encoding: 1114265 -1 270
 Width: 2957
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -9991,7 +9965,6 @@ StartChar: th1th2u1
 Encoding: 1114277 -1 282
 Width: 2802
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -10003,7 +9976,6 @@ StartChar: th1th2u2
 Encoding: 1114278 -1 283
 Width: 2899
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -10015,7 +9987,6 @@ StartChar: th1th2r1
 Encoding: 1114279 -1 284
 Width: 2803
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -10492,7 +10463,6 @@ StartChar: th1r3u1
 Encoding: 1114289 -1 294
 Width: 2128
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -10504,7 +10474,6 @@ StartChar: th1r3u2
 Encoding: 1114290 -1 295
 Width: 2163
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -10611,7 +10580,6 @@ StartChar: th1s1u1
 Encoding: 1114295 -1 300
 Width: 2914
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -10623,7 +10591,6 @@ StartChar: th1s1u2
 Encoding: 1114296 -1 301
 Width: 2914
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -10699,7 +10666,6 @@ StartChar: th2u1
 Encoding: 1114298 -1 303
 Width: 1549
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -10711,7 +10677,6 @@ StartChar: th2u2
 Encoding: 1114299 -1 304
 Width: 1582
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -11129,7 +11094,6 @@ StartChar: th4r3u1
 Encoding: 1114316 -1 321
 Width: 2292
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -11141,7 +11105,6 @@ StartChar: th4r3u2
 Encoding: 1114317 -1 322
 Width: 2354
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -11600,7 +11563,6 @@ StartChar: n1th2
 Encoding: 1114328 -1 333
 Width: 3070
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -11646,7 +11608,6 @@ StartChar: n1th2u1
 Encoding: 1114329 -1 334
 Width: 3079
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -11658,7 +11619,6 @@ StartChar: n1th2u2
 Encoding: 1114330 -1 335
 Width: 3125
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12374,7 +12334,6 @@ StartChar: n1m1u1
 Encoding: 1114353 -1 358
 Width: 2081
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12386,7 +12345,6 @@ StartChar: n1m1u2
 Encoding: 1114354 -1 359
 Width: 2147
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12466,7 +12424,6 @@ StartChar: p1u1
 Encoding: 1114359 -1 364
 Width: 1671
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12478,7 +12435,6 @@ StartChar: p1u2
 Encoding: 1114360 -1 365
 Width: 1671
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12490,7 +12446,6 @@ StartChar: p1r1
 Encoding: 1114361 -1 366
 Width: 1671
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12715,7 +12670,6 @@ StartChar: p1p1u1
 Encoding: 1114369 -1 372
 Width: 1729
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12727,7 +12681,6 @@ StartChar: p1p1u2
 Encoding: 1114370 -1 373
 Width: 1771
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12739,7 +12692,6 @@ StartChar: p1p1r1
 Encoding: 1114371 -1 374
 Width: 1744
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -12949,7 +12901,6 @@ StartChar: p1l3u1
 Encoding: 1114377 -1 380
 Width: 1749
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12961,7 +12912,6 @@ StartChar: p1l3u2
 Encoding: 1114378 -1 381
 Width: 1816
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12973,7 +12923,6 @@ StartChar: p2u1
 Encoding: 1114379 -1 382
 Width: 2111
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -12985,7 +12934,6 @@ StartChar: p2u2
 Encoding: 1114380 -1 383
 Width: 2186
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13047,7 +12995,6 @@ StartChar: p2r3u1
 Encoding: 1114382 -1 385
 Width: 2670
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13059,7 +13006,6 @@ StartChar: p2r3u2
 Encoding: 1114383 -1 386
 Width: 2688
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13083,7 +13029,6 @@ StartChar: p2l3u1
 Encoding: 1114385 -1 388
 Width: 2154
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13095,7 +13040,6 @@ StartChar: p2l3u2
 Encoding: 1114386 -1 389
 Width: 2225
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13107,7 +13051,6 @@ StartChar: p3u1
 Encoding: 1114387 -1 390
 Width: 2487
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13119,7 +13062,6 @@ StartChar: p3u2
 Encoding: 1114388 -1 391
 Width: 2541
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13131,7 +13073,6 @@ StartChar: p3r1
 Encoding: 1114389 -1 392
 Width: 2487
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13143,7 +13084,6 @@ StartChar: p3p3
 Encoding: 1114390 -1 393
 Width: 2487
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13500,7 +13440,6 @@ StartChar: m1u1
 Encoding: 1114405 -1 408
 Width: 1398
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13608,7 +13547,6 @@ StartChar: m1p1u1
 Encoding: 1114409 -1 412
 Width: 2278
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13620,7 +13558,6 @@ StartChar: m1p1u2
 Encoding: 1114410 -1 413
 Width: 2366
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13632,7 +13569,6 @@ StartChar: m1p1r1
 Encoding: 1114411 -1 414
 Width: 2277
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13695,7 +13631,6 @@ StartChar: m1p1r3u1
 Encoding: 1114413 -1 416
 Width: 2631
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13707,7 +13642,6 @@ StartChar: m1p1r3u2
 Encoding: 1114414 -1 417
 Width: 2653
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13719,7 +13653,6 @@ StartChar: m1m1
 Encoding: 1114415 -1 418
 Width: 2456
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -13763,7 +13696,6 @@ StartChar: m1m1u1
 Encoding: 1114416 -1 419
 Width: 2455
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13775,7 +13707,6 @@ StartChar: m1m1u2
 Encoding: 1114417 -1 420
 Width: 2496
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13863,7 +13794,6 @@ StartChar: y1u1
 Encoding: 1114422 -1 425
 Width: 1915
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -13875,7 +13805,6 @@ StartChar: y1u2
 Encoding: 1114423 -1 426
 Width: 1919
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -14133,7 +14062,6 @@ StartChar: y1y1u1
 Encoding: 1114435 -1 432
 Width: 1949
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -14145,7 +14073,6 @@ StartChar: y1y1u2
 Encoding: 1114436 -1 433
 Width: 1949
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -14266,7 +14193,6 @@ StartChar: l3u1
 Encoding: 1114439 -1 436
 Width: 1647
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -14383,7 +14309,6 @@ StartChar: v1u1
 Encoding: 1114447 -1 444
 Width: 1723
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -14395,7 +14320,6 @@ StartChar: v1u2
 Encoding: 1114448 -1 445
 Width: 1788
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -14501,7 +14425,6 @@ StartChar: v1l3u1
 Encoding: 1114454 -1 451
 Width: 1752
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -14513,7 +14436,6 @@ StartChar: v1l3u2
 Encoding: 1114455 -1 452
 Width: 1858
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -14568,7 +14490,6 @@ StartChar: v1v1u1
 Encoding: 1114457 -1 454
 Width: 1633
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -14580,7 +14501,6 @@ StartChar: v1v1u2
 Encoding: 1114458 -1 455
 Width: 1702
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -15210,7 +15130,6 @@ StartChar: shu1
 Encoding: 1114477 -1 474
 Width: 1928
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -15222,7 +15141,6 @@ StartChar: shu2
 Encoding: 1114478 -1 475
 Width: 2043
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -15234,7 +15152,6 @@ StartChar: shr1
 Encoding: 1114479 -1 476
 Width: 1928
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -15278,7 +15195,6 @@ StartChar: sht1u1
 Encoding: 1114481 -1 478
 Width: 1963
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -15290,7 +15206,6 @@ StartChar: sht1u2
 Encoding: 1114482 -1 479
 Width: 2020
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -15361,7 +15276,6 @@ StartChar: sht2u1
 Encoding: 1114485 -1 482
 Width: 1937
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -15373,7 +15287,6 @@ StartChar: sht2u2
 Encoding: 1114486 -1 483
 Width: 1983
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -15557,7 +15470,6 @@ StartChar: s1u1
 Encoding: 1114490 -1 487
 Width: 2478
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -15569,7 +15481,6 @@ StartChar: s1u2
 Encoding: 1114491 -1 488
 Width: 2476
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -15894,7 +15805,6 @@ StartChar: s1th2u1
 Encoding: 1114501 -1 495
 Width: 3588
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -15906,7 +15816,6 @@ StartChar: s1th2u2
 Encoding: 1114502 -1 496
 Width: 3650
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -15918,7 +15827,6 @@ StartChar: s1th2r1
 Encoding: 1114503 -1 497
 Width: 3588
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -16835,7 +16743,6 @@ StartChar: h1m1u1
 Encoding: 1114523 -1 517
 Width: 2322
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -16847,7 +16754,6 @@ StartChar: h1m1u2
 Encoding: 1114524 -1 518
 Width: 2320
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -16859,7 +16765,6 @@ StartChar: h1m1r1
 Encoding: 1114525 -1 519
 Width: 2322
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -16954,7 +16859,6 @@ StartChar: lhu1
 Encoding: 1114530 -1 524
 Width: 1273
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -16966,7 +16870,6 @@ StartChar: lhu2
 Encoding: 1114531 -1 525
 Width: 1273
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -17050,7 +16953,6 @@ StartChar: lhlhu1
 Encoding: 1114533 -1 527
 Width: 2410
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -17062,7 +16964,6 @@ StartChar: lhlhu2
 Encoding: 1114534 -1 528
 Width: 2508
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -17074,7 +16975,6 @@ StartChar: zhu1
 Encoding: 1114535 -1 529
 Width: 1269
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -17086,7 +16986,6 @@ StartChar: zhu2
 Encoding: 1114536 -1 530
 Width: 1269
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -17098,7 +16997,6 @@ StartChar: rhu1
 Encoding: 1114537 -1 531
 Width: 1328
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
@@ -17110,7 +17008,6 @@ StartChar: rhu2
 Encoding: 1114538 -1 532
 Width: 1351
 GlyphClass: 3
-UnlinkRmOvrlpSave: 1
 Flags: HMW
 LayerCount: 2
 Fore
