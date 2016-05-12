@@ -67,8 +67,10 @@ def opentype(infont, type, feature, version):
     font = fontforge.open(infont)
     if args.type == 'otf':
         outfont = infont.replace(".sfd", ".otf")
+        flags = ("opentype", "dummy-dsig", "round", "omit-instructions")
     else:
         outfont = infont.replace(".sfd", ".ttf")
+        flags = ("opentype", "dummy-dsig", "round", "omit-instructions")
     print("Generating %s => %s" % (infont, outfont))
     tmpfont = mkstemp(suffix=os.path.basename(outfont))[1]
 
@@ -91,7 +93,7 @@ def opentype(infont, type, feature, version):
     font.selection.none()
     # fix some common font issues
     validateGlyphs(font)
-    font.generate(tmpfont, flags=("omit-instructions", "round", "opentype"))
+    font.generate(tmpfont, flags=flags)
     font.close()
     # now open in fontTools
     font = TTFont(tmpfont, recalcBBoxes=0)

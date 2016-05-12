@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1462076427
+ModificationTime: 1462622021
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -66,7 +66,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 378 21 8
+WinInfo: 0 21 8
 BeginPrivate: 1
 BlueValues 37 [-24 0 1072 1096 1180 1204 1432 1456]
 EndPrivate
@@ -78,7 +78,7 @@ Grid
   Named: "latin-top"
 EndSplineSet
 AnchorClass2: "Anchor-0" "" 
-BeginChars: 1114577 737
+BeginChars: 1114577 739
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -15617,7 +15617,7 @@ StartChar: z1n1u2
 Encoding: 1114455 -1 460
 Width: 1920
 GlyphClass: 3
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -20232,31 +20232,33 @@ EndChar
 
 StartChar: S
 Encoding: 83 83 625
-Width: 1452
+Width: 1357
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-741 1447 m 4
- 980 1447 1194 1331 1290 1154 c 4
- 1297 1142 1302 1119 1302 1105 c 4
- 1302 1050 1257 1005 1202 1005 c 4
- 1168 1005 1128 1029 1113 1059 c 4
- 1047 1180 913 1247 738 1247 c 4
- 567 1247 323 1181 323 1020 c 4
- 323 843 665 807 833 791 c 4
- 1081 766 1352 704 1352 421 c 4
- 1352 118 1037 -13 741 -13 c 4
- 463 -13 221 101 112 309 c 4
- 105 321 100 342 100 356 c 4
- 100 411 145 456 200 456 c 4
- 234 456 274 431 289 401 c 4
- 363 259 525 186 734 186 c 4
- 909 186 1152 247 1152 420 c 4
- 1152 570 958 576 812 592 c 4
- 523 623 120 683 120 1013 c 4
- 120 1318 456 1447 741 1447 c 4
+684 1453 m 0
+ 914 1453 1118 1327 1198 1146 c 0
+ 1203 1135 1207 1117 1207 1105 c 0
+ 1207 1050 1162 1005 1107 1005 c 0
+ 1071 1005 1029 1032 1015 1065 c 0
+ 964 1180 839 1253 684 1253 c 0
+ 533 1253 318 1177 318 1025 c 0
+ 318 964 366 918 415 893 c 0
+ 588 806 835 824 1022 744 c 0
+ 1140 693 1257 589 1257 420 c 0
+ 1257 126 937 -21 682 -21 c 0
+ 421 -21 198 111 109 318 c 0
+ 104 329 100 346 100 358 c 0
+ 100 413 145 458 200 458 c 0
+ 237 458 278 431 292 397 c 0
+ 350 262 501 179 682 179 c 0
+ 851 179 1056 254 1056 420 c 0
+ 1056 490 999 536 943 560 c 0
+ 753 641 511 620 325 714 c 0
+ 219 767 117 867 117 1025 c 0
+ 117 1302 420 1453 684 1453 c 0
 EndSplineSet
 EndChar
 
@@ -21548,23 +21550,23 @@ EndChar
 
 StartChar: Sacute
 Encoding: 346 346 690
-Width: 1452
+Width: 1357
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 665 180 N 1 0 0 1 667 622 2
+Refer: 665 180 N 1 0 0 1 767 622 2
 Refer: 625 83 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Scircumflex
 Encoding: 348 348 691
-Width: 1452
+Width: 1357
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 652 94 N 1 0 0 1 330 621 2
+Refer: 652 94 N 1 0 0 1 430 621 2
 Refer: 625 83 N 1 0 0 1 0 0 3
 EndChar
 
@@ -21614,12 +21616,12 @@ EndChar
 
 StartChar: Scaron
 Encoding: 352 352 696
-Width: 1452
+Width: 1357
 VWidth: 0
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 652 94 N 1 0 0 -1 330 2977 2
+Refer: 652 94 N 1 0 0 -1 430 2977 2
 Refer: 625 83 N 1 0 0 1 0 0 3
 EndChar
 
@@ -22087,6 +22089,40 @@ LayerCount: 2
 Fore
 Refer: 652 94 N 1 0 0 1 310 633 2
 Refer: 607 65 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: endash
+Encoding: 8211 8211 737
+Width: 992
+Flags: W
+HStem: 249 109
+VStem: 107 797
+LayerCount: 2
+Fore
+SplineSet
+892 524 m 1
+ 891 404 l 1
+ 100 404 l 1
+ 101 524 l 1
+ 892 524 l 1
+EndSplineSet
+EndChar
+
+StartChar: emdash
+Encoding: 8212 8212 738
+Width: 1431
+Flags: W
+HStem: 249 109
+VStem: 107 1247
+LayerCount: 2
+Fore
+SplineSet
+1331 572 m 5
+ 1331 452 l 5
+ 100 452 l 5
+ 100 572 l 5
+ 1331 572 l 5
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
