@@ -607,7 +607,6 @@ lookup psts_vowel_signs {
     sub s1 u2  by s1u2;
     sub s1 r1  by s1r1;
     sub s1k1 u1  by s1k1u1;
-    sub s1th1 r1  by s1th1r1;
     sub s1k1k1 u1 by s1k1k1u1;
     sub s1th2 u1  by s1th2u1;
     sub s1th2 u2  by s1th2u2;
