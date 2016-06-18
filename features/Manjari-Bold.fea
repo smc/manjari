@@ -6,4 +6,4 @@ include (tables.fea)
 include (lookups-bold.fea)
 include (features.fea)
 include (regular-gpos.fea) 
- 
+include (bold-kern.fea) 

@@ -6,4 +6,4 @@ include (tables.fea)
 include (lookups.fea)
 include (features.fea)
 include (thin-gpos.fea) 
- 
+include (thin-kern.fea)  
