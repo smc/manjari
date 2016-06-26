@@ -12,6 +12,8 @@ lookup akhn_chillu {
     sub l3 xx ZWJ  by l3cil;
     sub lh xx ZWJ  by lhcil;
     sub r3 xx ZWJ  by r3cil;
+    sub y1 xx ZWJ  by y1cil;
+    sub m1 xx ZWJ  by m1cil;
 } akhn_chillu;
 
 lookup akhn_conjuncts {
@@ -139,6 +141,8 @@ lookup half_forms_mlym {
     sub l3 xx ZWJ  by l3cil;
     sub lh xx ZWJ  by lhcil;
     sub r3 xx ZWJ  by r3cil;
+    sub y1 xx ZWJ  by y1cil;
+    sub m1 xx ZWJ  by m1cil;
     sub k1 xx  by k1xx;
     sub k2 xx  by k2xx;
     sub k3 xx  by k3xx;
@@ -652,4 +656,6 @@ lookup haln_chillu {
     sub l3 xx ZWJ  by l3cil;
     sub lh xx ZWJ  by lhcil;
     sub r3 xx ZWJ  by r3cil;
+    sub y1 xx ZWJ  by y1cil;
+    sub m1 xx ZWJ  by m1cil;
 } haln_chillu;
