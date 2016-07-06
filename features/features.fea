@@ -15,12 +15,12 @@ feature akhn {
 
  script mlm2;
      language dflt ;
-      lookup akhn_chillu;
+      lookup  chillu;
       lookup akhn_conjuncts;
       lookup akhn_conditional_stacking;
  script mlym;
      language dflt ;
-      lookup akhn_chillu;
+      lookup chillu;
       lookup akhn_conjuncts;
       lookup akhn_conditional_stacking;
 } akhn;
@@ -40,6 +40,7 @@ feature half {
 
  script mlym;
      language dflt ;
+      lookup  chillu;
       lookup half_forms_mlym;
 } half;
 
@@ -82,9 +83,11 @@ feature psts {
 
  script mlm2;
      language dflt ;
+      lookup psts_vowel_signs_common;
       lookup psts_vowel_signs;
  script mlym;
      language dflt ;
+      lookup psts_vowel_signs_common;
       lookup psts_vowel_signs;
 } psts;
 
@@ -92,5 +95,5 @@ feature haln {
 
  script mlym;
      language dflt ;
-      lookup haln_chillu;
+      lookup chillu;
 } haln;

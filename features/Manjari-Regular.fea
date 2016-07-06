@@ -3,7 +3,8 @@ languagesystem mlm2 dflt;
 languagesystem mlym dflt;
 
 include (tables.fea)
-include (lookups.fea)
+include (lookups-common.fea)
+include (lookups-regular.fea)
 include (features.fea)
 include (regular-gpos.fea) 
 include (regular-kern.fea)
