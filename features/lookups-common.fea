@@ -159,7 +159,6 @@ lookup akhn_conjuncts {
     sub sh xx nh  by shnh;
     sub s1 xx th2  by s1th2;
     sub s1 xx s1  by s1s1;
-    sub s1 xx rh xx rh  by s1rhrh;
     sub h1 xx n1  by h1n1;
     sub h1 xx m1  by h1m1;
     sub lh xx lh  by lhlh;
@@ -224,6 +223,8 @@ lookup pres_reph_mlym {
     sub s1xx r3  by s1r3;
     sub s1 r4  by s1r3;
     sub h1 r4  by h1r3;
+    sub rhrh r4  by rhrhr3;
+    sub rhrh xx r3  by rhrhr3;
 } pres_reph_mlym;
 
 lookup pres_reph {
@@ -257,6 +258,7 @@ lookup pres_reph {
     sub r4 s1th1  by s1th1r3;
     sub r4 s1  by s1r3;
     sub r4 h1  by h1r3;
+    sub r4 rhrh by rhrhr3;
 } pres_reph;
 
 lookup blws_la_signs {
