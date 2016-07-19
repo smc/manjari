@@ -34,8 +34,8 @@ lookup akhn_conditional_stacking {
     sub s1' xx' th1' by s1th1;
     ignore sub y1' xx' k1k1' [u2 r1 r2];
     sub y1' xx' k1k1' by y1k1k1;
-    ignore sub s1' xx' rh' xx'' rh' [r3 r4];
-    sub s1' xx' rh' xx'' rh'  by s1rhrh;
+    ignore sub s1' xx'  rhrh' [xx];
+    sub s1' xx' rhrh'  by s1rhrh;
 } akhn_conditional_stacking;
 
 lookup psts_vowel_signs {
