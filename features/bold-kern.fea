@@ -1,10 +1,11 @@
 
-# GPOS 
+# GPOS
 lookup viramaPos {
   lookupflag 0;
     pos xx [quotesingle quotedbl] 400;
     pos xx parenleft 200;
     pos xx parenright 400;
+	pos xx exclam 200;
 } viramaPos;
 
 lookup latinPos {
@@ -26,12 +27,12 @@ feature kern {
      language dflt ;
       lookup viramaPos;
       lookup latinPos;
-      
+
  script mlm2;
      language dflt ;
       lookup viramaPos;
       lookup latinPos;
-      
+
  script mlym;
      language dflt ;
       lookup viramaPos;
@@ -40,5 +41,3 @@ feature kern {
 
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 @nomark = [  ];
-
-
