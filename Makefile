@@ -36,11 +36,16 @@ install: compile
 		install -D -m 0644 $${font}.otf ${DESTDIR}/${fontpath}/$${font}.otf;\
 	done;
 
-test: otf
-# Test the fonts
+ifeq ($(shell ls -l *.ttf 2>/dev/null | wc -l),0)
+test: ttf run-test
+else
+test: run-test
+endif
+
+run-test:
 	@for font in `echo ${fonts}`; do \
 		echo "Testing font $${font}";\
-		hb-view $${font}.otf --font-size 14 --margin 100 --line-space 1.5 --foreground=333333  --text-file tests/tests.txt --output-file tests/$${font}.pdf;\
+		hb-view $${font}.ttf --font-size 14 --margin 100 --line-space 1.5 --foreground=333333  --text-file tests/tests.txt --output-file tests/$${font}.pdf;\
 	done;
 clean:
 	@rm -rf *.otf *.ttf *.woff *.woff2 *.sfd-*
