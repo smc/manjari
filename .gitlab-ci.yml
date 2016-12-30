@@ -1,0 +1,23 @@
+image: "debian:stretch"
+
+generate-ttf:
+  stage: build
+  before_script:
+    - apt-get update -y
+    - apt-get install -y make fonttools python-fontforge
+  script:
+    - make ttf
+    - mkdir -p ttfs/
+    - mv *.ttf ttfs/
+  artifacts:
+    paths:
+    - ttfs/
+
+test:
+  stage: test
+  before_script:
+    - apt-get update -y
+    - apt-get install -y make libharfbuzz-bin
+  script:
+    - cp -r ttfs/* .
+    - make test
