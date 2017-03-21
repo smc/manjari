@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1468062752
+ModificationTime: 1490097082
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -62,10 +62,10 @@ GaspTable: 1 65535 15 1
 Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -72
+DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 609 21 8
+WinInfo: 528 24 11
 BeginPrivate: 1
 BlueValues 37 [-24 0 1072 1096 1180 1204 1432 1456]
 EndPrivate
@@ -80,7 +80,7 @@ Grid
  4096 1304 l 1028
   Named: "latin-top"
 EndSplineSet
-BeginChars: 763 765
+BeginChars: 769 771
 
 StartChar: .notdef
 Encoding: 298 -1 0
@@ -23033,6 +23033,61 @@ SplineSet
  2440.90242545 -243 2813.04101562 -59.9442983174 2813.04101562 396.041992188 c 0
  2813.04101562 661.211714898 2631.66251188 893.80078125 2373.921875 893.80078125 c 0
 EndSplineSet
+EndChar
+
+StartChar: quotesinglbase
+Encoding: 763 8218 765
+Width: 536
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 15 44 N 1 0 0 1 25 0 2
+EndChar
+
+StartChar: quoteleft
+Encoding: 764 8216 766
+Width: 456
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 765 8218 N -1 -0 0 -1 556.577 1485 2
+EndChar
+
+StartChar: quoteright
+Encoding: 765 8217 767
+Width: 456
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 766 8216 S -1 -0 0 -1 556.577 2945 2
+EndChar
+
+StartChar: quotedblleft
+Encoding: 766 8220 768
+Width: 880
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 765 8218 S -1 -0 0 -1 980.577 1485 2
+Refer: 765 8218 N -1 -0 0 -1 556.577 1485 2
+EndChar
+
+StartChar: quotedblright
+Encoding: 767 8221 769
+Width: 880
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 768 8220 S -1 0 -0 -1 980.577 2976 2
+EndChar
+
+StartChar: quotedblbase
+Encoding: 768 8222 770
+Width: 980
+Flags: HWO
+LayerCount: 2
+Fore
+Refer: 769 8221 S 1 0 0 1 0 -1490 2
 EndChar
 EndChars
 EndSplineFont

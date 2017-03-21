@@ -2,7 +2,7 @@
 # GPOS
 lookup viramaPos {
   lookupflag 0;
-    pos xx [quotesingle quotedbl] 400;
+    pos xx [quotesingle quotedbl quoteleft quoteright quotedblleft quotedblright] 400;
     pos xx parenleft 200;
     pos xx parenright 400;
 	pos xx exclam 200;
