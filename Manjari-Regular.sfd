@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1468062195
+ModificationTime: 1490089174
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -65,10 +65,10 @@ Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -72
+DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 693 21 8
+WinInfo: 144 24 11
 BeginPrivate: 1
 BlueValues 37 [-24 0 1000 1024 1180 1204 1360 1384]
 EndPrivate
@@ -21253,134 +21253,57 @@ EndChar
 
 StartChar: quoteleft
 Encoding: 8216 8216 811
-Width: 363
+Width: 365
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-246 985 m 0
- 319 985 366 924 366 851 c 0
- 366 777 308 725 234 725 c 0
- 140 725 96 805 96 900 c 0
- 96 1038 187 1175 274 1233 c 1
- 328 1185 l 1
- 286 1150 220 1085 220 1016 c 0
- 220 995 229 985 246 985 c 0
-EndSplineSet
+Refer: 812 8217 S -0.992509 -0 0 -1 464.251 2740 2
 EndChar
 
 StartChar: quoteright
 Encoding: 8217 8217 812
-Width: 367
+Width: 366
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-228 1231 m 0
- 319 1231 366 1146 366 1055 c 0
- 366 921 275 777 189 723 c 1
- 135 770 l 1
- 175 804 243 873 243 940 c 0
- 243 961 233 971 214 971 c 0
- 142 971 96 1032 96 1104 c 0
- 96 1179 153 1231 228 1231 c 0
-EndSplineSet
+Refer: 813 8218 S 1.068 0 0 0.945997 -7.86802 1359.83 2
 EndChar
 
 StartChar: quotesinglbase
 Encoding: 8218 8218 813
-Width: 464
+Width: 450
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-228 233 m 0
- 321 233 364 164 364 72 c 0
- 364 -72 279 -212 189 -273 c 1
- 135 -225 l 1
- 176 -192 243 -122 243 -56 c 0
- 243 -35 233 -24 214 -24 c 0
- 142 -24 96 35 96 107 c 0
- 96 181 154 233 228 233 c 0
-EndSplineSet
+Refer: 15 44 S 0.815781 0 0 0.942409 19.4219 -47.7019 2
 EndChar
 
 StartChar: quotedblleft
 Encoding: 8220 8220 814
-Width: 839
+Width: 829
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-252 1437 m 4
- 325 1437 370 1376 370 1303 c 4
- 370 1229 312 1177 238 1177 c 4
- 144 1177 100 1257 100 1352 c 4
- 100 1489 190 1627 277 1685 c 5
- 332 1638 l 5
- 291 1603 224 1535 224 1468 c 4
- 224 1447 233 1437 252 1437 c 4
-621 1437 m 4
- 691 1437 739 1373 739 1303 c 4
- 739 1228 682 1177 607 1177 c 4
- 514 1177 469 1258 469 1352 c 4
- 469 1487 560 1628 646 1685 c 5
- 701 1638 l 5
- 661 1604 592 1534 592 1468 c 4
- 592 1447 602 1437 621 1437 c 4
-EndSplineSet
+Refer: 811 8216 S 1 0 0 1 364 0 2
+Refer: 811 8216 S 1 0 0 1 -0.000235409 0 2
 EndChar
 
 StartChar: quotedblright
 Encoding: 8221 8221 815
-Width: 839
-Flags: HMW
+Width: 827
+Flags: HMWO
 LayerCount: 2
 Fore
-SplineSet
-232 1563 m 4
- 323 1563 370 1478 370 1387 c 4
- 370 1253 279 1109 193 1055 c 5
- 139 1102 l 5
- 179 1136 247 1205 247 1272 c 4
- 247 1293 237 1303 218 1303 c 4
- 146 1303 100 1364 100 1436 c 4
- 100 1511 157 1563 232 1563 c 4
-601 1563 m 4
- 692 1563 739 1478 739 1387 c 4
- 739 1254 648 1109 563 1055 c 5
- 507 1102 l 5
- 550 1137 615 1202 615 1272 c 4
- 615 1293 606 1303 588 1303 c 4
- 516 1303 469 1365 469 1436 c 4
- 469 1512 525 1563 601 1563 c 4
-EndSplineSet
+Refer: 814 8220 S -1 -0 0 -1 829 2743 2
 EndChar
 
 StartChar: quotedblbase
 Encoding: 8222 8222 816
-Width: 839
+Width: 828
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-237 233 m 4
- 329 233 373 164 373 72 c 4
- 373 -70 288 -213 198 -273 c 5
- 144 -225 l 5
- 184 -191 251 -123 251 -56 c 4
- 251 -35 242 -24 223 -24 c 4
- 150 -24 104 34 104 107 c 4
- 104 182 162 233 237 233 c 4
-602 233 m 4
- 693 233 739 164 739 72 c 4
- 739 -70 653 -214 563 -273 c 5
- 508 -225 l 5
- 549 -192 616 -122 616 -56 c 4
- 616 -35 607 -24 588 -24 c 4
- 516 -24 470 35 470 107 c 4
- 470 181 528 233 602 233 c 4
-EndSplineSet
+Refer: 814 8220 N -1 0 -0 -1 829 1406 2
 EndChar
 
 StartChar: bullet
