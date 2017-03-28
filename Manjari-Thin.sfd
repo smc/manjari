@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1468062424
+ModificationTime: 1490095905
 PfmFamily: 33
 TTFWeight: 100
 TTFWidth: 5
@@ -66,7 +66,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 752 16 6
+WinInfo: 416 32 14
 BeginPrivate: 1
 BlueValues 37 [-12 0 1000 1012 1180 1192 1360 1372]
 EndPrivate
@@ -79,7 +79,7 @@ Grid
  4096 1304 l 1028
   Named: "latin-top"
 EndSplineSet
-BeginChars: 840 840
+BeginChars: 846 846
 
 StartChar: .notdef
 Encoding: 348 -1 0
@@ -22361,6 +22361,62 @@ SplineSet
  2160 8 2154 9 2151 10 c 4
  1967 77 1808 260 1808 501 c 4
 EndSplineSet
+EndChar
+
+StartChar: quoteleft
+Encoding: 840 8216 840
+Width: 375
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 842 8218 S -1 -0 0 -1 475 1412 2
+EndChar
+
+StartChar: quoteright
+Encoding: 841 8217 841
+Width: 375
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 840 8216 S -1 0 -0 -1 475 2777 2
+EndChar
+
+StartChar: quotesinglbase
+Encoding: 842 8218 842
+Width: 474
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 15 44 N 1 0 0 1 0 -6 2
+EndChar
+
+StartChar: quotedblleft
+Encoding: 843 8220 843
+Width: 672
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 840 8216 N 1 0 0 1 0 0 2
+Refer: 840 8216 N 1 0 0 1 297 0 2
+EndChar
+
+StartChar: quotedblright
+Encoding: 844 8221 844
+Width: 672
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 840 8216 S -1 -0 0 -1 475 2777 2
+Refer: 840 8216 S -1 -0 0 -1 772 2777 2
+EndChar
+
+StartChar: quotedblbase
+Encoding: 845 8222 845
+Width: 772
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 844 8221 N 1 0 0 1 0 -1367 2
 EndChar
 EndChars
 EndSplineFont
