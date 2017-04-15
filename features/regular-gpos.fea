@@ -1,39 +1,39 @@
-# GPOS 
+# GPOS
 
 lookup abvm_dotreph {
   lookupflag 0;
-  markClass [dotreph ] <anchor 150 0> @Anchor0;
-  pos base [k1 k1xx k1u1 k1u2 k1r1 k1l1 k1nh k1nhu1 k1nhu2 k1r3 k1r3u1 k1r3u2 k1l3 k1l3u1 k1l3u2] <anchor 1000 0> mark @Anchor0;
-  pos base [k1k1 k1k1u1 k1k1u2 k1k1r1 k1k1r3 k1k1r3u1 k1k1r3u2] <anchor 1400 0> mark @Anchor0;
-  pos base [k1th1 k1th1u1 k1th1u2 k1th1r1 k1th1r3] <anchor 1500 0> mark @Anchor0;
-  pos base [t1 t1xx t1u1 t1u2 t1r1 t1r3 t1r3u1 t1r3u2] <anchor 550 0> mark @Anchor0;
-  pos base [t2 t2xx t2u1 t2u2] <anchor 600 0> mark @Anchor0;
-  pos base [th1 th1xx th1u1 th1u2] <anchor 900 0> mark @Anchor0;
-  pos base [th1s1 th1s1u1 th1s1u2] <anchor 1450 0> mark @Anchor0;
-  pos base [th2 th2xx th2u1 th2u2] <anchor 750 0> mark @Anchor0;
-  pos base [th1th1 th1th1u1 th1th1u2 th1th1r1 th1th1r3 th1th1r3u1 th1th1r3u2] <anchor 1500 0> mark @Anchor0;
-  pos base [th1th2 th1th2 th1th2u1 th1th2u2 th1th2r1] <anchor 1400 0> mark @Anchor0;
-  pos base [th3 th3xx th3u1 th3u2] <anchor 600 0> mark @Anchor0;
-  pos base [th3th4 th3th4u1 th3th4u2] <anchor 1200 0> mark @Anchor0;
-  pos base [k2 k2xx k2u1 k2u2 v1 v1u1 v1u2 v1v1 v1v1u1 v1v1u2] <anchor 850 0> mark @Anchor0;
-  pos base [k3 k3xx k3u1 k3u2 k3k3 k3k3r1 k3k3u1 k3k3u2] <anchor 900 0> mark @Anchor0;
-  pos base [k4 k4xx k4u1 k4u2] <anchor 1150 0> mark @Anchor0;
-  pos base [ch1 ch1xx ch1u1 ch1u2 ch1ch1 ch1ch1u1 ch1ch1u2 ch1ch2 ch2 ch2r1 ch2u1 ch2u2 ch2xx] <anchor 750 0> mark @Anchor0;
-  pos base [ch3 ch3xx ch3u1 ch3u2] <anchor 750 0> mark @Anchor0;
-  pos base [ch3ch3 ch3ch3u1 ch3ch3u2] <anchor 1500 0> mark @Anchor0;
-  pos base [nh nhu1 nhu2 nhnh nhnhu1 nhnhu2] <anchor 1350 0> mark @Anchor0;
-  pos base [p1 p1xx p1u1 p1u2 p1r3 p1r3u1 p1r3u2 p1p1 p1p1u1 p1p1u2 p1p1r1 p1p2 p1l3 p1l3u1 p1l3u2] <anchor 800 0> mark @Anchor0;
-  pos base [p2 p2xx p2u1 p2u2 p2r3 p2r3u1 p2r3u2 p2l3 p2l3u1 p2l3u2] <anchor 1000 0> mark @Anchor0;
-  pos base [p3 p3xx p3u1 p3u2 p3r3 p3r3u1 p3r3u2 p3l3 p3l3u1 p3l3u2 p3p3 p3p3u1 p3p3u2] <anchor 1200 0> mark @Anchor0;
-  pos base [m1 m1u1 m1u2 m1r1 m1r3 m1r3u1 m1r3u2] <anchor 700 0> mark @Anchor0;
-  pos base [m1m1 m1m1u1 m1m1u2] <anchor 1200 0> mark @Anchor0;
-  pos base [y1 y1xx y1u1 y1u2 y1y1 y1y1u1 y1y1u2] <anchor 900 0> mark @Anchor0;
-  pos base [l3 l3xx l3u1 l3u2 l3l3 l3l3u1 l3l3u2] <anchor 800 0> mark @Anchor0;
-  pos base [v1 v1xx v1u1 v1u2 v1r1 v1r3 v1r3u1 v1r3u2 v1v1 v1v1u1 v1v1u2 v1l3 v1l3u1 v1l3u2] <anchor 850 0> mark @Anchor0;
-  pos base [z1 z1xx z1u1 z1u2 z1r1 z1r3 z1r3u1 z1r3u2 z1z1 z1z1u1 z1z1u2] <anchor 950 0> mark @Anchor0;
-  pos base [s1 s1xx s1u1 s1u2 s1r1 s1r3 s1r3u1 s1r3u2 s1s1 s1s1u1 s1s1u2 s1th1 s1th1r3] <anchor 950 0> mark @Anchor0;
-  pos base [sh shxx shu1 shu2 shr1 sht1 sht1u1 sht1u2 sht1r3 sht2 sht2u1 sht2u2 shnh shnhu1 shnhu2] <anchor 950 0> mark @Anchor0;
-  pos base [uni25CC] <anchor 550 0> mark @Anchor0;
+  markClass [dotreph ] <anchor 150 0> @dotreph;
+  pos base [k1 k1xx k1u1 k1u2 k1r1 k1l1 k1nh k1nhu1 k1nhu2 k1r3 k1r3u1 k1r3u2 k1l3 k1l3u1 k1l3u2] <anchor 1000 0> mark @dotreph;
+  pos base [k1k1 k1k1u1 k1k1u2 k1k1r1 k1k1r3 k1k1r3u1 k1k1r3u2] <anchor 1400 0> mark @dotreph;
+  pos base [k1th1 k1th1u1 k1th1u2 k1th1r1 k1th1r3] <anchor 1500 0> mark @dotreph;
+  pos base [t1 t1xx t1u1 t1u2 t1r1 t1r3 t1r3u1 t1r3u2] <anchor 550 0> mark @dotreph;
+  pos base [t2 t2xx t2u1 t2u2] <anchor 600 0> mark @dotreph;
+  pos base [th1 th1xx th1u1 th1u2] <anchor 900 0> mark @dotreph;
+  pos base [th1s1 th1s1u1 th1s1u2] <anchor 1450 0> mark @dotreph;
+  pos base [th2 th2xx th2u1 th2u2] <anchor 750 0> mark @dotreph;
+  pos base [th1th1 th1th1u1 th1th1u2 th1th1r1 th1th1r3 th1th1r3u1 th1th1r3u2] <anchor 1500 0> mark @dotreph;
+  pos base [th1th2 th1th2 th1th2u1 th1th2u2 th1th2r1] <anchor 1400 0> mark @dotreph;
+  pos base [th3 th3xx th3u1 th3u2] <anchor 600 0> mark @dotreph;
+  pos base [th3th4 th3th4u1 th3th4u2] <anchor 1200 0> mark @dotreph;
+  pos base [k2 k2xx k2u1 k2u2 v1 v1u1 v1u2 v1v1 v1v1u1 v1v1u2] <anchor 850 0> mark @dotreph;
+  pos base [k3 k3xx k3u1 k3u2 k3k3 k3k3r1 k3k3u1 k3k3u2] <anchor 900 0> mark @dotreph;
+  pos base [k4 k4xx k4u1 k4u2] <anchor 1150 0> mark @dotreph;
+  pos base [ch1 ch1xx ch1u1 ch1u2 ch1ch1 ch1ch1u1 ch1ch1u2 ch1ch2 ch2 ch2r1 ch2u1 ch2u2 ch2xx] <anchor 750 0> mark @dotreph;
+  pos base [ch3 ch3xx ch3u1 ch3u2] <anchor 750 0> mark @dotreph;
+  pos base [ch3ch3 ch3ch3u1 ch3ch3u2] <anchor 1500 0> mark @dotreph;
+  pos base [nh nhu1 nhu2 nhnh nhnhu1 nhnhu2] <anchor 1350 0> mark @dotreph;
+  pos base [p1 p1xx p1u1 p1u2 p1r3 p1r3u1 p1r3u2 p1p1 p1p1u1 p1p1u2 p1p1r1 p1p2 p1l3 p1l3u1 p1l3u2] <anchor 800 0> mark @dotreph;
+  pos base [p2 p2xx p2u1 p2u2 p2r3 p2r3u1 p2r3u2 p2l3 p2l3u1 p2l3u2] <anchor 1000 0> mark @dotreph;
+  pos base [p3 p3xx p3u1 p3u2 p3r3 p3r3u1 p3r3u2 p3l3 p3l3u1 p3l3u2 p3p3 p3p3u1 p3p3u2] <anchor 1200 0> mark @dotreph;
+  pos base [m1 m1u1 m1u2 m1r1 m1r3 m1r3u1 m1r3u2] <anchor 700 0> mark @dotreph;
+  pos base [m1m1 m1m1u1 m1m1u2] <anchor 1200 0> mark @dotreph;
+  pos base [y1 y1xx y1u1 y1u2 y1y1 y1y1u1 y1y1u2] <anchor 900 0> mark @dotreph;
+  pos base [l3 l3xx l3u1 l3u2 l3l3 l3l3u1 l3l3u2] <anchor 800 0> mark @dotreph;
+  pos base [v1 v1xx v1u1 v1u2 v1r1 v1r3 v1r3u1 v1r3u2 v1v1 v1v1u1 v1v1u2 v1l3 v1l3u1 v1l3u2] <anchor 850 0> mark @dotreph;
+  pos base [z1 z1xx z1u1 z1u2 z1r1 z1r3 z1r3u1 z1r3u2 z1z1 z1z1u1 z1z1u2] <anchor 950 0> mark @dotreph;
+  pos base [s1 s1xx s1u1 s1u2 s1r1 s1r3 s1r3u1 s1r3u2 s1s1 s1s1u1 s1s1u2 s1th1 s1th1r3] <anchor 950 0> mark @dotreph;
+  pos base [sh shxx shu1 shu2 shr1 sht1 sht1u1 sht1u2 sht1r3 sht2 sht2u1 sht2u2 shnh shnhu1 shnhu2] <anchor 950 0> mark @dotreph;
+  pos base [uni25CC] <anchor 550 0> mark @dotreph;
 } abvm_dotreph;
 
 feature abvm {
