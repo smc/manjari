@@ -62,15 +62,44 @@ def validateGlyphs(font):
         if refs:
             glyph.references = refs
 
+        glyph.round()
+
+        # Hack, OTS rejects ligature carets!
+        glyph.lcarets = ()
+
+
+def fixGasp(font, value=15):
+    try:
+        table = font.get('gasp')
+        table.gaspRange[65535] = value
+    except:
+        print('ER: {}: no table gasp')
+
+
+def fixXAvgCharWidth(font):
+    """xAvgCharWidth should be the average of all glyph widths in the font"""
+    width_sum = 0
+    count = 0
+    for glyph_id in font['glyf'].glyphs:
+        width = font['hmtx'].metrics[glyph_id][0]
+        if width > 0:
+            count += 1
+            width_sum += width
+    if count == 0:
+        fb.error("CRITICAL: Found no glyph width data!")
+    else:
+        expected_value = int(round(width_sum) / count)
+    font['OS/2'].xAvgCharWidth = int(round(width_sum) / count)
+
 
 def opentype(infont, type, feature, version):
     font = fontforge.open(infont)
     if args.type == 'otf':
         outfont = infont.replace(".sfd", ".otf")
-        flags = ("opentype", "dummy-dsig", "round", "omit-instructions")
+        flags = ("opentype",  "round", "omit-instructions", "dummy-dsig")
     else:
         outfont = infont.replace(".sfd", ".ttf")
-        flags = ("opentype", "dummy-dsig", "round", "omit-instructions")
+        flags = ("opentype", "round", "omit-instructions", "dummy-dsig")
     print("Generating %s => %s" % (infont, outfont))
     tmpfont = mkstemp(suffix=os.path.basename(outfont))[1]
 
@@ -86,10 +115,10 @@ def opentype(infont, type, feature, version):
     font.mergeFeature(feature)
     font.version = version
     font.appendSFNTName('English (US)', 'Version',
-                        version + '.0+' + time.strftime('%Y%m%d'))
+                        'Version ' + version + '.0+' + time.strftime('%Y%m%d'))
     font.selection.all()
     font.correctReferences()
-    # font.simplify()
+    font.simplify()
     font.selection.none()
     # fix some common font issues
     validateGlyphs(font)
@@ -125,7 +154,12 @@ def opentype(infont, type, feature, version):
                 names.append(record)
 
     name.names = names
-
+    font['OS/2'].version = 4
+    # https://www.microsoft.com/typography/otspec/os2.htm#fst
+    font['OS/2'].fsType = 0
+    if args.type == 'ttf':
+        fixGasp(font)
+        fixXAvgCharWidth(font)
     # FFTM is FontForge specific, remove it
     del(font['FFTM'])
     # force compiling GPOS/GSUB tables by fontTools, saves few tens of KBs
@@ -133,7 +167,9 @@ def opentype(infont, type, feature, version):
         font[tag].compile(font)
 
     font.save(outfont)
+    font.close()
     os.remove(tmpfont)
+
 
 def webfonts(infont, type):
     font = TTFont(infont, recalcBBoxes=0)
@@ -142,7 +178,6 @@ def webfonts(infont, type):
     print("Processing %s => %s" % (infont, woffFileName))
     font.flavor = type
     font.save(woffFileName, reorderTables=False)
-
     font.close()
 
 
