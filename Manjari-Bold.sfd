@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1494081021
+ModificationTime: 1494675125
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -66,7 +66,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 192 12 5
+WinInfo: 696 12 5
 BeginPrivate: 1
 BlueValues 37 [-24 0 1072 1096 1180 1204 1432 1456]
 EndPrivate
@@ -81,7 +81,7 @@ Grid
  4096 1304 l 1028
   Named: "latin-top"
 EndSplineSet
-BeginChars: 66003 772
+BeginChars: 66003 773
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -23091,6 +23091,15 @@ Fore
 Refer: 17 46 N 1 0 0 1 828 5 2
 Refer: 17 46 N 1 0 0 1 415 4 2
 Refer: 17 46 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni00A0
+Encoding: 160 160 772
+Width: 560
+Flags: HWO
+LayerCount: 2
+Fore
+Refer: 3 32 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
