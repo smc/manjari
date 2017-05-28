@@ -4,7 +4,7 @@ fontpath=/usr/share/fonts/truetype/malayalam
 fonts=Manjari-Regular Manjari-Thin Manjari-Bold
 features=features
 PY=python2.7
-version=0.1
+version=1.1
 buildscript=tools/build.py
 default: otf
 all: compile webfonts test
