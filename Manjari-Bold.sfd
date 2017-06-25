@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1496249083
+ModificationTime: 1498398458
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -66,7 +66,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 528 24 11
+WinInfo: 204 12 5
 BeginPrivate: 1
 BlueValues 37 [-24 0 1072 1096 1180 1204 1432 1456]
 EndPrivate
@@ -81,7 +81,7 @@ Grid
  4096 1304 l 1028
   Named: "latin-top"
 EndSplineSet
-BeginChars: 66003 773
+BeginChars: 66003 776
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -1082,24 +1082,22 @@ EndChar
 
 StartChar: anuswara
 Encoding: 3330 3330 41
-Width: 822
+Width: 875
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-598 310 m 0
- 611 392 568 449 512 484 c 0
- 444 526 361 503 313 458 c 1
- 310 451 306 444 301 438 c 0
- 194 308 327 138 468 173 c 0
- 534 189 588 242 598 310 c 0
-375 691 m 1
- 557 725 704 603 757 485 c 1
- 824 339 780 188 694 93 c 0
- 608 -1 453 -61 294 5 c 0
- 176 53 55 193 76 359 c 0
- 98 539 200 652 375 691 c 1
+607 339 m 4
+ 607 426 532 506 440 506 c 4
+ 346 506 269 424 269 335 c 4
+ 269 247 347 168 437 168 c 4
+ 535 168 607 244 607 339 c 4
+443 697 m 4
+ 643 697 796 531 796 338 c 4
+ 796 139 639 -23 438 -23 c 4
+ 247 -23 80 129 80 321 c 4
+ 80 531 224 697 443 697 c 4
 EndSplineSet
 EndChar
 
@@ -23100,6 +23098,42 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 3 32 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: anuswaraabove
+Encoding: 3328 3328 773
+Width: 327
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 41 3330 S 0.694728 0 0 0.695989 -158.529 1191.05 2
+EndChar
+
+StartChar: verticalbarvirama
+Encoding: 3387 3387 774
+Width: 211
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+105 1820 m 5
+ 106 1820 l 6
+ 155 1820 211 1783 211 1727 c 5
+ 183 1160 l 5
+ 183 1112 160 1067 106 1067 c 4
+ 52 1067 30 1112 30 1160 c 5
+ 0 1727 l 5
+ 0 1783 57 1819 105 1820 c 5
+EndSplineSet
+EndChar
+
+StartChar: circularvirama
+Encoding: 3388 3388 775
+Width: 363
+Flags: HWO
+LayerCount: 2
+Fore
+Refer: 41 3330 S 0.698919 0 0 0.695989 -192.838 975.046 2
 EndChar
 EndChars
 EndSplineFont

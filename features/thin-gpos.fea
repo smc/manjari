@@ -1,8 +1,8 @@
-# GPOS 
+# GPOS
 
 lookup abvm_dotreph {
   lookupflag 0;
-  markClass [dotreph ] <anchor 150 0> @Anchor0;
+  markClass [dotreph verticalbarvirama anuswaraabove] <anchor 150 0> @Anchor0;
   pos base [k1 k1xx k1u1 k1u2 k1r1 k1l1 k1nh k1nhu1 k1nhu2 k1l3 k1l3u1 k1l3u2 ngk1 ngk1u1 ngk1u2 ngk1r1] <anchor 1050 0> mark @Anchor0;
   pos base [ngk1 ngk1u1 ngk1u2 ngk1r1] <anchor 650 0> mark @Anchor0;
   pos base [k1r3 k1r3u1 k1r3u2] <anchor 1400 0> mark @Anchor0;
