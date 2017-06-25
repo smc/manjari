@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1201144287
-ModificationTime: 1496247079
+ModificationTime: 1498393639
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -65,10 +65,10 @@ Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -128
+DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 24 24 11
+WinInfo: 231 21 8
 BeginPrivate: 1
 BlueValues 37 [-24 0 1000 1024 1180 1204 1360 1384]
 EndPrivate
@@ -83,7 +83,7 @@ Grid
  4096 1304 l 1028
   Named: "latin-top"
 EndSplineSet
-BeginChars: 66022 858
+BeginChars: 66022 861
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -22715,6 +22715,41 @@ Width: 500
 VWidth: 0
 Flags: HW
 LayerCount: 2
+EndChar
+
+StartChar: anuswaraabove
+Encoding: 3328 3328 858
+Width: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 41 3330 S 1 0 0 1 -226 1110 2
+EndChar
+
+StartChar: verticalbarvirama
+Encoding: 3387 3387 859
+Width: 352
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+178 1682 m 0
+ 217 1682 258 1651 258 1612 c 1
+ 232 1080 l 1
+ 232 1041 217 1010 178 1010 c 0
+ 139 1010 123 1041 123 1080 c 1
+ 97 1612 l 1
+ 97 1650 139 1682 178 1682 c 0
+EndSplineSet
+EndChar
+
+StartChar: circularvirama
+Encoding: 3388 3388 860
+Width: 318
+Flags: HWO
+LayerCount: 2
+Fore
+Refer: 858 3328 N 0.634259 0 0 0.614665 -0.398148 331.86 2
 EndChar
 EndChars
 EndSplineFont
