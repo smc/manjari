@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-fontpath=/usr/share/fonts/truetype/malayalam
+fontpath=/usr/share/fonts/opentype/malayalam
 fonts=Manjari-Regular Manjari-Thin Manjari-Bold
 features=features
 PY=python2.7
@@ -31,9 +31,9 @@ woff2: ttf
 		$(PY) $(buildscript) -t woff2 -i $$font.ttf;\
 	done;
 
-install: ttf
+install: otf
 	@for font in `echo ${fonts}`;do \
-		install -D -m 0644 $${font}.ttf ${DESTDIR}/${fontpath}/$${font}.ttf;\
+		install -D -m 0644 $${font}.otf ${DESTDIR}/${fontpath}/$${font}.otf;\
 	done;
 
 ifeq ($(shell ls -l *.ttf 2>/dev/null | wc -l),0)
