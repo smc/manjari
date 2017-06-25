@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-fontpath=/usr/share/fonts/truetype/malayalam
+fontpath=/usr/share/fonts/opentype/malayalam
 fonts=Manjari-Regular Manjari-Thin Manjari-Bold
 features=features
 PY=python2.7
@@ -31,7 +31,7 @@ woff2: ttf
 		$(PY) $(buildscript) -t woff2 -i $$font.ttf;\
 	done;
 
-install: compile
+install: otf
 	@for font in `echo ${fonts}`;do \
 		install -D -m 0644 $${font}.otf ${DESTDIR}/${fontpath}/$${font}.otf;\
 	done;
@@ -48,4 +48,4 @@ run-test:
 		hb-view $${font}.ttf --font-size 14 --margin 100 --line-space 1.5 --foreground=333333  --text-file tests/tests.txt --output-file tests/$${font}.pdf;\
 	done;
 clean:
-	@rm -rf *.otf *.ttf *.woff *.woff2 *.sfd-*
+	@rm -rf *.otf *.ttf *.woff *.woff2 *.sfd-* tests/*.pdf
