@@ -1,3 +1,146 @@
+Malayalam Codeblock (UNICODE 10.0)
+Various Signs
+------------
+ഀ 0D00  - Malayalam Sign Combining Anusvara Above
+ ഁ 0D01 - Malayalam Sign Chandrabindu
+ ം  0D02- MALAYALAM SIGN ANUSVARA
+ ഃ  0D03- MALAYALAM SIGN VISARGA
+
+Independent Vowels(0D05-0D14)
+-----------------
+0D05 - അ - A
+0D06 - ആ - AA
+0D07 - ഇ - I
+0D08 - ഈ - II
+0D09 - ഉ - U
+0D0A - ഊ - UU
+0D0B - ഋ - Vocalic R
+0D0C - ഌ - Vocalic L
+0D0D - reserved
+0D0E - എ - E
+0D0F - ഏ - EE
+0D10 - ഐ - AI
+0D11 - reserved
+0D12 - ഒ - O
+0D13 - ഓ - OO
+0D14 - ഔ - AU
+
+Consonants
+------------
+0D15:0D19 - ക ഖ ഗ ഘ ങ
+0D1A:0D1E - ച ഛ ജ ഝ ഞ
+0D1F:0D23 -  ട ഠ ഡ ഢ ണ
+0D24:0D28 - ത ഥ ദ ധ ന
+0D29 - ഩ
+0D2A:0D2E - പ ഫ ബ ഭ മ
+0D2F - യ
+0D30 - ര
+0D31 - റ
+0D32 - ല
+0D33 - ള
+0D34 - ഴ
+0D35 - വ
+0D36 - ശ
+0D37 - ഷ
+0D38 - സ
+0D39 - ഹ
+0D3A - ഺ
+
+Variant Shape Viramas
+-------------------
+഻ 0D3B -Malayalam Sign Vertical Bar virama
+഼ 0D3C -Malayalam Sign Circular Virama
+
+Addition for Sanskrit
+-------------------
+0D3D - ഽ - Malayalam Sign Avagraha(Praslesham)
+
+Dependent vowel signs
+-------------------
+ ാ 0D3E
+ ി 0D3F
+ ീ 0D40
+ ു 0D41
+ ൂ 0D42
+ ൃ 0D43
+ ൄ 0D44
+0D45 reserved
+ െ 0D46
+ േ 0D47
+ ൈ 0D48
+
+Two-part dependent vowel signs
+----------------------------
+ ൊ 0D4A
+ ോ 0D4B
+ ൌ 0D4C
+
+Virama
+------
+ ് 0D4D
+
+Dot Reph
+-------
+ൎ 0D4E
+
+Measurement symbol
+------------------
+0D4F - ൏ - Malayalam Sign Para - measure rice
+
+Chillu Letters
+-------------
+0D54 - ൔ
+0D55 -  ൕ
+0D56 -  ൖ
+
+Dependent vowel sign
+-------------------
+ ൗ - 0D57 - AU LENGTH MARK
+
+Minor fractions
+-------------
+0D58 - ൘ - MALAYALAM FRACTION ONE ONE-HUNDRED-AND-SIXTIETH = arakaani=1/160
+0D59 - ൙ - MALAYALAM FRACTION ONE FORTIETH = aramaa=1/40
+0D5A - ൚ - MALAYALAM FRACTION THREE EIGHTIETHS= muunnukaani=3/80
+0D5B - ൛- MALAYALAM FRACTION ONE TWENTIETH= orumaa=1/20
+0D5C - ൜- MALAYALAM FRACTION ONE TENTH= rantumaa=1/10
+0D5D - ൝- MALAYALAM FRACTION THREE TWENTIETHS= muunnumaa=3/10
+0D5E - ൞ - MALAYALAM FRACTION ONE FIFTH = naalumaa=1/5
+
+Additional historic vowel
+--------------------
+0D5F -  ൟ -MALAYALAM LETTER ARCHAIC II
+
+Additional vowels for Sanskrit
+-------------------------
+0D60 - ൠ - MALAYALAM LETTER VOCALIC RR
+0D61 - ൡ - MALAYALAM LETTER VOCALIC LL
+
+Dependent vowels
+----------------
+ ൢ - 0D62 - MALAYALAM VOWEL SIGN VOCALIC L
+ ൣ - 0D63 -  MALAYALAM VOWEL SIGN VOCALIC LL
+
+Malayalam Numerals(0D66:0D6F)
+--------------------
+൦ ൧ ൨ ൩ ൪ ൫ ൬ ൭ ൮ ൯
+
+Malayalam numbers
+------------------
+0D70 ൰ MALAYALAM NUMBER TEN
+0D71 ൱ MALAYALAM NUMBER ONE HUNDRED
+0D72 ൲ MALAYALAM NUMBER ONE THOUSAND
+
+Fractions
+--------
+
+0D73 - ൳ - MALAYALAM FRACTION ONE QUARTER= kaal=1/4
+0D74 - ൴ - MALAYALAM FRACTION ONE HALF= ara=1/2
+0D75 - ൵ - MALAYALAM FRACTION THREE QUARTERS= mukkaal=3/4
+0D76 - ൶ - MALAYALAM FRACTION ONE SIXTEENTH= maakaani=1/60
+0D77- ൷ - MALAYALAM FRACTION ONE EIGHTH= arakkaal=1/8
+0D78- ൸- MALAYALAM FRACTION THREE SIXTEENTHS= muntaani=3/16
+
 ﻿Arabic Numerals
 0 1 2 3 4 5 6 7 8 9
 --------------------
