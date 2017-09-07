@@ -11,19 +11,26 @@ lookup akhn_conditional_stacking {
 
     ignore sub p1' xx' s1' [ xx u1 u2 r1 r2];
     sub p1' xx' s1'  by p1s1;
-    ignore sub s1' xx' n1' [ xx u1 u2 r1 r2];
-    sub s1' xx' n1'  by s1n1;
+
     ignore sub p3' xx' th3' [xx u1 u2 r1 r2];
     sub p3' xx' th3'  by p3th3;
-    ignore sub zh' xx' ch1' [xx u1 u2 r1 r2];
-    sub zh' xx' ch1'  by zh1ch1;
-    ignore sub s1' xx' p1' [xx u1 u2 r1 r2];
-    sub s1' xx' p1' by s1p1;
+
+		ignore sub zh' xx' ch1' [u1 u2 r1 r2 l1 l2];
+		ignore sub s1' xx' ch1' xx [ch1 r3];
+		sub zh' xx' ch1'  by zh1ch1;
+		
     ignore sub s1' xx' k1' [xx u2 r1 r2];
     sub s1' xx' k1' by s1k1;
-    ignore sub s1' xx' m1' [xx u1 u2 r1 r2];
+
+		ignore sub s1' xx' [m1 n1 p1]' [u1 u2 r1 r2 l1 l2];
+		ignore sub s1' xx' m1' xx [m1 r3];
+		ignore sub s1' xx' n1' xx [n1 r3];
+		ignore sub s1' xx' p1' xx [p1 r3];
+		sub s1' xx' p1' by s1p1;
     sub s1' xx' m1' by s1m1;
-    ignore sub s1' xx' k1k1' [xx u2 r1 r2];
+		sub s1' xx' n1'  by s1n1;
+
+		ignore sub s1' xx' k1k1' [xx u2 r1 r2];
     sub s1' xx' k1k1' by s1k1k1;
 
     ignore sub z1' xx' m1' [xx u1 u2 r1 r2];
@@ -35,6 +42,7 @@ lookup akhn_conditional_stacking {
     ignore sub y1' xx' th1' [xx u1 u2 r1 r2];
     sub y1' xx' th1' by y1th1;
     ignore sub s1' xx' th1' [u1 u2 r1 r2];
+		ignore sub s1' xx' th1' xx' r3' [u1 u2 r1 r2 l1 l2];
     sub s1' xx' th1' by s1th1;
 
     ignore sub y1' xx' k1k1' [u2 r1 r2];
