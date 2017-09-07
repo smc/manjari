@@ -3,6 +3,13 @@ lookup akhn_conditional_stacking {
     ignore sub k1' xx' s1' [ u1 u2 r1 r2 l1 l2];
     ignore sub k1' xx' s1' xx r3;
     sub k1' xx' s1'  by k1s1;
+
+		ignore sub ch1' xx' ch2' [u1 u2 r1 r2 l1 l2];
+		sub ch1' xx' ch2' by ch1ch2;
+
+		ignore sub p1' xx' p2' [u1 u2 r1 r2 l1 l2];
+		sub p1' xx' p2' by p1p2;
+
     ignore sub p1' xx' s1' [ xx u1 u2 r1 r2];
     sub p1' xx' s1'  by p1s1;
     ignore sub s1' xx' n1' [ xx u1 u2 r1 r2];
@@ -13,8 +20,6 @@ lookup akhn_conditional_stacking {
     sub zh' xx' ch1'  by zh1ch1;
     ignore sub s1' xx' p1' [xx u1 u2 r1 r2];
     sub s1' xx' p1' by s1p1;
-    ignore sub sh' xx' p1' [xx u1 u2 r1 r2];
-    sub sh' xx' p1' by sh1p1;
     ignore sub p1' xx' th1' [xx u1 u2 r1 r2];
     sub p1' xx' th1' by p1th1;
     ignore sub s1' xx' th1' [u1 u2 r1 r2];
@@ -23,8 +28,16 @@ lookup akhn_conditional_stacking {
     sub s1' xx' rhrh'  by s1rhrh;
 
 		ignore sub sh' xx' [t1 nh]' xx [t1 nh];
+		ignore sub sh' xx' t1' xx' r3' [u1 u2 r1 r2 l1 l2];
+		ignore sub sh' xx' t1' [r1 r2 l1 l2];
 		sub sh' xx' t1' by sht1;
+		sub sh' xx' t2' by sht2;
 		sub sh' xx' nh' by shnh;
+
+		ignore sub sh' xx' p1' [u1 u2 r1 r2 l1 l2];
+		ignore sub sh' xx' p1' xx [p1 r3];
+		sub sh' xx' p1' by sh1p1;
+
 } akhn_conditional_stacking;
 
 lookup psts_vowel_signs {
