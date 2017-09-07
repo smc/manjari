@@ -1,5 +1,5 @@
 lookup akhn_conditional_stacking {
-    ignore sub k1' xx' s1' [ u1 u2 r1 r2] l1 l2;
+    ignore sub k1' xx' s1' [ u1 u2 r1 r2 l1 l2];
     ignore sub k1' xx' s1' xx r3;
     sub k1' xx' s1'  by k1s1;
     ignore sub p1' xx' s1' [ xx u1 u2 r1 r2];
