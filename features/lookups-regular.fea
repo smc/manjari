@@ -1,6 +1,6 @@
-# GSUB 
+# GSUB
 lookup akhn_conditional_stacking {
-    ignore sub k1' xx' s1' [ u1 u2 r1 r2];
+    ignore sub k1' xx' s1' [ u1 u2 r1 r2 l1 l2];
     ignore sub k1' xx' s1' xx r3;
     sub k1' xx' s1'  by k1s1;
     ignore sub p1' xx' s1' [ xx u1 u2 r1 r2];
@@ -37,6 +37,10 @@ lookup akhn_conditional_stacking {
     sub y1' xx' k1k1' by y1k1k1;
     ignore sub s1' xx'  rhrh' [xx];
     sub s1' xx' rhrh'  by s1rhrh;
+
+		ignore sub sh' xx' [t1 nh]' xx [t1 nh];
+		sub sh' xx' t1' by sht1;
+		sub sh' xx' nh' by shnh;
 } akhn_conditional_stacking;
 
 lookup psts_vowel_signs {

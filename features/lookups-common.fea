@@ -154,9 +154,7 @@ lookup akhn_conjuncts {
     sub z1 xx ch1  by z1ch1;
     sub z1 xx n1  by z1n1;
     sub z1 xx z1  by z1z1;
-    sub sh xx t1  by sht1;
     sub sh xx t2  by sht2;
-    sub sh xx nh  by shnh;
     sub s1 xx th2  by s1th2;
     sub s1 xx s1  by s1s1;
     sub h1 xx n1  by h1n1;
