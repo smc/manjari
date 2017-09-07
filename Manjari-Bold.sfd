@@ -66,7 +66,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 204 12 5
+WinInfo: 192 24 9
 BeginPrivate: 1
 BlueValues 37 [-24 0 1072 1096 1180 1204 1432 1456]
 EndPrivate
@@ -22553,7 +22553,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D63
+StartChar: l2
 Encoding: 3427 3427 755
 Width: 176
 Flags: HW
@@ -23130,7 +23130,7 @@ EndChar
 StartChar: circularvirama
 Encoding: 3388 3388 775
 Width: 363
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 41 3330 S 0.698919 0 0 0.695989 -192.838 975.046 2
