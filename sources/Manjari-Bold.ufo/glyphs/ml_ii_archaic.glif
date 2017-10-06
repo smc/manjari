@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ml_ii_archaic" format="2">
+  <advance width="2646"/>
+  <unicode hex="0D5F"/>
+  <outline>
+    <component base="u_sign_drop" xScale="0.799353" yScale="0.791599" xOffset="2010.43" yOffset="737.292"/>
+    <component base="u_sign_drop" xScale="0.799353" yScale="0.791599" xOffset="58.4337" yOffset="727.292"/>
+    <component base="r3" xOffset="592.0"/>
+  </outline>
+</glyph>

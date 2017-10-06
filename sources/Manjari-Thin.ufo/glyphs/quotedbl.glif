@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedbl" format="2">
+  <advance width="547"/>
+  <unicode hex="0022"/>
+  <outline>
+    <component base="quotesingle" xOffset="243.0" yOffset="-167.0"/>
+    <component base="quotesingle" yOffset="-169.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

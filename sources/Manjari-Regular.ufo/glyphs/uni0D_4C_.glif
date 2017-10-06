@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0D4C" format="2">
+  <advance width="3206"/>
+  <unicode hex="0D4C"/>
+  <outline>
+    <component base="hyphen" xOffset="1239.0" yOffset="-36.0"/>
+    <component base="au2" xOffset="1637.0" yOffset="-3.0"/>
+    <component base="e1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

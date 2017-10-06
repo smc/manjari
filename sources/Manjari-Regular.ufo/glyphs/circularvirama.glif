@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circularvirama" format="2">
+  <advance width="318"/>
+  <unicode hex="0D3C"/>
+  <outline>
+    <component base="anuswaraabove" xScale="0.634259" yScale="0.614665" xOffset="-0.398148" yOffset="331.86"/>
+  </outline>
+</glyph>

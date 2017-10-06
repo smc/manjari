@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="th3r3u1" format="2">
+  <advance width="1675"/>
+  <outline>
+    <component base="u_sign_drop" xOffset="1030.0" yOffset="-99.0"/>
+    <component base="th3r3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
+</glyph>

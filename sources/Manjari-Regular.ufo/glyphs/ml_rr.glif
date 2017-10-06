@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ml_rr" format="2">
+  <advance width="1680"/>
+  <unicode hex="0D60"/>
+  <outline>
+    <component base="n1" xScale="0.361007" yScale="0.322177" xOffset="491.0" yOffset="-282.0"/>
+    <component base="ml_r" yOffset="3.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

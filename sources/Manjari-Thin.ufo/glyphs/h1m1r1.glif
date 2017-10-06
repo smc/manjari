@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="h1m1r1" format="2">
+  <advance width="2413"/>
+  <outline>
+    <component base="vocalic_r_sign_drop" xOffset="1309.0" yOffset="257.0"/>
+    <component base="h1m1" xOffset="1.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
+</glyph>

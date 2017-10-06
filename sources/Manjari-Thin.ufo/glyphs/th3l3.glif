@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="th3l3" format="2">
+  <advance width="1287"/>
+  <outline>
+    <component base="th3" xOffset="-1.0"/>
+    <component base="l4" xScale="0.742981" yScale="0.829468" xOffset="1242.0" yOffset="12.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

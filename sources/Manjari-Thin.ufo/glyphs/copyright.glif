@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="copyright" format="2">
+  <advance width="1275"/>
+  <unicode hex="00A9"/>
+  <outline>
+    <component base="O" xScale="0.831463" yScale="0.744259" xOffset="13.0" yOffset="-18.0"/>
+    <component base="c" xScale="0.690733" yScale="0.634875" xOffset="254.0" yOffset="177.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="degree" format="2">
+  <advance width="529"/>
+  <unicode hex="00B0"/>
+  <outline>
+    <component base="anuswara" xScale="0.648454" yScale="0.60346" xOffset="-17.0" yOffset="1003.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="mlchandrabindu" format="2">
+  <advance width="142"/>
+  <unicode hex="0D01"/>
+  <outline>
+    <component base="dotreph" xOffset="-44.0" yOffset="24.0"/>
+    <component base="xx"/>
+  </outline>
+</glyph>

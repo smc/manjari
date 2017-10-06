@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ml_oo" format="2">
+  <advance width="2277"/>
+  <unicode hex="0D13"/>
+  <outline>
+    <component base="a2" xOffset="1300.0"/>
+    <component base="ml_n"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

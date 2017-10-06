@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="braceright" format="2">
+  <advance width="667"/>
+  <unicode hex="007D"/>
+  <outline>
+    <component base="braceleft" xScale="-1.0" yScale="-1.0" xOffset="668.0" yOffset="880.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

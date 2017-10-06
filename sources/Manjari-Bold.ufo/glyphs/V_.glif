@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="V" format="2">
+  <advance width="1353"/>
+  <unicode hex="0056"/>
+  <outline>
+    <contour>
+      <point x="25.0" y="1340.0" type="curve" smooth="yes"/>
+      <point x="25.0" y="1387.0"/>
+      <point x="72.0" y="1433.0"/>
+      <point x="120.0" y="1433.0" type="curve" smooth="yes"/>
+      <point x="165.0" y="1433.0"/>
+      <point x="201.0" y="1411.0"/>
+      <point x="217.0" y="1373.0" type="curve" smooth="yes"/>
+      <point x="700.0" y="275.0" type="line"/>
+      <point x="1135.0" y="1384.0" type="line" smooth="yes"/>
+      <point x="1151.0" y="1426.0"/>
+      <point x="1188.0" y="1447.0"/>
+      <point x="1233.0" y="1447.0" type="curve" smooth="yes"/>
+      <point x="1282.0" y="1447.0"/>
+      <point x="1328.0" y="1402.0"/>
+      <point x="1328.0" y="1354.0" type="curve" smooth="yes"/>
+      <point x="1328.0" y="1336.0"/>
+      <point x="1326.0" y="1321.0"/>
+      <point x="1321.0" y="1308.0" type="curve" smooth="yes"/>
+      <point x="799.0" y="-16.0" type="line" smooth="yes"/>
+      <point x="786.0" y="-50.0"/>
+      <point x="749.0" y="-80.0"/>
+      <point x="706.0" y="-80.0" type="curve" smooth="yes"/>
+      <point x="664.0" y="-80.0"/>
+      <point x="632.0" y="-57.0"/>
+      <point x="615.0" y="-20.0" type="curve" smooth="yes"/>
+      <point x="34.0" y="1291.0" type="line" smooth="yes"/>
+      <point x="27.0" y="1305.0"/>
+      <point x="25.0" y="1322.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

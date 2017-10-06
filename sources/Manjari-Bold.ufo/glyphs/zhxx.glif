@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zhxx" format="2">
+  <advance width="1224"/>
+  <outline>
+    <component base="zh" yOffset="-15.0"/>
+    <component base="xx" xOffset="1206.0" yOffset="8.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
+</glyph>

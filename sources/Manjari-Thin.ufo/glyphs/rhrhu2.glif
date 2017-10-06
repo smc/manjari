@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rhrhu2" format="2">
+  <advance width="1345"/>
+  <outline>
+    <component base="uu_sign_drop" xScale="0.84082" yScale="0.764954" xOffset="685.0" yOffset="-521.0"/>
+    <component base="rhrh"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
+</glyph>

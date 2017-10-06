@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="l1" format="2">
+  <unicode hex="0D62"/>
+  <outline>
+    <component base="ml_l" xScale="0.730469" yScale="0.626526" xOffset="-1306.0" yOffset="-605.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ngxx" format="2">
+  <advance width="2073"/>
+  <outline>
+    <component base="ng" yOffset="10.0"/>
+    <component base="xx" xOffset="1939.0" yOffset="-2.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
+</glyph>

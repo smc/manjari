@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="verticalbarvirama" format="2">
+  <advance width="211"/>
+  <unicode hex="0D3B"/>
+  <outline>
+    <contour>
+      <point x="105.0" y="1820.0" type="curve" smooth="yes"/>
+      <point x="106.0" y="1820.0" type="line" smooth="yes"/>
+      <point x="155.0" y="1820.0"/>
+      <point x="211.0" y="1783.0"/>
+      <point x="211.0" y="1727.0" type="curve"/>
+      <point x="183.0" y="1160.0" type="line"/>
+      <point x="183.0" y="1112.0"/>
+      <point x="160.0" y="1067.0"/>
+      <point x="106.0" y="1067.0" type="curve" smooth="yes"/>
+      <point x="52.0" y="1067.0"/>
+      <point x="30.0" y="1112.0"/>
+      <point x="30.0" y="1160.0" type="curve"/>
+      <point x="0.0" y="1727.0" type="line"/>
+      <point x="0.0" y="1783.0"/>
+      <point x="57.0" y="1819.0"/>
+    </contour>
+  </outline>
+</glyph>

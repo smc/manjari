@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenright" format="2">
+  <advance width="732"/>
+  <unicode hex="0029"/>
+  <outline>
+    <component base="parenleft" xScale="-0.999023" xyScale="0.0447388" yxScale="-0.0447998" yScale="-0.999023" xOffset="751.0" yOffset="851.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="t4xx" format="2">
+  <advance width="2893"/>
+  <outline>
+    <component base="t4" xOffset="-12.0" yOffset="36.0"/>
+    <component base="xx" xOffset="2738.0" yOffset="-5.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
+</glyph>

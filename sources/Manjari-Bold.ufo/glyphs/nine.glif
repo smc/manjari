@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nine" format="2">
+  <advance width="1200"/>
+  <unicode hex="0039"/>
+  <outline>
+    <component base="six" xScale="-0.997742" xyScale="-0.0679932" yxScale="0.0679321" yScale="-0.997742" xOffset="1158.57" yOffset="1408.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

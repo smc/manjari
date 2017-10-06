@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="o2" format="2">
+  <advance width="2270"/>
+  <unicode hex="0D4B"/>
+  <outline>
+    <component base="e2"/>
+    <component base="a2" xOffset="1245.0" yOffset="6.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

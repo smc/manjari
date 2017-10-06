@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shnh" format="2">
+  <advance width="2060"/>
+  <outline>
+    <component base="_nh" xOffset="152.0"/>
+    <component base="sh" xScale="1.07416" yScale="0.991369" xOffset="-7.0" yOffset="5.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
+</glyph>

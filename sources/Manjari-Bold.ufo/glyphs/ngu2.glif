@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ngu2" format="2">
+  <advance width="2204"/>
+  <outline>
+    <component base="uu_sign_drop" xOffset="1451.0" yOffset="132.0"/>
+    <component base="ng"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
+</glyph>

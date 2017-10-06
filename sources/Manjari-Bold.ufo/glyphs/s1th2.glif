@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="s1th2" format="2">
+  <advance width="3588"/>
+  <outline>
+    <component base="th2_half" xScale="1.02539" yScale="1.01062" xOffset="1934.0" yOffset="-10.0"/>
+    <component base="s1" yScale="0.988449" yOffset="8.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="th4r1" format="2">
+  <advance width="2043"/>
+  <outline>
+    <component base="th4"/>
+    <component base="vocalic_r_sign_drop" xOffset="938.0" yOffset="301.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
+</glyph>

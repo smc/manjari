@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c" format="2">
+  <advance width="1073"/>
+  <unicode hex="0063"/>
+  <outline>
+    <contour>
+      <point x="80.0" y="505.0" type="curve" smooth="yes"/>
+      <point x="80.0" y="780.0"/>
+      <point x="294.0" y="1020.0"/>
+      <point x="569.0" y="1020.0" type="curve" smooth="yes"/>
+      <point x="770.0" y="1020.0"/>
+      <point x="923.0" y="895.0"/>
+      <point x="989.0" y="750.0" type="curve" smooth="yes"/>
+      <point x="991.0" y="746.0"/>
+      <point x="992.0" y="739.0"/>
+      <point x="992.0" y="734.0" type="curve" smooth="yes"/>
+      <point x="992.0" y="713.0"/>
+      <point x="976.0" y="697.0"/>
+      <point x="955.0" y="697.0" type="curve" smooth="yes"/>
+      <point x="941.0" y="697.0"/>
+      <point x="925.0" y="707.0"/>
+      <point x="920.0" y="719.0" type="curve" smooth="yes"/>
+      <point x="865.0" y="840.0"/>
+      <point x="737.0" y="945.0"/>
+      <point x="569.0" y="945.0" type="curve" smooth="yes"/>
+      <point x="336.0" y="945.0"/>
+      <point x="155.0" y="740.0"/>
+      <point x="155.0" y="505.0" type="curve" smooth="yes"/>
+      <point x="155.0" y="270.0"/>
+      <point x="336.0" y="63.0"/>
+      <point x="570.0" y="63.0" type="curve" smooth="yes"/>
+      <point x="738.0" y="63.0"/>
+      <point x="867.0" y="168.0"/>
+      <point x="922.0" y="289.0" type="curve" smooth="yes"/>
+      <point x="927.0" y="301.0"/>
+      <point x="942.0" y="311.0"/>
+      <point x="956.0" y="311.0" type="curve" smooth="yes"/>
+      <point x="977.0" y="311.0"/>
+      <point x="994.0" y="295.0"/>
+      <point x="994.0" y="274.0" type="curve" smooth="yes"/>
+      <point x="994.0" y="269.0"/>
+      <point x="992.0" y="262.0"/>
+      <point x="990.0" y="258.0" type="curve" smooth="yes"/>
+      <point x="924.0" y="113.0"/>
+      <point x="771.0" y="-12.0"/>
+      <point x="570.0" y="-12.0" type="curve" smooth="yes"/>
+      <point x="294.0" y="-12.0"/>
+      <point x="80.0" y="229.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

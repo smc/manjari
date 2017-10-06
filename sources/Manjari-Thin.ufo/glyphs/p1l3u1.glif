@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="p1l3u1" format="2">
+  <advance width="1749"/>
+  <outline>
+    <component base="u_sign_drop" xScale="0.886047" yScale="0.742126" xOffset="1178.0" yOffset="-422.0"/>
+    <component base="p1l3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
+</glyph>

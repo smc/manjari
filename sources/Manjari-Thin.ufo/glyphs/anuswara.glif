@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="anuswara" format="2">
+  <advance width="798"/>
+  <unicode hex="0D02"/>
+  <outline>
+    <contour>
+      <point x="399.0" y="587.0" type="curve" smooth="yes"/>
+      <point x="564.0" y="587.0"/>
+      <point x="698.0" y="453.0"/>
+      <point x="698.0" y="288.0" type="curve" smooth="yes"/>
+      <point x="698.0" y="123.0"/>
+      <point x="564.0" y="-11.0"/>
+      <point x="399.0" y="-11.0" type="curve" smooth="yes"/>
+      <point x="234.0" y="-11.0"/>
+      <point x="100.0" y="123.0"/>
+      <point x="100.0" y="288.0" type="curve" smooth="yes"/>
+      <point x="100.0" y="453.0"/>
+      <point x="234.0" y="587.0"/>
+    </contour>
+    <contour>
+      <point x="399.0" y="512.0" type="curve" smooth="yes"/>
+      <point x="275.0" y="512.0"/>
+      <point x="175.0" y="412.0"/>
+      <point x="175.0" y="288.0" type="curve" smooth="yes"/>
+      <point x="175.0" y="164.0"/>
+      <point x="275.0" y="64.0"/>
+      <point x="399.0" y="64.0" type="curve" smooth="yes"/>
+      <point x="523.0" y="64.0"/>
+      <point x="623.0" y="164.0"/>
+      <point x="623.0" y="288.0" type="curve" smooth="yes"/>
+      <point x="623.0" y="412.0"/>
+      <point x="523.0" y="512.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

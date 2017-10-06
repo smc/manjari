@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ml_au" format="2">
+  <advance width="2627"/>
+  <unicode hex="0D14"/>
+  <outline>
+    <component base="au2" xScale="0.900881" yScale="1.04372" xOffset="1218.0" yOffset="-27.0"/>
+    <component base="ml_n"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

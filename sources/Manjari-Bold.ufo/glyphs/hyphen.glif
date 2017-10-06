@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen" format="2">
+  <advance width="1162"/>
+  <unicode hex="002D"/>
+  <outline>
+    <contour>
+      <point x="200.0" y="674.0" type="curve" smooth="yes"/>
+      <point x="963.0" y="674.0" type="line" smooth="yes"/>
+      <point x="1018.0" y="674.0"/>
+      <point x="1063.0" y="629.0"/>
+      <point x="1063.0" y="574.0" type="curve" smooth="yes"/>
+      <point x="1063.0" y="519.0"/>
+      <point x="1018.0" y="474.0"/>
+      <point x="963.0" y="474.0" type="curve" smooth="yes"/>
+      <point x="200.0" y="474.0" type="line" smooth="yes"/>
+      <point x="145.0" y="474.0"/>
+      <point x="100.0" y="519.0"/>
+      <point x="100.0" y="574.0" type="curve" smooth="yes"/>
+      <point x="100.0" y="629.0"/>
+      <point x="145.0" y="674.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

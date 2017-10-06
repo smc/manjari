@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shr1" format="2">
+  <advance width="1938"/>
+  <outline>
+    <component base="vocalic_r_sign_drop" xOffset="774.0" yOffset="336.0"/>
+    <component base="sh"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="njxx" format="2">
+  <advance width="2517"/>
+  <outline>
+    <component base="nj"/>
+    <component base="xx" xOffset="2552.0" yOffset="-21.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
+</glyph>

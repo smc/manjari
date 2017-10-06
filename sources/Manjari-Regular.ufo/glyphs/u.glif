@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u" format="2">
+  <advance width="1087"/>
+  <unicode hex="0075"/>
+  <outline>
+    <component base="n" xScale="-1.0" yScale="-1.0" xOffset="1087.0" yOffset="1001.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

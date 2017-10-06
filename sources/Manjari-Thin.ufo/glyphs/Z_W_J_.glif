@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ZWJ" format="2">
+  <advance width="281"/>
+  <unicode hex="200D"/>
+  <outline>
+    <contour>
+      <point x="140.0" y="1157.0" type="line"/>
+      <point x="61.0" y="1003.0" type="line"/>
+      <point x="0.0" y="1003.0" type="line"/>
+      <point x="110.0" y="1204.0" type="line"/>
+      <point x="8.0" y="1387.0" type="line"/>
+      <point x="73.0" y="1387.0" type="line"/>
+      <point x="119.0" y="1298.0" type="line" smooth="yes"/>
+      <point x="123.0" y="1291.0"/>
+      <point x="129.0" y="1276.0"/>
+      <point x="139.0" y="1254.0" type="curve"/>
+      <point x="212.0" y="1387.0" type="line"/>
+      <point x="276.0" y="1387.0" type="line"/>
+      <point x="171.0" y="1207.0" type="line"/>
+      <point x="281.0" y="1003.0" type="line"/>
+      <point x="220.0" y="1003.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="106.0" y="930.0" type="line"/>
+      <point x="166.0" y="930.0" type="line"/>
+      <point x="166.0" y="-12.0" type="line"/>
+      <point x="106.0" y="-12.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ZWNJ" format="2">
+  <advance width="321"/>
+  <unicode hex="200C"/>
+  <outline>
+    <contour>
+      <point x="66.0" y="992.0" type="line"/>
+      <point x="225.0" y="992.0" type="line"/>
+      <point x="225.0" y="3.0" type="line"/>
+      <point x="66.0" y="3.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseglyph</string>
+    </dict>
+  </lib>
+</glyph>

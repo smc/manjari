@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nht2" format="2">
+  <advance width="2774"/>
+  <outline>
+    <contour>
+      <point x="2300.0" y="-621.0" type="curve" smooth="yes"/>
+      <point x="2433.0" y="-621.0"/>
+      <point x="2525.0" y="-519.0"/>
+      <point x="2525.0" y="-398.0" type="curve" smooth="yes"/>
+      <point x="2525.0" y="-293.0"/>
+      <point x="2446.0" y="-174.0"/>
+      <point x="2305.0" y="-174.0" type="curve" smooth="yes"/>
+      <point x="2178.0" y="-174.0"/>
+      <point x="2075.0" y="-265.0"/>
+      <point x="2075.0" y="-397.0" type="curve" smooth="yes"/>
+      <point x="2075.0" y="-526.0"/>
+      <point x="2175.0" y="-621.0"/>
+    </contour>
+    <contour>
+      <point x="1906.0" y="-408.0" type="curve" smooth="yes"/>
+      <point x="1906.0" y="-181.0"/>
+      <point x="2078.0" y="-4.0"/>
+      <point x="2302.0" y="-4.0" type="curve" smooth="yes"/>
+      <point x="2305.0" y="-4.0" type="line" smooth="yes"/>
+      <point x="2519.0" y="-4.0"/>
+      <point x="2695.0" y="-184.0"/>
+      <point x="2695.0" y="-397.0" type="curve" smooth="yes"/>
+      <point x="2695.0" y="-616.0"/>
+      <point x="2516.0" y="-793.0"/>
+      <point x="2297.0" y="-793.0" type="curve" smooth="yes"/>
+      <point x="2093.0" y="-793.0"/>
+      <point x="1906.0" y="-616.0"/>
+    </contour>
+    <component base="nh"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
+</glyph>

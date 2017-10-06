@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nju2" format="2">
+  <advance width="2554"/>
+  <outline>
+    <component base="uu_sign_drop" xScale="1.10072" yScale="0.986102" xOffset="1910.0" yOffset="126.0"/>
+    <component base="nj" xOffset="1.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
+</glyph>

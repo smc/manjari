@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="m1l3" format="2">
+  <advance width="1423"/>
+  <outline>
+    <component base="m1"/>
+    <component base="l4" xScale="0.865804" yScale="0.951355" xOffset="1413.0" yOffset="1.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>baseligature</string>
+    </dict>
+  </lib>
+</glyph>
