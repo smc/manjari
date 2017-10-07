@@ -4,7 +4,8 @@ generate-ttf:
   stage: build
   before_script:
     - apt-get update -y
-    - apt-get install -y make fonttools python-fontforge
+    - apt-get install -y make python3-pip
+    - pip3 install -r requirements.txt
   script:
     - make ttf
     - mkdir -p ttfs/
