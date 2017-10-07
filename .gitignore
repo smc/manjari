@@ -1,0 +1,4 @@
+build/*
+tests/*.pdf
+tests/*.html
+.directory

@@ -2,33 +2,34 @@
 
 fontpath=/usr/share/fonts/opentype/malayalam
 fonts=Manjari-Regular Manjari-Thin Manjari-Bold
-features=features
-PY=python2.7
-version=1.2
+PY=python3
+version=`cat VERSION`
 buildscript=tools/build.py
-default: otf
+webfontscript=tools/webfonts.py
+sources=sources
+builddir=build
+default: compile
 all: compile webfonts test
-compile: ttf otf
+compile: otf ttf
 otf:
+	@mkdir -p $(builddir)
 	@for font in `echo ${fonts}`;do \
-		$(PY) $(buildscript) -t otf -i $$font.sfd -f $(features)/$$font.fea -v $(version);\
+		$(PY) $(buildscript) -t otf -i $(sources)/$$font.ufo -v $(version);\
+		mv master_otf/*.otf $(builddir)/;\
 	done;
-
+	@rm -rf  master_otf
 ttf:
+	@mkdir -p $(builddir)
 	@for font in `echo ${fonts}`;do \
-		$(PY) $(buildscript) -t ttf -i $$font.sfd -f $(features)/$$font.fea -v $(version);\
+		$(PY) $(buildscript) -t ttf -i $(sources)/$$font.ufo -v $(version);\
+		mv master_ttf/*.ttf $(builddir)/;\
 	done;
+	@rm -rf master_ttf
 
-webfonts:woff woff2
-woff: ttf
+webfonts: ttf
 	@rm -rf *.woff
 	@for font in `echo ${fonts}`;do \
-		$(PY) $(buildscript) -t woff -i $$font.ttf;\
-	done;
-woff2: ttf
-	@rm -rf *.woff2
-	@for font in `echo ${fonts}`;do \
-		$(PY) $(buildscript) -t woff2 -i $$font.ttf;\
+		$(PY) $(webfontscript) -i $(builddir)/$$font.ttf;\
 	done;
 
 install: otf
@@ -36,7 +37,7 @@ install: otf
 		install -D -m 0644 $${font}.otf ${DESTDIR}/${fontpath}/$${font}.otf;\
 	done;
 
-ifeq ($(shell ls -l *.ttf 2>/dev/null | wc -l),0)
+ifeq ($(shell ls -l $(builddir)/*.ttf 2>/dev/null | wc -l),0)
 test: ttf run-test
 else
 test: run-test
@@ -45,7 +46,7 @@ endif
 run-test:
 	@for font in `echo ${fonts}`; do \
 		echo "Testing font $${font}";\
-		hb-view $${font}.ttf --font-size 14 --margin 100 --line-space 1.5 --foreground=333333  --text-file tests/tests.txt --output-file tests/$${font}.pdf;\
+		hb-view $(builddir)/$${font}.ttf --font-size 14 --margin 100 --line-space 1.5 --foreground=333333  --text-file tests/tests.txt --output-file tests/$${font}.pdf;\
 	done;
 clean:
-	@rm -rf *.otf *.ttf *.woff *.woff2 *.sfd-* tests/*.pdf
+	@rm -rf $(builddir)/*.* tests/*.pdf
