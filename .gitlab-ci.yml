@@ -8,11 +8,9 @@ generate-ttf:
     - pip3 install -r requirements.txt
   script:
     - make ttf
-    - mkdir -p ttfs/
-    - mv *.ttf ttfs/
   artifacts:
     paths:
-    - ttfs/
+    - build/
 
 test:
   stage: test
@@ -20,5 +18,4 @@ test:
     - apt-get update -y
     - apt-get install -y make libharfbuzz-bin
   script:
-    - cp -r ttfs/* .
     - make test
