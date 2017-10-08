@@ -7,6 +7,8 @@ from defcon import Font
 from fontTools.ttLib import TTFont
 from fontTools.ttx import makeOutputFileName
 from fontmake.font_project import FontProject
+from mutatorMath.ufo.document import DesignSpaceDocumentReader
+
 
 def setInfo(info, version):
     """Sets various font metadata fields."""
@@ -25,24 +27,32 @@ def setInfo(info, version):
 
 
 def build(args):
-    print("Generating %s from %s" % (args.output_type, args.ufo) )
-    if args.output_type == 'otf' or args.output_type == 'ttf':
-        ufo = Font(args.ufo)
+    designspace = args.designspace
+    reader = DesignSpaceDocumentReader(designspace, ufoVersion=3)
+    ufoPaths = reader.getSourcePaths()
+    ufos = []
+    for ufoPath in ufoPaths:
+        ufo = Font(ufoPath)
         setInfo(ufo.info, args.version)
-        project = FontProject(verbose="WARNING")
-        project.run_from_ufos([ufo],
-                              output=args.output_type,
-                              remove_overlaps=True,
-                              reverse_direction=True,
-                              subroutinize=True
-                              )
+        ufos.append(ufo)
+
+    project = FontProject()
+    project.run_from_ufos(ufos,
+                          output=args.output_type,
+                          remove_overlaps=True,
+                          reverse_direction=True,
+                          subroutinize=True
+                          )
 
 
 def main():
     parser = argparse.ArgumentParser(description="Build fonts.")
-    parser.add_argument( "-i", "--ufo", metavar="ufodir", help="UFO Source directory", required=True)
-    parser.add_argument( "-t", "--output-type", metavar="type", help="Output format. otf or ttf", required=True)
-    parser.add_argument( "-v", "--version", metavar="version", help="version number", required=True)
+    parser.add_argument(
+        "-d", "--designspace", metavar="designspace", help="Designspace file", required=True)
+    parser.add_argument("-t", "--output-type", metavar="type",
+                        help="Output format. otf or ttf", required=True)
+    parser.add_argument(
+        "-v", "--version", metavar="version", help="version number", required=True)
 
     args = parser.parse_args()
 

@@ -1,41 +1,33 @@
 #!/usr/bin/make -f
 
 fontpath=/usr/share/fonts/opentype/malayalam
-fonts=Manjari-Regular Manjari-Thin Manjari-Bold
 PY=python3
 version=`cat VERSION`
 buildscript=tools/build.py
 webfontscript=tools/webfonts.py
-sources=sources
+designspace=sources/Manjari.designspace
 builddir=build
 default: compile
-all: compile webfonts test
+all: clean compile webfonts test
 compile: otf ttf
 otf:
 	@mkdir -p $(builddir)
-	@for font in `echo ${fonts}`;do \
-		$(PY) $(buildscript) -t otf -i $(sources)/$$font.ufo -v $(version);\
-		mv master_otf/*.otf $(builddir)/;\
-	done;
-	@rm -rf  master_otf
+	@$(PY) $(buildscript) -t otf -d $(designspace) -v $(version)
+	@mv master_otf/*.otf $(builddir)/
+	@rm -rf master_otf
 ttf:
 	@mkdir -p $(builddir)
-	@for font in `echo ${fonts}`;do \
-		$(PY) $(buildscript) -t ttf -i $(sources)/$$font.ufo -v $(version);\
-		mv master_ttf/*.ttf $(builddir)/;\
-	done;
+	@$(PY) $(buildscript) -t ttf -d $(designspace) -v $(version)
+	@mv master_ttf/*.ttf $(builddir)/
 	@rm -rf master_ttf
 
 webfonts: ttf
-	@rm -rf *.woff
-	@for font in `echo ${fonts}`;do \
-		$(PY) $(webfontscript) -i $(builddir)/$$font.ttf;\
+	@for font in $(builddir)/*.ttf; do \
+		$(PY) $(webfontscript) -i $${font};\
 	done;
 
 install: otf
-	@for font in `echo ${fonts}`;do \
-		install -D -m 0644 $${font}.otf ${DESTDIR}/${fontpath}/$${font}.otf;\
-	done;
+	install -D -m 0644 $(builddir)/*.otf ${DESTDIR}/${fontpath}/
 
 ifeq ($(shell ls -l $(builddir)/*.ttf 2>/dev/null | wc -l),0)
 test: ttf run-test
@@ -44,9 +36,10 @@ test: run-test
 endif
 
 run-test:
-	@for font in `echo ${fonts}`; do \
+	@for font in $(builddir)/*.ttf; do \
 		echo "Testing font $${font}";\
-		hb-view $(builddir)/$${font}.ttf --font-size 14 --margin 100 --line-space 1.5 --foreground=333333  --text-file tests/tests.txt --output-file tests/$${font}.pdf;\
+		hb-view $${font} --font-size 14 --margin 100 --line-space 1.5 --foreground=333333  --text-file tests/tests.txt --output-file $${font%.ttf}.pdf;\
 	done;
+
 clean:
-	@rm -rf $(builddir)/*.* tests/*.pdf
+	@rm -rf $(builddir)/*.*
