@@ -1,13 +1,13 @@
 image: "debian:stretch"
 
-generate-ttf:
+build:
   stage: build
   before_script:
     - apt-get update -y
     - apt-get install -y make python3-pip
     - pip3 install -r requirements.txt
   script:
-    - make ttf
+    - make compile webfonts
   artifacts:
     paths:
     - build/
