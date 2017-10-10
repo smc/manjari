@@ -1,2 +1,2 @@
-git+https://github.com/google/brotli@v1.0.0#egg=Brotli
+Brotli>=0.6.0
 fontmake==1.3.0
