@@ -29,16 +29,16 @@ webfonts: ttf
 install: otf
 	install -D -m 0644 $(builddir)/*.otf ${DESTDIR}/${fontpath}/
 
-ifeq ($(shell ls -l $(builddir)/*.ttf 2>/dev/null | wc -l),0)
-test: ttf run-test
+ifeq ($(shell ls -l $(builddir)/*.otf 2>/dev/null | wc -l),0)
+test: otf run-test
 else
 test: run-test
 endif
 
 run-test:
-	@for font in $(builddir)/*.ttf; do \
+	@for font in $(builddir)/*.otf; do \
 		echo "Testing font $${font}";\
-		hb-view $${font} --font-size 14 --margin 100 --line-space 1.5 --foreground=333333  --text-file tests/tests.txt --output-file $${font%.ttf}.pdf;\
+		hb-view $${font} --font-size 14 --margin 100 --line-space 1.5 --foreground=333333  --text-file tests/tests.txt --output-file $${font%.otf}.pdf;\
 	done;
 
 clean:
