@@ -200,8 +200,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>openTypeOS2SuperscriptYSize</key>
 	<integer>1433</integer>
 	<key>openTypeOS2Type</key>
-	<array>
-	</array>
+	<array/>
 	<key>openTypeOS2TypoAscender</key>
 	<integer>1500</integer>
 	<key>openTypeOS2TypoDescender</key>
@@ -230,26 +229,21 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		<real>1384.0</real>
 	</array>
 	<key>postscriptFamilyBlues</key>
-	<array>
-	</array>
+	<array/>
 	<key>postscriptFamilyOtherBlues</key>
-	<array>
-	</array>
+	<array/>
 	<key>postscriptFontName</key>
 	<string>Manjari-Regular</string>
 	<key>postscriptFullName</key>
 	<string>Manjari Regular</string>
 	<key>postscriptOtherBlues</key>
-	<array>
-	</array>
+	<array/>
 	<key>postscriptSlantAngle</key>
 	<real>0.0</real>
 	<key>postscriptStemSnapH</key>
-	<array>
-	</array>
+	<array/>
 	<key>postscriptStemSnapV</key>
-	<array>
-	</array>
+	<array/>
 	<key>postscriptUnderlinePosition</key>
 	<real>-600.0</real>
 	<key>postscriptUnderlineThickness</key>
