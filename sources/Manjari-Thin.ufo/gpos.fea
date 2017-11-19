@@ -3,10 +3,10 @@
 lookup abvm_dotreph {
   lookupflag 0;
   markClass [dotreph verticalbarvirama anuswaraabove] <anchor 150 0> @Anchor0;
-  pos base [k1 k1xx k1u1 k1u2 k1r1 k1l1 k1nh k1nhu1 k1nhu2 k1l3 k1l3u1 k1l3u2 ngk1 ngk1u1 ngk1u2 ngk1r1] <anchor 1050 0> mark @Anchor0;
+  pos base [k1 k1xx k1u1 k1u2 k1r1 k1l1 k1nh k1nhu1 k1nhu2 k1l3 k1l3u1 k1l3u2 ngk1 ngk1u1 ngk1u2 ngk1r1 k1s1] <anchor 1050 0> mark @Anchor0;
   pos base [ngk1 ngk1u1 ngk1u2 ngk1r1] <anchor 650 0> mark @Anchor0;
   pos base [k1r3 k1r3u1 k1r3u2] <anchor 1400 0> mark @Anchor0;
-  pos base [k1k1 k1k1u1 k1k1u2 k1k1r1] <anchor 1500 0> mark @Anchor0;
+  pos base [k1k1 k1k1u1 k1k1u2 k1k1r1 k1sh k1shu1 k1shu2] <anchor 1500 0> mark @Anchor0;
   pos base [k1k1r3 k1k1r3u1 k1k1r3u2] <anchor 1450 0> mark @Anchor0;
   pos base [k1th1 k1th1u1 k1th1u2 k1th1r1] <anchor 1600 0> mark @Anchor0;
   pos base [k1th1r3] <anchor 1950 0> mark @Anchor0;
