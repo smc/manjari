@@ -29,8 +29,13 @@ lookup abvm_dotreph {
   pos base [n1n1 n1n1u1 n1n1u2 n1n1r1 n1n1r3 n1n1r3u1 n1n1r3u2] <anchor 1500 0> mark @Anchor0;
   pos base [njch1 njch1u1 njch1u2] <anchor 1000 0> mark @Anchor0;
   pos base [k2 k2xx k2u1 k2u2 v1 v1u1 v1u2 v1v1 v1v1u1 v1v1u2] <anchor 800 0> mark @Anchor0;
-  pos base [k3 k3xx k3u1 k3u2 k3k3 k3k3r1 k3k3u1 k3k3u2] <anchor 1000 0> mark @Anchor0;
+  pos base [k3 k3xx k3u1 k3u2 k3k3 k3k3r1 k3k3u1 k3k3u2 k3th3 k3th3u1 k3th3u2 k3m1 k3m1u1 k3m1u2] <anchor 1000 0> mark @Anchor0;
+	pos base [k3n1 k3n1u1 k3n1u2 k3r3 k3r3u1 k3r3u2] <anchor 1430 0> mark @Anchor0;
+	pos base [k3th3th4 k3th3th4u1 k3th3th4u2] <anchor 1960 0> mark @Anchor0;
   pos base [k4 k4xx k4u1 k4u2] <anchor 1550 0> mark @Anchor0;
+	pos base [ng ngu1 ngu2] <anchor 1100 0> mark @Anchor0;
+	pos base [ngk1 ngk1u1 ngk1u2 ngk1r1] <anchor 690 0> mark @Anchor0;
+	pos base [ngng ngngu1 ngngu2] <anchor 1650 0> mark @Anchor0;
   pos base [ch1 ch1xx ch1u1 ch1u2 ch1ch1 ch1ch1u1 ch1ch1u2 ch1ch2 ch2 ch2u1 ch2u2 ch2xx] <anchor 750 0> mark @Anchor0;
   pos base [ch3 ch3xx ch3u1 ch3u2] <anchor 850 0> mark @Anchor0;
   pos base [ch3ch3 ch3ch3u1 ch3ch3u2] <anchor 1600 0> mark @Anchor0;
