@@ -63,8 +63,8 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="0.64049814"
-     inkscape:cx="-182.26124"
-     inkscape:cy="1242.9874"
+     inkscape:cx="-616.41009"
+     inkscape:cy="1215.3589"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:current-layer="layer1"
@@ -133,6 +133,18 @@
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        d="m 734.82812,419.64258 c -86.00583,0 -156.26171,-70.25784 -156.26171,-156.26367 0,-86.00584 70.25588,-156.26368 156.26171,-156.26368 86.00584,0 156.26368,70.25784 156.26368,156.26368 0,86.00583 -70.25784,156.26367 -156.26368,156.26367 z m 0,-50 c 58.98383,0 106.26368,-47.27985 106.26368,-106.26367 0,-58.98383 -47.27985,-106.26368 -106.26368,-106.26368 -58.98382,0 -106.26171,47.27985 -106.26171,106.26368 0,58.98382 47.27789,106.26367 106.26171,106.26367 z"
        id="path5943-1-9-1"
+       inkscape:connector-curvature="0" />
+    <circle
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:90;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5943-1-3"
+       cx="-402.7019"
+       cy="-243.16875"
+       r="124.68183"
+       transform="scale(1,-1)" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:90;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m -1242.7012,388.84961 c -93.1797,0 -169.6816,-76.50196 -169.6816,-169.68164 0,-93.17968 76.5019,-169.681642 169.6816,-169.681642 93.1797,0 169.6817,76.501962 169.6817,169.681642 0,93.17968 -76.502,169.68164 -169.6817,169.68164 z m 0,-90 c 44.5401,0 79.6817,-35.14157 79.6817,-79.68164 0,-44.54007 -35.1416,-79.68164 -79.6817,-79.68164 -44.54,0 -79.6816,35.14157 -79.6816,79.68164 0,44.54007 35.1416,79.68164 79.6816,79.68164 z"
+       id="path5943-1-3-5"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
