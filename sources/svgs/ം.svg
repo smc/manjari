@@ -13,7 +13,7 @@
    height="2048"
    id="svg2992"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.0 r15299"
    sodipodi:docname="ം.svg">
   <defs
      id="defs5498">
@@ -51,8 +51,8 @@
        is_visible="true" />
   </defs>
   <sodipodi:namedview
-     inkscape:window-height="704"
-     inkscape:window-width="1366"
+     inkscape:window-height="1685"
+     inkscape:window-width="3200"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -62,17 +62,18 @@
      showgrid="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="0.080062268"
-     inkscape:cx="-2601.4039"
-     inkscape:cy="2839.7119"
-     inkscape:window-x="-4"
+     inkscape:zoom="0.64049814"
+     inkscape:cx="-182.26124"
+     inkscape:cy="1242.9874"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:current-layer="layer1"
      inkscape:window-maximized="1">
     <sodipodi:guide
        orientation="horizontal"
        position="0,600"
-       id="guide5596" />
+       id="guide5596"
+       inkscape:locked="false" />
     <inkscape:grid
        type="xygrid"
        id="grid3769"
@@ -80,14 +81,17 @@
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true"
-       spacingx="4px"
+       spacingx="4"
        units="px"
        dotted="true"
-       spacingy="4px" />
+       spacingy="4"
+       originx="0"
+       originy="0" />
     <sodipodi:guide
        orientation="0,1"
        position="-1040,1600"
-       id="guide2985" />
+       id="guide2985"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata5594">
@@ -109,13 +113,26 @@
     <circle
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path5943-1"
-       cx="1251.0475"
-       cy="103.15123"
-       r="261.67709" />
+       cx="-688.06818"
+       cy="377.72449"
+       r="261.67709"
+       transform="scale(1,-1)" />
     <path
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        d="m -2012.9531,-196.02539 c -164.7868,0 -299.1758,134.389008 -299.1758,299.17578 0,164.78677 134.389,299.17774 299.1758,299.17773 164.7867,0 299.1777,-134.39096 299.1777,-299.17773 0,-164.786772 -134.391,-299.17578 -299.1777,-299.17578 z m 0,75 c 124.2537,0 224.1777,99.922017 224.1777,224.17578 0,124.25376 -99.924,224.17774 -224.1777,224.17773 -124.2538,0 -224.1758,-99.92397 -224.1758,-224.17773 0,-124.253763 99.922,-224.17578 224.1758,-224.17578 z"
        id="path5943-1-6"
+       inkscape:connector-curvature="0" />
+    <circle
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5943-1-9"
+       cx="14.829127"
+       cy="-239.37819"
+       r="131.2635"
+       transform="scale(1,-1)" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 734.82812,419.64258 c -86.00583,0 -156.26171,-70.25784 -156.26171,-156.26367 0,-86.00584 70.25588,-156.26368 156.26171,-156.26368 86.00584,0 156.26368,70.25784 156.26368,156.26368 0,86.00583 -70.25784,156.26367 -156.26368,156.26367 z m 0,-50 c 58.98383,0 106.26368,-47.27985 106.26368,-106.26367 0,-58.98383 -47.27985,-106.26368 -106.26368,-106.26368 -58.98382,0 -106.26171,47.27985 -106.26171,106.26368 0,58.98382 47.27789,106.26367 106.26171,106.26367 z"
+       id="path5943-1-9-1"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
