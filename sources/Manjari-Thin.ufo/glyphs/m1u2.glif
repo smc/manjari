@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="m1u2" format="2">
-  <advance width="1385"/>
+  <advance width="1398.0"/>
   <outline>
-    <component base="uu_sign_drop" xOffset="752.0" yOffset="125.0"/>
-    <component base="m1" xOffset="-13.0"/>
+    <component base="uu_sign_drop" xOffset="765.0" yOffset="125.0"/>
+    <component base="m1"/>
   </outline>
   <lib>
     <dict>
