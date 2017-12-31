@@ -286,10 +286,16 @@
 	<string>ch1.glif</string>
 	<key>ch1ch1</key>
 	<string>ch1ch1.glif</string>
+	<key>ch1ch1.alt1</key>
+	<string>ch1ch1.alt1.glif</string>
 	<key>ch1ch1u1</key>
 	<string>ch1ch1u1.glif</string>
+	<key>ch1ch1u1.alt1</key>
+	<string>ch1ch1u1.alt1.glif</string>
 	<key>ch1ch1u2</key>
 	<string>ch1ch1u2.glif</string>
+	<key>ch1ch1u2.alt1</key>
+	<string>ch1ch1u2.alt1.glif</string>
 	<key>ch1ch2</key>
 	<string>ch1ch2.glif</string>
 	<key>ch1u1</key>
@@ -666,10 +672,16 @@
 	<string>lhcil.glif</string>
 	<key>lhlh</key>
 	<string>lhlh.glif</string>
+	<key>lhlh.alt1</key>
+	<string>lhlh.alt1.glif</string>
 	<key>lhlhu1</key>
 	<string>lhlhu1.glif</string>
+	<key>lhlhu1.alt1</key>
+	<string>lhlhu1.alt1.glif</string>
 	<key>lhlhu2</key>
 	<string>lhlhu2.glif</string>
+	<key>lhlhu2.alt1</key>
+	<string>lhlhu2.alt1.glif</string>
 	<key>lhu1</key>
 	<string>lhu1.glif</string>
 	<key>lhu2</key>

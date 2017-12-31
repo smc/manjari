@@ -93,3 +93,16 @@ lookup psts_vowel_signs {
     sub s1k1 u1  by s1k1u1;
     sub s1k1k1 u1 by s1k1k1u1;
 } psts_vowel_signs;
+
+feature aalt {
+    feature salt;
+} aalt;
+
+feature salt {
+    sub ch1ch1 from [ch1ch1 ch1ch1.alt1];
+    sub ch1ch1u1 from [ch1ch1u1 ch1ch1u1.alt1];
+    sub ch1ch1u2 from [ch1ch1u2 ch1ch1u2.alt1];
+    sub lhlh from [lhlh lhlh.alt1];
+    sub lhlhu1 from [lhlhu1 lhlhu1.alt1];
+    sub lhlhu2 from [lhlhu1 lhlhu2.alt1];
+} salt;
