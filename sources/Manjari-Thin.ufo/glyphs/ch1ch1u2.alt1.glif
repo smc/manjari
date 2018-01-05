@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ch1ch1u2.alt1" format="2">
+  <advance width="1776.7894736842104"/>
+  <outline>
+    <component base="ch1ch1.alt1"/>
+    <component base="uu_sign_drop" xOffset="1042.7894736842104" yOffset="108.07368421052632"/>
+  </outline>
+</glyph>

@@ -596,3 +596,16 @@ lookup psts_vowel_signs_common {
     sub rhrh u1  by rhrhu1;
     sub rhrh u2  by rhrhu2;
 } psts_vowel_signs_common;
+
+feature aalt {
+    feature salt;
+} aalt;
+
+feature salt {
+    sub ch1ch1 from [ch1ch1 ch1ch1.alt1];
+    sub ch1ch1u1 from [ch1ch1u1 ch1ch1u1.alt1];
+    sub ch1ch1u2 from [ch1ch1u2 ch1ch1u2.alt1];
+    sub lhlh from [lhlh lhlh.alt1];
+    sub lhlhu1 from [lhlhu1 lhlhu1.alt1];
+    sub lhlhu2 from [lhlhu1 lhlhu2.alt1];
+} salt;
