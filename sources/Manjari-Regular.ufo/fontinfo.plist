@@ -7,7 +7,7 @@
 	<key>capHeight</key>
 	<real>1385.0</real>
 	<key>copyright</key>
-	<string>Digitized data copyright 2017, Santhosh Thottingal, Kavya Manohar, Swathanthra Malayalam Computing, smc.org.in, with reserved font name "Manjari".</string>
+	<string>Digitized data copyright 2018, Santhosh Thottingal, Kavya Manohar, Swathanthra Malayalam Computing, smc.org.in, with reserved font name "Manjari".</string>
 	<key>descender</key>
 	<integer>-614</integer>
 	<key>familyName</key>
@@ -52,7 +52,7 @@
 	<key>openTypeNameDesignerURL</key>
 	<string>http://thottingal.in</string>
 	<key>openTypeNameLicense</key>
-	<string>Digitized data copyright (c) 2017, Santhosh Thottingal, Kavya Manohar, Swathanthra Malayalam Computing(http://smc.org.in)
+	<string>Digitized data copyright (c) 2018, Santhosh Thottingal, Kavya Manohar, Swathanthra Malayalam Computing(http://smc.org.in)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
@@ -156,7 +156,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>openTypeNameUniqueID</key>
 	<string>Manjari Regular SMC</string>
 	<key>openTypeNameVersion</key>
-	<string>1.2</string>
+	<string>1.4</string>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
 		<integer>0</integer>
