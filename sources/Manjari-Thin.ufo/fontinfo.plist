@@ -152,7 +152,12 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>openTypeNameUniqueID</key>
 	<string>Manjari Thin SMC</string>
 	<key>openTypeNameVersion</key>
-	<string>1.4</string>
+	<string>1.5</string>
+	<key>openTypeOS2CodePageRanges</key>
+	<array>
+		<integer>0</integer>
+		<integer>1</integer>
+	</array>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
 		<integer>0</integer>
@@ -203,8 +208,16 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<integer>-800</integer>
 	<key>openTypeOS2TypoLineGap</key>
 	<integer>0</integer>
+	<key>openTypeOS2UnicodeRanges</key>
+	<array>
+		<integer>0</integer>
+		<integer>1</integer>
+		<integer>2</integer>
+		<integer>3</integer>
+		<integer>23</integer>
+	</array>
 	<key>openTypeOS2VendorID</key>
-	<string>SMC </string>
+	<string>SMC</string>
 	<key>openTypeOS2WeightClass</key>
 	<integer>100</integer>
 	<key>openTypeOS2WidthClass</key>
@@ -255,7 +268,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>2</integer>
+	<integer>5</integer>
 	<key>xHeight</key>
 	<real>1000.0</real>
 </dict>

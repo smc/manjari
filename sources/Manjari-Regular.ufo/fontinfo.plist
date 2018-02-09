@@ -35,8 +35,10 @@
 	</array>
 	<key>italicAngle</key>
 	<real>0.0</real>
+	<key>note</key>
+	<string></string>
 	<key>openTypeHeadCreated</key>
-	<string>2008/01/24 03:11:27</string>
+	<string>2014/11/28 19:32:25</string>
 	<key>openTypeHheaAscender</key>
 	<integer>1500</integer>
 	<key>openTypeHheaDescender</key>
@@ -147,6 +149,8 @@ FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>openTypeNameLicenseURL</key>
 	<string>http://scripts.sil.org/OFL</string>
+	<key>openTypeNameManufacturer</key>
+	<string>SMC</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://smc.org.in</string>
 	<key>openTypeNamePreferredFamilyName</key>
@@ -156,7 +160,12 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>openTypeNameUniqueID</key>
 	<string>Manjari Regular SMC</string>
 	<key>openTypeNameVersion</key>
-	<string>1.4</string>
+	<string>1.5</string>
+	<key>openTypeOS2CodePageRanges</key>
+	<array>
+		<integer>0</integer>
+		<integer>1</integer>
+	</array>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
 		<integer>0</integer>
@@ -207,8 +216,16 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<integer>-750</integer>
 	<key>openTypeOS2TypoLineGap</key>
 	<integer>0</integer>
+	<key>openTypeOS2UnicodeRanges</key>
+	<array>
+		<integer>0</integer>
+		<integer>1</integer>
+		<integer>2</integer>
+		<integer>3</integer>
+		<integer>23</integer>
+	</array>
 	<key>openTypeOS2VendorID</key>
-	<string>SMC </string>
+	<string>SMC</string>
 	<key>openTypeOS2WeightClass</key>
 	<integer>400</integer>
 	<key>openTypeOS2WidthClass</key>
@@ -254,12 +271,14 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<string>Regular</string>
 	<key>styleName</key>
 	<string>Regular</string>
+	<key>trademark</key>
+	<string></string>
 	<key>unitsPerEm</key>
 	<integer>2048</integer>
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>2</integer>
+	<integer>5</integer>
 	<key>xHeight</key>
 	<real>1023.5</real>
 </dict>
