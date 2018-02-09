@@ -18,6 +18,7 @@ def webfonts(infont, type):
     font.save(woffFileName, reorderTables=False)
     font.close()
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Build webfonts')
     parser.add_argument('-i', '--input', help='Input font', required=True)

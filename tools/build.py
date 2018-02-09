@@ -2,10 +2,7 @@
 # encoding: utf-8
 
 import argparse
-import os
 from defcon import Font
-from fontTools.ttLib import TTFont
-from fontTools.ttx import makeOutputFileName
 from fontmake.font_project import FontProject
 from mutatorMath.ufo.document import DesignSpaceDocumentReader
 
@@ -48,15 +45,18 @@ def build(args):
 def main():
     parser = argparse.ArgumentParser(description="Build fonts.")
     parser.add_argument(
-        "-d", "--designspace", metavar="designspace", help="Designspace file", required=True)
+        "-d", "--designspace", metavar="designspace",
+        help="Designspace file", required=True)
     parser.add_argument("-t", "--output-type", metavar="type",
                         help="Output format. otf or ttf", required=True)
     parser.add_argument(
-        "-v", "--version", metavar="version", help="version number", required=True)
+        "-v", "--version", metavar="version", help="version number",
+        required=True)
 
     args = parser.parse_args()
 
     build(args)
+
 
 if __name__ == "__main__":
     main()
