@@ -27,7 +27,7 @@ webfonts: ttf
 	done;
 
 install: otf
-	@mkdir -p ${DESTDIR}${fontpath}/
+	@mkdir -p ${DESTDIR}${fontpath}
 	install -D -m 0644 $(builddir)/*.otf ${DESTDIR}${fontpath}/
 
 ifeq ($(shell ls -l $(builddir)/*.otf 2>/dev/null | wc -l),0)
