@@ -26,7 +26,13 @@ webfonts: ttf
 		$(PY) $(webfontscript) -i $${font};\
 	done;
 
-install: otf
+ifeq ($(shell ls -l $(builddir)/*.otf 2>/dev/null | wc -l),0)
+install: otf install-fonts
+else
+install: install-fonts
+endif
+
+install-fonts:
 	@mkdir -p ${DESTDIR}${fontpath}
 	install -D -m 0644 $(builddir)/*.otf ${DESTDIR}${fontpath}/
 
