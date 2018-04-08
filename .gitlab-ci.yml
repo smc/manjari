@@ -1,4 +1,8 @@
-image: "debian:stretch"
+image: "debian:stable-slim"
+stages:
+  - build
+  - release
+  - test
 
 build:
   stage: build
@@ -11,6 +15,18 @@ build:
   artifacts:
     paths:
     - build/
+
+release:
+  stage: release
+  script:
+    - sh tools/artifacts.sh
+  dependencies:
+    - build
+  artifacts:
+    paths:
+      - build/
+  only:
+    - tags
 
 test:
   stage: test
