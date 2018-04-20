@@ -7,7 +7,7 @@ build:
     - apt-get install -y make python3-pip
     - pip3 install -r requirements.txt
   script:
-    - make compile webfonts
+    - make otf webfonts
   artifacts:
     paths:
     - build/
