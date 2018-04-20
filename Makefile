@@ -1,52 +1,55 @@
 #!/usr/bin/make -f
 
-fontpath=/usr/share/fonts/opentype/malayalam
+NAME=Manjari
+FONTS=Regular Bold Thin
+INSTALLPATH=/usr/share/fonts/opentype/malayalam
 PY=python3
 version=`cat VERSION`
-buildscript=tools/build.py
-webfontscript=tools/webfonts.py
-designspace=sources/Manjari.designspace
-builddir=build
-default: compile
-all: clean compile webfonts test
-compile: otf ttf
-otf:
-	@mkdir -p $(builddir)
-	@$(PY) $(buildscript) -t otf -d $(designspace) -v $(version)
-	@mv master_otf/*.otf $(builddir)/
+TOOLDIR=tools
+SRCDIR=sources
+webfontscript=$(TOOLDIR)/webfonts.py
+designspace=$(SRCDIR)/Manjari.designspace
+BLDDIR=build
+default: otf
+all: clean otf ttf webfonts test
+OTF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.otf)
+TTF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.ttf)
+WOFF2=$(FONTS:%=$(BLDDIR)/$(NAME)-%.woff2)
+PDF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.pdf)
+
+$(BLDDIR)/%.otf: $(SRCDIR)/%.ufo
+	@echo "  BUILD    $(@F)"
+	@mkdir -p $(BLDDIR)
+	@fontmake --verbose=WARNING -o otf -u $<
+	@mv master_otf/*.otf $(BLDDIR)/
 	@rm -rf master_otf
-ttf:
-	@mkdir -p $(builddir)
-	@$(PY) $(buildscript) -t ttf -d $(designspace) -v $(version)
-	@mv master_ttf/*.ttf $(builddir)/
+
+$(BLDDIR)/%.ttf: $(SRCDIR)/%.ufo
+	@echo "  BUILD    $(@F)"
+	@mkdir -p $(BLDDIR)
+	@fontmake --verbose=WARNING -o ttf -u $<
+	@mv master_ttf/*.ttf $(BLDDIR)/
 	@rm -rf master_ttf
 
-webfonts: ttf
-	@for font in $(builddir)/*.ttf; do \
-		$(PY) $(webfontscript) -i $${font};\
-	done;
+$(BLDDIR)/%.woff2: $(BLDDIR)/%.ttf
+	@echo "WEBFONT    $(@F)"
+	@$(PY) $(webfontscript) -i $<
 
-ifeq ($(shell ls -l $(builddir)/*.otf 2>/dev/null | wc -l),0)
-install: otf install-fonts
-else
-install: install-fonts
-endif
+$(BLDDIR)/%.pdf: $(BLDDIR)/%.otf
+	@echo "   TEST    $(@F)"
+	@hb-view $< --font-size 14 --margin 100 --line-space 1.5 \
+		--foreground=333333 --text-file tests/tests.txt \
+		--output-file $(BLDDIR)/$(@F);
 
-install-fonts:
-	@mkdir -p ${DESTDIR}${fontpath}
-	install -D -m 0644 $(builddir)/*.otf ${DESTDIR}${fontpath}/
+ttf: $(TTF)
+otf: $(OTF)
+webfonts: $(WOFF2)
 
-ifeq ($(shell ls -l $(builddir)/*.otf 2>/dev/null | wc -l),0)
-test: otf run-test
-else
-test: run-test
-endif
+install: otf
+	@mkdir -p ${DESTDIR}${INSTALLPATH}
+	install -D -m 0644 $(BLDDIR)/*.otf ${DESTDIR}${INSTALLPATH}/
 
-run-test:
-	@for font in $(builddir)/*.otf; do \
-		echo "Testing font $${font}";\
-		hb-view $${font} --font-size 14 --margin 100 --line-space 1.5 --foreground=333333  --text-file tests/tests.txt --output-file $${font%.otf}.pdf;\
-	done;
+test: otf $(PDF)
 
 clean:
-	@rm -rf $(builddir)/*.*
+	@rm -rf $(BLDDIR)
