@@ -1,3 +1,4 @@
+
 image: "debian:stretch"
 
 build:
@@ -7,7 +8,7 @@ build:
     - apt-get install -y make python3-pip
     - pip3 install -r requirements.txt
   script:
-    - make otf webfonts
+    - make otf ttf webfonts
   artifacts:
     paths:
     - build/
@@ -16,6 +17,7 @@ test:
   stage: test
   before_script:
     - apt-get update -y
-    - apt-get install -y make libharfbuzz-bin
+    - apt-get install -y make libharfbuzz-bin python3-pip
+    - pip3 install -r requirements.txt
   script:
     - make test
