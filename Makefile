@@ -9,6 +9,7 @@ TOOLDIR=tools
 SRCDIR=sources
 webfontscript=$(TOOLDIR)/webfonts.py
 designspace=$(SRCDIR)/Manjari.designspace
+tests=tests/tests.txt
 BLDDIR=build
 default: otf
 all: clean otf ttf webfonts test
@@ -35,10 +36,10 @@ $(BLDDIR)/%.woff2: $(BLDDIR)/%.ttf
 	@echo "WEBFONT    $(@F)"
 	@$(PY) $(webfontscript) -i $<
 
-$(BLDDIR)/%.pdf: $(BLDDIR)/%.otf
+$(BLDDIR)/%.pdf: $(BLDDIR)/%.otf $(tests)
 	@echo "   TEST    $(@F)"
 	@hb-view $< --font-size 14 --margin 100 --line-space 1.5 \
-		--foreground=333333 --text-file tests/tests.txt \
+		--foreground=333333 --text-file $(tests) \
 		--output-file $(BLDDIR)/$(@F);
 
 ttf: $(TTF)
