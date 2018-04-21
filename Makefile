@@ -32,7 +32,7 @@ $(BLDDIR)/%.ttf: $(SRCDIR)/%.ufo
 	@mv master_ttf/*.ttf $(BLDDIR)/
 	@rm -rf master_ttf
 
-$(BLDDIR)/%.woff2: $(BLDDIR)/%.ttf
+$(BLDDIR)/%.woff2: $(BLDDIR)/%.otf
 	@echo "WEBFONT    $(@F)"
 	@$(PY) $(webfontscript) -i $<
 
