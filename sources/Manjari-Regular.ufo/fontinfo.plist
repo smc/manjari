@@ -226,6 +226,8 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	</array>
 	<key>openTypeOS2VendorID</key>
 	<string>SMC</string>
+	<key>openTypeOS2Version</key>
+	<integer>4</integer>
 	<key>openTypeOS2WeightClass</key>
 	<integer>400</integer>
 	<key>openTypeOS2WidthClass</key>

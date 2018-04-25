@@ -13,7 +13,6 @@ def webfonts(infont, type):
     font = TTFont(infont, recalcBBoxes=0)
     woffFileName = makeOutputFileName(
         infont, outputDir=None, extension='.' + type)
-    print("Generating webfont %s => %s" % (infont, woffFileName))
     font.flavor = type
     font.save(woffFileName, reorderTables=False)
     font.close()

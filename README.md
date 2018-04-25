@@ -19,10 +19,11 @@ Building from source
     ```
     pip3 install -r requirements.txt
     ```
-2. Build the ttf, otf woff, woff2 files:
+2. Build the ttf, otf, woff2 files:
    ```
    make all
    ```
+
 License
 -------
 Manjari is licensed under the SIL Open Font License, Version 1.1. http://scripts.sil.org/OFL
