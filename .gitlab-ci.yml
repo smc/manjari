@@ -1,7 +1,10 @@
+image: "debian:stable-slim"
+stages:
+  - build
+  - test
+  - release
 
-image: "debian:stretch"
-
-build:
+build-branch:
   stage: build
   before_script:
     - apt-get update -y
@@ -12,6 +15,23 @@ build:
   artifacts:
     paths:
     - build/
+  except:
+    - tags
+
+build-tag:
+  stage: build
+  before_script:
+    - apt-get update -y
+    - apt-get install -y make python3-pip
+    - pip3 install -r requirements.txt
+  script:
+    - make ttf otf webfonts
+    - sh tools/artifacts.sh
+  artifacts:
+    paths:
+    - build/
+  only:
+    - tags
 
 test:
   stage: test
@@ -21,3 +41,10 @@ test:
     - pip3 install -r requirements.txt
   script:
     - make test
+
+release:
+  stage: release
+  script:
+    - curl --request POST --form "token=$CI_JOB_TOKEN" --form ref=master https://gitlab.com/api/v4/projects/125326/trigger/pipeline
+  only:
+    - tags
