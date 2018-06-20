@@ -2,9 +2,9 @@ languagesystem DFLT dflt;
 languagesystem mlm2 dflt;
 languagesystem mlym dflt;
 
-include (tables.fea)
-include (../features/lookups-common.fea)
-include (lookups.fea)
-include (../features/features.fea)
-include (gpos.fea)
-include (kerning.fea)
+include (Manjari-Regular.ufo/tables.fea)
+include (features/lookups-common.fea)
+include (Manjari-Regular.ufo/lookups.fea)
+include (features/features.fea)
+include (Manjari-Regular.ufo/gpos.fea)
+include (Manjari-Regular.ufo/kerning.fea)

@@ -20,17 +20,11 @@ PDF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.pdf)
 
 $(BLDDIR)/%.otf: $(SRCDIR)/%.ufo
 	@echo "  BUILD    $(@F)"
-	@mkdir -p $(BLDDIR)
-	@fontmake --verbose=WARNING -o otf -u $<
-	@mv master_otf/*.otf $(BLDDIR)/
-	@rm -rf master_otf
+	@fontmake --verbose=WARNING -o otf --output-dir $(BLDDIR) -u $<
 
 $(BLDDIR)/%.ttf: $(SRCDIR)/%.ufo
 	@echo "  BUILD    $(@F)"
-	@mkdir -p $(BLDDIR)
-	@fontmake --verbose=WARNING -o ttf -u $<
-	@mv master_ttf/*.ttf $(BLDDIR)/
-	@rm -rf master_ttf
+	@fontmake --verbose=WARNING -o ttf --output-dir $(BLDDIR) -u $<
 
 $(BLDDIR)/%.woff2: $(BLDDIR)/%.otf
 	@echo "WEBFONT    $(@F)"
