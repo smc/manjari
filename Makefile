@@ -12,7 +12,7 @@ designspace=$(SRCDIR)/Manjari.designspace
 tests=tests/tests.txt
 BLDDIR=build
 default: otf
-all: clean otf ttf webfonts test
+all: clean lint otf ttf webfonts test
 OTF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.otf)
 TTF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.ttf)
 WOFF2=$(FONTS:%=$(BLDDIR)/$(NAME)-%.woff2)
@@ -39,7 +39,9 @@ $(BLDDIR)/%.pdf: $(BLDDIR)/%.otf $(tests)
 ttf: $(TTF)
 otf: $(OTF)
 webfonts: $(WOFF2)
-
+lint: ufolint
+ufolint: $(SRCDIR)/*.ufo
+	$@ $^
 install: otf
 	@mkdir -p ${DESTDIR}${INSTALLPATH}
 	install -D -m 0644 $(BLDDIR)/*.otf ${DESTDIR}${INSTALLPATH}/
