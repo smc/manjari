@@ -43,8 +43,6 @@
 	<integer>-900</integer>
 	<key>openTypeHheaLineGap</key>
 	<integer>0</integer>
-	<key>openTypeNameCompatibleFullName</key>
-	<string>Manjari</string>
 	<key>openTypeNameDescription</key>
 	<string>Malayalam unicode font with rounded terminals suitable for body text</string>
 	<key>openTypeNameDesigner</key>
@@ -149,14 +147,8 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<string>http://scripts.sil.org/OFL</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://smc.org.in</string>
-	<key>openTypeNamePreferredFamilyName</key>
-	<string>Manjari</string>
-	<key>openTypeNamePreferredSubfamilyName</key>
-	<string>Bold</string>
 	<key>openTypeNameUniqueID</key>
 	<string>Manjari Bold SMC</string>
-	<key>openTypeNameVersion</key>
-	<string>1.5</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
@@ -211,7 +203,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>openTypeOS2TypoDescender</key>
 	<integer>-900</integer>
 	<key>openTypeOS2TypoLineGap</key>
-	<integer>0</integer>
+	<integer>100</integer>
 	<key>openTypeOS2UnicodeRanges</key>
 	<array>
 		<integer>0</integer>
@@ -261,10 +253,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<real>-600.0</real>
 	<key>postscriptUnderlineThickness</key>
 	<real>100.0</real>
-	<key>postscriptUniqueID</key>
-	<integer>0</integer>
-	<key>postscriptWeightName</key>
-	<string>Bold</string>
+	<key>styleMapFamilyName</key>
+	<string>Manjari</string>
+	<key>styleMapStyleName</key>
+	<string>bold</string>
 	<key>styleName</key>
 	<string>Bold</string>
 	<key>unitsPerEm</key>

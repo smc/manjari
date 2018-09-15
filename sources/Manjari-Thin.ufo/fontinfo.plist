@@ -39,8 +39,6 @@
 	<integer>-800</integer>
 	<key>openTypeHheaLineGap</key>
 	<integer>0</integer>
-	<key>openTypeNameCompatibleFullName</key>
-	<string>Manjari</string>
 	<key>openTypeNameDescription</key>
 	<string>Malayalam unicode font with rounded terminals suitable for body text</string>
 	<key>openTypeNameDesigner</key>
@@ -145,14 +143,8 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<string>http://scripts.sil.org/OFL</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>https://smc.org.in</string>
-	<key>openTypeNamePreferredFamilyName</key>
-	<string>Manjari</string>
-	<key>openTypeNamePreferredSubfamilyName</key>
-	<string>Thin</string>
 	<key>openTypeNameUniqueID</key>
 	<string>Manjari Thin SMC</string>
-	<key>openTypeNameVersion</key>
-	<string>1.5</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
@@ -207,7 +199,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>openTypeOS2TypoDescender</key>
 	<integer>-800</integer>
 	<key>openTypeOS2TypoLineGap</key>
-	<integer>0</integer>
+	<integer>100</integer>
 	<key>openTypeOS2UnicodeRanges</key>
 	<array>
 		<integer>0</integer>
@@ -241,10 +233,6 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<array/>
 	<key>postscriptFamilyOtherBlues</key>
 	<array/>
-	<key>postscriptFontName</key>
-	<string>Manjari-Thin</string>
-	<key>postscriptFullName</key>
-	<string>Manjari Thin</string>
 	<key>postscriptOtherBlues</key>
 	<array/>
 	<key>postscriptSlantAngle</key>
@@ -257,12 +245,12 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<real>-600.0</real>
 	<key>postscriptUnderlineThickness</key>
 	<real>100.0</real>
-	<key>postscriptUniqueID</key>
-	<integer>0</integer>
-	<key>postscriptWeightName</key>
-	<string>Thin</string>
+	<key>styleMapFamilyName</key>
+	<string>Manjari Thin</string>
 	<key>styleName</key>
 	<string>Thin</string>
+	<key>styleMapStyleName</key>
+	<string>regular</string>
 	<key>unitsPerEm</key>
 	<integer>2048</integer>
 	<key>versionMajor</key>

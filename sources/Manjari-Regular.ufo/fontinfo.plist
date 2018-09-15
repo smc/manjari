@@ -35,8 +35,6 @@
 	</array>
 	<key>italicAngle</key>
 	<real>0.0</real>
-	<key>note</key>
-	<string></string>
 	<key>openTypeHeadCreated</key>
 	<string>2014/11/28 19:32:25</string>
 	<key>openTypeHheaAscender</key>
@@ -153,14 +151,8 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<string>SMC</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://smc.org.in</string>
-	<key>openTypeNamePreferredFamilyName</key>
-	<string>Manjari</string>
-	<key>openTypeNamePreferredSubfamilyName</key>
-	<string>Regular</string>
 	<key>openTypeNameUniqueID</key>
 	<string>Manjari Regular SMC</string>
-	<key>openTypeNameVersion</key>
-	<string>1.5</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
@@ -215,7 +207,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>openTypeOS2TypoDescender</key>
 	<integer>-750</integer>
 	<key>openTypeOS2TypoLineGap</key>
-	<integer>0</integer>
+	<integer>100</integer>
 	<key>openTypeOS2UnicodeRanges</key>
 	<array>
 		<integer>0</integer>
@@ -249,10 +241,6 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<array/>
 	<key>postscriptFamilyOtherBlues</key>
 	<array/>
-	<key>postscriptFontName</key>
-	<string>Manjari-Regular</string>
-	<key>postscriptFullName</key>
-	<string>Manjari Regular</string>
 	<key>postscriptOtherBlues</key>
 	<array/>
 	<key>postscriptSlantAngle</key>
@@ -265,10 +253,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<real>-600.0</real>
 	<key>postscriptUnderlineThickness</key>
 	<real>100.0</real>
-	<key>postscriptUniqueID</key>
-	<integer>0</integer>
-	<key>postscriptWeightName</key>
-	<string>Regular</string>
+	<key>styleMapFamilyName</key>
+	<string>Manjari</string>
+	<key>styleMapStyleName</key>
+	<string>regular</string>
 	<key>styleName</key>
 	<string>Regular</string>
 	<key>trademark</key>
