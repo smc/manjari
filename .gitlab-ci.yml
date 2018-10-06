@@ -4,6 +4,10 @@ stages:
   - test
   - release
 
+variables:
+  WEBSITE_REPO_TRIGGER: "https://gitlab.com/api/v4/projects/125326/trigger/pipeline"
+  WEBSITE_REPO_BRANCH: "master"
+
 build-branch:
   stage: build
   before_script:
@@ -48,6 +52,6 @@ release:
     - apt-get update -y
     - apt-get install -y curl
   script:
-    - curl --request POST --form "token=$CI_JOB_TOKEN" --form ref=master https://gitlab.com/api/v4/projects/125326/trigger/pipeline
+    - curl --request POST --form "token=$CI_JOB_TOKEN" --form ref=${WEBSITE_REPO_BRANCH} "${WEBSITE_REPO_TRIGGER}"
   only:
     - tags
