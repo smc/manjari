@@ -47,10 +47,8 @@ test:
     - make test
 
 release:
+  image: "pstauffer/curl:latest"
   stage: release
-  before_script:
-    - apt-get update -y
-    - apt-get install -y curl
   script:
     - curl --request POST --form "token=$CI_JOB_TOKEN" --form ref=${WEBSITE_REPO_BRANCH} "${WEBSITE_REPO_TRIGGER}"
   only:
