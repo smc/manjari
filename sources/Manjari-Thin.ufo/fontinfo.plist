@@ -155,10 +155,10 @@
 	<real>100.0</real>
 	<key>styleMapFamilyName</key>
 	<string>Manjari Thin</string>
-	<key>styleName</key>
-	<string>Thin</string>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
+	<key>styleName</key>
+	<string>Thin</string>
 	<key>unitsPerEm</key>
 	<integer>2048</integer>
 	<key>versionMajor</key>
