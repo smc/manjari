@@ -115,7 +115,7 @@
 	<key>openTypeOS2TypoDescender</key>
 	<integer>-750</integer>
 	<key>openTypeOS2TypoLineGap</key>
-	<integer>100</integer>
+	<integer>0</integer>
 	<key>openTypeOS2UnicodeRanges</key>
 	<array>
 		<integer>0</integer>
@@ -131,9 +131,9 @@
 	<key>openTypeOS2WidthClass</key>
 	<integer>5</integer>
 	<key>openTypeOS2WinAscent</key>
-	<integer>1979</integer>
+	<integer>2076</integer>
 	<key>openTypeOS2WinDescent</key>
-	<integer>1231</integer>
+	<integer>1285</integer>
 	<key>postscriptBlueValues</key>
 	<array>
 		<real>-24.0</real>
