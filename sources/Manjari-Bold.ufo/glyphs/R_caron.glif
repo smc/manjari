@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Rcaron" format="2">
+  <advance width="600"/>
+  <unicode hex="0158"/>
+  <outline>
+    <component base="R"/>
+    <component base="asciicircum" xScale="-1" yScale="-1" xOffset="938.083511777302" yOffset="2999.6638115631695"/>
+  </outline>
+</glyph>

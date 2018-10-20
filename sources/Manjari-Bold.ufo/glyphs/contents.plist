@@ -48,14 +48,20 @@
 	<string>E_dieresis.glif</string>
 	<key>Egrave</key>
 	<string>E_grave.glif</string>
+	<key>Eth</key>
+	<string>E_th.glif</string>
 	<key>F</key>
 	<string>F_.glif</string>
 	<key>G</key>
 	<string>G_.glif</string>
 	<key>Gcircumflex</key>
 	<string>G_circumflex.glif</string>
+	<key>Gdotaccent</key>
+	<string>G_dotaccent.glif</string>
 	<key>H</key>
 	<string>H_.glif</string>
+	<key>Hcircumflex</key>
+	<string>H_circumflex.glif</string>
 	<key>I</key>
 	<string>I_.glif</string>
 	<key>Iacute</key>
@@ -100,12 +106,16 @@
 	<string>R_.glif</string>
 	<key>Racute</key>
 	<string>R_acute.glif</string>
+	<key>Rcaron</key>
+	<string>R_caron.glif</string>
 	<key>S</key>
 	<string>S_.glif</string>
 	<key>Sacute</key>
 	<string>S_acute.glif</string>
 	<key>Scaron</key>
 	<string>S_caron.glif</string>
+	<key>Scedilla</key>
+	<string>S_cedilla.glif</string>
 	<key>Scircumflex</key>
 	<string>S_circumflex.glif</string>
 	<key>T</key>
@@ -120,16 +130,24 @@
 	<string>U_dieresis.glif</string>
 	<key>Ugrave</key>
 	<string>U_grave.glif</string>
+	<key>Umacron</key>
+	<string>U_macron.glif</string>
+	<key>Utilde</key>
+	<string>U_tilde.glif</string>
 	<key>V</key>
 	<string>V_.glif</string>
 	<key>W</key>
 	<string>W_.glif</string>
+	<key>Wcircumflex</key>
+	<string>W_circumflex.glif</string>
 	<key>X</key>
 	<string>X_.glif</string>
 	<key>Y</key>
 	<string>Y_.glif</string>
 	<key>Yacute</key>
 	<string>Y_acute.glif</string>
+	<key>Ycircumflex</key>
+	<string>Y_circumflex.glif</string>
 	<key>Z</key>
 	<string>Z_.glif</string>
 	<key>ZWJ</key>
@@ -164,6 +182,8 @@
 	<string>arakkaal.glif</string>
 	<key>aramaa</key>
 	<string>aramaa.glif</string>
+	<key>aring</key>
+	<string>aring.glif</string>
 	<key>asciicircum</key>
 	<string>asciicircum.glif</string>
 	<key>asciitilde</key>
@@ -278,10 +298,14 @@
 	<string>colon.glif</string>
 	<key>comma</key>
 	<string>comma.glif</string>
+	<key>copyright</key>
+	<string>copyright.glif</string>
 	<key>d</key>
 	<string>d.glif</string>
 	<key>datemark</key>
 	<string>datemark.glif</string>
+	<key>degree</key>
+	<string>degree.glif</string>
 	<key>dieresis</key>
 	<string>dieresis.glif</string>
 	<key>dollar</key>
@@ -304,6 +328,8 @@
 	<string>ecircumflex.glif</string>
 	<key>edieresis</key>
 	<string>edieresis.glif</string>
+	<key>edotaccent</key>
+	<string>edotaccent.glif</string>
 	<key>egrave</key>
 	<string>egrave.glif</string>
 	<key>eight</key>
@@ -384,6 +410,8 @@
 	<string>idieresis.glif</string>
 	<key>igrave</key>
 	<string>igrave.glif</string>
+	<key>imacron</key>
+	<string>imacron.glif</string>
 	<key>itilde</key>
 	<string>itilde.glif</string>
 	<key>j</key>
@@ -634,6 +662,8 @@
 	<string>m1xx.glif</string>
 	<key>maakaani</key>
 	<string>maakaani.glif</string>
+	<key>macron</key>
+	<string>macron.glif</string>
 	<key>ml_a</key>
 	<string>ml_a.glif</string>
 	<key>ml_aa</key>
@@ -1058,6 +1088,8 @@
 	<string>randumaa.glif</string>
 	<key>rcaron</key>
 	<string>rcaron.glif</string>
+	<key>registered</key>
+	<string>registered.glif</string>
 	<key>rh</key>
 	<string>rh.glif</string>
 	<key>rh_half</key>
@@ -1396,6 +1428,10 @@
 	<string>uni00A_0.glif</string>
 	<key>uni00AD</key>
 	<string>uni00A_D_.glif</string>
+	<key>uni01D3</key>
+	<string>uni01D_3.glif</string>
+	<key>uni01D4</key>
+	<string>uni01D_4.glif</string>
 	<key>uni0D4C</key>
 	<string>uni0D_4C_.glif</string>
 	<key>uni0D66</key>
@@ -1506,6 +1542,8 @@
 	<string>y2u2.glif</string>
 	<key>yacute</key>
 	<string>yacute.glif</string>
+	<key>ycircumflex</key>
+	<string>ycircumflex.glif</string>
 	<key>ydieresis</key>
 	<string>ydieresis.glif</string>
 	<key>z</key>
@@ -1550,6 +1588,10 @@
 	<string>z1z1u1.glif</string>
 	<key>z1z1u2</key>
 	<string>z1z1u2.glif</string>
+	<key>zacute</key>
+	<string>zacute.glif</string>
+	<key>zdotaccent</key>
+	<string>zdotaccent.glif</string>
 	<key>zero</key>
 	<string>zero.glif</string>
 	<key>zh</key>
