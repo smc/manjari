@@ -16,6 +16,8 @@
 	<string>A_dieresis.glif</string>
 	<key>Agrave</key>
 	<string>A_grave.glif</string>
+	<key>Amacron</key>
+	<string>A_macron.glif</string>
 	<key>Atilde</key>
 	<string>A_tilde.glif</string>
 	<key>B</key>
@@ -46,8 +48,12 @@
 	<string>E_circumflex.glif</string>
 	<key>Edieresis</key>
 	<string>E_dieresis.glif</string>
+	<key>Edotaccent</key>
+	<string>E_dotaccent.glif</string>
 	<key>Egrave</key>
 	<string>E_grave.glif</string>
+	<key>Emacron</key>
+	<string>E_macron.glif</string>
 	<key>Eth</key>
 	<string>E_th.glif</string>
 	<key>F</key>
@@ -96,6 +102,8 @@
 	<string>O_dieresis.glif</string>
 	<key>Ograve</key>
 	<string>O_grave.glif</string>
+	<key>Omacron</key>
+	<string>O_macron.glif</string>
 	<key>Otilde</key>
 	<string>O_tilde.glif</string>
 	<key>P</key>
@@ -154,6 +162,10 @@
 	<string>Z_W_J_.glif</string>
 	<key>ZWNJ</key>
 	<string>Z_W_N_J_.glif</string>
+	<key>Zacute</key>
+	<string>Z_acute.glif</string>
+	<key>Zcaron</key>
+	<string>Z_caron.glif</string>
 	<key>a</key>
 	<string>a.glif</string>
 	<key>a2</key>
@@ -170,6 +182,8 @@
 	<string>agrave.glif</string>
 	<key>ai1</key>
 	<string>ai1.glif</string>
+	<key>amacron</key>
+	<string>amacron.glif</string>
 	<key>ampersand</key>
 	<string>ampersand.glif</string>
 	<key>anuswara</key>
@@ -336,6 +350,8 @@
 	<string>eight.glif</string>
 	<key>ellipsis</key>
 	<string>ellipsis.glif</string>
+	<key>emacron</key>
+	<string>emacron.glif</string>
 	<key>emdash</key>
 	<string>emdash.glif</string>
 	<key>endash</key>
@@ -356,6 +372,8 @@
 	<string>g.glif</string>
 	<key>gcircumflex</key>
 	<string>gcircumflex.glif</string>
+	<key>gdotaccent</key>
+	<string>gdotaccent.glif</string>
 	<key>grave</key>
 	<string>grave.glif</string>
 	<key>greater</key>
@@ -394,6 +412,8 @@
 	<string>h1u2.glif</string>
 	<key>h1xx</key>
 	<string>h1xx.glif</string>
+	<key>hcircumflex</key>
+	<string>hcircumflex.glif</string>
 	<key>hyphen</key>
 	<string>hyphen.glif</string>
 	<key>i</key>
@@ -916,6 +936,8 @@
 	<string>odieresis.glif</string>
 	<key>ograve</key>
 	<string>ograve.glif</string>
+	<key>omacron</key>
+	<string>omacron.glif</string>
 	<key>one</key>
 	<string>one.glif</string>
 	<key>orumaa</key>
@@ -1428,6 +1450,8 @@
 	<string>uni00A_0.glif</string>
 	<key>uni00AD</key>
 	<string>uni00A_D_.glif</string>
+	<key>uni01D2</key>
+	<string>uni01D_2.glif</string>
 	<key>uni01D3</key>
 	<string>uni01D_3.glif</string>
 	<key>uni01D4</key>
@@ -1468,6 +1492,8 @@
 	<string>uni0D_75.glif</string>
 	<key>uni25CC</key>
 	<string>uni25C_C_.glif</string>
+	<key>uring</key>
+	<string>uring.glif</string>
 	<key>uu_sign_drop</key>
 	<string>uu_sign_drop.glif</string>
 	<key>v</key>
@@ -1512,6 +1538,8 @@
 	<string>vocalic_r_sign_drop.glif</string>
 	<key>w</key>
 	<string>w.glif</string>
+	<key>wcircumflex</key>
+	<string>wcircumflex.glif</string>
 	<key>x</key>
 	<string>x.glif</string>
 	<key>xx</key>
@@ -1590,6 +1618,8 @@
 	<string>z1z1u2.glif</string>
 	<key>zacute</key>
 	<string>zacute.glif</string>
+	<key>zcaron</key>
+	<string>zcaron.glif</string>
 	<key>zdotaccent</key>
 	<string>zdotaccent.glif</string>
 	<key>zero</key>
