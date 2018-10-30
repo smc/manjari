@@ -775,6 +775,8 @@
 		<string>omacron</string>
 		<string>Omacron</string>
 		<string>Rcaron</string>
+		<string>Ucaron</string>
+		<string>ocaron</string>
 		<string>rcaron</string>
 		<string>multiply</string>
 		<string>atilde</string>
@@ -813,6 +815,7 @@
 		<string>uni01D3</string>
 		<string>uni01D2</string>
 		<string>AEacute</string>
+		<string>Zacute</string>
 		<string>aeacute</string>
 		<string>quoteleft</string>
 		<string>quoteright</string>
@@ -824,7 +827,6 @@
 		<string>ccedilla</string>
 		<string>endash</string>
 		<string>emdash</string>
-		<string>uni0000</string>
 		<string>nht1r3</string>
 		<string>_nh</string>
 		<string>_nhu1</string>
