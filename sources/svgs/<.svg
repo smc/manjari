@@ -13,13 +13,13 @@
    height="2048"
    id="svg2992"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="&lt;.svg">
   <defs
      id="defs5498" />
   <sodipodi:namedview
-     inkscape:window-height="704"
-     inkscape:window-width="1366"
+     inkscape:window-height="1051"
+     inkscape:window-width="1920"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -29,10 +29,10 @@
      showgrid="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="0.22627417"
-     inkscape:cx="-440.78439"
-     inkscape:cy="895.26029"
-     inkscape:window-x="-4"
+     inkscape:zoom="0.64"
+     inkscape:cx="3698.0258"
+     inkscape:cy="450.10247"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:current-layer="layer1"
      inkscape:window-maximized="1">
@@ -43,22 +43,26 @@
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true"
-       spacingx="4px"
+       spacingx="4"
        units="px"
        dotted="true"
-       spacingy="4px" />
+       spacingy="4"
+       originx="0"
+       originy="0" />
     <sodipodi:guide
        orientation="0,1"
        position="-144,900"
        id="guide2985"
        inkscape:label=""
-       inkscape:color="rgb(0,0,255)" />
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="288,0"
        id="guide4311"
        inkscape:label=""
-       inkscape:color="rgb(0,0,255)" />
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata5594">
@@ -113,5 +117,17 @@
        d="m -1642.7154,102.6178 a 35.003508,35.003508 0 0 0 -15.7187,4.29879 l -765.381,405.99412 a 35.003508,35.003508 0 0 0 -0.5156,61.5586 l 765.0743,422.42772 a 35.003508,35.003508 0 1 0 33.836,-61.2793 l -708.4668,-391.17186 708.2539,-375.69141 a 35.003508,35.003508 0 0 0 -17.0821,-66.13666 z"
        id="path4416-5-8"
        inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ff5555;stroke-width:130;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 3686,352 -308,300 294,284"
+       id="path4416-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ff5555;stroke-width:130;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 4018,352 -308,300 294,284"
+       id="path4416-9-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
   </g>
 </svg>

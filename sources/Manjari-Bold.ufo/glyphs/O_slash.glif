@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Oslash" format="2">
+  <advance width="1662.5406180568098"/>
+  <unicode hex="00D8"/>
+  <outline>
+    <component base="O" xScale="-0.5735764363510462" xyScale="-0.8191520442889917" yxScale="0.8191520442889917" yScale="-0.5735764363510462" xOffset="681.8887662872357" yOffset="1726.7915567282323"/>
+    <component base="hyphen" xScale="-1.120266477248137" xyScale="-1.5999063365019368" yxScale="0.8191520442889917" yScale="-0.5735764363510462" xOffset="1044.0042921593615" yOffset="1947.9603786992966"/>
+  </outline>
+</glyph>

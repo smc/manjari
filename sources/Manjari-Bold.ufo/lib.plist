@@ -833,6 +833,16 @@
 		<string>lhlh.alt1</string>
 		<string>lhlhu1.alt1</string>
 		<string>lhlhu2.alt1</string>
+		<string>ae</string>
+		<string>AE</string>
+		<string>AEacute</string>
+		<string>aeacute</string>
+		<string>multiply</string>
+		<string>divide</string>
+		<string>guillemotleft</string>
+		<string>guillemotright</string>
+		<string>oslash</string>
+		<string>Oslash</string>
 	</array>
 </dict>
 </plist>
