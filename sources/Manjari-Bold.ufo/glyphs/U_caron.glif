@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ucaron" format="2">
-  <advance width="1106.2408174334578"/>
-  <unicode hex="01D4"/>
+  <advance width="1326.0"/>
+  <unicode hex="01D3"/>
   <outline>
-    <component base="u" xOffset="4.0"/>
-    <component base="asciicircum" xScale="-1" yScale="-1" xOffset="1006.2408174334578" yOffset="2613.5881786285336"/>
+    <component base="U"/>
+    <component base="asciicircum" xScale="-1" yScale="-1" xOffset="1036.916488222698" yOffset="2882.882226980728"/>
   </outline>
 </glyph>

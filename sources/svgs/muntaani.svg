@@ -13,7 +13,7 @@
    height="2048"
    id="svg2992"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="muntaani.svg">
   <defs
      id="defs5498">
@@ -131,8 +131,8 @@
        is_visible="true" />
   </defs>
   <sodipodi:namedview
-     inkscape:window-height="843"
-     inkscape:window-width="1600"
+     inkscape:window-height="1051"
+     inkscape:window-width="1920"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -143,16 +143,17 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="0.125"
-     inkscape:cx="5886.8261"
+     inkscape:cx="1406.8261"
      inkscape:cy="-284.38556"
-     inkscape:window-x="1600"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:current-layer="layer1"
      inkscape:window-maximized="1">
     <sodipodi:guide
        orientation="horizontal"
        position="0,600"
-       id="guide5596" />
+       id="guide5596"
+       inkscape:locked="false" />
     <inkscape:grid
        type="xygrid"
        id="grid3769"
@@ -160,14 +161,17 @@
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true"
-       spacingx="4px"
+       spacingx="4"
        units="px"
        dotted="true"
-       spacingy="4px" />
+       spacingy="4"
+       originx="0"
+       originy="0" />
     <sodipodi:guide
        orientation="0,1"
        position="-1040,1600"
-       id="guide2985" />
+       id="guide2985"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata5594">

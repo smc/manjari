@@ -13,7 +13,7 @@
    height="2048"
    id="svg2992"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="pargagraph.svg">
   <defs
      id="defs5498">
@@ -31,8 +31,8 @@
        is_visible="true" />
   </defs>
   <sodipodi:namedview
-     inkscape:window-height="844"
-     inkscape:window-width="1600"
+     inkscape:window-height="1051"
+     inkscape:window-width="1920"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -42,17 +42,18 @@
      showgrid="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="0.32102648"
-     inkscape:cx="-908.32591"
-     inkscape:cy="1434.5022"
-     inkscape:window-x="1600"
+     inkscape:zoom="0.454"
+     inkscape:cx="1730.2824"
+     inkscape:cy="1403.6771"
+     inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4144"
      inkscape:window-maximized="1">
     <sodipodi:guide
        orientation="horizontal"
        position="1152,576"
-       id="guide5596" />
+       id="guide5596"
+       inkscape:locked="false" />
     <inkscape:grid
        type="xygrid"
        id="grid3769"
@@ -60,20 +61,24 @@
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true"
-       spacingx="4px"
+       spacingx="4"
        units="px"
        dotted="true"
-       spacingy="4px" />
+       spacingy="4"
+       originx="0"
+       originy="0" />
     <sodipodi:guide
        orientation="0,1"
        position="-1040,1600"
-       id="guide2985" />
+       id="guide2985"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="100,2496"
        id="guide7215"
        inkscape:label=""
-       inkscape:color="rgb(0,0,255)" />
+       inkscape:color="rgb(0,0,255)"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata5594">
@@ -100,6 +105,14 @@
          d="m 418,567 -27,0 0,-635 c 0,-18 -13,-34 -36,-34 -23,0 -38,16 -38,34 l 0,635 -125,0 0,-635 c 0,-18 -13,-34 -36,-34 -22,0 -37,16 -37,34 l 0,408 C 55,358 11,417 11,485 c 0,82 70,152 153,152 l 254,0 c 22,0 37,-14 37,-36 0,-22 -15,-34 -37,-34 z"
          inkscape:connector-curvature="0"
          style="fill:currentColor" />
+      <g
+         id="g823"
+         transform="matrix(0.55013299,0,0,0.55013299,1053.1521,-98.805632)">
+        <path
+           d="M 3129.457 -16 L 2364.5566 -14.685547 C 2357.0406 -14.672633 2350.0506 -13.728256 2343.5781 -11.990234 C 2215.8043 6.6904441 2112 133.94323 2112 293.14062 C 2112 433.3267 2192.4919 549.98244 2298.9629 588.76953 L 2299.5566 1333.3145 C 2299.5566 1388.3145 2344.5566 1433.3145 2399.5566 1433.3145 C 2454.5566 1433.3145 2499.5566 1388.3145 2499.5566 1333.3145 L 2498.8848 492.62305 L 2498.6387 184 L 2774.2656 184 L 2775.1973 1349.1934 C 2775.1973 1404.1934 2820.1973 1449.1934 2875.1973 1449.1934 C 2930.1973 1449.1934 2975.1973 1404.1934 2975.1973 1349.1934 L 2974.2656 184 L 3129.457 184 C 3184.457 184 3229.457 139 3229.457 84 C 3229.457 29 3184.4569 -16.094 3129.457 -16 z "
+           transform="matrix(0.99999999,0,0,-0.99999999,-2012,1423.3141)"
+           id="path821" />
+      </g>
     </g>
   </g>
 </svg>

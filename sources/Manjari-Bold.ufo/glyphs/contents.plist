@@ -106,6 +106,8 @@
 	<string>N_tilde.glif</string>
 	<key>O</key>
 	<string>O_.glif</string>
+	<key>OE</key>
+	<string>O_E_.glif</string>
 	<key>Oacute</key>
 	<string>O_acute.glif</string>
 	<key>Ocircumflex</key>
@@ -142,6 +144,8 @@
 	<string>S_circumflex.glif</string>
 	<key>T</key>
 	<string>T_.glif</string>
+	<key>Thorn</key>
+	<string>T_horn.glif</string>
 	<key>U</key>
 	<string>U_.glif</string>
 	<key>Uacute</key>
@@ -386,6 +390,8 @@
 	<string>endash.glif</string>
 	<key>equal</key>
 	<string>equal.glif</string>
+	<key>eth</key>
+	<string>eth.glif</string>
 	<key>euro</key>
 	<string>euro.glif</string>
 	<key>exclam</key>
@@ -402,6 +408,8 @@
 	<string>gcircumflex.glif</string>
 	<key>gdotaccent</key>
 	<string>gdotaccent.glif</string>
+	<key>germandbls</key>
+	<string>germandbls.glif</string>
 	<key>grave</key>
 	<string>grave.glif</string>
 	<key>greater</key>
@@ -854,10 +862,10 @@
 	<string>n1xx.glif</string>
 	<key>n2</key>
 	<string>n2.glif</string>
+	<key>naalumaa</key>
+	<string>naalumaa.glif</string>
 	<key>nacute</key>
 	<string>nacute.glif</string>
-	<key>nalumaa</key>
-	<string>nalumaa.glif</string>
 	<key>ncaron</key>
 	<string>ncaron.glif</string>
 	<key>ng</key>
@@ -970,6 +978,8 @@
 	<string>ocircumflex.glif</string>
 	<key>odieresis</key>
 	<string>odieresis.glif</string>
+	<key>oe</key>
+	<string>oe.glif</string>
 	<key>ograve</key>
 	<string>ograve.glif</string>
 	<key>omacron</key>
@@ -1092,6 +1102,8 @@
 	<string>p4u2.glif</string>
 	<key>p4xx</key>
 	<string>p4xx.glif</string>
+	<key>paragraph</key>
+	<string>paragraph.glif</string>
 	<key>parenleft</key>
 	<string>parenleft.glif</string>
 	<key>parenright</key>
@@ -1464,6 +1476,8 @@
 	<string>th4u2.glif</string>
 	<key>th4xx</key>
 	<string>th4xx.glif</string>
+	<key>thorn</key>
+	<string>thorn.glif</string>
 	<key>three</key>
 	<string>three.glif</string>
 	<key>two</key>
@@ -1478,6 +1492,8 @@
 	<string>u_sign_drop.glif</string>
 	<key>uacute</key>
 	<string>uacute.glif</string>
+	<key>ucaron</key>
+	<string>ucaron.glif</string>
 	<key>ucircumflex</key>
 	<string>ucircumflex.glif</string>
 	<key>udieresis</key>
@@ -1492,12 +1508,6 @@
 	<string>uni00A_0.glif</string>
 	<key>uni00AD</key>
 	<string>uni00A_D_.glif</string>
-	<key>uni01D2</key>
-	<string>uni01D_2.glif</string>
-	<key>uni01D3</key>
-	<string>uni01D_3.glif</string>
-	<key>uni01D4</key>
-	<string>uni01D_4.glif</string>
 	<key>uni0D4C</key>
 	<string>uni0D_4C_.glif</string>
 	<key>uni0D66</key>

@@ -780,6 +780,8 @@
 	<string>multiply.glif</string>
 	<key>munnumaa</key>
 	<string>munnumaa.glif</string>
+	<key>muntaani</key>
+	<string>muntaani.glif</string>
 	<key>muunnukaani</key>
 	<string>muunnukaani.glif</string>
 	<key>n</key>
@@ -874,6 +876,8 @@
 	<string>n1xx.glif</string>
 	<key>n2</key>
 	<string>n2.glif</string>
+	<key>naalumaa</key>
+	<string>naalumaa.glif</string>
 	<key>nacute</key>
 	<string>nacute.glif</string>
 	<key>ncaron</key>
@@ -1532,6 +1536,8 @@
 	<string>u_sign_drop.glif</string>
 	<key>uacute</key>
 	<string>uacute.glif</string>
+	<key>ucaron</key>
+	<string>ucaron.glif</string>
 	<key>ucircumflex</key>
 	<string>ucircumflex.glif</string>
 	<key>udieresis</key>
@@ -1548,8 +1554,6 @@
 	<string>uni00A_D_.glif</string>
 	<key>uni0D4C</key>
 	<string>uni0D_4C_.glif</string>
-	<key>uni0D5E</key>
-	<string>uni0D_5E_.glif</string>
 	<key>uni0D66</key>
 	<string>uni0D_66.glif</string>
 	<key>uni0D67</key>

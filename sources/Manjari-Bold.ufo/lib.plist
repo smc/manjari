@@ -751,7 +751,7 @@
 		<string>Utilde</string>
 		<string>Ycircumflex</string>
 		<string>edotaccent</string>
-		<string>uni01D3</string>
+		<string>Ucaron</string>
 		<string>imacron</string>
 		<string>Umacron</string>
 		<string>Eth</string>
@@ -760,13 +760,11 @@
 		<string>Emacron</string>
 		<string>zcaron</string>
 		<string>emacron</string>
-		<string>uni01D2</string>
 		<string>Zcaron</string>
 		<string>wcircumflex</string>
 		<string>uring</string>
 		<string>Zacute</string>
 		<string>Ncaron</string>
-		<string>Ucaron</string>
 		<string>Uring</string>
 		<string>bullet</string>
 		<string>scedilla</string>
@@ -784,10 +782,27 @@
 		<string>hcircumflex</string>
 		<string>omacron</string>
 		<string>amacron</string>
-		<string>uni01D4</string>
+		<string>ucaron</string>
 		<string>zdotaccent</string>
 		<string>zacute</string>
 		<string>Gdotaccent</string>
+		<string>ae</string>
+		<string>AE</string>
+		<string>AEacute</string>
+		<string>aeacute</string>
+		<string>multiply</string>
+		<string>divide</string>
+		<string>guillemotleft</string>
+		<string>guillemotright</string>
+		<string>oslash</string>
+		<string>Oslash</string>
+		<string>eth</string>
+		<string>thorn</string>
+		<string>Thorn</string>
+		<string>paragraph</string>
+		<string>germandbls</string>
+		<string>oe</string>
+		<string>OE</string>
 		<string>endash</string>
 		<string>emdash</string>
 		<string>nht1r3</string>
@@ -811,7 +826,7 @@
 		<string>uni0D72</string>
 		<string>randumaa</string>
 		<string>munnumaa</string>
-		<string>nalumaa</string>
+		<string>naalumaa</string>
 		<string>maakaani</string>
 		<string>arakkaal</string>
 		<string>muntaani</string>
@@ -833,16 +848,6 @@
 		<string>lhlh.alt1</string>
 		<string>lhlhu1.alt1</string>
 		<string>lhlhu2.alt1</string>
-		<string>ae</string>
-		<string>AE</string>
-		<string>AEacute</string>
-		<string>aeacute</string>
-		<string>multiply</string>
-		<string>divide</string>
-		<string>guillemotleft</string>
-		<string>guillemotright</string>
-		<string>oslash</string>
-		<string>Oslash</string>
 	</array>
 </dict>
 </plist>

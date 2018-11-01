@@ -826,6 +826,7 @@
 		<string>Gdotaccent</string>
 		<string>bullet</string>
 		<string>Ucaron</string>
+		<string>ucaron</string>
 		<string>Rcaron</string>
 		<string>backslash</string>
 		<string>Hcircumflex</string>
@@ -841,6 +842,7 @@
 		<string>arakani</string>
 		<string>aramaa</string>
 		<string>muunnukaani</string>
+		<string>muntaani</string>
 		<string>orumaa</string>
 		<string>ml_ii_archaic</string>
 		<string>uni0D73</string>
@@ -851,7 +853,7 @@
 		<string>uni0D71</string>
 		<string>uni0D72</string>
 		<string>randumaa</string>
-		<string>uni0D5E</string>
+		<string>naalumaa</string>
 		<string>munnumaa</string>
 		<string>maakaani</string>
 		<string>arakkaal</string>
