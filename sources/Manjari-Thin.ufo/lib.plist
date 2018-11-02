@@ -261,9 +261,6 @@
 		<string>t4u1</string>
 		<string>t4u2</string>
 		<string>t4r1</string>
-		<string>t4r3</string>
-		<string>t4r3u1</string>
-		<string>t4r3u2</string>
 		<string>nhu1</string>
 		<string>nhu2</string>
 		<string>nht1</string>
@@ -376,9 +373,6 @@
 		<string>p1u2</string>
 		<string>p1r1</string>
 		<string>p1th1</string>
-		<string>p1th1u1</string>
-		<string>p1th1u2</string>
-		<string>p1th1r1</string>
 		<string>p1n1</string>
 		<string>p1n1u1</string>
 		<string>p1n1u2</string>
@@ -546,8 +540,6 @@
 		<string>rhrhu1</string>
 		<string>rhrhu2</string>
 		<string>th2r1</string>
-		<string>th2r3</string>
-		<string>th3l3</string>
 		<string>l4</string>
 		<string>rh_half</string>
 		<string>n2</string>
@@ -875,6 +867,11 @@
 		<string>lhlh.alt1</string>
 		<string>lhlhu1.alt1</string>
 		<string>lhlhu2.alt1</string>
+		<string>uni00B9</string>
+		<string>uni00B2</string>
+		<string>uni00B3</string>
+		<string>_m1</string>
+		<string>_k1</string>
 	</array>
 </dict>
 </plist>

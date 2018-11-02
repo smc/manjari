@@ -190,6 +190,10 @@
 	<string>Z_caron.glif</string>
 	<key>Zdotaccent</key>
 	<string>Z_dotaccent.glif</string>
+	<key>_k1</key>
+	<string>_k1.glif</string>
+	<key>_m1</key>
+	<string>_m1.glif</string>
 	<key>_n1</key>
 	<string>_n1.glif</string>
 	<key>_nh</key>
@@ -1044,12 +1048,6 @@
 	<string>p1s1.glif</string>
 	<key>p1th1</key>
 	<string>p1th1.glif</string>
-	<key>p1th1r1</key>
-	<string>p1th1r1.glif</string>
-	<key>p1th1u1</key>
-	<string>p1th1u1.glif</string>
-	<key>p1th1u2</key>
-	<string>p1th1u2.glif</string>
 	<key>p1u1</key>
 	<string>p1u1.glif</string>
 	<key>p1u2</key>
@@ -1380,12 +1378,6 @@
 	<string>t4.glif</string>
 	<key>t4r1</key>
 	<string>t4r1.glif</string>
-	<key>t4r3</key>
-	<string>t4r3.glif</string>
-	<key>t4r3u1</key>
-	<string>t4r3u1.glif</string>
-	<key>t4r3u2</key>
-	<string>t4r3u2.glif</string>
 	<key>t4u1</key>
 	<string>t4u1.glif</string>
 	<key>t4u2</key>
@@ -1466,8 +1458,6 @@
 	<string>th2_half.glif</string>
 	<key>th2r1</key>
 	<string>th2r1.glif</string>
-	<key>th2r3</key>
-	<string>th2r3.glif</string>
 	<key>th2u1</key>
 	<string>th2u1.glif</string>
 	<key>th2u2</key>
@@ -1476,8 +1466,6 @@
 	<string>th2xx.glif</string>
 	<key>th3</key>
 	<string>th3.glif</string>
-	<key>th3l3</key>
-	<string>th3l3.glif</string>
 	<key>th3r1</key>
 	<string>th3r1.glif</string>
 	<key>th3r3</key>
@@ -1552,6 +1540,12 @@
 	<string>uni00A_0.glif</string>
 	<key>uni00AD</key>
 	<string>uni00A_D_.glif</string>
+	<key>uni00B2</key>
+	<string>uni00B_2.glif</string>
+	<key>uni00B3</key>
+	<string>uni00B_3.glif</string>
+	<key>uni00B9</key>
+	<string>uni00B_9.glif</string>
 	<key>uni0D4C</key>
 	<string>uni0D_4C_.glif</string>
 	<key>uni0D66</key>

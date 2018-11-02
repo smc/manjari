@@ -190,6 +190,24 @@
 	<string>Z_caron.glif</string>
 	<key>Zdotaccent</key>
 	<string>Z_dotaccent.glif</string>
+	<key>_k1</key>
+	<string>_k1.glif</string>
+	<key>_m1</key>
+	<string>_m1.glif</string>
+	<key>_n1</key>
+	<string>_n1.glif</string>
+	<key>_nh</key>
+	<string>_nh.glif</string>
+	<key>_nhu1</key>
+	<string>_nhu1.glif</string>
+	<key>_nhu2</key>
+	<string>_nhu2.glif</string>
+	<key>_rh</key>
+	<string>_rh.glif</string>
+	<key>_s1</key>
+	<string>_s1.glif</string>
+	<key>_th1</key>
+	<string>_th1.glif</string>
 	<key>a</key>
 	<string>a.glif</string>
 	<key>a2</key>
@@ -1186,12 +1204,16 @@
 	<string>s.glif</string>
 	<key>s1</key>
 	<string>s1.glif</string>
+	<key>s1k1</key>
+	<string>s1k1.glif</string>
 	<key>s1l3</key>
 	<string>s1l3.glif</string>
 	<key>s1l3u1</key>
 	<string>s1l3u1.glif</string>
 	<key>s1l3u2</key>
 	<string>s1l3u2.glif</string>
+	<key>s1m1</key>
+	<string>s1m1.glif</string>
 	<key>s1n1</key>
 	<string>s1n1.glif</string>
 	<key>s1p1</key>
@@ -1250,6 +1272,8 @@
 	<string>sh.glif</string>
 	<key>sh1p1</key>
 	<string>sh1p1.glif</string>
+	<key>shm1</key>
+	<string>shm1.glif</string>
 	<key>shnh</key>
 	<string>shnh.glif</string>
 	<key>shnhu1</key>
@@ -1426,6 +1450,8 @@
 	<string>th2.glif</string>
 	<key>th2_half</key>
 	<string>th2_half.glif</string>
+	<key>th2r1</key>
+	<string>th2r1.glif</string>
 	<key>th2u1</key>
 	<string>th2u1.glif</string>
 	<key>th2u2</key>
@@ -1508,6 +1534,12 @@
 	<string>uni00A_0.glif</string>
 	<key>uni00AD</key>
 	<string>uni00A_D_.glif</string>
+	<key>uni00B2</key>
+	<string>uni00B_2.glif</string>
+	<key>uni00B3</key>
+	<string>uni00B_3.glif</string>
+	<key>uni00B9</key>
+	<string>uni00B_9.glif</string>
 	<key>uni0D4C</key>
 	<string>uni0D_4C_.glif</string>
 	<key>uni0D66</key>
@@ -1604,6 +1636,8 @@
 	<string>y1.glif</string>
 	<key>y1cil</key>
 	<string>y1cil.glif</string>
+	<key>y1k1</key>
+	<string>y1k1.glif</string>
 	<key>y1u1</key>
 	<string>y1u1.glif</string>
 	<key>y1u2</key>
@@ -1644,6 +1678,8 @@
 	<string>z1l3u1.glif</string>
 	<key>z1l3u2</key>
 	<string>z1l3u2.glif</string>
+	<key>z1m1</key>
+	<string>z1m1.glif</string>
 	<key>z1n1</key>
 	<string>z1n1.glif</string>
 	<key>z1n1u1</key>

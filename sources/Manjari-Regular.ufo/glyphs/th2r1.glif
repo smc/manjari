@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="th2r1" format="2">
+  <advance width="1549.2219942017655"/>
+  <outline>
+    <component base="th2"/>
+    <component base="vocalic_r_sign_drop" xOffset="383.2219942017655" yOffset="290.6725626241897"/>
+  </outline>
+</glyph>

@@ -2,55 +2,7 @@
 <glyph name="z1m1" format="2">
   <advance width="1914"/>
   <outline>
-    <contour>
-      <point x="897.0" y="-438.0" type="curve"/>
-      <point x="913.0" y="-223.0"/>
-      <point x="1088.0" y="-19.0"/>
-      <point x="1340.0" y="-19.0" type="curve" smooth="yes"/>
-      <point x="1595.0" y="-19.0"/>
-      <point x="1799.0" y="-217.0"/>
-      <point x="1799.0" y="-468.0" type="curve" smooth="yes"/>
-      <point x="1799.0" y="-558.0"/>
-      <point x="1798.0" y="-652.0"/>
-      <point x="1798.0" y="-743.0" type="curve" smooth="yes"/>
-      <point x="1798.0" y="-762.0"/>
-      <point x="1782.0" y="-778.0"/>
-      <point x="1763.0" y="-778.0" type="curve" smooth="yes"/>
-      <point x="931.0" y="-778.0" type="line" smooth="yes"/>
-      <point x="912.0" y="-778.0"/>
-      <point x="896.0" y="-762.0"/>
-      <point x="896.0" y="-743.0" type="curve" smooth="yes"/>
-      <point x="896.0" y="-441.0" type="line" smooth="yes"/>
-      <point x="896.0" y="-440.0"/>
-      <point x="897.0" y="-439.0"/>
-    </contour>
-    <contour>
-      <point x="1461.0" y="-266.0" type="curve" smooth="yes"/>
-      <point x="1461.0" y="-264.0" type="line" smooth="yes"/>
-      <point x="1461.0" y="-169.0"/>
-      <point x="1403.0" y="-94.0"/>
-      <point x="1309.0" y="-94.0" type="curve" smooth="yes"/>
-      <point x="1121.0" y="-94.0"/>
-      <point x="978.0" y="-279.0"/>
-      <point x="966.0" y="-442.0" type="curve"/>
-      <point x="966.0" y="-708.0" type="line"/>
-      <point x="1005.0" y="-708.0" type="line"/>
-      <point x="1203.0" y="-683.0"/>
-      <point x="1461.0" y="-511.0"/>
-    </contour>
-    <contour>
-      <point x="1487.0" y="-116.0" type="curve"/>
-      <point x="1517.0" y="-160.0"/>
-      <point x="1530.0" y="-211.0"/>
-      <point x="1530.0" y="-262.0" type="curve" smooth="yes"/>
-      <point x="1530.0" y="-474.0"/>
-      <point x="1370.0" y="-630.0"/>
-      <point x="1227.0" y="-708.0" type="curve"/>
-      <point x="1728.0" y="-708.0" type="line"/>
-      <point x="1728.0" y="-441.0" type="line"/>
-      <point x="1715.0" y="-288.0"/>
-      <point x="1613.0" y="-166.0"/>
-    </contour>
     <component base="z1" yScale="0.943176" xOffset="-2.0" yOffset="5.0"/>
+    <component base="_m1" xOffset="964.1065985857522" yOffset="-5.932516981530398"/>
   </outline>
 </glyph>

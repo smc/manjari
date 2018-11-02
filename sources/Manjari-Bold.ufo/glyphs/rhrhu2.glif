@@ -2,7 +2,7 @@
 <glyph name="rhrhu2" format="2">
   <advance width="1338"/>
   <outline>
-    <component base="uu_sign_drop" xScale="0.95439" yScale="0.915618" xOffset="672.0" yOffset="-542.0"/>
+    <component base="uu_sign_drop" xScale="0.95439" yScale="0.915618" xOffset="672.0" yOffset="-543.0"/>
     <component base="rhrh"/>
   </outline>
   <lib>
