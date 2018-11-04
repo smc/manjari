@@ -421,7 +421,7 @@ lookup psts_vowel_signs_common {
     sub th1s1 r1  by th1s1r1;
     sub th2 u1  by th2u1;
     sub th2 u2  by th2u2;
-    sub th1 r1  by th2r1;
+    sub th2 r1  by th2r1;
     sub th3 u1  by th3u1;
     sub th3 u2  by th3u2;
     sub th3 r1  by th3r1;
