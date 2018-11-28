@@ -4,7 +4,7 @@
 	<advance width="2277"/>
 	<outline>
 		<component base="a2" xOffset="1300"/>
-		<component base="ml_n"/>
+		<component base="ml_o"/>
 	</outline>
 	<lib>
 		<dict>
