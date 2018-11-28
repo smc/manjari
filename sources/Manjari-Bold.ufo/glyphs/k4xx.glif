@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="k4xx" format="2">
-  <advance width="2692"/>
-  <outline>
-    <component base="k4"/>
-    <component base="xx" xOffset="2694.0" yOffset="-9.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseligature</string>
-    </dict>
-  </lib>
+	<advance width="2692"/>
+	<outline>
+		<component base="k4"/>
+		<component base="xx" xOffset="2694" yOffset="-9"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseligature</string>
+		</dict>
+	</lib>
 </glyph>

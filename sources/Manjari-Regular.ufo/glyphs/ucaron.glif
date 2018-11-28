@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ucaron" format="2">
-  <advance width="1087"/>
-  <unicode hex="01D4"/>
-  <outline>
-    <component base="u"/>
-    <component base="caron" xOffset="200"/>
-  </outline>
+	<unicode hex="01D4"/>
+	<advance width="1087"/>
+	<outline>
+		<component base="u"/>
+		<component base="caron" xOffset="200"/>
+	</outline>
 </glyph>

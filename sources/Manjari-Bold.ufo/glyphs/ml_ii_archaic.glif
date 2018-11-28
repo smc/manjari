@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ml_ii_archaic" format="2">
-  <advance width="2930"/>
-  <unicode hex="0D5F"/>
-  <outline>
-    <component base="u_sign_drop" xOffset="2160.0" yOffset="740.0"/>
-    <component base="u_sign_drop" xOffset="48.0" yOffset="740.0"/>
-    <component base="r3" xOffset="740"/>
-  </outline>
+	<unicode hex="0D5F"/>
+	<advance width="2930"/>
+	<outline>
+		<component base="u_sign_drop" xOffset="2160" yOffset="740"/>
+		<component base="u_sign_drop" xOffset="48" yOffset="740"/>
+		<component base="r3" xOffset="740"/>
+	</outline>
 </glyph>

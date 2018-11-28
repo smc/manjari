@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="utilde" format="2">
-  <advance width="1087"/>
-  <unicode hex="0169"/>
-  <outline>
-    <component base="asciitilde" xOffset="173.0" yOffset="27.0"/>
-    <component base="u"/>
-  </outline>
+	<unicode hex="0169"/>
+	<advance width="1087"/>
+	<outline>
+		<component base="asciitilde" xOffset="173" yOffset="27"/>
+		<component base="u"/>
+	</outline>
 </glyph>

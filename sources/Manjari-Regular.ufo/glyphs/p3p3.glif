@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="p3p3" format="2">
-  <advance width="2486"/>
-  <outline>
-    <component base="va_sign" xOffset="1080.0" yOffset="56.0"/>
-    <component base="p3"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseligature</string>
-    </dict>
-  </lib>
+	<advance width="2486"/>
+	<outline>
+		<component base="va_sign" xOffset="1080" yOffset="56"/>
+		<component base="p3"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseligature</string>
+		</dict>
+	</lib>
 </glyph>

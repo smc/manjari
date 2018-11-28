@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="colon" format="2">
-  <advance width="461.0"/>
-  <unicode hex="003A"/>
-  <outline>
-    <component base="period" xOffset="-15.0" yOffset="690.0"/>
-    <component base="period" xOffset="-13.0" yOffset="176.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseglyph</string>
-    </dict>
-  </lib>
+	<unicode hex="003A"/>
+	<advance width="461"/>
+	<outline>
+		<component base="period" xOffset="-15" yOffset="690"/>
+		<component base="period" xOffset="-13" yOffset="176"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseglyph</string>
+		</dict>
+	</lib>
 </glyph>

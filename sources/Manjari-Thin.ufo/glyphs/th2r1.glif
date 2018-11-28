@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="th2r1" format="2">
-  <advance width="1626"/>
-  <outline>
-    <component base="vocalic_r_sign_drop" xOffset="515.0" yOffset="217.0"/>
-    <component base="th2"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseglyph</string>
-    </dict>
-  </lib>
+	<advance width="1626"/>
+	<outline>
+		<component base="vocalic_r_sign_drop" xOffset="515" yOffset="217"/>
+		<component base="th2"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseglyph</string>
+		</dict>
+	</lib>
 </glyph>

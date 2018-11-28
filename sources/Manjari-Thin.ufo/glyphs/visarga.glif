@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="visarga" format="2">
-  <advance width="627"/>
-  <unicode hex="0D03"/>
-  <outline>
-    <component base="anuswara" xScale="0.714047" yScale="0.719064" xOffset="29.0" yOffset="5.0"/>
-    <component base="anuswara" xScale="0.714047" yScale="0.719064" xOffset="30.0" yOffset="548.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseglyph</string>
-    </dict>
-  </lib>
+	<unicode hex="0D03"/>
+	<advance width="627"/>
+	<outline>
+		<component base="anuswara" xScale="0.714047" yScale="0.719064" xOffset="29" yOffset="5"/>
+		<component base="anuswara" xScale="0.714047" yScale="0.719064" xOffset="30" yOffset="548"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseglyph</string>
+		</dict>
+	</lib>
 </glyph>

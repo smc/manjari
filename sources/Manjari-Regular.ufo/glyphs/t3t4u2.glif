@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="t3t4u2" format="2">
-  <advance width="2441"/>
-  <outline>
-    <component base="uu_sign_drop" xScale="0.733704" yScale="0.684143" xOffset="1815.0" yOffset="-586.0"/>
-    <component base="t3t4"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseligature</string>
-    </dict>
-  </lib>
+	<advance width="2441"/>
+	<outline>
+		<component base="uu_sign_drop" xScale="0.733704" yScale="0.684143" xOffset="1815" yOffset="-586"/>
+		<component base="t3t4"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseligature</string>
+		</dict>
+	</lib>
 </glyph>

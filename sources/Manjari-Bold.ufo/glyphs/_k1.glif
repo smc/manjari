@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_k1" format="2">
-  <advance width="1053.0"/>
-  <outline>
-    <component base="k1" xScale="0.6" yScale="0.6" xOffset="-45.0" yOffset="-680.0"/>
-  </outline>
+	<advance width="1053"/>
+	<outline>
+		<component base="k1" xScale="0.6" yScale="0.6" xOffset="-45" yOffset="-680"/>
+	</outline>
 </glyph>

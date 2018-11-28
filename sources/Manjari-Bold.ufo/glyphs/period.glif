@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="period" format="2">
-  <advance width="489"/>
-  <unicode hex="002E"/>
-  <outline>
-    <contour>
-      <point x="244.0" y="-4.0" type="curve" smooth="yes"/>
-      <point x="153.0" y="-4.0"/>
-      <point x="75.0" y="69.0"/>
-      <point x="75.0" y="161.0" type="curve" smooth="yes"/>
-      <point x="75.0" y="253.0"/>
-      <point x="153.0" y="325.0"/>
-      <point x="244.0" y="325.0" type="curve" smooth="yes"/>
-      <point x="335.0" y="325.0"/>
-      <point x="414.0" y="253.0"/>
-      <point x="414.0" y="161.0" type="curve" smooth="yes"/>
-      <point x="414.0" y="69.0"/>
-      <point x="335.0" y="-4.0"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseglyph</string>
-    </dict>
-  </lib>
+	<unicode hex="002E"/>
+	<advance width="489"/>
+	<outline>
+		<contour>
+			<point x="244" y="-4" type="curve" smooth="yes"/>
+			<point x="153" y="-4"/>
+			<point x="75" y="69"/>
+			<point x="75" y="161" type="curve" smooth="yes"/>
+			<point x="75" y="253"/>
+			<point x="153" y="325"/>
+			<point x="244" y="325" type="curve" smooth="yes"/>
+			<point x="335" y="325"/>
+			<point x="414" y="253"/>
+			<point x="414" y="161" type="curve" smooth="yes"/>
+			<point x="414" y="69"/>
+			<point x="335" y="-4"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseglyph</string>
+		</dict>
+	</lib>
 </glyph>

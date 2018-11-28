@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="p3r1" format="2">
-  <advance width="2486"/>
-  <outline>
-    <component base="vocalic_r_sign_drop" xOffset="1318.0" yOffset="300.0"/>
-    <component base="p3"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseligature</string>
-    </dict>
-  </lib>
+	<advance width="2486"/>
+	<outline>
+		<component base="vocalic_r_sign_drop" xOffset="1318" yOffset="300"/>
+		<component base="p3"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseligature</string>
+		</dict>
+	</lib>
 </glyph>

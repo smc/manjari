@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="t3" format="2">
-  <advance width="2476"/>
-  <unicode hex="0D21"/>
-  <outline>
-    <component base="s1" xScale="-0.999512" yScale="-1.0011" xOffset="2477.0" yOffset="1002.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseglyph</string>
-    </dict>
-  </lib>
+	<unicode hex="0D21"/>
+	<advance width="2476"/>
+	<outline>
+		<component base="s1" xScale="-0.999512" yScale="-1.0011" xOffset="2477" yOffset="1002"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseglyph</string>
+		</dict>
+	</lib>
 </glyph>

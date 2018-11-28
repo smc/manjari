@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ai1" format="2">
-  <advance width="2689"/>
-  <unicode hex="0D48"/>
-  <outline>
-    <component base="e1" xOffset="1311.0" yOffset="4.0"/>
-    <component base="e1"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseglyph</string>
-    </dict>
-  </lib>
+	<unicode hex="0D48"/>
+	<advance width="2689"/>
+	<outline>
+		<component base="e1" xOffset="1311" yOffset="4"/>
+		<component base="e1"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseglyph</string>
+		</dict>
+	</lib>
 </glyph>

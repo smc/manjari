@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ml_ai" format="2">
-  <advance width="3592"/>
-  <unicode hex="0D10"/>
-  <outline>
-    <component base="e1"/>
-    <component base="ml_e" xOffset="1335.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseglyph</string>
-    </dict>
-  </lib>
+	<unicode hex="0D10"/>
+	<advance width="3592"/>
+	<outline>
+		<component base="e1"/>
+		<component base="ml_e" xOffset="1335"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseglyph</string>
+		</dict>
+	</lib>
 </glyph>

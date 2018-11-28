@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ocaron" format="2">
-  <advance width="1166.0"/>
-  <unicode hex="01D2"/>
-  <outline>
-    <component base="o"/>
-    <component base="asciicircum" xScale="-1" yScale="-1" xOffset="954.6121372031662" yOffset="2576.852242744063"/>
-  </outline>
+	<unicode hex="01D2"/>
+	<advance width="1166"/>
+	<outline>
+		<component base="o"/>
+		<component base="asciicircum" xScale="-1" yScale="-1" xOffset="954.6121372032" yOffset="2576.8522427441"/>
+	</outline>
 </glyph>

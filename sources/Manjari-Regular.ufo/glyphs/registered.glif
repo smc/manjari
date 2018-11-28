@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="registered" format="2">
-  <advance width="1275"/>
-  <unicode hex="00AE"/>
-  <outline>
-    <component base="R" xScale="0.534962" yScale="0.463726" xOffset="329.0" yOffset="188.0"/>
-    <component base="O" xScale="0.831463" yScale="0.744259" xOffset="13.0" yOffset="-18.0"/>
-  </outline>
+	<unicode hex="00AE"/>
+	<advance width="1275"/>
+	<outline>
+		<component base="R" xScale="0.534962" yScale="0.463726" xOffset="329" yOffset="188"/>
+		<component base="O" xScale="0.831463" yScale="0.744259" xOffset="13" yOffset="-18"/>
+	</outline>
 </glyph>

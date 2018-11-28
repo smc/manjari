@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="k1r3u2" format="2">
-  <advance width="2415"/>
-  <outline>
-    <component base="uu_sign_drop" xOffset="1763.0" yOffset="-70.0"/>
-    <component base="k1r3"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseligature</string>
-    </dict>
-  </lib>
+	<advance width="2415"/>
+	<outline>
+		<component base="uu_sign_drop" xOffset="1763" yOffset="-70"/>
+		<component base="k1r3"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseligature</string>
+		</dict>
+	</lib>
 </glyph>

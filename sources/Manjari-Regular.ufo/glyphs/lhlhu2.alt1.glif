@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lhlhu2.alt1" format="2">
-  <advance width="2254.516202983427"/>
-  <outline>
-    <component base="lhlh.alt1"/>
-    <component base="uu_sign_drop" xOffset="1502.5162029834269" yOffset="-151.41316382861442"/>
-  </outline>
+	<advance width="2254.5162029834"/>
+	<outline>
+		<component base="lhlh.alt1"/>
+		<component base="uu_sign_drop" xOffset="1502.5162029834" yOffset="-151.4131638286"/>
+	</outline>
 </glyph>

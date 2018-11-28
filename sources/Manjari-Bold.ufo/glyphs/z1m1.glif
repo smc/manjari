@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="z1m1" format="2">
-  <advance width="1920.0"/>
-  <outline>
-    <component base="z1"/>
-    <component base="_m1" xOffset="1077.7308707124012" yOffset="-13.672823218997394"/>
-  </outline>
+	<advance width="1920"/>
+	<outline>
+		<component base="z1"/>
+		<component base="_m1" xOffset="1077.7308707124" yOffset="-13.672823219"/>
+	</outline>
 </glyph>

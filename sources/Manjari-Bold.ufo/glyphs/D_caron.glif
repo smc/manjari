@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Dcaron" format="2">
-  <advance width="1384"/>
-  <unicode hex="010E"/>
-  <outline>
-    <component base="D"/>
-    <component base="caron" xOffset="197.05013192612137" yOffset="380.13984168865454"/>
-  </outline>
+	<unicode hex="010E"/>
+	<advance width="1384"/>
+	<outline>
+		<component base="D"/>
+		<component base="caron" xOffset="197.0501319261" yOffset="380.1398416887"/>
+	</outline>
 </glyph>

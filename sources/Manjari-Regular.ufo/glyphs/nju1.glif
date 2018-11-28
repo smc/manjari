@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nju1" format="2">
-  <advance width="2505"/>
-  <outline>
-    <component base="u_sign_drop" xOffset="1860.0" yOffset="122.0"/>
-    <component base="nj" xOffset="8.0" yOffset="7.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseligature</string>
-    </dict>
-  </lib>
+	<advance width="2505"/>
+	<outline>
+		<component base="u_sign_drop" xOffset="1860" yOffset="122"/>
+		<component base="nj" xOffset="8" yOffset="7"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseligature</string>
+		</dict>
+	</lib>
 </glyph>

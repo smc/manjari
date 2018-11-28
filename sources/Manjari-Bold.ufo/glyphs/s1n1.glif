@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="s1n1" format="2">
-  <advance width="2438"/>
-  <outline>
-    <component base="s1" yScale="0.981216" yOffset="24.0"/>
-    <component base="_n1" xOffset="990.4797504397536" yOffset="-4.458055148376161"/>
-  </outline>
+	<advance width="2438"/>
+	<outline>
+		<component base="s1" yScale="0.981216" yOffset="24"/>
+		<component base="_n1" xOffset="990.4797504398" yOffset="-4.4580551484"/>
+	</outline>
 </glyph>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ch3xx" format="2">
-  <advance width="1613"/>
-  <outline>
-    <component base="ch3"/>
-    <component base="xx" xOffset="1598.0" yOffset="-6.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseligature</string>
-    </dict>
-  </lib>
+	<advance width="1613"/>
+	<outline>
+		<component base="ch3"/>
+		<component base="xx" xOffset="1598" yOffset="-6"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseligature</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="numbersign" format="2">
-  <advance width="937"/>
-  <unicode hex="0023"/>
-  <outline>
-    <contour>
-      <point x="467.0" y="754.0" type="line"/>
-      <point x="415.0" y="475.0" type="line"/>
-      <point x="608.0" y="475.0" type="line"/>
-      <point x="657.0" y="754.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="824.0" y="754.0" type="line"/>
-      <point x="774.0" y="475.0" type="line"/>
-      <point x="960.0" y="475.0" type="line"/>
-      <point x="960.0" y="322.0" type="line"/>
-      <point x="747.0" y="322.0" type="line"/>
-      <point x="680.0" y="-55.0" type="line"/>
-      <point x="514.0" y="-55.0" type="line"/>
-      <point x="580.0" y="322.0" type="line"/>
-      <point x="386.0" y="322.0" type="line"/>
-      <point x="316.0" y="-55.0" type="line"/>
-      <point x="152.0" y="-55.0" type="line"/>
-      <point x="223.0" y="322.0" type="line"/>
-      <point x="43.0" y="322.0" type="line"/>
-      <point x="43.0" y="475.0" type="line"/>
-      <point x="252.0" y="475.0" type="line"/>
-      <point x="304.0" y="754.0" type="line"/>
-      <point x="113.0" y="754.0" type="line"/>
-      <point x="113.0" y="907.0" type="line"/>
-      <point x="332.0" y="907.0" type="line"/>
-      <point x="398.0" y="1256.0" type="line"/>
-      <point x="561.0" y="1256.0" type="line"/>
-      <point x="496.0" y="907.0" type="line"/>
-      <point x="684.0" y="907.0" type="line"/>
-      <point x="746.0" y="1256.0" type="line"/>
-      <point x="913.0" y="1256.0" type="line"/>
-      <point x="851.0" y="907.0" type="line"/>
-      <point x="1016.0" y="907.0" type="line"/>
-      <point x="1016.0" y="754.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>baseglyph</string>
-    </dict>
-  </lib>
+	<unicode hex="0023"/>
+	<advance width="937"/>
+	<outline>
+		<contour>
+			<point x="467" y="754" type="line"/>
+			<point x="415" y="475" type="line"/>
+			<point x="608" y="475" type="line"/>
+			<point x="657" y="754" type="line"/>
+		</contour>
+		<contour>
+			<point x="824" y="754" type="line"/>
+			<point x="774" y="475" type="line"/>
+			<point x="960" y="475" type="line"/>
+			<point x="960" y="322" type="line"/>
+			<point x="747" y="322" type="line"/>
+			<point x="680" y="-55" type="line"/>
+			<point x="514" y="-55" type="line"/>
+			<point x="580" y="322" type="line"/>
+			<point x="386" y="322" type="line"/>
+			<point x="316" y="-55" type="line"/>
+			<point x="152" y="-55" type="line"/>
+			<point x="223" y="322" type="line"/>
+			<point x="43" y="322" type="line"/>
+			<point x="43" y="475" type="line"/>
+			<point x="252" y="475" type="line"/>
+			<point x="304" y="754" type="line"/>
+			<point x="113" y="754" type="line"/>
+			<point x="113" y="907" type="line"/>
+			<point x="332" y="907" type="line"/>
+			<point x="398" y="1256" type="line"/>
+			<point x="561" y="1256" type="line"/>
+			<point x="496" y="907" type="line"/>
+			<point x="684" y="907" type="line"/>
+			<point x="746" y="1256" type="line"/>
+			<point x="913" y="1256" type="line"/>
+			<point x="851" y="907" type="line"/>
+			<point x="1016" y="907" type="line"/>
+			<point x="1016" y="754" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseglyph</string>
+		</dict>
+	</lib>
 </glyph>

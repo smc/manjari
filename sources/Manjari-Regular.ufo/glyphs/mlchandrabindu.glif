@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mlchandrabindu" format="2">
-  <advance width="131"/>
-  <unicode hex="0D01"/>
-  <outline>
-    <component base="dotreph" xScale="0.573826" yScale="0.619217" xOffset="-66.0" yOffset="520.0"/>
-    <component base="xx"/>
-  </outline>
+	<unicode hex="0D01"/>
+	<advance width="131"/>
+	<outline>
+		<component base="dotreph" xScale="0.573826" yScale="0.619217" xOffset="-66" yOffset="520"/>
+		<component base="xx"/>
+	</outline>
 </glyph>

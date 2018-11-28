@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gdotaccent" format="2">
-  <advance width="1378.0"/>
-  <unicode hex="0120"/>
-  <outline>
-    <component base="G"/>
-    <component base="period" xOffset="454.18201284796567" yOffset="1578.0021413276231"/>
-  </outline>
+	<unicode hex="0120"/>
+	<advance width="1378"/>
+	<outline>
+		<component base="G"/>
+		<component base="period" xOffset="454.182012848" yOffset="1578.0021413276"/>
+	</outline>
 </glyph>
