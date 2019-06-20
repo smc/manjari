@@ -28,7 +28,7 @@ $(BLDDIR)/%.ttf: $(SRCDIR)/%.ufo
 
 $(BLDDIR)/%.woff2: $(BLDDIR)/%.otf
 	@echo "WEBFONT    $(@F)"
-	@$(PY) $(webfontscript) -i $<
+	@fonttools ttLib.woff2 compress  $<
 
 $(BLDDIR)/%.pdf: $(BLDDIR)/%.otf $(tests)
 	@echo "   TEST    $(@F)"
