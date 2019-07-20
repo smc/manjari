@@ -4,10 +4,6 @@ stages:
   - test
   - release
 
-variables:
-  WEBSITE_REPO_TRIGGER: "https://gitlab.com/api/v4/projects/125326/trigger/pipeline"
-  WEBSITE_REPO_BRANCH: "master"
-
 build-branch:
   stage: build
   before_script:
@@ -47,9 +43,7 @@ test:
     - make test
 
 release:
-  image: "pstauffer/curl:latest"
   stage: release
-  script:
-    - curl --request POST --form "token=$CI_JOB_TOKEN" --form ref=${WEBSITE_REPO_BRANCH} "${WEBSITE_REPO_TRIGGER}"
+  trigger: smc/smc-website
   only:
     - tags
