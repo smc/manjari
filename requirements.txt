@@ -1,5 +1,5 @@
 Brotli>=1.0.7
-fontmake==1.10.1
-ufolint>=0.3.2
+fontmake>=2.0.3
+ufolint>=0.4.1
 ufonormalizer>=0.3.6
 
