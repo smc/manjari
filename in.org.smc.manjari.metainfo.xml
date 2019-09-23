@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019 Balasankar C <balasankarc@debian.org> -->
+<component type="font">
+    <id>in.org.smc.manjari</id>
+    <name>Manjari</name>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>OFL-1.1</project_license>
+    <description>
+        <p>
+            Manjari Malayalam Typeface. Multipurpose font suitable for body and titles. Thin, Regular and Bold variants are provided.
+        </p>
+    </description>
+    <summary>Manjari Malayalam Font</summary>
+    <url type="homepage">https://smc.org.in/fonts</url>
+    <url type="bugtracker">https://gitlab.com/smc/fonts/manjari/issues</url>
+    <update_contact>contact_at_smc_org_in</update_contact>
+    <provides>
+        <font>Manjari Regular</font>
+        <font>Manjari Bold</font>
+        <font>Manjari Thin</font>
+    </provides>
+    <languages>
+        <lang>ml</lang>
+    </languages>
+</component>
