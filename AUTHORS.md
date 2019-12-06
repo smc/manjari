@@ -1,9 +1,4 @@
-Authors
-=======
-- Santhosh Thottingal <santhosh.thottingal@gmail.com>
-- Kavya Manohar <sakhi.kavya@gmail.com>
+# Authors
 
-
-Contributors
-============
-- Balasankar C <balasankarc@autistici.org>
+* Santhosh Thottingal <santhosh.thottingal@gmail.com>
+* Kavya Manohar <sakhi.kavya@gmail.com>
