@@ -15,6 +15,7 @@ Manjari font can be previewed and downloaded from https://smc.org.in/fonts/#manj
 
 Building from source
 --------------------
+
 1. Install the python libraries required for build script:
     ```
     pip3 install -r requirements.txt
@@ -24,6 +25,12 @@ Building from source
    make all
    ```
 
+Credits
+-------
+
+See FONTLOG.md for details on contributions.
+
 License
 -------
+
 Manjari is licensed under the SIL Open Font License, Version 1.1. http://scripts.sil.org/OFL
