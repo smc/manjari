@@ -1,25 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2019 Balasankar C <balasankarc@debian.org> -->
+<!-- Copyright 2019 Swathanthra Malayalam Computing <contact@smc.org.in> -->
 <component type="font">
-    <id>in.org.smc.manjari</id>
-    <name>Manjari</name>
-    <metadata_license>CC0-1.0</metadata_license>
-    <project_license>OFL-1.1</project_license>
-    <description>
-        <p>
-            Manjari Malayalam Typeface. Multipurpose font suitable for body and titles. Thin, Regular and Bold variants are provided.
-        </p>
-    </description>
-    <summary>Manjari Malayalam Font</summary>
-    <url type="homepage">https://smc.org.in/fonts</url>
-    <url type="bugtracker">https://gitlab.com/smc/fonts/manjari/issues</url>
-    <update_contact>contact_at_smc_org_in</update_contact>
-    <provides>
-        <font>Manjari Regular</font>
-        <font>Manjari Bold</font>
-        <font>Manjari Thin</font>
-    </provides>
-    <languages>
-        <lang>ml</lang>
-    </languages>
+  <id>in.org.smc.manjari</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>OFL-1.1</project_license>
+  <name>Manjari font</name>
+  <name xml:lang="ml">മഞ്ജരി അക്ഷരസഞ്ചയം</name>
+  <summary>Manjari Malayalam Unicode font</summary>
+  <description>
+    <p>
+      Unicode font for traditional Malayalam script designed by Santhosh
+      Thottingal maintained by Swathanthra Malayalam Computing. Multipurpose
+      font suitable for body and titles. Thin, Regular and Bold variants are
+      provided.
+    </p>
+  </description>
+  <update_contact>contact_at_smc_org_in</update_contact>
+  <provides>
+          <font>Manjari Thin</font>
+          <font>Manjari Regular</font>
+          <font>Manjari Bold</font>
+  </provides>
+  <languages>
+          <lang>ml</lang>
+          <lang>en</lang>
+  </languages>
+  <url type="homepage">https://smc.org.in/fonts</url>
+  <url type="bugtracker">https://gitlab.com/smc/fonts/manjari/issues</url>
+  <metadata>
+  <value key="FontSampleText">മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും
+	 സ്വാതന്ത്ര്യത്തോടും കൂടി ജനിച്ചവരാണ്. അന്യോന്യം ഭ്രാതൃഭാവത്തോടെ പെരുമാറുവാനാണ്
+	 മനുഷ്യന്നു വിവേകബുദ്ധിയും മനസ്സാക്ഷിയും സിദ്ധമായിരിക്കുന്നത്.</value>
+  <value key="FontIconText">അഇ</value>
+  </metadata>
 </component>
