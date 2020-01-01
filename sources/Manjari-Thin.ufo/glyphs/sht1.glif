@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sht1" format="2">
-	<advance width="2142"/>
+	<advance width="1943.8327521045"/>
 	<outline>
 		<component base="sh"/>
-		<component base="t1" xScale="0.853516" yScale="0.705261" xOffset="936" yOffset="-730"/>
+		<component base="_t1" xOffset="1088.4710921045" yOffset="-309.3097888226"/>
 	</outline>
 	<lib>
 		<dict>

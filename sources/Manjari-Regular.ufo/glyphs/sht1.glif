@@ -2,63 +2,8 @@
 <glyph name="sht1" format="2">
 	<advance width="1934"/>
 	<outline>
-		<contour>
-			<point x="1828" y="-514" type="curve" smooth="yes"/>
-			<point x="1828" y="-667"/>
-			<point x="1677" y="-733"/>
-			<point x="1524" y="-733" type="curve" smooth="yes"/>
-			<point x="1391" y="-733"/>
-			<point x="1285" y="-691"/>
-			<point x="1205" y="-606" type="curve" smooth="yes"/>
-			<point x="1194" y="-595"/>
-			<point x="1188" y="-581"/>
-			<point x="1188" y="-564" type="curve" smooth="yes"/>
-			<point x="1188" y="-535"/>
-			<point x="1213" y="-505"/>
-			<point x="1239" y="-505" type="curve" smooth="yes"/>
-			<point x="1261" y="-505"/>
-			<point x="1283" y="-514"/>
-			<point x="1300" y="-533" type="curve" smooth="yes"/>
-			<point x="1341" y="-577"/>
-			<point x="1422" y="-613"/>
-			<point x="1515" y="-613" type="curve" smooth="yes"/>
-			<point x="1616" y="-613"/>
-			<point x="1711" y="-585"/>
-			<point x="1711" y="-506" type="curve" smooth="yes"/>
-			<point x="1711" y="-448"/>
-			<point x="1614" y="-423"/>
-			<point x="1545" y="-422" type="curve" smooth="yes"/>
-			<point x="1391" y="-422"/>
-			<point x="1187" y="-362"/>
-			<point x="1187" y="-230" type="curve" smooth="yes"/>
-			<point x="1187" y="-85"/>
-			<point x="1337" y="-6"/>
-			<point x="1495" y="-6" type="curve" smooth="yes"/>
-			<point x="1622" y="-6"/>
-			<point x="1719" y="-50"/>
-			<point x="1787" y="-138" type="curve" smooth="yes"/>
-			<point x="1796" y="-149"/>
-			<point x="1800" y="-162"/>
-			<point x="1800" y="-177" type="curve" smooth="yes"/>
-			<point x="1800" y="-204"/>
-			<point x="1772" y="-235"/>
-			<point x="1746" y="-235" type="curve" smooth="yes"/>
-			<point x="1722" y="-235"/>
-			<point x="1702" y="-225"/>
-			<point x="1686" y="-204" type="curve" smooth="yes"/>
-			<point x="1646" y="-152"/>
-			<point x="1582" y="-126"/>
-			<point x="1492" y="-126" type="curve" smooth="yes"/>
-			<point x="1405" y="-126"/>
-			<point x="1313" y="-153"/>
-			<point x="1313" y="-225" type="curve" smooth="yes"/>
-			<point x="1313" y="-281"/>
-			<point x="1424" y="-300"/>
-			<point x="1504" y="-301" type="curve" smooth="yes"/>
-			<point x="1696" y="-304"/>
-			<point x="1828" y="-358"/>
-		</contour>
 		<component base="sh" yScale="0.983479" yOffset="17"/>
+		<component base="_t1" xOffset="1182.1541519151" yOffset="-247.3050044788"/>
 	</outline>
 	<lib>
 		<dict>
