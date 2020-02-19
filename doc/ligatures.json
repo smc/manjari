@@ -1,0 +1,2856 @@
+{
+    "ligatures": [{
+            "feature": "aalt",
+            "sequence": "ch1ch1",
+            "name": "ch1ch1, ch1ch1.alt1"
+        },
+        {
+            "feature": "aalt",
+            "sequence": "ch1ch1u1",
+            "name": "ch1ch1u1, ch1ch1u1.alt1"
+        },
+        {
+            "feature": "aalt",
+            "sequence": "ch1ch1u2",
+            "name": "ch1ch1u2, ch1ch1u2.alt1"
+        },
+        {
+            "feature": "aalt",
+            "sequence": "lhlh",
+            "name": "lhlh, lhlh.alt1"
+        },
+        {
+            "feature": "aalt",
+            "sequence": "lhlhu1",
+            "name": "lhlhu1, lhlhu1.alt1"
+        },
+        {
+            "feature": "aalt",
+            "sequence": "lhlhu2",
+            "name": "lhlhu1, lhlhu2.alt1"
+        },
+        {
+            "feature": "akhn, half, haln",
+            "sequence": "k1 xx ZWJ",
+            "name": "k1cil"
+        },
+        {
+            "feature": "akhn, half, haln",
+            "sequence": "l3 xx ZWJ",
+            "name": "l3cil"
+        },
+        {
+            "feature": "akhn, half, haln",
+            "sequence": "lh xx ZWJ",
+            "name": "lhcil"
+        },
+        {
+            "feature": "akhn, half, haln",
+            "sequence": "m1 xx ZWJ",
+            "name": "m1cil"
+        },
+        {
+            "feature": "akhn, half, haln",
+            "sequence": "n1 xx ZWJ",
+            "name": "n1cil"
+        },
+        {
+            "feature": "akhn, half, haln",
+            "sequence": "nh xx ZWJ",
+            "name": "nhcil"
+        },
+        {
+            "feature": "akhn, half, haln",
+            "sequence": "r3 xx ZWJ",
+            "name": "r3cil"
+        },
+        {
+            "feature": "akhn, half, haln",
+            "sequence": "ny1 xx ZWJ",
+            "name": "y1cil"
+        },
+        {
+            "feature": "blwf",
+            "sequence": "l3 xx",
+            "name": "l4"
+        },
+        {
+            "feature": "blwf",
+            "sequence": "xx l3",
+            "name": "l4"
+        },
+        {
+            "feature": "half",
+            "sequence": "ch1 xx",
+            "name": "ch1xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "ch2 xx",
+            "name": "ch2xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "ch3 xx",
+            "name": "ch3xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "ch4 xx",
+            "name": "ch4xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "h1 xx",
+            "name": "h1xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "k1 xx",
+            "name": "k1xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "k2 xx",
+            "name": "k2xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "k3 xx",
+            "name": "k3xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "k4 xx",
+            "name": "k4xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "l3 xx",
+            "name": "l3xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "lh xx",
+            "name": "lhxx"
+        },
+        {
+            "feature": "half",
+            "sequence": "m1 xx",
+            "name": "m1xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "n1 xx",
+            "name": "n1xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "ng xx",
+            "name": "ngxx"
+        },
+        {
+            "feature": "half",
+            "sequence": "nh xx",
+            "name": "nhxx"
+        },
+        {
+            "feature": "half",
+            "sequence": "nj xx",
+            "name": "njxx"
+        },
+        {
+            "feature": "half",
+            "sequence": "p1 xx",
+            "name": "p1xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "p2 xx",
+            "name": "p2xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "p3 xx",
+            "name": "p3xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "p4 xx",
+            "name": "p4xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "r3 xx",
+            "name": "r3xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "rh xx",
+            "name": "rhxx"
+        },
+        {
+            "feature": "half",
+            "sequence": "s1 xx",
+            "name": "s1xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "sh xx",
+            "name": "shxx"
+        },
+        {
+            "feature": "half",
+            "sequence": "t1 xx",
+            "name": "t1xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "t2 xx",
+            "name": "t2xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "t3 xx",
+            "name": "t3xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "t4 xx",
+            "name": "t4xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "th1 xx",
+            "name": "th1xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "th2 xx",
+            "name": "th2xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "th3 xx",
+            "name": "th3xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "th4 xx",
+            "name": "th4xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "v1 xx",
+            "name": "v1xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "y1 xx",
+            "name": "y1xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "z1 xx",
+            "name": "z1xx"
+        },
+        {
+            "feature": "half",
+            "sequence": "zh xx",
+            "name": "zhxx"
+        },
+        {
+            "feature": "pstf",
+            "sequence": "r3 xx",
+            "name": "r4"
+        },
+        {
+            "feature": "pstf",
+            "sequence": "v1 xx",
+            "name": "v2"
+        },
+        {
+            "feature": "pstf",
+            "sequence": "y1 xx",
+            "name": "y2"
+        },
+        {
+            "feature": "pstf",
+            "sequence": "xx v1",
+            "name": "v2"
+        },
+        {
+            "feature": "pstf",
+            "sequence": "xx y1",
+            "name": "y2"
+        },
+        {
+            "feature": "pref",
+            "sequence": "xx r3",
+            "name": "r4"
+        },
+        {
+            "feature": "l4",
+            "name": "xx l3"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "ch1 xx ch1",
+            "name": "ch1ch1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "ch3 xx ch3",
+            "name": "ch3ch3"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "ch3 xx nj",
+            "name": "ch3nj"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "h1 xx m1",
+            "name": "h1m1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "h1 xx n1",
+            "name": "h1n1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "k1 l1",
+            "name": "k1l1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "k1 xx k1",
+            "name": "k1k1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "k1 xx nh",
+            "name": "k1nh"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "k1 xx sh",
+            "name": "k1sh"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "k1 xx th1",
+            "name": "k1th1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "k3 xx k3",
+            "name": "k3k3"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "k3 xx m1",
+            "name": "k3m1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "k3 xx n1",
+            "name": "k3n1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "k3 xx th3",
+            "name": "k3th3"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "k3 xx th3 xx th4",
+            "name": "k3th3th4"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "l3 xx l3",
+            "name": "l3l3"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "l3 xx p1",
+            "name": "l3p1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "lh xx lh",
+            "name": "lhlh"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "m1 xx m1",
+            "name": "m1m1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "m1 xx p1",
+            "name": "m1p1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "n1 xx m1",
+            "name": "n1m1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "n1 xx n1",
+            "name": "n1n1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "n1 xx rh",
+            "name": "n1rh"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "n1 xx th1",
+            "name": "n1th1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "n1 xx th2",
+            "name": "n1th2"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "n1 xx th3",
+            "name": "n1th3"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "n1 xx th4",
+            "name": "n1th4"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "ng xx k1",
+            "name": "ngk1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "ng xx ng",
+            "name": "ngng"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "nh xx m1",
+            "name": "nhm1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "nh xx nh",
+            "name": "nhnh"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "nh xx t1",
+            "name": "nht1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "nh xx t2",
+            "name": "nht2"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "nh xx t3",
+            "name": "nht3"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "nj xx ch1",
+            "name": "njch1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "nj xx ch3",
+            "name": "njch3"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "nj xx nj",
+            "name": "njnj"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "p1 xx n1",
+            "name": "p1n1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "p1 xx p1",
+            "name": "p1p1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "p3 xx p3",
+            "name": "p3p3"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "rh xx rh",
+            "name": "rhrh"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "s1 xx s1",
+            "name": "s1s1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "s1 xx th2",
+            "name": "s1th2"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "t1 xx t1",
+            "name": "t1t1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "t3 xx t3",
+            "name": "t3t3"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "t3 xx t4",
+            "name": "t3t4"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "th1 xx m1",
+            "name": "th1m1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "th1 xx n1",
+            "name": "th1n1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "th1 xx p4",
+            "name": "th1p4"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "th1 xx s1",
+            "name": "th1s1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "th1 xx th1",
+            "name": "th1th1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "th1 xx th2",
+            "name": "th1th2"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "th3 xx th3",
+            "name": "th3th3"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "th3 xx th4",
+            "name": "th3th4"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "v1 xx v1",
+            "name": "v1v1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "y1 xx y1",
+            "name": "y1y1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "z1 xx ch1",
+            "name": "z1ch1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "z1 xx n1",
+            "name": "z1n1"
+        },
+        {
+            "feature": "akhn",
+            "sequence": "z1 xx z1",
+            "name": "z1z1"
+        },
+        {
+            "feature": "pres",
+            "sequence": "ch3 r4",
+            "name": "ch3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "ch3xx r3",
+            "name": "ch3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "h1 r4",
+            "name": "h1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "k1 r4",
+            "name": "k1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "k1k1 r4",
+            "name": "k1k1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "k1k1 xx r3",
+            "name": "k1k1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "k1th1 r4",
+            "name": "k1th1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "k1th1 xx r3",
+            "name": "k1th1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "k1xx r3",
+            "name": "k1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "k3 r4",
+            "name": "k3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "k3xx r3",
+            "name": "k3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "k4 r4",
+            "name": "k4r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "k4xx r3",
+            "name": "k4r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "l3xx l3",
+            "name": "l3l3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "m1 r4",
+            "name": "m1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "m1p1 r4",
+            "name": "m1p1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "m1p1 xx r3",
+            "name": "m1p1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "n1n1 r4",
+            "name": "n1n1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "n1n1 xx r3",
+            "name": "n1n1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "n1th1 r4",
+            "name": "n1th1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "n1th1 xx r3",
+            "name": "n1th1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "n1th3 r4",
+            "name": "n1th3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "n1th3 xx r3",
+            "name": "n1th3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "n1th4 r4",
+            "name": "n1th4r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "n1th4 xx r3",
+            "name": "n1th4r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "nht1 r4",
+            "name": "nht1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "nht1 xx r3",
+            "name": "nht1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "p1 r4",
+            "name": "p1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "p1xx r3",
+            "name": "p1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "p2 r4",
+            "name": "p2r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "p2xx r3",
+            "name": "p2r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "p3 r4",
+            "name": "p3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "p3xx r3",
+            "name": "p3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "p4 r4",
+            "name": "p4r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "p4xx r3",
+            "name": "p4r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "rhrh r4",
+            "name": "rhrhr3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "rhrh xx r3",
+            "name": "rhrhr3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "s1 r4",
+            "name": "s1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "s1th1 r4",
+            "name": "s1th1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "s1th1 xx r3",
+            "name": "s1th1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "s1xx r3",
+            "name": "s1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "sht1 r4",
+            "name": "sht1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "sht1 xx r3",
+            "name": "sht1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "t1 r4",
+            "name": "t1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "t1xx r3",
+            "name": "t1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "t3 r4",
+            "name": "t3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "t3xx r3",
+            "name": "t3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "th1 r4",
+            "name": "th1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "th1th1 r4",
+            "name": "th1th1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "th1th1 xx r3",
+            "name": "th1th1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "th1xx r3",
+            "name": "th1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "th3 r4",
+            "name": "th3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "th3xx r3",
+            "name": "th3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "th4 r4",
+            "name": "th4r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "v1 r4",
+            "name": "v1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "v1xx r3",
+            "name": "v1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "z1 r4",
+            "name": "z1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "z1xx r3",
+            "name": "z1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 ch3",
+            "name": "ch3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 h1",
+            "name": "h1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 k1",
+            "name": "k1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 k1k1",
+            "name": "k1k1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 k1th1",
+            "name": "k1th1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 k3",
+            "name": "k3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 k4",
+            "name": "k4r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 m1",
+            "name": "m1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 m1p1",
+            "name": "m1p1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 n1n1",
+            "name": "n1n1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 n1th1",
+            "name": "n1th1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 n1th3",
+            "name": "n1th3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 n1th4",
+            "name": "n1th4r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 nht1",
+            "name": "nht1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 p1",
+            "name": "p1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 p2",
+            "name": "p2r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 p3",
+            "name": "p3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 p4",
+            "name": "p4r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 rhrh",
+            "name": "rhrhr3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 s1",
+            "name": "s1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 s1th1",
+            "name": "s1th1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 sht1",
+            "name": "sht1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 t1",
+            "name": "t1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 t3",
+            "name": "t3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 th1",
+            "name": "th1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 th1th1",
+            "name": "th1th1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 th3",
+            "name": "th3r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 th4",
+            "name": "th4r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 v1",
+            "name": "v1r3"
+        },
+        {
+            "feature": "pres",
+            "sequence": "r4 z1",
+            "name": "z1r3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "h1 l4",
+            "name": "h1l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "h1xx l3",
+            "name": "h1l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "k1 l4",
+            "name": "k1l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "k1xx l3",
+            "name": "k1l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "k3 l4",
+            "name": "k3l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "k3xx l3",
+            "name": "k3l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "l3 l4",
+            "name": "l3l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "m1 l4",
+            "name": "m1l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "m1xx l3",
+            "name": "m1l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "p1 l4",
+            "name": "p1l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "p1xx l3",
+            "name": "p1l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "p2 l4",
+            "name": "p2l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "p2xx l3",
+            "name": "p2l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "p3 l4",
+            "name": "p3l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "p3xx l3",
+            "name": "p3l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "s1 l4",
+            "name": "s1l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "s1xx l3",
+            "name": "s1l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "th1 l4",
+            "name": "th1l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "th1xx l3",
+            "name": "th1l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "v1 l4",
+            "name": "v1l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "v1xx l3",
+            "name": "v1l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "z1 l4",
+            "name": "z1l3"
+        },
+        {
+            "feature": "blws",
+            "sequence": "z1xx l3",
+            "name": "z1l3"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ch1 u1",
+            "name": "ch1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ch1 u2",
+            "name": "ch1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ch1ch1 u1",
+            "name": "ch1ch1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ch1ch1 u2",
+            "name": "ch1ch1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ch2 r1",
+            "name": "ch2r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ch2 u1",
+            "name": "ch2u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ch2 u2",
+            "name": "ch2u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ch3 r1",
+            "name": "ch3r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ch3 u1",
+            "name": "ch3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ch3 u2",
+            "name": "ch3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ch3ch3 r1",
+            "name": "ch3ch3r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ch3ch3 u1",
+            "name": "ch3ch3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ch3ch3 u2",
+            "name": "ch3ch3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ch3r3 u1",
+            "name": "ch3r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ch3r3 u2",
+            "name": "ch3r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ch4 u1",
+            "name": "ch4u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ch4 u2",
+            "name": "ch4u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "h1 r1",
+            "name": "h1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "h1 u1",
+            "name": "h1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "h1 u2",
+            "name": "h1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "h1m1 r1",
+            "name": "h1m1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "h1m1 u1",
+            "name": "h1m1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "h1m1 u2",
+            "name": "h1m1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "h1n1 u1",
+            "name": "h1n1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "h1n1 u2",
+            "name": "h1n1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "h1r3 u1",
+            "name": "h1r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "h1r3 u2",
+            "name": "h1r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1 r1",
+            "name": "k1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1 u1",
+            "name": "k1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1 u2",
+            "name": "k1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1k1 r1",
+            "name": "k1k1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1k1 u1",
+            "name": "k1k1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1k1 u2",
+            "name": "k1k1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1k1r3 u1",
+            "name": "k1k1r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1k1r3 u2",
+            "name": "k1k1r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1l3 u1",
+            "name": "k1l3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1l3 u2",
+            "name": "k1l3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1nh u1",
+            "name": "k1nhu1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1nh u2",
+            "name": "k1nhu2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1r3 u1",
+            "name": "k1r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1r3 u2",
+            "name": "k1r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1sh u1",
+            "name": "k1shu1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1sh u2",
+            "name": "k1shu2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1th1 r1",
+            "name": "k1th1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1th1 u1",
+            "name": "k1th1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k1th1 u2",
+            "name": "k1th1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k2 r1",
+            "name": "k2r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k2 u1",
+            "name": "k2u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k2 u2",
+            "name": "k2u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3 r1",
+            "name": "k3r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3 u1",
+            "name": "k3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3 u2",
+            "name": "k3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3k3 r1",
+            "name": "k3k3r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3k3 u1",
+            "name": "k3k3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3k3 u2",
+            "name": "k3k3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3l3 u1",
+            "name": "k3l3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3l3 u2",
+            "name": "k3l3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3m1 u1",
+            "name": "k3m1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3m1 u2",
+            "name": "k3m1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3n1 u1",
+            "name": "k3n1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3n1 u2",
+            "name": "k3n1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3r3 u1",
+            "name": "k3r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3r3 u2",
+            "name": "k3r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3th3 r1",
+            "name": "k3th3r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3th3 u1",
+            "name": "k3th3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3th3 u2",
+            "name": "k3th3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3th3th4 u1",
+            "name": "k3th3th4u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k3th3th4 u2",
+            "name": "k3th3th4u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k4 r1",
+            "name": "k4r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k4 u1",
+            "name": "k4u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k4 u2",
+            "name": "k4u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k4r3 u1",
+            "name": "k4r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "k4r3 u2",
+            "name": "k4r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "l3 l4 u1",
+            "name": "l3l3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "l3 l4 u2",
+            "name": "l3l3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "l3 u1",
+            "name": "l3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "l3 u2",
+            "name": "l3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "l3l3 u1",
+            "name": "l3l3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "l3l3 u2",
+            "name": "l3l3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "l3p1 u1",
+            "name": "l3p1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "l3p1 u2",
+            "name": "l3p1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "l3xx p1",
+            "name": "l3p1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "lh u1",
+            "name": "lhu1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "lh u2",
+            "name": "lhu2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "lhlh u1",
+            "name": "lhlhu1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "lhlh u2",
+            "name": "lhlhu2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "m1 r1",
+            "name": "m1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "m1 u1",
+            "name": "m1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "m1 u2",
+            "name": "m1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "m1m1 u1",
+            "name": "m1m1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "m1m1 u2",
+            "name": "m1m1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "m1p1 r1",
+            "name": "m1p1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "m1p1 u1",
+            "name": "m1p1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "m1p1 u2",
+            "name": "m1p1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "m1p1r3 u1",
+            "name": "m1p1r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "m1p1r3 u2",
+            "name": "m1p1r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "m1r3 u1",
+            "name": "m1r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "m1r3 u2",
+            "name": "m1r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1 r1",
+            "name": "n1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1 u1",
+            "name": "n1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1 u2",
+            "name": "n1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1m1 r1",
+            "name": "n1m1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1m1 u1",
+            "name": "n1m1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1m1 u2",
+            "name": "n1m1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1n1 r1",
+            "name": "n1n1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1n1 u1",
+            "name": "n1n1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1n1 u2",
+            "name": "n1n1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1n1r3 u1",
+            "name": "n1n1r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1n1r3 u2",
+            "name": "n1n1r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1rh u1",
+            "name": "n1rhu1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1rh u2",
+            "name": "n1rhu2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1th1 r1",
+            "name": "n1th1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1th1 u1",
+            "name": "n1th1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1th1 u2",
+            "name": "n1th1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1th1r3 u1",
+            "name": "n1th1r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1th1r3 u2",
+            "name": "n1th1r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1th2 r1",
+            "name": "n1th2r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1th2 u1",
+            "name": "n1th2u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1th2 u2",
+            "name": "n1th2u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1th3 r1",
+            "name": "n1th3r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1th3 u1",
+            "name": "n1th3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1th3 u2",
+            "name": "n1th3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1th3r3 u1",
+            "name": "n1th3r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1th3r3 u2",
+            "name": "n1th3r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1th4 u1",
+            "name": "n1th4u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1th4 u2",
+            "name": "n1th4u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1th4r3 u1",
+            "name": "n1th4r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "n1th4r3 u2",
+            "name": "n1th4r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ng u1",
+            "name": "ngu1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ng u2",
+            "name": "ngu2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ngk1 r1",
+            "name": "ngk1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ngk1 u1",
+            "name": "ngk1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ngk1 u2",
+            "name": "ngk1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ngng u1",
+            "name": "ngngu1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "ngng u2",
+            "name": "ngngu2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "nh u1",
+            "name": "nhu1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "nh u2",
+            "name": "nhu2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "nhm1 u1",
+            "name": "nhm1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "nhm1 u2",
+            "name": "nhm1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "nhnh u1",
+            "name": "nhnhu1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "nhnh u2",
+            "name": "nhnhu2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "nht1 u1",
+            "name": "nht1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "nht1 u2",
+            "name": "nht1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "nht3 u1",
+            "name": "nht3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "nht3 u2",
+            "name": "nht3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "nj u1",
+            "name": "nju1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "nj u2",
+            "name": "nju2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "njch1 r1",
+            "name": "njch1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "njch1 u1",
+            "name": "njch1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "njch1 u2",
+            "name": "njch1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "njch3 u1",
+            "name": "njch3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "njch3 u2",
+            "name": "njch3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "njnj u1",
+            "name": "njnju1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "njnj u2",
+            "name": "njnju2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p1 r1",
+            "name": "p1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p1 u1",
+            "name": "p1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p1 u2",
+            "name": "p1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p1l3 u1",
+            "name": "p1l3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p1l3 u2",
+            "name": "p1l3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p1n1 u1",
+            "name": "p1n1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p1n1 u2",
+            "name": "p1n1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p1p1 r1",
+            "name": "p1p1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p1p1 u1",
+            "name": "p1p1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p1p1 u2",
+            "name": "p1p1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p1r3 u1",
+            "name": "p1r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p1r3 u2",
+            "name": "p1r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p2 u1",
+            "name": "p2u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p2 u2",
+            "name": "p2u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p2l3 u1",
+            "name": "p2l3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p2l3 u2",
+            "name": "p2l3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p2r3 u1",
+            "name": "p2r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p2r3 u2",
+            "name": "p2r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p3 r1",
+            "name": "p3r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p3 u1",
+            "name": "p3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p3 u2",
+            "name": "p3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p3l3 u1",
+            "name": "p3l3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p3l3 u2",
+            "name": "p3l3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p3p3 u1",
+            "name": "p3p3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p3p3 u2",
+            "name": "p3p3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p3r3 u1",
+            "name": "p3r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p3r3 u2",
+            "name": "p3r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p4 r1",
+            "name": "p4r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p4 u1",
+            "name": "p4u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p4 u2",
+            "name": "p4u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p4r3 u1",
+            "name": "p4r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "p4r3 u2",
+            "name": "p4r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "r3 u1",
+            "name": "r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "r3 u2",
+            "name": "r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "rh u1",
+            "name": "rhu1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "rh u2",
+            "name": "rhu2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "rhrh u1",
+            "name": "rhrhu1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "rhrh u2",
+            "name": "rhrhu2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "s1 r1",
+            "name": "s1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "s1 u1",
+            "name": "s1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "s1 u2",
+            "name": "s1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "s1l3 u1",
+            "name": "s1l3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "s1l3 u2",
+            "name": "s1l3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "s1r3 u1",
+            "name": "s1r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "s1r3 u2",
+            "name": "s1r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "s1rhrh u1",
+            "name": "s1rhrhu1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "s1rhrh u2",
+            "name": "s1rhrhu2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "s1s1 u1",
+            "name": "s1s1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "s1s1 u2",
+            "name": "s1s1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "s1th2 r1",
+            "name": "s1th2r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "s1th2 u1",
+            "name": "s1th2u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "s1th2 u2",
+            "name": "s1th2u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "sh r1",
+            "name": "shr1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "sh u1",
+            "name": "shu1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "sh u2",
+            "name": "shu2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "shnh u1",
+            "name": "shnhu1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "shnh u2",
+            "name": "shnhu2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "sht1 u1",
+            "name": "sht1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "sht1 u2",
+            "name": "sht1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "sht2 u1",
+            "name": "sht2u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "sht2 u2",
+            "name": "sht2u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t1 r1",
+            "name": "t1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t1 u1",
+            "name": "t1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t1 u2",
+            "name": "t1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t1r3 u1",
+            "name": "t1r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t1r3 u2",
+            "name": "t1r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t1t1 u1",
+            "name": "t1t1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t1t1 u2",
+            "name": "t1t1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t2 u1",
+            "name": "t2u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t2 u2",
+            "name": "t2u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t3 r1",
+            "name": "t3r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t3 u1",
+            "name": "t3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t3 u2",
+            "name": "t3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t3r3 u1",
+            "name": "t3r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t3r3 u2",
+            "name": "t3r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t3t3 u1",
+            "name": "t3t3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t3t3 u2",
+            "name": "t3t3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t3t4 u1",
+            "name": "t3t4u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t3t4 u2",
+            "name": "t3t4u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t4 r1",
+            "name": "t4r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t4 u1",
+            "name": "t4u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "t4 u2",
+            "name": "t4u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1 r1",
+            "name": "th1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1 u1",
+            "name": "th1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1 u2",
+            "name": "th1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1l3 u1",
+            "name": "th1l3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1l3 u2",
+            "name": "th1l3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1m1 r1",
+            "name": "th1m1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1m1 u1",
+            "name": "th1m1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1m1 u2",
+            "name": "th1m1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1p4 u1",
+            "name": "th1p4u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1p4 u2",
+            "name": "th1p4u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1r3 u1",
+            "name": "th1r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1r3 u2",
+            "name": "th1r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1s1 r1",
+            "name": "th1s1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1s1 u1",
+            "name": "th1s1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1s1 u2",
+            "name": "th1s1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1th1 r1",
+            "name": "th1th1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1th1 u1",
+            "name": "th1th1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1th1 u2",
+            "name": "th1th1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1th1r3 u1",
+            "name": "th1th1r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1th1r3 u2",
+            "name": "th1th1r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1th2 r1",
+            "name": "th1th2r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1th2 u1",
+            "name": "th1th2u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th1th2 u2",
+            "name": "th1th2u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th2 r1",
+            "name": "th2r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th2 u1",
+            "name": "th2u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th2 u2",
+            "name": "th2u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th3 r1",
+            "name": "th3r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th3 u1",
+            "name": "th3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th3 u2",
+            "name": "th3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th3r3 u1",
+            "name": "th3r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th3r3 u2",
+            "name": "th3r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th3th3 u1",
+            "name": "th3th3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th3th3 u2",
+            "name": "th3th3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th3th4 u1",
+            "name": "th3th4u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th3th4 u2",
+            "name": "th3th4u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th4 r1",
+            "name": "th4r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th4 u1",
+            "name": "th4u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th4 u2",
+            "name": "th4u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th4r3 u1",
+            "name": "th4r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "th4r3 u2",
+            "name": "th4r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "v1 r1",
+            "name": "v1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "v1 u1",
+            "name": "v1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "v1 u2",
+            "name": "v1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "v1 v2",
+            "name": "v1v1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "v1 v2 u1",
+            "name": "v1v1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "v1 v2 u2",
+            "name": "v1v1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "v1l3 u1",
+            "name": "v1l3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "v1l3 u2",
+            "name": "v1l3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "v1r3 u1",
+            "name": "v1r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "v1r3 u2",
+            "name": "v1r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "v1v1 u1",
+            "name": "v1v1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "v1v1 u2",
+            "name": "v1v1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "y1 u1",
+            "name": "y1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "y1 u2",
+            "name": "y1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "y1 y2",
+            "name": "y1y1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "y1 y2 u1",
+            "name": "y1y1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "y1 y2 u2",
+            "name": "y1y1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "y1y1 u1",
+            "name": "y1y1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "y1y1 u2",
+            "name": "y1y1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "y2 u1",
+            "name": "y2u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "y2 u2",
+            "name": "y2u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "z1 r1",
+            "name": "z1r1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "z1 u1",
+            "name": "z1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "z1 u2",
+            "name": "z1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "z1ch1 u1",
+            "name": "z1ch1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "z1ch1 u2",
+            "name": "z1ch1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "z1l3 u1",
+            "name": "z1l3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "z1l3 u2",
+            "name": "z1l3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "z1n1 u1",
+            "name": "z1n1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "z1n1 u2",
+            "name": "z1n1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "z1r3 u1",
+            "name": "z1r3u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "z1r3 u2",
+            "name": "z1r3u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "z1z1 u1",
+            "name": "z1z1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "z1z1 u2",
+            "name": "z1z1u2"
+        },
+        {
+            "feature": "psts",
+            "sequence": "zh u1",
+            "name": "zhu1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "zh u2",
+            "name": "zhu2"
+        },
+        {
+            "feature": "salt",
+            "name": "ch1ch1, ch1ch1.alt1"
+        },
+        {
+            "feature": "salt",
+            "name": "ch1ch1u1, ch1ch1u1.alt1"
+        },
+        {
+            "feature": "salt",
+            "name": "ch1ch1u2, ch1ch1u2.alt1"
+        },
+        {
+            "feature": "salt",
+            "name": "lhlh, lhlh.alt1"
+        },
+        {
+            "feature": "salt",
+            "name": "lhlhu1, lhlhu1.alt1"
+        },
+        {
+            "feature": "salt",
+            "name": "lhlhu1, lhlhu2.alt1"
+        },
+        {
+            "feature": "k1 xx s1",
+            "name": "k1s1"
+        },
+        {
+            "feature": "k1 xx t1",
+            "name": "k1t1"
+        },
+        {
+            "feature": "ch1 xx ch2",
+            "name": "ch1ch2"
+        },
+        {
+            "feature": "p1 xx th1",
+            "name": "p1th1"
+        },
+        {
+            "feature": "p1 xx p2",
+            "name": "p1p2"
+        },
+        {
+            "feature": "p1 xx s1",
+            "name": "p1s1"
+        },
+        {
+            "feature": "p1 xx t1",
+            "name": "p1t1"
+        },
+        {
+            "feature": "p3 xx th3",
+            "name": "p3th3"
+        },
+        {
+            "feature": "y1 xx k1",
+            "name": "y1k1"
+        },
+        {
+            "feature": "y1 xx k1k1",
+            "name": "y1k1k1"
+        },
+        {
+            "feature": "y1 xx th1",
+            "name": "y1th1"
+        },
+        {
+            "feature": "z1 xx m1",
+            "name": "z1m1"
+        },
+        {
+            "feature": "sh xx t1",
+            "name": "sht1"
+        },
+        {
+            "feature": "sh xx t2",
+            "name": "sht2"
+        },
+        {
+            "feature": "sh xx nh",
+            "name": "shnh"
+        },
+        {
+            "feature": "sh xx p1",
+            "name": "sh1p1"
+        },
+        {
+            "feature": "sh xx m1",
+            "name": "shm1"
+        },
+        {
+            "feature": "s1 xx k1",
+            "name": "s1k1"
+        },
+        {
+            "feature": "s1 xx m1",
+            "name": "s1m1"
+        },
+        {
+            "feature": "s1 xx n1",
+            "name": "s1n1"
+        },
+        {
+            "feature": "s1 xx p1",
+            "name": "s1p1"
+        },
+        {
+            "feature": "s1 xx k1k1",
+            "name": "s1k1k1"
+        },
+        {
+            "feature": "s1 xx th1",
+            "name": "s1th1"
+        },
+        {
+            "feature": "s1 xx rhrh",
+            "name": "s1rhrh"
+        },
+        {
+            "feature": "zh xx ch1",
+            "name": "zh1ch1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "s1k1 u1",
+            "name": "s1k1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "s1k1k1 u1",
+            "name": "s1k1k1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "y1k1k1 u1",
+            "name": "y1k1k1u1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "y1xx k1",
+            "name": "y1k1"
+        },
+        {
+            "feature": "psts",
+            "sequence": "y1xx k1k1",
+            "name": "y1k1k1"
+        }
+    ]
+}

@@ -1,0 +1,2238 @@
+{
+    "glyphs": [{
+            "code": "U+0020",
+            "value": " ",
+            "glyph": "space",
+            "name": "SPACE"
+        },
+        {
+            "code": "U+0021",
+            "value": "!",
+            "glyph": "exclam",
+            "name": "EXCLAMATION MARK"
+        },
+        {
+            "code": "U+0022",
+            "value": "\"",
+            "glyph": "quotedbl",
+            "name": "QUOTATION MARK"
+        },
+        {
+            "code": "U+0023",
+            "value": "#",
+            "glyph": "numbersign",
+            "name": "NUMBER SIGN"
+        },
+        {
+            "code": "U+0024",
+            "value": "$",
+            "glyph": "dollar",
+            "name": "DOLLAR SIGN"
+        },
+        {
+            "code": "U+0025",
+            "value": "%",
+            "glyph": "percent",
+            "name": "PERCENT SIGN"
+        },
+        {
+            "code": "U+0026",
+            "value": "&",
+            "glyph": "ampersand",
+            "name": "AMPERSAND"
+        },
+        {
+            "code": "U+0027",
+            "value": "'",
+            "glyph": "quotesingle",
+            "name": "APOSTROPHE"
+        },
+        {
+            "code": "U+0028",
+            "value": "(",
+            "glyph": "parenleft",
+            "name": "LEFT PARENTHESIS"
+        },
+        {
+            "code": "U+0029",
+            "value": ")",
+            "glyph": "parenright",
+            "name": "RIGHT PARENTHESIS"
+        },
+        {
+            "code": "U+002A",
+            "value": "*",
+            "glyph": "asterisk",
+            "name": "ASTERISK"
+        },
+        {
+            "code": "U+002B",
+            "value": "+",
+            "glyph": "plus",
+            "name": "PLUS SIGN"
+        },
+        {
+            "code": "U+002C",
+            "value": ",",
+            "glyph": "comma",
+            "name": "COMMA"
+        },
+        {
+            "code": "U+002D",
+            "value": "-",
+            "glyph": "hyphen",
+            "name": "HYPHEN-MINUS"
+        },
+        {
+            "code": "U+002E",
+            "value": ".",
+            "glyph": "period",
+            "name": "FULL STOP"
+        },
+        {
+            "code": "U+002F",
+            "value": "/",
+            "glyph": "slash",
+            "name": "SOLIDUS"
+        },
+        {
+            "code": "U+0030",
+            "value": "0",
+            "glyph": "zero",
+            "name": "DIGIT ZERO"
+        },
+        {
+            "code": "U+0031",
+            "value": "1",
+            "glyph": "one",
+            "name": "DIGIT ONE"
+        },
+        {
+            "code": "U+0032",
+            "value": "2",
+            "glyph": "two",
+            "name": "DIGIT TWO"
+        },
+        {
+            "code": "U+0033",
+            "value": "3",
+            "glyph": "three",
+            "name": "DIGIT THREE"
+        },
+        {
+            "code": "U+0034",
+            "value": "4",
+            "glyph": "four",
+            "name": "DIGIT FOUR"
+        },
+        {
+            "code": "U+0035",
+            "value": "5",
+            "glyph": "five",
+            "name": "DIGIT FIVE"
+        },
+        {
+            "code": "U+0036",
+            "value": "6",
+            "glyph": "six",
+            "name": "DIGIT SIX"
+        },
+        {
+            "code": "U+0037",
+            "value": "7",
+            "glyph": "seven",
+            "name": "DIGIT SEVEN"
+        },
+        {
+            "code": "U+0038",
+            "value": "8",
+            "glyph": "eight",
+            "name": "DIGIT EIGHT"
+        },
+        {
+            "code": "U+0039",
+            "value": "9",
+            "glyph": "nine",
+            "name": "DIGIT NINE"
+        },
+        {
+            "code": "U+003A",
+            "value": ":",
+            "glyph": "colon",
+            "name": "COLON"
+        },
+        {
+            "code": "U+003B",
+            "value": ";",
+            "glyph": "semicolon",
+            "name": "SEMICOLON"
+        },
+        {
+            "code": "U+003C",
+            "value": "<",
+            "glyph": "less",
+            "name": "LESS-THAN SIGN"
+        },
+        {
+            "code": "U+003D",
+            "value": "=",
+            "glyph": "equal",
+            "name": "EQUALS SIGN"
+        },
+        {
+            "code": "U+003E",
+            "value": ">",
+            "glyph": "greater",
+            "name": "GREATER-THAN SIGN"
+        },
+        {
+            "code": "U+003F",
+            "value": "?",
+            "glyph": "question",
+            "name": "QUESTION MARK"
+        },
+        {
+            "code": "U+0040",
+            "value": "@",
+            "glyph": "at",
+            "name": "COMMERCIAL AT"
+        },
+        {
+            "code": "U+0041",
+            "value": "A",
+            "glyph": "A",
+            "name": "LATIN CAPITAL LETTER A"
+        },
+        {
+            "code": "U+0042",
+            "value": "B",
+            "glyph": "B",
+            "name": "LATIN CAPITAL LETTER B"
+        },
+        {
+            "code": "U+0043",
+            "value": "C",
+            "glyph": "C",
+            "name": "LATIN CAPITAL LETTER C"
+        },
+        {
+            "code": "U+0044",
+            "value": "D",
+            "glyph": "D",
+            "name": "LATIN CAPITAL LETTER D"
+        },
+        {
+            "code": "U+0045",
+            "value": "E",
+            "glyph": "E",
+            "name": "LATIN CAPITAL LETTER E"
+        },
+        {
+            "code": "U+0046",
+            "value": "F",
+            "glyph": "F",
+            "name": "LATIN CAPITAL LETTER F"
+        },
+        {
+            "code": "U+0047",
+            "value": "G",
+            "glyph": "G",
+            "name": "LATIN CAPITAL LETTER G"
+        },
+        {
+            "code": "U+0048",
+            "value": "H",
+            "glyph": "H",
+            "name": "LATIN CAPITAL LETTER H"
+        },
+        {
+            "code": "U+0049",
+            "value": "I",
+            "glyph": "I",
+            "name": "LATIN CAPITAL LETTER I"
+        },
+        {
+            "code": "U+004A",
+            "value": "J",
+            "glyph": "J",
+            "name": "LATIN CAPITAL LETTER J"
+        },
+        {
+            "code": "U+004B",
+            "value": "K",
+            "glyph": "K",
+            "name": "LATIN CAPITAL LETTER K"
+        },
+        {
+            "code": "U+004C",
+            "value": "L",
+            "glyph": "L",
+            "name": "LATIN CAPITAL LETTER L"
+        },
+        {
+            "code": "U+004D",
+            "value": "M",
+            "glyph": "M",
+            "name": "LATIN CAPITAL LETTER M"
+        },
+        {
+            "code": "U+004E",
+            "value": "N",
+            "glyph": "N",
+            "name": "LATIN CAPITAL LETTER N"
+        },
+        {
+            "code": "U+004F",
+            "value": "O",
+            "glyph": "O",
+            "name": "LATIN CAPITAL LETTER O"
+        },
+        {
+            "code": "U+0050",
+            "value": "P",
+            "glyph": "P",
+            "name": "LATIN CAPITAL LETTER P"
+        },
+        {
+            "code": "U+0051",
+            "value": "Q",
+            "glyph": "Q",
+            "name": "LATIN CAPITAL LETTER Q"
+        },
+        {
+            "code": "U+0052",
+            "value": "R",
+            "glyph": "R",
+            "name": "LATIN CAPITAL LETTER R"
+        },
+        {
+            "code": "U+0053",
+            "value": "S",
+            "glyph": "S",
+            "name": "LATIN CAPITAL LETTER S"
+        },
+        {
+            "code": "U+0054",
+            "value": "T",
+            "glyph": "T",
+            "name": "LATIN CAPITAL LETTER T"
+        },
+        {
+            "code": "U+0055",
+            "value": "U",
+            "glyph": "U",
+            "name": "LATIN CAPITAL LETTER U"
+        },
+        {
+            "code": "U+0056",
+            "value": "V",
+            "glyph": "V",
+            "name": "LATIN CAPITAL LETTER V"
+        },
+        {
+            "code": "U+0057",
+            "value": "W",
+            "glyph": "W",
+            "name": "LATIN CAPITAL LETTER W"
+        },
+        {
+            "code": "U+0058",
+            "value": "X",
+            "glyph": "X",
+            "name": "LATIN CAPITAL LETTER X"
+        },
+        {
+            "code": "U+0059",
+            "value": "Y",
+            "glyph": "Y",
+            "name": "LATIN CAPITAL LETTER Y"
+        },
+        {
+            "code": "U+005A",
+            "value": "Z",
+            "glyph": "Z",
+            "name": "LATIN CAPITAL LETTER Z"
+        },
+        {
+            "code": "U+005B",
+            "value": "[",
+            "glyph": "bracketleft",
+            "name": "LEFT SQUARE BRACKET"
+        },
+        {
+            "code": "U+005C",
+            "value": "\\",
+            "glyph": "backslash",
+            "name": "REVERSE SOLIDUS"
+        },
+        {
+            "code": "U+005D",
+            "value": "]",
+            "glyph": "bracketright",
+            "name": "RIGHT SQUARE BRACKET"
+        },
+        {
+            "code": "U+005E",
+            "value": "^",
+            "glyph": "asciicircum",
+            "name": "CIRCUMFLEX ACCENT"
+        },
+        {
+            "code": "U+005F",
+            "value": "_",
+            "glyph": "underscore",
+            "name": "LOW LINE"
+        },
+        {
+            "code": "U+0060",
+            "value": "`",
+            "glyph": "grave",
+            "name": "GRAVE ACCENT"
+        },
+        {
+            "code": "U+0061",
+            "value": "a",
+            "glyph": "a",
+            "name": "LATIN SMALL LETTER A"
+        },
+        {
+            "code": "U+0062",
+            "value": "b",
+            "glyph": "b",
+            "name": "LATIN SMALL LETTER B"
+        },
+        {
+            "code": "U+0063",
+            "value": "c",
+            "glyph": "c",
+            "name": "LATIN SMALL LETTER C"
+        },
+        {
+            "code": "U+0064",
+            "value": "d",
+            "glyph": "d",
+            "name": "LATIN SMALL LETTER D"
+        },
+        {
+            "code": "U+0065",
+            "value": "e",
+            "glyph": "e",
+            "name": "LATIN SMALL LETTER E"
+        },
+        {
+            "code": "U+0066",
+            "value": "f",
+            "glyph": "f",
+            "name": "LATIN SMALL LETTER F"
+        },
+        {
+            "code": "U+0067",
+            "value": "g",
+            "glyph": "g",
+            "name": "LATIN SMALL LETTER G"
+        },
+        {
+            "code": "U+0068",
+            "value": "h",
+            "glyph": "h",
+            "name": "LATIN SMALL LETTER H"
+        },
+        {
+            "code": "U+0069",
+            "value": "i",
+            "glyph": "i",
+            "name": "LATIN SMALL LETTER I"
+        },
+        {
+            "code": "U+006A",
+            "value": "j",
+            "glyph": "j",
+            "name": "LATIN SMALL LETTER J"
+        },
+        {
+            "code": "U+006B",
+            "value": "k",
+            "glyph": "k",
+            "name": "LATIN SMALL LETTER K"
+        },
+        {
+            "code": "U+006C",
+            "value": "l",
+            "glyph": "l",
+            "name": "LATIN SMALL LETTER L"
+        },
+        {
+            "code": "U+006D",
+            "value": "m",
+            "glyph": "m",
+            "name": "LATIN SMALL LETTER M"
+        },
+        {
+            "code": "U+006E",
+            "value": "n",
+            "glyph": "n",
+            "name": "LATIN SMALL LETTER N"
+        },
+        {
+            "code": "U+006F",
+            "value": "o",
+            "glyph": "o",
+            "name": "LATIN SMALL LETTER O"
+        },
+        {
+            "code": "U+0070",
+            "value": "p",
+            "glyph": "p",
+            "name": "LATIN SMALL LETTER P"
+        },
+        {
+            "code": "U+0071",
+            "value": "q",
+            "glyph": "q",
+            "name": "LATIN SMALL LETTER Q"
+        },
+        {
+            "code": "U+0072",
+            "value": "r",
+            "glyph": "r",
+            "name": "LATIN SMALL LETTER R"
+        },
+        {
+            "code": "U+0073",
+            "value": "s",
+            "glyph": "s",
+            "name": "LATIN SMALL LETTER S"
+        },
+        {
+            "code": "U+0074",
+            "value": "t",
+            "glyph": "t",
+            "name": "LATIN SMALL LETTER T"
+        },
+        {
+            "code": "U+0075",
+            "value": "u",
+            "glyph": "u",
+            "name": "LATIN SMALL LETTER U"
+        },
+        {
+            "code": "U+0076",
+            "value": "v",
+            "glyph": "v",
+            "name": "LATIN SMALL LETTER V"
+        },
+        {
+            "code": "U+0077",
+            "value": "w",
+            "glyph": "w",
+            "name": "LATIN SMALL LETTER W"
+        },
+        {
+            "code": "U+0078",
+            "value": "x",
+            "glyph": "x",
+            "name": "LATIN SMALL LETTER X"
+        },
+        {
+            "code": "U+0079",
+            "value": "y",
+            "glyph": "y",
+            "name": "LATIN SMALL LETTER Y"
+        },
+        {
+            "code": "U+007A",
+            "value": "z",
+            "glyph": "z",
+            "name": "LATIN SMALL LETTER Z"
+        },
+        {
+            "code": "U+007B",
+            "value": "{",
+            "glyph": "braceleft",
+            "name": "LEFT CURLY BRACKET"
+        },
+        {
+            "code": "U+007C",
+            "value": "|",
+            "glyph": "bar",
+            "name": "VERTICAL LINE"
+        },
+        {
+            "code": "U+007D",
+            "value": "}",
+            "glyph": "braceright",
+            "name": "RIGHT CURLY BRACKET"
+        },
+        {
+            "code": "U+007E",
+            "value": "~",
+            "glyph": "asciitilde",
+            "name": "TILDE"
+        },
+        {
+            "code": "U+00A0",
+            "value": " ",
+            "glyph": "uni00A0",
+            "name": "NO-BREAK SPACE"
+        },
+        {
+            "code": "U+00A8",
+            "value": "¨",
+            "glyph": "dieresis",
+            "name": "DIAERESIS"
+        },
+        {
+            "code": "U+00A9",
+            "value": "©",
+            "glyph": "copyright",
+            "name": "COPYRIGHT SIGN"
+        },
+        {
+            "code": "U+00AB",
+            "value": "«",
+            "glyph": "guillemotleftLEFT-POINTING DOUBLE ANGLE QUOTATION MARK"
+        },
+        {
+            "code": "U+00AD",
+            "value": "­",
+            "glyph": "uni00AD",
+            "name": "SOFT HYPHEN"
+        },
+        {
+            "code": "U+00AE",
+            "value": "®",
+            "glyph": "registered",
+            "name": "REGISTERED SIGN"
+        },
+        {
+            "code": "U+00AF",
+            "value": "¯",
+            "glyph": "macron",
+            "name": "MACRON"
+        },
+        {
+            "code": "U+00B0",
+            "value": "°",
+            "glyph": "degree",
+            "name": "DEGREE SIGN"
+        },
+        {
+            "code": "U+00B2",
+            "value": "²",
+            "glyph": "uni00B2",
+            "name": "SUPERSCRIPT TWO"
+        },
+        {
+            "code": "U+00B3",
+            "value": "³",
+            "glyph": "uni00B3",
+            "name": "SUPERSCRIPT THREE"
+        },
+        {
+            "code": "U+00B4",
+            "value": "´",
+            "glyph": "acute",
+            "name": "ACUTE ACCENT"
+        },
+        {
+            "code": "U+00B6",
+            "value": "¶",
+            "glyph": "paragraph",
+            "name": "PILCROW SIGN"
+        },
+        {
+            "code": "U+00B8",
+            "value": "¸",
+            "glyph": "cedilla",
+            "name": "CEDILLA"
+        },
+        {
+            "code": "U+00B9",
+            "value": "¹",
+            "glyph": "uni00B9",
+            "name": "SUPERSCRIPT ONE"
+        },
+        {
+            "code": "U+00BB",
+            "value": "»",
+            "glyph": "guillemotright RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK"
+        },
+        {
+            "code": "U+00BF",
+            "value": "¿",
+            "glyph": "questiondown",
+            "name": "INVERTED QUESTION MARK"
+        },
+        {
+            "code": "U+00C0",
+            "value": "À",
+            "glyph": "Agrave",
+            "name": "LATIN CAPITAL LETTER A WITH GRAVE"
+        },
+        {
+            "code": "U+00C1",
+            "value": "Á",
+            "glyph": "Aacute",
+            "name": "LATIN CAPITAL LETTER A WITH ACUTE"
+        },
+        {
+            "code": "U+00C2",
+            "value": "Â",
+            "glyph": "Acircumflex",
+            "name": "LATIN CAPITAL LETTER A WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+00C3",
+            "value": "Ã",
+            "glyph": "Atilde",
+            "name": "LATIN CAPITAL LETTER A WITH TILDE"
+        },
+        {
+            "code": "U+00C4",
+            "value": "Ä",
+            "glyph": "Adieresis",
+            "name": "LATIN CAPITAL LETTER A WITH DIAERESIS"
+        },
+        {
+            "code": "U+00C5",
+            "value": "Å",
+            "glyph": "Aring",
+            "name": "LATIN CAPITAL LETTER A WITH RING ABOVE"
+        },
+        {
+            "code": "U+00C6",
+            "value": "Æ",
+            "glyph": "AE",
+            "name": "LATIN CAPITAL LETTER AE"
+        },
+        {
+            "code": "U+00C7",
+            "value": "Ç",
+            "glyph": "Ccedilla",
+            "name": "LATIN CAPITAL LETTER C WITH CEDILLA"
+        },
+        {
+            "code": "U+00C8",
+            "value": "È",
+            "glyph": "Egrave",
+            "name": "LATIN CAPITAL LETTER E WITH GRAVE"
+        },
+        {
+            "code": "U+00C9",
+            "value": "É",
+            "glyph": "Eacute",
+            "name": "LATIN CAPITAL LETTER E WITH ACUTE"
+        },
+        {
+            "code": "U+00CA",
+            "value": "Ê",
+            "glyph": "Ecircumflex",
+            "name": "LATIN CAPITAL LETTER E WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+00CB",
+            "value": "Ë",
+            "glyph": "Edieresis",
+            "name": "LATIN CAPITAL LETTER E WITH DIAERESIS"
+        },
+        {
+            "code": "U+00CC",
+            "value": "Ì",
+            "glyph": "Igrave",
+            "name": "LATIN CAPITAL LETTER I WITH GRAVE"
+        },
+        {
+            "code": "U+00CD",
+            "value": "Í",
+            "glyph": "Iacute",
+            "name": "LATIN CAPITAL LETTER I WITH ACUTE"
+        },
+        {
+            "code": "U+00CE",
+            "value": "Î",
+            "glyph": "Icircumflex",
+            "name": "LATIN CAPITAL LETTER I WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+00CF",
+            "value": "Ï",
+            "glyph": "Idieresis",
+            "name": "LATIN CAPITAL LETTER I WITH DIAERESIS"
+        },
+        {
+            "code": "U+00D0",
+            "value": "Ð",
+            "glyph": "Eth",
+            "name": "LATIN CAPITAL LETTER ETH"
+        },
+        {
+            "code": "U+00D1",
+            "value": "Ñ",
+            "glyph": "Ntilde",
+            "name": "LATIN CAPITAL LETTER N WITH TILDE"
+        },
+        {
+            "code": "U+00D2",
+            "value": "Ò",
+            "glyph": "Ograve",
+            "name": "LATIN CAPITAL LETTER O WITH GRAVE"
+        },
+        {
+            "code": "U+00D3",
+            "value": "Ó",
+            "glyph": "Oacute",
+            "name": "LATIN CAPITAL LETTER O WITH ACUTE"
+        },
+        {
+            "code": "U+00D4",
+            "value": "Ô",
+            "glyph": "Ocircumflex",
+            "name": "LATIN CAPITAL LETTER O WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+00D5",
+            "value": "Õ",
+            "glyph": "Otilde",
+            "name": "LATIN CAPITAL LETTER O WITH TILDE"
+        },
+        {
+            "code": "U+00D6",
+            "value": "Ö",
+            "glyph": "Odieresis",
+            "name": "LATIN CAPITAL LETTER O WITH DIAERESIS"
+        },
+        {
+            "code": "U+00D7",
+            "value": "×",
+            "glyph": "multiply",
+            "name": "MULTIPLICATION SIGN"
+        },
+        {
+            "code": "U+00D8",
+            "value": "Ø",
+            "glyph": "Oslash",
+            "name": "LATIN CAPITAL LETTER O WITH STROKE"
+        },
+        {
+            "code": "U+00D9",
+            "value": "Ù",
+            "glyph": "Ugrave",
+            "name": "LATIN CAPITAL LETTER U WITH GRAVE"
+        },
+        {
+            "code": "U+00DA",
+            "value": "Ú",
+            "glyph": "Uacute",
+            "name": "LATIN CAPITAL LETTER U WITH ACUTE"
+        },
+        {
+            "code": "U+00DB",
+            "value": "Û",
+            "glyph": "Ucircumflex",
+            "name": "LATIN CAPITAL LETTER U WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+00DC",
+            "value": "Ü",
+            "glyph": "Udieresis",
+            "name": "LATIN CAPITAL LETTER U WITH DIAERESIS"
+        },
+        {
+            "code": "U+00DD",
+            "value": "Ý",
+            "glyph": "Yacute",
+            "name": "LATIN CAPITAL LETTER Y WITH ACUTE"
+        },
+        {
+            "code": "U+00DE",
+            "value": "Þ",
+            "glyph": "Thorn",
+            "name": "LATIN CAPITAL LETTER THORN"
+        },
+        {
+            "code": "U+00DF",
+            "value": "ß",
+            "glyph": "germandbls",
+            "name": "LATIN SMALL LETTER SHARP S"
+        },
+        {
+            "code": "U+00E0",
+            "value": "à",
+            "glyph": "agrave",
+            "name": "LATIN SMALL LETTER A WITH GRAVE"
+        },
+        {
+            "code": "U+00E1",
+            "value": "á",
+            "glyph": "aacute",
+            "name": "LATIN SMALL LETTER A WITH ACUTE"
+        },
+        {
+            "code": "U+00E2",
+            "value": "â",
+            "glyph": "acircumflex",
+            "name": "LATIN SMALL LETTER A WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+00E3",
+            "value": "ã",
+            "glyph": "atilde",
+            "name": "LATIN SMALL LETTER A WITH TILDE"
+        },
+        {
+            "code": "U+00E4",
+            "value": "ä",
+            "glyph": "adieresis",
+            "name": "LATIN SMALL LETTER A WITH DIAERESIS"
+        },
+        {
+            "code": "U+00E5",
+            "value": "å",
+            "glyph": "aring",
+            "name": "LATIN SMALL LETTER A WITH RING ABOVE"
+        },
+        {
+            "code": "U+00E6",
+            "value": "æ",
+            "glyph": "ae",
+            "name": "LATIN SMALL LETTER AE"
+        },
+        {
+            "code": "U+00E7",
+            "value": "ç",
+            "glyph": "ccedilla",
+            "name": "LATIN SMALL LETTER C WITH CEDILLA"
+        },
+        {
+            "code": "U+00E8",
+            "value": "è",
+            "glyph": "egrave",
+            "name": "LATIN SMALL LETTER E WITH GRAVE"
+        },
+        {
+            "code": "U+00E9",
+            "value": "é",
+            "glyph": "eacute",
+            "name": "LATIN SMALL LETTER E WITH ACUTE"
+        },
+        {
+            "code": "U+00EA",
+            "value": "ê",
+            "glyph": "ecircumflex",
+            "name": "LATIN SMALL LETTER E WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+00EB",
+            "value": "ë",
+            "glyph": "edieresis",
+            "name": "LATIN SMALL LETTER E WITH DIAERESIS"
+        },
+        {
+            "code": "U+00EC",
+            "value": "ì",
+            "glyph": "igrave",
+            "name": "LATIN SMALL LETTER I WITH GRAVE"
+        },
+        {
+            "code": "U+00ED",
+            "value": "í",
+            "glyph": "iacute",
+            "name": "LATIN SMALL LETTER I WITH ACUTE"
+        },
+        {
+            "code": "U+00EE",
+            "value": "î",
+            "glyph": "icircumflex",
+            "name": "LATIN SMALL LETTER I WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+00EF",
+            "value": "ï",
+            "glyph": "idieresis",
+            "name": "LATIN SMALL LETTER I WITH DIAERESIS"
+        },
+        {
+            "code": "U+00F0",
+            "value": "ð",
+            "glyph": "eth",
+            "name": "LATIN SMALL LETTER ETH"
+        },
+        {
+            "code": "U+00F1",
+            "value": "ñ",
+            "glyph": "ntilde",
+            "name": "LATIN SMALL LETTER N WITH TILDE"
+        },
+        {
+            "code": "U+00F2",
+            "value": "ò",
+            "glyph": "ograve",
+            "name": "LATIN SMALL LETTER O WITH GRAVE"
+        },
+        {
+            "code": "U+00F3",
+            "value": "ó",
+            "glyph": "oacute",
+            "name": "LATIN SMALL LETTER O WITH ACUTE"
+        },
+        {
+            "code": "U+00F4",
+            "value": "ô",
+            "glyph": "ocircumflex",
+            "name": "LATIN SMALL LETTER O WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+00F5",
+            "value": "õ",
+            "glyph": "otilde",
+            "name": "LATIN SMALL LETTER O WITH TILDE"
+        },
+        {
+            "code": "U+00F6",
+            "value": "ö",
+            "glyph": "odieresis",
+            "name": "LATIN SMALL LETTER O WITH DIAERESIS"
+        },
+        {
+            "code": "U+00F7",
+            "value": "÷",
+            "glyph": "divide",
+            "name": "DIVISION SIGN"
+        },
+        {
+            "code": "U+00F8",
+            "value": "ø",
+            "glyph": "oslash",
+            "name": "LATIN SMALL LETTER O WITH STROKE"
+        },
+        {
+            "code": "U+00F9",
+            "value": "ù",
+            "glyph": "ugrave",
+            "name": "LATIN SMALL LETTER U WITH GRAVE"
+        },
+        {
+            "code": "U+00FA",
+            "value": "ú",
+            "glyph": "uacute",
+            "name": "LATIN SMALL LETTER U WITH ACUTE"
+        },
+        {
+            "code": "U+00FB",
+            "value": "û",
+            "glyph": "ucircumflex",
+            "name": "LATIN SMALL LETTER U WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+00FC",
+            "value": "ü",
+            "glyph": "udieresis",
+            "name": "LATIN SMALL LETTER U WITH DIAERESIS"
+        },
+        {
+            "code": "U+00FD",
+            "value": "ý",
+            "glyph": "yacute",
+            "name": "LATIN SMALL LETTER Y WITH ACUTE"
+        },
+        {
+            "code": "U+00FE",
+            "value": "þ",
+            "glyph": "thorn",
+            "name": "LATIN SMALL LETTER THORN"
+        },
+        {
+            "code": "U+00FF",
+            "value": "ÿ",
+            "glyph": "ydieresis",
+            "name": "LATIN SMALL LETTER Y WITH DIAERESIS"
+        },
+        {
+            "code": "U+0100",
+            "value": "Ā",
+            "glyph": "Amacron",
+            "name": "LATIN CAPITAL LETTER A WITH MACRON"
+        },
+        {
+            "code": "U+0101",
+            "value": "ā",
+            "glyph": "amacron",
+            "name": "LATIN SMALL LETTER A WITH MACRON"
+        },
+        {
+            "code": "U+0106",
+            "value": "Ć",
+            "glyph": "Cacute",
+            "name": "LATIN CAPITAL LETTER C WITH ACUTE"
+        },
+        {
+            "code": "U+0107",
+            "value": "ć",
+            "glyph": "cacute",
+            "name": "LATIN SMALL LETTER C WITH ACUTE"
+        },
+        {
+            "code": "U+0108",
+            "value": "Ĉ",
+            "glyph": "Ccircumflex",
+            "name": "LATIN CAPITAL LETTER C WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+0109",
+            "value": "ĉ",
+            "glyph": "ccircumflex",
+            "name": "LATIN SMALL LETTER C WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+010A",
+            "value": "Ċ",
+            "glyph": "Cdotaccent",
+            "name": "LATIN CAPITAL LETTER C WITH DOT ABOVE"
+        },
+        {
+            "code": "U+010B",
+            "value": "ċ",
+            "glyph": "cdotaccent",
+            "name": "LATIN SMALL LETTER C WITH DOT ABOVE"
+        },
+        {
+            "code": "U+010C",
+            "value": "Č",
+            "glyph": "Ccaron",
+            "name": "LATIN CAPITAL LETTER C WITH CARON"
+        },
+        {
+            "code": "U+010D",
+            "value": "č",
+            "glyph": "ccaron",
+            "name": "LATIN SMALL LETTER C WITH CARON"
+        },
+        {
+            "code": "U+010E",
+            "value": "Ď",
+            "glyph": "Dcaron",
+            "name": "LATIN CAPITAL LETTER D WITH CARON"
+        },
+        {
+            "code": "U+0112",
+            "value": "Ē",
+            "glyph": "Emacron",
+            "name": "LATIN CAPITAL LETTER E WITH MACRON"
+        },
+        {
+            "code": "U+0113",
+            "value": "ē",
+            "glyph": "emacron",
+            "name": "LATIN SMALL LETTER E WITH MACRON"
+        },
+        {
+            "code": "U+0116",
+            "value": "Ė",
+            "glyph": "Edotaccent",
+            "name": "LATIN CAPITAL LETTER E WITH DOT ABOVE"
+        },
+        {
+            "code": "U+0117",
+            "value": "ė",
+            "glyph": "edotaccent",
+            "name": "LATIN SMALL LETTER E WITH DOT ABOVE"
+        },
+        {
+            "code": "U+011A",
+            "value": "Ě",
+            "glyph": "Ecaron",
+            "name": "LATIN CAPITAL LETTER E WITH CARON"
+        },
+        {
+            "code": "U+011B",
+            "value": "ě",
+            "glyph": "ecaron",
+            "name": "LATIN SMALL LETTER E WITH CARON"
+        },
+        {
+            "code": "U+011C",
+            "value": "Ĝ",
+            "glyph": "Gcircumflex",
+            "name": "LATIN CAPITAL LETTER G WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+011D",
+            "value": "ĝ",
+            "glyph": "gcircumflex",
+            "name": "LATIN SMALL LETTER G WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+0120",
+            "value": "Ġ",
+            "glyph": "Gdotaccent",
+            "name": "LATIN CAPITAL LETTER G WITH DOT ABOVE"
+        },
+        {
+            "code": "U+0121",
+            "value": "ġ",
+            "glyph": "gdotaccent",
+            "name": "LATIN SMALL LETTER G WITH DOT ABOVE"
+        },
+        {
+            "code": "U+0124",
+            "value": "Ĥ",
+            "glyph": "Hcircumflex",
+            "name": "LATIN CAPITAL LETTER H WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+0125",
+            "value": "ĥ",
+            "glyph": "hcircumflex",
+            "name": "LATIN SMALL LETTER H WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+0128",
+            "value": "Ĩ",
+            "glyph": "Itilde",
+            "name": "LATIN CAPITAL LETTER I WITH TILDE"
+        },
+        {
+            "code": "U+0129",
+            "value": "ĩ",
+            "glyph": "itilde",
+            "name": "LATIN SMALL LETTER I WITH TILDE"
+        },
+        {
+            "code": "U+012A",
+            "value": "Ī",
+            "glyph": "Imacron",
+            "name": "LATIN CAPITAL LETTER I WITH MACRON"
+        },
+        {
+            "code": "U+012B",
+            "value": "ī",
+            "glyph": "imacron",
+            "name": "LATIN SMALL LETTER I WITH MACRON"
+        },
+        {
+            "code": "U+0131",
+            "value": "ı",
+            "glyph": "dotlessi",
+            "name": "LATIN SMALL LETTER DOTLESS I"
+        },
+        {
+            "code": "U+0143",
+            "value": "Ń",
+            "glyph": "Nacute",
+            "name": "LATIN CAPITAL LETTER N WITH ACUTE"
+        },
+        {
+            "code": "U+0144",
+            "value": "ń",
+            "glyph": "nacute",
+            "name": "LATIN SMALL LETTER N WITH ACUTE"
+        },
+        {
+            "code": "U+0147",
+            "value": "Ň",
+            "glyph": "Ncaron",
+            "name": "LATIN CAPITAL LETTER N WITH CARON"
+        },
+        {
+            "code": "U+0148",
+            "value": "ň",
+            "glyph": "ncaron",
+            "name": "LATIN SMALL LETTER N WITH CARON"
+        },
+        {
+            "code": "U+014C",
+            "value": "Ō",
+            "glyph": "Omacron",
+            "name": "LATIN CAPITAL LETTER O WITH MACRON"
+        },
+        {
+            "code": "U+014D",
+            "value": "ō",
+            "glyph": "omacron",
+            "name": "LATIN SMALL LETTER O WITH MACRON"
+        },
+        {
+            "code": "U+0152",
+            "value": "Œ",
+            "glyph": "OE",
+            "name": "LATIN CAPITAL LIGATURE OE"
+        },
+        {
+            "code": "U+0153",
+            "value": "œ",
+            "glyph": "oe",
+            "name": "LATIN SMALL LIGATURE OE"
+        },
+        {
+            "code": "U+0154",
+            "value": "Ŕ",
+            "glyph": "Racute",
+            "name": "LATIN CAPITAL LETTER R WITH ACUTE"
+        },
+        {
+            "code": "U+0155",
+            "value": "ŕ",
+            "glyph": "racute",
+            "name": "LATIN SMALL LETTER R WITH ACUTE"
+        },
+        {
+            "code": "U+0158",
+            "value": "Ř",
+            "glyph": "Rcaron",
+            "name": "LATIN CAPITAL LETTER R WITH CARON"
+        },
+        {
+            "code": "U+0159",
+            "value": "ř",
+            "glyph": "rcaron",
+            "name": "LATIN SMALL LETTER R WITH CARON"
+        },
+        {
+            "code": "U+015A",
+            "value": "Ś",
+            "glyph": "Sacute",
+            "name": "LATIN CAPITAL LETTER S WITH ACUTE"
+        },
+        {
+            "code": "U+015B",
+            "value": "ś",
+            "glyph": "sacute",
+            "name": "LATIN SMALL LETTER S WITH ACUTE"
+        },
+        {
+            "code": "U+015C",
+            "value": "Ŝ",
+            "glyph": "Scircumflex",
+            "name": "LATIN CAPITAL LETTER S WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+015D",
+            "value": "ŝ",
+            "glyph": "scircumflex",
+            "name": "LATIN SMALL LETTER S WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+015E",
+            "value": "Ş",
+            "glyph": "Scedilla",
+            "name": "LATIN CAPITAL LETTER S WITH CEDILLA"
+        },
+        {
+            "code": "U+015F",
+            "value": "ş",
+            "glyph": "scedilla",
+            "name": "LATIN SMALL LETTER S WITH CEDILLA"
+        },
+        {
+            "code": "U+0160",
+            "value": "Š",
+            "glyph": "Scaron",
+            "name": "LATIN CAPITAL LETTER S WITH CARON"
+        },
+        {
+            "code": "U+0161",
+            "value": "š",
+            "glyph": "scaron",
+            "name": "LATIN SMALL LETTER S WITH CARON"
+        },
+        {
+            "code": "U+0168",
+            "value": "Ũ",
+            "glyph": "Utilde",
+            "name": "LATIN CAPITAL LETTER U WITH TILDE"
+        },
+        {
+            "code": "U+0169",
+            "value": "ũ",
+            "glyph": "utilde",
+            "name": "LATIN SMALL LETTER U WITH TILDE"
+        },
+        {
+            "code": "U+016A",
+            "value": "Ū",
+            "glyph": "Umacron",
+            "name": "LATIN CAPITAL LETTER U WITH MACRON"
+        },
+        {
+            "code": "U+016B",
+            "value": "ū",
+            "glyph": "umacron",
+            "name": "LATIN SMALL LETTER U WITH MACRON"
+        },
+        {
+            "code": "U+016E",
+            "value": "Ů",
+            "glyph": "Uring",
+            "name": "LATIN CAPITAL LETTER U WITH RING ABOVE"
+        },
+        {
+            "code": "U+016F",
+            "value": "ů",
+            "glyph": "uring",
+            "name": "LATIN SMALL LETTER U WITH RING ABOVE"
+        },
+        {
+            "code": "U+0174",
+            "value": "Ŵ",
+            "glyph": "Wcircumflex",
+            "name": "LATIN CAPITAL LETTER W WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+0175",
+            "value": "ŵ",
+            "glyph": "wcircumflex",
+            "name": "LATIN SMALL LETTER W WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+0176",
+            "value": "Ŷ",
+            "glyph": "Ycircumflex",
+            "name": "LATIN CAPITAL LETTER Y WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+0177",
+            "value": "ŷ",
+            "glyph": "ycircumflex",
+            "name": "LATIN SMALL LETTER Y WITH CIRCUMFLEX"
+        },
+        {
+            "code": "U+0179",
+            "value": "Ź",
+            "glyph": "Zacute",
+            "name": "LATIN CAPITAL LETTER Z WITH ACUTE"
+        },
+        {
+            "code": "U+017A",
+            "value": "ź",
+            "glyph": "zacute",
+            "name": "LATIN SMALL LETTER Z WITH ACUTE"
+        },
+        {
+            "code": "U+017B",
+            "value": "Ż",
+            "glyph": "Zdotaccent",
+            "name": "LATIN CAPITAL LETTER Z WITH DOT ABOVE"
+        },
+        {
+            "code": "U+017C",
+            "value": "ż",
+            "glyph": "zdotaccent",
+            "name": "LATIN SMALL LETTER Z WITH DOT ABOVE"
+        },
+        {
+            "code": "U+017D",
+            "value": "Ž",
+            "glyph": "Zcaron",
+            "name": "LATIN CAPITAL LETTER Z WITH CARON"
+        },
+        {
+            "code": "U+017E",
+            "value": "ž",
+            "glyph": "zcaron",
+            "name": "LATIN SMALL LETTER Z WITH CARON"
+        },
+        {
+            "code": "U+01D2",
+            "value": "ǒ",
+            "glyph": "ocaron",
+            "name": "LATIN SMALL LETTER O WITH CARON"
+        },
+        {
+            "code": "U+01D3",
+            "value": "Ǔ",
+            "glyph": "Ucaron",
+            "name": "LATIN CAPITAL LETTER U WITH CARON"
+        },
+        {
+            "code": "U+01D4",
+            "value": "ǔ",
+            "glyph": "ucaron",
+            "name": "LATIN SMALL LETTER U WITH CARON"
+        },
+        {
+            "code": "U+01FC",
+            "value": "Ǽ",
+            "glyph": "AEacute",
+            "name": "LATIN CAPITAL LETTER AE WITH ACUTE"
+        },
+        {
+            "code": "U+01FD",
+            "value": "ǽ",
+            "glyph": "aeacute",
+            "name": "LATIN SMALL LETTER AE WITH ACUTE"
+        },
+        {
+            "code": "U+02C7",
+            "value": "ˇ",
+            "glyph": "caron",
+            "name": "CARON"
+        },
+        {
+            "code": "U+0D00",
+            "value": "ഀ",
+            "glyph": "anuswaraabove"
+        },
+        {
+            "code": "U+0D01",
+            "value": "ഁ",
+            "glyph": "mlchandrabindu"
+        },
+        {
+            "code": "U+0D02",
+            "value": "ം",
+            "glyph": "anuswara",
+            "name": "MALAYALAM SIGN ANUSVARA"
+        },
+        {
+            "code": "U+0D03",
+            "value": "ഃ",
+            "glyph": "visarga",
+            "name": "MALAYALAM SIGN VISARGA"
+        },
+        {
+            "code": "U+0D05",
+            "value": "അ",
+            "glyph": "ml_a",
+            "name": "MALAYALAM LETTER A"
+        },
+        {
+            "code": "U+0D06",
+            "value": "ആ",
+            "glyph": "ml_aa",
+            "name": "MALAYALAM LETTER AA"
+        },
+        {
+            "code": "U+0D07",
+            "value": "ഇ",
+            "glyph": "ml_i",
+            "name": "MALAYALAM LETTER I"
+        },
+        {
+            "code": "U+0D08",
+            "value": "ഈ",
+            "glyph": "ml_ii",
+            "name": "MALAYALAM LETTER II"
+        },
+        {
+            "code": "U+0D09",
+            "value": "ഉ",
+            "glyph": "ml_u",
+            "name": "MALAYALAM LETTER U"
+        },
+        {
+            "code": "U+0D0A",
+            "value": "ഊ",
+            "glyph": "ml_uu",
+            "name": "MALAYALAM LETTER UU"
+        },
+        {
+            "code": "U+0D0B",
+            "value": "ഋ",
+            "glyph": "ml_r",
+            "name": "MALAYALAM LETTER VOCALIC R"
+        },
+        {
+            "code": "U+0D0C",
+            "value": "ഌ",
+            "glyph": "ml_l",
+            "name": "MALAYALAM LETTER VOCALIC L"
+        },
+        {
+            "code": "U+0D0E",
+            "value": "എ",
+            "glyph": "ml_e",
+            "name": "MALAYALAM LETTER E"
+        },
+        {
+            "code": "U+0D0F",
+            "value": "ഏ",
+            "glyph": "ml_ee",
+            "name": "MALAYALAM LETTER EE"
+        },
+        {
+            "code": "U+0D10",
+            "value": "ഐ",
+            "glyph": "ml_ai",
+            "name": "MALAYALAM LETTER AI"
+        },
+        {
+            "code": "U+0D12",
+            "value": "ഒ",
+            "glyph": "ml_o",
+            "name": "MALAYALAM LETTER O"
+        },
+        {
+            "code": "U+0D13",
+            "value": "ഓ",
+            "glyph": "ml_oo",
+            "name": "MALAYALAM LETTER OO"
+        },
+        {
+            "code": "U+0D14",
+            "value": "ഔ",
+            "glyph": "ml_au",
+            "name": "MALAYALAM LETTER AU"
+        },
+        {
+            "code": "U+0D15",
+            "value": "ക",
+            "glyph": "k1",
+            "name": "MALAYALAM LETTER KA"
+        },
+        {
+            "code": "U+0D16",
+            "value": "ഖ",
+            "glyph": "k2",
+            "name": "MALAYALAM LETTER KHA"
+        },
+        {
+            "code": "U+0D17",
+            "value": "ഗ",
+            "glyph": "k3",
+            "name": "MALAYALAM LETTER GA"
+        },
+        {
+            "code": "U+0D18",
+            "value": "ഘ",
+            "glyph": "k4",
+            "name": "MALAYALAM LETTER GHA"
+        },
+        {
+            "code": "U+0D19",
+            "value": "ങ",
+            "glyph": "ng",
+            "name": "MALAYALAM LETTER NGA"
+        },
+        {
+            "code": "U+0D1A",
+            "value": "ച",
+            "glyph": "ch1",
+            "name": "MALAYALAM LETTER CA"
+        },
+        {
+            "code": "U+0D1B",
+            "value": "ഛ",
+            "glyph": "ch2",
+            "name": "MALAYALAM LETTER CHA"
+        },
+        {
+            "code": "U+0D1C",
+            "value": "ജ",
+            "glyph": "ch3",
+            "name": "MALAYALAM LETTER JA"
+        },
+        {
+            "code": "U+0D1D",
+            "value": "ഝ",
+            "glyph": "ch4",
+            "name": "MALAYALAM LETTER JHA"
+        },
+        {
+            "code": "U+0D1E",
+            "value": "ഞ",
+            "glyph": "nj",
+            "name": "MALAYALAM LETTER NYA"
+        },
+        {
+            "code": "U+0D1F",
+            "value": "ട",
+            "glyph": "t1",
+            "name": "MALAYALAM LETTER TTA"
+        },
+        {
+            "code": "U+0D20",
+            "value": "ഠ",
+            "glyph": "t2",
+            "name": "MALAYALAM LETTER TTHA"
+        },
+        {
+            "code": "U+0D21",
+            "value": "ഡ",
+            "glyph": "t3",
+            "name": "MALAYALAM LETTER DDA"
+        },
+        {
+            "code": "U+0D22",
+            "value": "ഢ",
+            "glyph": "t4",
+            "name": "MALAYALAM LETTER DDHA"
+        },
+        {
+            "code": "U+0D23",
+            "value": "ണ",
+            "glyph": "nh",
+            "name": "MALAYALAM LETTER NNA"
+        },
+        {
+            "code": "U+0D24",
+            "value": "ത",
+            "glyph": "th1",
+            "name": "MALAYALAM LETTER TA"
+        },
+        {
+            "code": "U+0D25",
+            "value": "ഥ",
+            "glyph": "th2",
+            "name": "MALAYALAM LETTER THA"
+        },
+        {
+            "code": "U+0D26",
+            "value": "ദ",
+            "glyph": "th3",
+            "name": "MALAYALAM LETTER DA"
+        },
+        {
+            "code": "U+0D27",
+            "value": "ധ",
+            "glyph": "th4",
+            "name": "MALAYALAM LETTER DHA"
+        },
+        {
+            "code": "U+0D28",
+            "value": "ന",
+            "glyph": "n1",
+            "name": "MALAYALAM LETTER NA"
+        },
+        {
+            "code": "U+0D29",
+            "value": "ഩ",
+            "glyph": "n2"
+        },
+        {
+            "code": "U+0D2A",
+            "value": "പ",
+            "glyph": "p1",
+            "name": "MALAYALAM LETTER PA"
+        },
+        {
+            "code": "U+0D2B",
+            "value": "ഫ",
+            "glyph": "p2",
+            "name": "MALAYALAM LETTER PHA"
+        },
+        {
+            "code": "U+0D2C",
+            "value": "ബ",
+            "glyph": "p3",
+            "name": "MALAYALAM LETTER BA"
+        },
+        {
+            "code": "U+0D2D",
+            "value": "ഭ",
+            "glyph": "p4",
+            "name": "MALAYALAM LETTER BHA"
+        },
+        {
+            "code": "U+0D2E",
+            "value": "മ",
+            "glyph": "m1",
+            "name": "MALAYALAM LETTER MA"
+        },
+        {
+            "code": "U+0D2F",
+            "value": "യ",
+            "glyph": "y1",
+            "name": "MALAYALAM LETTER YA"
+        },
+        {
+            "code": "U+0D30",
+            "value": "ര",
+            "glyph": "r3",
+            "name": "MALAYALAM LETTER RA"
+        },
+        {
+            "code": "U+0D31",
+            "value": "റ",
+            "glyph": "rh",
+            "name": "MALAYALAM LETTER RRA"
+        },
+        {
+            "code": "U+0D32",
+            "value": "ല",
+            "glyph": "l3",
+            "name": "MALAYALAM LETTER LA"
+        },
+        {
+            "code": "U+0D33",
+            "value": "ള",
+            "glyph": "lh",
+            "name": "MALAYALAM LETTER LLA"
+        },
+        {
+            "code": "U+0D34",
+            "value": "ഴ",
+            "glyph": "zh",
+            "name": "MALAYALAM LETTER LLLA"
+        },
+        {
+            "code": "U+0D35",
+            "value": "വ",
+            "glyph": "v1",
+            "name": "MALAYALAM LETTER VA"
+        },
+        {
+            "code": "U+0D36",
+            "value": "ശ",
+            "glyph": "z1",
+            "name": "MALAYALAM LETTER SHA"
+        },
+        {
+            "code": "U+0D37",
+            "value": "ഷ",
+            "glyph": "sh",
+            "name": "MALAYALAM LETTER SSA"
+        },
+        {
+            "code": "U+0D38",
+            "value": "സ",
+            "glyph": "s1",
+            "name": "MALAYALAM LETTER SA"
+        },
+        {
+            "code": "U+0D39",
+            "value": "ഹ",
+            "glyph": "h1",
+            "name": "MALAYALAM LETTER HA"
+        },
+        {
+            "code": "U+0D3A",
+            "value": "ഺ",
+            "glyph": "rh_half"
+        },
+        {
+            "code": "U+0D3B",
+            "value": "഻",
+            "glyph": "verticalbarvirama"
+        },
+        {
+            "code": "U+0D3C",
+            "value": "഼",
+            "glyph": "circularvirama"
+        },
+        {
+            "code": "U+0D3D",
+            "value": "ഽ",
+            "glyph": "avagraha",
+            "name": "MALAYALAM SIGN AVAGRAHA"
+        },
+        {
+            "code": "U+0D3E",
+            "value": "ാ",
+            "glyph": "a2",
+            "name": "MALAYALAM VOWEL SIGN AA"
+        },
+        {
+            "code": "U+0D3F",
+            "value": "ി",
+            "glyph": "i1",
+            "name": "MALAYALAM VOWEL SIGN I"
+        },
+        {
+            "code": "U+0D40",
+            "value": "ീ",
+            "glyph": "i2",
+            "name": "MALAYALAM VOWEL SIGN II"
+        },
+        {
+            "code": "U+0D41",
+            "value": "ു",
+            "glyph": "u1",
+            "name": "MALAYALAM VOWEL SIGN U"
+        },
+        {
+            "code": "U+0D42",
+            "value": "ൂ",
+            "glyph": "u2",
+            "name": "MALAYALAM VOWEL SIGN UU"
+        },
+        {
+            "code": "U+0D43",
+            "value": "ൃ",
+            "glyph": "r1",
+            "name": "MALAYALAM VOWEL SIGN VOCALIC R"
+        },
+        {
+            "code": "U+0D44",
+            "value": "ൄ",
+            "glyph": "r2",
+            "name": "MALAYALAM VOWEL SIGN VOCALIC RR"
+        },
+        {
+            "code": "U+0D46",
+            "value": "െ",
+            "glyph": "e1",
+            "name": "MALAYALAM VOWEL SIGN E"
+        },
+        {
+            "code": "U+0D47",
+            "value": "േ",
+            "glyph": "e2",
+            "name": "MALAYALAM VOWEL SIGN EE"
+        },
+        {
+            "code": "U+0D48",
+            "value": "ൈ",
+            "glyph": "ai1",
+            "name": "MALAYALAM VOWEL SIGN AI"
+        },
+        {
+            "code": "U+0D4A",
+            "value": "ൊ",
+            "glyph": "o1",
+            "name": "MALAYALAM VOWEL SIGN O"
+        },
+        {
+            "code": "U+0D4B",
+            "value": "ോ",
+            "glyph": "o2",
+            "name": "MALAYALAM VOWEL SIGN OO"
+        },
+        {
+            "code": "U+0D4C",
+            "value": "ൌ",
+            "glyph": "uni0D4C",
+            "name": "MALAYALAM VOWEL SIGN AU"
+        },
+        {
+            "code": "U+0D4D",
+            "value": "്",
+            "glyph": "xx",
+            "name": "MALAYALAM SIGN VIRAMA"
+        },
+        {
+            "code": "U+0D4E",
+            "value": "ൎ",
+            "glyph": "dotreph"
+        },
+        {
+            "code": "U+0D4F",
+            "value": "൏",
+            "glyph": "mlpara"
+        },
+        {
+            "code": "U+0D54",
+            "value": "ൔ",
+            "glyph": "m1cil"
+        },
+        {
+            "code": "U+0D55",
+            "value": "ൕ",
+            "glyph": "y1cil"
+        },
+        {
+            "code": "U+0D56",
+            "value": "ൖ",
+            "glyph": "zhcil"
+        },
+        {
+            "code": "U+0D57",
+            "value": "ൗ",
+            "glyph": "au2",
+            "name": "MALAYALAM AU LENGTH MARK"
+        },
+        {
+            "code": "U+0D58",
+            "value": "൘",
+            "glyph": "arakani"
+        },
+        {
+            "code": "U+0D59",
+            "value": "൙",
+            "glyph": "aramaa"
+        },
+        {
+            "code": "U+0D5A",
+            "value": "൚",
+            "glyph": "muunnukaani"
+        },
+        {
+            "code": "U+0D5B",
+            "value": "൛",
+            "glyph": "orumaa"
+        },
+        {
+            "code": "U+0D5C",
+            "value": "൜",
+            "glyph": "randumaa"
+        },
+        {
+            "code": "U+0D5D",
+            "value": "൝",
+            "glyph": "munnumaa"
+        },
+        {
+            "code": "U+0D5E",
+            "value": "൞",
+            "glyph": "naalumaa"
+        },
+        {
+            "code": "U+0D5F",
+            "value": "ൟ",
+            "glyph": "ml_ii_archaic"
+        },
+        {
+            "code": "U+0D60",
+            "value": "ൠ",
+            "glyph": "ml_rr",
+            "name": "MALAYALAM LETTER VOCALIC RR"
+        },
+        {
+            "code": "U+0D61",
+            "value": "ൡ",
+            "glyph": "ml_ll",
+            "name": "MALAYALAM LETTER VOCALIC LL"
+        },
+        {
+            "code": "U+0D62",
+            "value": "ൢ",
+            "glyph": "l1",
+            "name": "MALAYALAM VOWEL SIGN VOCALIC L"
+        },
+        {
+            "code": "U+0D63",
+            "value": "ൣ",
+            "glyph": "l2",
+            "name": "MALAYALAM VOWEL SIGN VOCALIC LL"
+        },
+        {
+            "code": "U+0D66",
+            "value": "൦",
+            "glyph": "uni0D66",
+            "name": "MALAYALAM DIGIT ZERO"
+        },
+        {
+            "code": "U+0D67",
+            "value": "൧",
+            "glyph": "uni0D67",
+            "name": "MALAYALAM DIGIT ONE"
+        },
+        {
+            "code": "U+0D68",
+            "value": "൨",
+            "glyph": "uni0D68",
+            "name": "MALAYALAM DIGIT TWO"
+        },
+        {
+            "code": "U+0D69",
+            "value": "൩",
+            "glyph": "uni0D69",
+            "name": "MALAYALAM DIGIT THREE"
+        },
+        {
+            "code": "U+0D6A",
+            "value": "൪",
+            "glyph": "uni0D6A",
+            "name": "MALAYALAM DIGIT FOUR"
+        },
+        {
+            "code": "U+0D6B",
+            "value": "൫",
+            "glyph": "uni0D6B",
+            "name": "MALAYALAM DIGIT FIVE"
+        },
+        {
+            "code": "U+0D6C",
+            "value": "൬",
+            "glyph": "uni0D6C",
+            "name": "MALAYALAM DIGIT SIX"
+        },
+        {
+            "code": "U+0D6D",
+            "value": "൭",
+            "glyph": "uni0D6D",
+            "name": "MALAYALAM DIGIT SEVEN"
+        },
+        {
+            "code": "U+0D6E",
+            "value": "൮",
+            "glyph": "uni0D6E",
+            "name": "MALAYALAM DIGIT EIGHT"
+        },
+        {
+            "code": "U+0D6F",
+            "value": "൯",
+            "glyph": "uni0D6F",
+            "name": "MALAYALAM DIGIT NINE"
+        },
+        {
+            "code": "U+0D70",
+            "value": "൰",
+            "glyph": "uni0D70",
+            "name": "MALAYALAM NUMBER TEN"
+        },
+        {
+            "code": "U+0D71",
+            "value": "൱",
+            "glyph": "uni0D71",
+            "name": "MALAYALAM NUMBER ONE HUNDRED"
+        },
+        {
+            "code": "U+0D72",
+            "value": "൲",
+            "glyph": "uni0D72",
+            "name": "MALAYALAM NUMBER ONE THOUSAND"
+        },
+        {
+            "code": "U+0D73",
+            "value": "൳",
+            "glyph": "uni0D73",
+            "name": "MALAYALAM FRACTION ONE QUARTER"
+        },
+        {
+            "code": "U+0D74",
+            "value": "൴",
+            "glyph": "uni0D74",
+            "name": "MALAYALAM FRACTION ONE HALF"
+        },
+        {
+            "code": "U+0D75",
+            "value": "൵",
+            "glyph": "uni0D75",
+            "name": "MALAYALAM FRACTION THREE QUARTERS"
+        },
+        {
+            "code": "U+0D76",
+            "value": "൶",
+            "glyph": "maakaani"
+        },
+        {
+            "code": "U+0D77",
+            "value": "൷",
+            "glyph": "arakkaal"
+        },
+        {
+            "code": "U+0D78",
+            "value": "൸",
+            "glyph": "muntaani"
+        },
+        {
+            "code": "U+0D79",
+            "value": "൹",
+            "glyph": "datemark",
+            "name": "MALAYALAM DATE MARK"
+        },
+        {
+            "code": "U+0D7A",
+            "value": "ൺ",
+            "glyph": "nhcil",
+            "name": "MALAYALAM LETTER CHILLU NN"
+        },
+        {
+            "code": "U+0D7B",
+            "value": "ൻ",
+            "glyph": "n1cil",
+            "name": "MALAYALAM LETTER CHILLU N"
+        },
+        {
+            "code": "U+0D7C",
+            "value": "ർ",
+            "glyph": "r3cil",
+            "name": "MALAYALAM LETTER CHILLU RR"
+        },
+        {
+            "code": "U+0D7D",
+            "value": "ൽ",
+            "glyph": "l3cil",
+            "name": "MALAYALAM LETTER CHILLU L"
+        },
+        {
+            "code": "U+0D7E",
+            "value": "ൾ",
+            "glyph": "lhcil",
+            "name": "MALAYALAM LETTER CHILLU LL"
+        },
+        {
+            "code": "U+0D7F",
+            "value": "ൿ",
+            "glyph": "k1cil",
+            "name": "MALAYALAM LETTER CHILLU K"
+        },
+        {
+            "code": "U+200C",
+            "value": "‌",
+            "glyph": "ZWNJ",
+            "name": "ZERO WIDTH NON-JOINER"
+        },
+        {
+            "code": "U+200D",
+            "value": "‍",
+            "glyph": "ZWJ",
+            "name": "ZERO WIDTH JOINER"
+        },
+        {
+            "code": "U+2013",
+            "value": "–",
+            "glyph": "endash",
+            "name": "EN DASH"
+        },
+        {
+            "code": "U+2014",
+            "value": "—",
+            "glyph": "emdash",
+            "name": "EM DASH"
+        },
+        {
+            "code": "U+2018",
+            "value": "‘",
+            "glyph": "quoteleft",
+            "name": "LEFT SINGLE QUOTATION MARK"
+        },
+        {
+            "code": "U+2019",
+            "value": "’",
+            "glyph": "quoteright",
+            "name": "RIGHT SINGLE QUOTATION MARK"
+        },
+        {
+            "code": "U+201A",
+            "value": "‚",
+            "glyph": "quotesinglbase SINGLE LOW-9 QUOTATION MARK"
+        },
+        {
+            "code": "U+201C",
+            "value": "“",
+            "glyph": "quotedblleft",
+            "name": "LEFT DOUBLE QUOTATION MARK"
+        },
+        {
+            "code": "U+201D",
+            "value": "”",
+            "glyph": "quotedblrightRIGHT DOUBLE QUOTATION MARK"
+        },
+        {
+            "code": "U+201E",
+            "value": "„",
+            "glyph": "quotedblbase",
+            "name": "DOUBLE LOW-9 QUOTATION MARK"
+        },
+        {
+            "code": "U+2022",
+            "value": "•",
+            "glyph": "bullet",
+            "name": "BULLET"
+        },
+        {
+            "code": "U+2026",
+            "value": "…",
+            "glyph": "ellipsis",
+            "name": "HORIZONTAL ELLIPSIS"
+        },
+        {
+            "code": "U+20AC",
+            "value": "€",
+            "glyph": "euro",
+            "name": "EURO SIGN"
+        },
+        {
+            "code": "U+20B9",
+            "value": "₹",
+            "glyph": "rupee"
+        },
+        {
+            "code": "U+25CC",
+            "value": "◌",
+            "glyph": "uni25CC",
+            "name": "DOTTED CIRCLE"
+        }
+    ]
+}
