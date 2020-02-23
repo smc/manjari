@@ -2,7 +2,7 @@
 lookup akhn_conditional_stacking {
   ignore sub k1' xx' s1' [ u1 u2 r1 r2 l1 l2];
   ignore sub k1' xx' s1' xx r3;
-  sub k1' xx' s1'  by k1s1;
+  sub k1' xx' s1' by k1s1;
 
   ignore sub k1' xx' t1' [u1 u2 r1 r2 l1 l2];
   sub k1' xx' t1' by k1t1;
@@ -21,7 +21,7 @@ lookup akhn_conditional_stacking {
 
   ignore sub p1' xx' s1' [u1 u2 r1 r2 l1 l2];
   ignore sub p1' xx' s1' xx [r3 s1];
-  sub p1' xx' s1'  by p1s1;
+  sub p1' xx' s1' by p1s1;
 
   ignore sub p1' xx' t1' [u1 u2 r1 r2 l1 l2];
   sub p1' xx' t1' by p1t1;
@@ -62,12 +62,12 @@ lookup akhn_conditional_stacking {
 
   ignore sub zh' xx' ch1' [u1 u2 r1 r2 l1 l2];
   ignore sub zh' xx' ch1' xx [ch1 r3];
-  sub zh' xx' ch1'  by zh1ch1;
+  sub zh' xx' ch1' by zh1ch1;
 
 } akhn_conditional_stacking;
 
 lookup psts_vowel_signs {
   lookupflag IgnoreMarks;
   # This is already defined in  psts_vowel_signs_common. Just repeating since we can't have an empty  psts_vowel_signs'
-    sub rhrh u2  by rhrhu2;
+    sub rhrh u2 by rhrhu2;
 } psts_vowel_signs;

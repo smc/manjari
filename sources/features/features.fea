@@ -15,7 +15,7 @@ feature akhn {
 
  script mlm2;
      language dflt ;
-      lookup  chillu;
+      lookup chillu;
       lookup akhn_conjuncts;
       lookup akhn_conditional_stacking;
  script mlym;
