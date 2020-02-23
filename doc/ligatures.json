@@ -2745,15 +2745,29 @@
       "feature": "psts",
       "sequence": "p1r3 u1",
       "name": "p1r3u1",
-      "value": "്രപു",
-      "ml_sequence": "്രപ + ു"
+      "value": "പ്രു",
+      "ml_sequence": "പ്ര + ു"
+    },
+    {
+      "feature": "psts",
+      "sequence": "nht1r3 u1",
+      "name": "nht1r3u1",
+      "value": "ണ്ട്രു",
+      "ml_sequence": "ണ്ട്ര + ു"
+    },
+    {
+      "feature": "psts",
+      "sequence": "nht1r3 u2",
+      "name": "nht1r3u2",
+      "value": "ണ്ട്രൂ",
+      "ml_sequence": "ണ്ട്ര + ൂ"
     },
     {
       "feature": "psts",
       "sequence": "p1r3 u2",
       "name": "p1r3u2",
-      "value": "്രപൂ",
-      "ml_sequence": "്രപ + ൂ"
+      "value": "പ്ര്",
+      "ml_sequence": "പ്ര + ൂ"
     },
     {
       "feature": "psts",
