@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zero.slash" format="2">
+	<advance width="1100"/>
+	<outline>
+		<contour>
+			<point x="877.6716082437" y="1184.8210341999" type="line"/>
+			<point x="702.9936471739" y="832.9442971231"/>
+			<point x="528.8311501744" y="481.1023009218"/>
+			<point x="353.7206617673" y="129.7828640888" type="curve"/>
+			<point x="287" y="190"/>
+			<point x="283" y="197"/>
+			<point x="243.2931966067" y="245.7310445422" type="curve"/>
+			<point x="753.635478485" y="1271.0410670469" type="line"/>
+		</contour>
+		<component base="zero"/>
+	</outline>
+</glyph>

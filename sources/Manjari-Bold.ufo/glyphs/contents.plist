@@ -1726,6 +1726,8 @@
 		<string>zdotaccent.glif</string>
 		<key>zero</key>
 		<string>zero.glif</string>
+		<key>zero.slash</key>
+		<string>zero.slash.glif</string>
 		<key>zh</key>
 		<string>zh.glif</string>
 		<key>zh1ch1</key>
