@@ -9,14 +9,16 @@ TOOLDIR=tools
 SRCDIR=sources
 webfontscript=$(TOOLDIR)/webfonts.py
 designspace=$(SRCDIR)/Manjari.designspace
-tests=tests/tests.txt
+tests=tests
 BLDDIR=build
 default: otf
 all: clean lint otf ttf webfonts test
 OTF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.otf)
 TTF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.ttf)
 WOFF2=$(FONTS:%=$(BLDDIR)/$(NAME)-%.woff2)
-PDF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.pdf)
+PDFS=$(FONTS:%=$(BLDDIR)/$(NAME)-%-ligatures.pdf)  \
+	$(FONTS:%=$(BLDDIR)/$(NAME)-%-content.pdf)  \
+	$(FONTS:%=$(BLDDIR)/$(NAME)-%-numbers.pdf)
 
 $(BLDDIR)/%.otf: $(SRCDIR)/%.ufo
 	@echo "  BUILD    $(@F)"
@@ -30,11 +32,23 @@ $(BLDDIR)/%.woff2: $(BLDDIR)/%.otf
 	@echo "WEBFONT    $(@F)"
 	@fonttools ttLib.woff2 compress  $<
 
-$(BLDDIR)/%.pdf: $(BLDDIR)/%.otf $(tests)
+ $(BLDDIR)/%-ligatures.pdf: $(BLDDIR)/%.ttf
 	@echo "   TEST    $(@F)"
 	@hb-view $< --font-size 14 --margin 100 --line-space 1.5 \
-		--foreground=333333 --text-file $(tests) \
+		--foreground=333333 --text-file $(tests)/ligatures.txt \
 		--output-file $(BLDDIR)/$(@F);
+
+$(BLDDIR)/%-content.pdf: $(BLDDIR)/%.ttf
+	@echo "   TEST    $(@F)"
+	@hb-view $< --font-size 14 --margin 100 --line-space 1.5 \
+		--foreground=333333 --text-file $(tests)/content.txt \
+		--output-file $(BLDDIR)/$(@F);
+
+$(BLDDIR)/%-numbers.pdf: $(BLDDIR)/%.ttf
+	@echo "   TEST    $(@F)"
+	@hb-view $< --font-size 14 --margin 100 --line-space 1.5 \
+		--foreground=333333 --text-file $(tests)/numbers.txt \
+		--features="tnum" --output-file $(BLDDIR)/$(@F);
 
 ttf: $(TTF)
 otf: $(OTF)
@@ -52,7 +66,7 @@ install: otf
 	@mkdir -p ${DESTDIR}${INSTALLPATH}
 	install -D -m 0644 $(BLDDIR)/*.otf ${DESTDIR}${INSTALLPATH}/
 
-test: otf $(PDF)
+test: otf $(PDFS)
 
 clean:
 	@rm -rf $(BLDDIR)

@@ -402,6 +402,8 @@
 		<string>egrave.glif</string>
 		<key>eight</key>
 		<string>eight.glif</string>
+		<key>eight.tnum</key>
+		<string>eight.tnum.glif</string>
 		<key>ellipsis</key>
 		<string>ellipsis.glif</string>
 		<key>emacron</key>
@@ -422,8 +424,12 @@
 		<string>f.glif</string>
 		<key>five</key>
 		<string>five.glif</string>
+		<key>five.tnum</key>
+		<string>five.tnum.glif</string>
 		<key>four</key>
 		<string>four.glif</string>
+		<key>four.tnum</key>
+		<string>four.tnum.glif</string>
 		<key>g</key>
 		<string>g.glif</string>
 		<key>gcircumflex</key>
@@ -958,6 +964,8 @@
 		<string>nhxx.glif</string>
 		<key>nine</key>
 		<string>nine.glif</string>
+		<key>nine.tnum</key>
+		<string>nine.tnum.glif</string>
 		<key>nj</key>
 		<string>nj.glif</string>
 		<key>njch1</key>
@@ -1014,6 +1022,8 @@
 		<string>omacron.glif</string>
 		<key>one</key>
 		<string>one.glif</string>
+		<key>one.tnum</key>
+		<string>one.tnum.glif</string>
 		<key>orumaa</key>
 		<string>orumaa.glif</string>
 		<key>oslash</key>
@@ -1286,6 +1296,8 @@
 		<string>semicolon.glif</string>
 		<key>seven</key>
 		<string>seven.glif</string>
+		<key>seven.tnum</key>
+		<string>seven.tnum.glif</string>
 		<key>sh</key>
 		<string>sh.glif</string>
 		<key>sh1p1</key>
@@ -1322,6 +1334,8 @@
 		<string>shxx.glif</string>
 		<key>six</key>
 		<string>six.glif</string>
+		<key>six.tnum</key>
+		<string>six.tnum.glif</string>
 		<key>slash</key>
 		<string>slash.glif</string>
 		<key>space</key>
@@ -1524,8 +1538,12 @@
 		<string>thorn.glif</string>
 		<key>three</key>
 		<string>three.glif</string>
+		<key>three.tnum</key>
+		<string>three.tnum.glif</string>
 		<key>two</key>
 		<string>two.glif</string>
+		<key>two.tnum</key>
+		<string>two.tnum.glif</string>
 		<key>u</key>
 		<string>u.glif</string>
 		<key>u1</key>
@@ -1740,6 +1758,8 @@
 		<string>zero.glif</string>
 		<key>zero.slash</key>
 		<string>zero.slash.glif</string>
+		<key>zero.tnum</key>
+		<string>zero.tnum.glif</string>
 		<key>zh</key>
 		<string>zh.glif</string>
 		<key>zh1ch1</key>
