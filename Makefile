@@ -48,7 +48,7 @@ $(BLDDIR)/%-numbers.pdf: $(BLDDIR)/%.ttf
 	@echo "   TEST    $(@F)"
 	@hb-view $< --font-size 14 --margin 100 --line-space 1.5 \
 		--foreground=333333 --text-file $(tests)/numbers.txt \
-		--features="tnum" --output-file $(BLDDIR)/$(@F);
+		--features="tnum,zero" --output-file $(BLDDIR)/$(@F);
 
 ttf: $(TTF)
 otf: $(OTF)
