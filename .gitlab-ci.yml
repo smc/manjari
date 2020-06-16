@@ -44,6 +44,6 @@ test:
 
 release:
   stage: release
-  trigger: smc/smc-website
+  trigger: smc/smc.org.in
   only:
     - tags
