@@ -9,7 +9,7 @@ cp *.otf otf
 cp *.woff woff
 cp *.woff2 woff2
 
-tar cvf ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz *.conf ttf otf
+tar czvf ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz *.conf ttf otf
 sha256sum ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz > ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz.sha256
 md5sum ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz > ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz.md5
 zip -j ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.zip otf/*

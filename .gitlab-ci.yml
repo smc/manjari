@@ -28,6 +28,7 @@ build-tag:
     - make ttf otf webfonts
     - sh tools/artifacts.sh
   artifacts:
+    expire_in: 1000 yrs
     paths:
     - build/
   only:
@@ -41,6 +42,15 @@ test:
     - pip3 install -r requirements.txt
   script:
     - make test
+
+create-gitlab-release:
+  image: "ruby:2.5-alpine"
+  stage: release
+  script:
+    - gem install --no-document gitlab
+    - ruby release.rb
+  only:
+    - tags
 
 release:
   stage: release
