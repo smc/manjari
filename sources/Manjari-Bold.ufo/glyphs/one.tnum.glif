@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="one.tnum" format="2">
-	<advance width="1300"/>
+	<advance width="1200"/>
 	<outline>
-		<component base="one" xOffset="239"/>
+		<component base="one" xOffset="189"/>
 	</outline>
 </glyph>
