@@ -34,9 +34,9 @@
 		<key>openTypeHeadCreated</key>
 		<string>2008/01/24 03:11:27</string>
 		<key>openTypeHheaAscender</key>
-		<integer>1400</integer>
+		<integer>1500</integer>
 		<key>openTypeHheaDescender</key>
-		<integer>-800</integer>
+		<integer>-750</integer>
 		<key>openTypeHheaLineGap</key>
 		<integer>0</integer>
 		<key>openTypeNameDescription</key>
@@ -104,9 +104,9 @@
 		<array>
 		</array>
 		<key>openTypeOS2TypoAscender</key>
-		<integer>1400</integer>
+		<integer>1500</integer>
 		<key>openTypeOS2TypoDescender</key>
-		<integer>-800</integer>
+		<integer>-750</integer>
 		<key>openTypeOS2TypoLineGap</key>
 		<integer>0</integer>
 		<key>openTypeOS2UnicodeRanges</key>

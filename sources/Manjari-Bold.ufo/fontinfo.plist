@@ -40,7 +40,7 @@
 		<key>openTypeHheaAscender</key>
 		<integer>1500</integer>
 		<key>openTypeHheaDescender</key>
-		<integer>-900</integer>
+		<integer>-750</integer>
 		<key>openTypeHheaLineGap</key>
 		<integer>0</integer>
 		<key>openTypeNameDescription</key>
@@ -110,7 +110,7 @@
 		<key>openTypeOS2TypoAscender</key>
 		<integer>1500</integer>
 		<key>openTypeOS2TypoDescender</key>
-		<integer>-900</integer>
+		<integer>-750</integer>
 		<key>openTypeOS2TypoLineGap</key>
 		<integer>0</integer>
 		<key>openTypeOS2UnicodeRanges</key>
