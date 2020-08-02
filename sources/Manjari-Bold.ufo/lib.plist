@@ -884,6 +884,16 @@
 			<string>seven.tnum</string>
 			<string>eight.tnum</string>
 			<string>nine.tnum</string>
+			<string>exclamdown</string>
+			<string>cent</string>
+			<string>currency</string>
+			<string>yen</string>
+			<string>brokenbar</string>
+			<string>plusminus</string>
+			<string>periodcentered</string>
+			<string>minus</string>
+			<string>divisionslash</string>
+			<string>logicalnot</string>
 		</array>
 	</dict>
 </plist>
