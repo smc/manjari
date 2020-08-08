@@ -364,6 +364,8 @@
 		<string>ch4xx.glif</string>
 		<key>circularvirama</key>
 		<string>circularvirama.glif</string>
+		<key>circumflex</key>
+		<string>circumflex.glif</string>
 		<key>colon</key>
 		<string>colon.glif</string>
 		<key>comma</key>
@@ -440,6 +442,8 @@
 		<string>four.glif</string>
 		<key>four.tnum</key>
 		<string>four.tnum.glif</string>
+		<key>fraction</key>
+		<string>fraction.glif</string>
 		<key>g</key>
 		<string>g.glif</string>
 		<key>gcircumflex</key>
@@ -1238,6 +1242,8 @@
 		<string>rhu2.glif</string>
 		<key>rhxx</key>
 		<string>rhxx.glif</string>
+		<key>ring</key>
+		<string>ring.glif</string>
 		<key>rupee</key>
 		<string>rupee.glif</string>
 		<key>s</key>
@@ -1558,6 +1564,8 @@
 		<string>three.glif</string>
 		<key>three.tnum</key>
 		<string>three.tnum.glif</string>
+		<key>tilde</key>
+		<string>tilde.glif</string>
 		<key>two</key>
 		<string>two.glif</string>
 		<key>two.tnum</key>
@@ -1628,6 +1636,10 @@
 		<string>uni0D_74.glif</string>
 		<key>uni0D75</key>
 		<string>uni0D_75.glif</string>
+		<key>uni2039</key>
+		<string>uni2039.glif</string>
+		<key>uni203A</key>
+		<string>uni203A_.glif</string>
 		<key>uni25CC</key>
 		<string>uni25C_C_.glif</string>
 		<key>uring</key>

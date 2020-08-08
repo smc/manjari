@@ -894,6 +894,12 @@
 			<string>minus</string>
 			<string>divisionslash</string>
 			<string>logicalnot</string>
+			<string>circumflex</string>
+			<string>ring</string>
+			<string>tilde</string>
+			<string>uni2039</string>
+			<string>uni203A</string>
+			<string>fraction</string>
 		</array>
 	</dict>
 </plist>

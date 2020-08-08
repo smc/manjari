@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fraction" format="2">
+	<unicode hex="2044"/>
+	<advance width="861.3785182493"/>
+	<outline>
+		<component base="slash" xOffset="-75.1612651509"/>
+	</outline>
+</glyph>
