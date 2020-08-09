@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni00BE" format="2">
+	<unicode hex="00BE"/>
+	<advance width="1124.6145610278"/>
+	<outline>
+		<component base="slash" xOffset="235.147751606" yOffset="-3.5781584582"/>
+		<component base="three" xScale="0.5" yScale="0.5" xOffset="50" yOffset="686.4561027837"/>
+		<component base="four" xScale="0.5" yScale="0.5" xOffset="431.6145610278" yOffset="-18.0278372591"/>
+	</outline>
+</glyph>
