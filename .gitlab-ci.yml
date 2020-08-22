@@ -1,4 +1,5 @@
-image: "debian:stable-slim"
+image: "registry.gitlab.com/smc/dockerfiles:font-builder"
+
 stages:
   - build
   - test
