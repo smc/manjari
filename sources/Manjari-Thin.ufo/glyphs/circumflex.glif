@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflex" format="2">
 	<unicode hex="02C6"/>
-	<advance width="762"/>
+	<advance width="692"/>
 	<outline>
-		<component base="asciicircum"/>
+		<component base="asciicircum" xOffset="-35"/>
 	</outline>
 </glyph>

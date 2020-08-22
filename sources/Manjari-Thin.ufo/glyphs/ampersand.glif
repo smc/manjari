@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ampersand" format="2">
 	<unicode hex="0026"/>
-	<advance width="1196"/>
+	<advance width="1197"/>
 	<outline>
 		<contour>
 			<point x="479" y="-11" type="curve" smooth="yes"/>

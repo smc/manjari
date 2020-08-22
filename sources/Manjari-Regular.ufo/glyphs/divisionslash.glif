@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="divisionslash" format="2">
 	<unicode hex="2215"/>
-	<advance width="852.0140303219"/>
+	<advance width="972.0140303219"/>
 	<outline>
-		<component base="slash" xOffset="-29.6395773176" yOffset="-125.3533190578"/>
+		<component base="slash" xOffset="30.3604226824" yOffset="-125.3533190578"/>
 	</outline>
 </glyph>

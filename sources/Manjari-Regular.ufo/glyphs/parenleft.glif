@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="parenleft" format="2">
 	<unicode hex="0028"/>
-	<advance width="705"/>
+	<advance width="706"/>
 	<outline>
 		<contour>
 			<point x="606" y="-276" type="curve" smooth="yes"/>

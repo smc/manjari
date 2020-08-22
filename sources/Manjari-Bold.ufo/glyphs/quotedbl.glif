@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedbl" format="2">
 	<unicode hex="0022"/>
-	<advance width="702"/>
+	<advance width="702.1618087962"/>
 	<outline>
 		<component base="quotesingle" xOffset="320" yOffset="-135"/>
 		<component base="quotesingle" yOffset="-138"/>

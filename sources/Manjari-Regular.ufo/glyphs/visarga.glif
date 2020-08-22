@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="visarga" format="2">
 	<unicode hex="0D03"/>
-	<advance width="735"/>
+	<advance width="668.29016"/>
 	<outline>
-		<component base="anuswara" xScale="0.7789" yScale="0.77909" xOffset="26"/>
-		<component base="anuswara" xScale="0.771863" yScale="0.770068" xOffset="23" yOffset="547"/>
+		<component base="anuswara" xScale="0.7789" yScale="0.77909" xOffset="21.25096"/>
+		<component base="anuswara" xScale="0.771863" yScale="0.770068" xOffset="18.25096" yOffset="547"/>
 	</outline>
 	<lib>
 		<dict>
