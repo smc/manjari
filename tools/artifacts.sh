@@ -12,6 +12,8 @@ tar czvf ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz *.conf LICENSE.txt README.md
 sha256sum ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz > ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz.sha256
 md5sum ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz > ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz.md5
 zip -j ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.zip README.md LICENSE.txt otf/*
+sha256sum ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.zip > ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.zip.sha256
+md5sum ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.zip > ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.zip.md5
 
 ln -s ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz ./${CI_PROJECT_NAME}_LATEST.tar.gz
 ln -s ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz.sha256 ./${CI_PROJECT_NAME}_LATEST.tar.gz.sha256
