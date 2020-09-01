@@ -6,7 +6,6 @@ mkdir ttf otf woff woff2
 
 cp *.ttf ttf
 cp *.otf otf
-cp *.woff woff
 cp *.woff2 woff2
 
 tar czvf ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz *.conf LICENSE.txt README.md ttf otf
