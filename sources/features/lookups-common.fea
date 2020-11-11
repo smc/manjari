@@ -76,6 +76,22 @@ lookup pstf_cons_signs {
     sub xx v1 by v2;
 } pstf_cons_signs;
 
+lookup split_cons_signs {
+  lookupflag 0;
+    sub v2 by xx v1;
+    sub r4 by xx r3;
+    sub l4 by xx l3;
+} split_cons_signs;
+
+lookup pstf_cons_signs_fix_order {
+  lookupflag 0;
+    # Avoid യ + ് + ര ligature
+    sub y1 r4' lookup split_cons_signs;
+    # Split r4 in  ്യ + ്ര combination
+    sub y2 r4' lookup split_cons_signs;
+    # Split r4 in ്വ + ്ര combination
+    sub v2 r4' lookup split_cons_signs;
+} pstf_cons_signs_fix_order;
 
 lookup pref_reph {
   lookupflag 0;
@@ -257,7 +273,7 @@ lookup pres_reph {
 } pres_reph;
 
 lookup blws_la_signs {
-    sub k1xx l3 by k1l3;
+    sub k1 xx l3 by k1l3;
     sub k1 l4 by k1l3;
     sub k3xx l3 by k3l3;
     sub k3 l4 by k3l3;

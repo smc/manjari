@@ -49,10 +49,12 @@ feature pstf {
  script mlm2;
      language dflt ;
       lookup pstf_cons_signs;
+      lookup pstf_cons_signs_fix_order;
 
  script mlym;
      language dflt ;
       lookup pstf_cons_signs_mlym;
+      lookup pstf_cons_signs_fix_order;
 } pstf;
 
 feature pres {
