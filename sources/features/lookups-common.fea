@@ -273,7 +273,7 @@ lookup pres_reph {
 } pres_reph;
 
 lookup blws_la_signs {
-    sub k1 xx l3 by k1l3;
+    sub k1xx l3 by k1l3;
     sub k1 l4 by k1l3;
     sub k3xx l3 by k3l3;
     sub k3 l4 by k3l3;
