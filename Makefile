@@ -8,7 +8,6 @@ version=`cat VERSION`
 TOOLDIR=tools
 SRCDIR=sources
 webfontscript=$(TOOLDIR)/webfonts.py
-designspace=$(SRCDIR)/Manjari.designspace
 tests=tests
 BLDDIR=build
 default: otf
