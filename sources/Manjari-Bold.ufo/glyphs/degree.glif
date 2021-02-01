@@ -3,6 +3,33 @@
 	<unicode hex="00B0"/>
 	<advance width="647.425248"/>
 	<outline>
-		<component base="anuswaraabove" xOffset="177.95076"/>
+		<contour>
+			<point x="441.121656" y="1426.990271" type="curve" smooth="yes"/>
+			<point x="441.121656" y="1487.541314"/>
+			<point x="389.017056" y="1543.220434"/>
+			<point x="325.10208" y="1543.220434" type="curve" smooth="yes"/>
+			<point x="259.797648" y="1543.220434"/>
+			<point x="206.303592" y="1486.149336"/>
+			<point x="206.303592" y="1424.206315" type="curve" smooth="yes"/>
+			<point x="206.303592" y="1362.959283"/>
+			<point x="260.492376" y="1307.976152"/>
+			<point x="323.017896" y="1307.976152" type="curve" smooth="yes"/>
+			<point x="391.10124" y="1307.976152"/>
+			<point x="441.121656" y="1360.871316"/>
+		</contour>
+		<contour>
+			<point x="327.186264" y="1676.154333" type="curve" smooth="yes"/>
+			<point x="466.131864" y="1676.154333"/>
+			<point x="572.425248" y="1560.620159"/>
+			<point x="572.425248" y="1426.294282" type="curve" smooth="yes"/>
+			<point x="572.425248" y="1287.792471"/>
+			<point x="463.352952" y="1175.042253"/>
+			<point x="323.712624" y="1175.042253" type="curve" smooth="yes"/>
+			<point x="191.019576" y="1175.042253"/>
+			<point x="75" y="1280.832581"/>
+			<point x="75" y="1414.462469" type="curve" smooth="yes"/>
+			<point x="75" y="1560.620159"/>
+			<point x="175.040832" y="1676.154333"/>
+		</contour>
 	</outline>
 </glyph>

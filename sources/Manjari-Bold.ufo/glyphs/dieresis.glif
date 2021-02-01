@@ -3,7 +3,33 @@
 	<unicode hex="00A8"/>
 	<advance width="556"/>
 	<outline>
-		<component base="period" xScale="0.746313" yScale="0.738602" xOffset="247" yOffset="1113"/>
-		<component base="period" xScale="0.746313" yScale="0.738602" xOffset="-50" yOffset="1113"/>
+		<contour>
+			<point x="429.100372" y="1110.045592" type="curve" smooth="yes"/>
+			<point x="361.185889" y="1110.045592"/>
+			<point x="302.973475" y="1163.963538"/>
+			<point x="302.973475" y="1231.914922" type="curve" smooth="yes"/>
+			<point x="302.973475" y="1299.866306"/>
+			<point x="361.185889" y="1353.04565"/>
+			<point x="429.100372" y="1353.04565" type="curve" smooth="yes"/>
+			<point x="497.014855" y="1353.04565"/>
+			<point x="555.973582" y="1299.866306"/>
+			<point x="555.973582" y="1231.914922" type="curve" smooth="yes"/>
+			<point x="555.973582" y="1163.963538"/>
+			<point x="497.014855" y="1110.045592"/>
+		</contour>
+		<contour>
+			<point x="132.100372" y="1110.045592" type="curve" smooth="yes"/>
+			<point x="64.185889" y="1110.045592"/>
+			<point x="5.973475" y="1163.963538"/>
+			<point x="5.973475" y="1231.914922" type="curve" smooth="yes"/>
+			<point x="5.973475" y="1299.866306"/>
+			<point x="64.185889" y="1353.04565"/>
+			<point x="132.100372" y="1353.04565" type="curve" smooth="yes"/>
+			<point x="200.014855" y="1353.04565"/>
+			<point x="258.973582" y="1299.866306"/>
+			<point x="258.973582" y="1231.914922" type="curve" smooth="yes"/>
+			<point x="258.973582" y="1163.963538"/>
+			<point x="200.014855" y="1110.045592"/>
+		</contour>
 	</outline>
 </glyph>

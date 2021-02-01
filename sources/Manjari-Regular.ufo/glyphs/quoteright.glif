@@ -3,6 +3,38 @@
 	<unicode hex="2019"/>
 	<advance width="406"/>
 	<outline>
-		<component base="quotesinglbase" xOffset="-100" yOffset="1359.83"/>
+		<contour>
+			<point x="0" y="1498.83" type="curve" smooth="yes"/>
+			<point x="0" y="1570.83"/>
+			<point x="62" y="1642.83"/>
+			<point x="131" y="1642.83" type="curve" smooth="yes"/>
+			<point x="162" y="1642.83"/>
+			<point x="188" y="1637.83"/>
+			<point x="209" y="1626.83" type="curve" smooth="yes"/>
+			<point x="273.759" y="1592.065"/>
+			<point x="306" y="1535.46"/>
+			<point x="306" y="1456.6982" type="curve" smooth="yes"/>
+			<point x="306" y="1419.918"/>
+			<point x="299" y="1378.306"/>
+			<point x="285" y="1331.83" type="curve" smooth="yes"/>
+			<point x="252" y="1222.83"/>
+			<point x="194" y="1140.83"/>
+			<point x="111" y="1085.83" type="curve" smooth="yes"/>
+			<point x="97.786" y="1076.936"/>
+			<point x="84.25" y="1073.014"/>
+			<point x="71.408" y="1073.014" type="curve" smooth="yes"/>
+			<point x="33.712" y="1073.014"/>
+			<point x="2" y="1106.806"/>
+			<point x="2" y="1147.83" type="curve" smooth="yes"/>
+			<point x="2" y="1169.83"/>
+			<point x="14" y="1188.83"/>
+			<point x="37" y="1204.83" type="curve" smooth="yes"/>
+			<point x="90" y="1239.83"/>
+			<point x="127" y="1289.83"/>
+			<point x="146" y="1354.83" type="curve"/>
+			<point x="144" y="1354.83" type="line" smooth="yes"/>
+			<point x="65" y="1354.83"/>
+			<point x="0" y="1419.83"/>
+		</contour>
 	</outline>
 </glyph>

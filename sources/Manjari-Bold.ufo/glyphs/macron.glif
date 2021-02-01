@@ -3,6 +3,21 @@
 	<unicode hex="00AF"/>
 	<advance width="893.913490364"/>
 	<outline>
-		<component base="hyphen" xOffset="-16" yOffset="732"/>
+		<contour>
+			<point x="184" y="1406" type="curve" smooth="yes"/>
+			<point x="733" y="1406" type="line" smooth="yes"/>
+			<point x="788" y="1406"/>
+			<point x="833" y="1361"/>
+			<point x="833" y="1306" type="curve" smooth="yes"/>
+			<point x="833" y="1251"/>
+			<point x="788" y="1206"/>
+			<point x="733" y="1206" type="curve" smooth="yes"/>
+			<point x="184" y="1206" type="line" smooth="yes"/>
+			<point x="129" y="1206"/>
+			<point x="84" y="1251"/>
+			<point x="84" y="1306" type="curve" smooth="yes"/>
+			<point x="84" y="1361"/>
+			<point x="129" y="1406"/>
+		</contour>
 	</outline>
 </glyph>
