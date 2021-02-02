@@ -38,7 +38,7 @@ For a complete list of authors who contributed to the project, see CONTRIBUTORS.
 
 ## Information for Contributors
 
-Manjari is released under the OFL 1.1 - https://scripts.sil.org/OFL For information on what you're allowed to change or modify, consult the LICENSE.txt. The [OFL-FAQ](https://scripts.sil.org/OFL-FAQ_web) also gives a very general rationale and various recommendations regarding why you would want to contribute to the project or make your own version of the font.
+Manjari is released under the OFL 1.1 - https://scripts.sil.org/OFL For information on what you're allowed to change or modify, consult the OFL.txt. The [OFL-FAQ](https://scripts.sil.org/OFL-FAQ_web) also gives a very general rationale and various recommendations regarding why you would want to contribute to the project or make your own version of the font.
 
 When you are submitting patches, please add your name to CONTRIBUTORS.md if you wish to be listed there.
 

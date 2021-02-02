@@ -1,4 +1,4 @@
-cp *.conf LICENSE.txt README.md build
+cp *.conf OFL.txt README.md build
 
 cd build
 rm -rf ttf otf woff woff2 *.pdf
@@ -8,10 +8,10 @@ cp *.ttf ttf
 cp *.otf otf
 cp *.woff2 woff2
 
-tar czvf ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz *.conf LICENSE.txt README.md ttf otf
+tar czvf ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz *.conf OFL.txt README.md ttf otf
 sha256sum ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz > ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz.sha256
 md5sum ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz > ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.tar.gz.md5
-zip -j ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.zip README.md LICENSE.txt otf/*
+zip -j ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.zip README.md OFL.txt otf/*
 sha256sum ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.zip > ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.zip.sha256
 md5sum ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.zip > ${CI_PROJECT_NAME}-${CI_COMMIT_TAG}.zip.md5
 
