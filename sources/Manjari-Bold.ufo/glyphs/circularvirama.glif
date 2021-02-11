@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circularvirama" format="2">
 	<unicode hex="0D3C"/>
-	<advance width="363"/>
 	<outline>
 		<contour>
 			<point x="177" y="1411.363278" type="line"/>

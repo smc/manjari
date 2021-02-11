@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mlchandrabindu" format="2">
 	<unicode hex="0D01"/>
-	<advance width="142"/>
 	<outline>
 		<component base="dotreph" xOffset="-122.0211081794" yOffset="59.9973614776"/>
 		<component base="xx"/>

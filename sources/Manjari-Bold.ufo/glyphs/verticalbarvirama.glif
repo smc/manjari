@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="verticalbarvirama" format="2">
 	<unicode hex="0D3B"/>
-	<advance width="301"/>
 	<outline>
 		<contour>
 			<point x="150" y="1865" type="curve" smooth="yes"/>

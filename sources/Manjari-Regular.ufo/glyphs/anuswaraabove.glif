@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="anuswaraabove" format="2">
 	<unicode hex="0D00"/>
-	<advance width="648"/>
 	<outline>
 		<contour>
 			<point x="325" y="1728" type="curve" smooth="yes"/>
