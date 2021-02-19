@@ -16,8 +16,11 @@ OTF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.otf)
 TTF=$(FONTS:%=$(BLDDIR)/$(NAME)-%.ttf)
 WOFF2=$(FONTS:%=$(BLDDIR)/$(NAME)-%.woff2)
 PDFS=$(FONTS:%=$(BLDDIR)/$(NAME)-%-ligatures.pdf)  \
+	$(FONTS:%=$(BLDDIR)/$(NAME)-%-kerning.pdf)  \
+	$(FONTS:%=$(BLDDIR)/$(NAME)-%-latin.pdf)  \
 	$(FONTS:%=$(BLDDIR)/$(NAME)-%-content.pdf)  \
-	$(FONTS:%=$(BLDDIR)/$(NAME)-%-numbers.pdf)
+	$(FONTS:%=$(BLDDIR)/$(NAME)-%-numbers.pdf) \
+	$(FONTS:%=$(BLDDIR)/$(NAME)-%-table.pdf)
 
 $(BLDDIR)/%.otf: $(SRCDIR)/%.ufo
 	@echo "  BUILD    $(@F)"
@@ -48,6 +51,26 @@ $(BLDDIR)/%-numbers.pdf: $(BLDDIR)/%.ttf
 	@hb-view $< --font-size 14 --margin 100 --line-space 1.5 \
 		--foreground=333333 --text-file $(tests)/numbers.txt \
 		--features="tnum,zero" --output-file $(BLDDIR)/$(@F);
+
+$(BLDDIR)/%-kerning.pdf: $(BLDDIR)/%.ttf
+	@echo "   TEST    $(@F)"
+	@hb-view $< --font-size 24 --margin 100 --line-space 2.4 \
+		--foreground=333333 --text-file $(tests)/kerning.txt \
+		--output-file $(BLDDIR)/$(@F);
+
+$(BLDDIR)/%-latin.pdf: $(BLDDIR)/%.ttf
+	@echo "   TEST    $(@F)"
+	@hb-view $< --font-size 24 --margin 100 --line-space 2.4 \
+		--foreground=333333 --text-file $(tests)/latin.txt \
+		--output-file $(BLDDIR)/$(@F);
+
+$(BLDDIR)/%-table.pdf: $(BLDDIR)/%.ttf
+	@echo "   TEST    $(@F)"
+	@fntsample --font-file $< --output-file $(BLDDIR)/$(@F)        \
+		--style="header-font: Noto Sans Bold 12"                   \
+		--style="font-name-font: Noto Serif Bold 12"               \
+		--style="table-numbers-font: Noto Sans 10"                 \
+		--style="cell-numbers-font:Noto Sans Mono 8"
 
 ttf: $(TTF)
 otf: $(OTF)
