@@ -92,7 +92,7 @@ test: ttf otf $(PDFS)
 	# fontbakery check-fontval $(BLDDIR)/*.ttf <- enable when https://github.com/microsoft/Font-Validator/issues/62 fixed
 	fontbakery check-ufo-sources $(SRCDIR)/*.ufo
 	fontbakery check-opentype $(BLDDIR)/*.otf
-	fontbakery check-googlefonts -x com.google.fonts/check/version_bump -x com.google.fonts/check/repo/zip_files -x com.google.fonts/check/metadata/escaped_strings -x com.google.fonts/check/family/vertical_metrics -x com.google.fonts/check/vertical_metrics_regressions $(BLDDIR)/*.ttf
+	fontbakery check-googlefonts -x com.google.fonts/check/version_bump -x com.google.fonts/check/repo/zip_files -x com.google.fonts/check/metadata/escaped_strings -x com.google.fonts/check/family/vertical_metrics -x com.google.fonts/check/vertical_metrics_regressions -x com.google.fonts/check/fontdata_namecheck $(BLDDIR)/*.ttf
 
 clean:
 	@rm -rf $(BLDDIR)
