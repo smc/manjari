@@ -105,7 +105,7 @@ lookup restore_virama {
 lookup blws_la_sign_excludes {
     sub
         [
-           t1 r3 va_sign
+           t1 r3
            k1l3 k3l3 th1l3 p1l3 p2l3 m1l3 l3l3 v1v1 v1l3 z1l3 s1l3 h1l3
            ch1ch1 ch1ch2 k3k3 rhrh s1s1 t1t1 z1z1
         ]

@@ -6,7 +6,6 @@
 		<array>
 			<string>.notdef</string>
 			<string>.null</string>
-			<string>nonmarkingreturn</string>
 			<string>space</string>
 			<string>exclam</string>
 			<string>quotedbl</string>
@@ -44,7 +43,6 @@
 			<string>bar</string>
 			<string>braceright</string>
 			<string>asciitilde</string>
-			<string>uni00AD</string>
 			<string>anuswara</string>
 			<string>anuswaraabove</string>
 			<string>verticalbarvirama</string>
@@ -552,8 +550,6 @@
 			<string>r2</string>
 			<string>u_sign_drop</string>
 			<string>uu_sign_drop</string>
-			<string>va_sign</string>
-			<string>th2_half</string>
 			<string>vocalic_r_sign_drop</string>
 			<string>ml_rr</string>
 			<string>ml_ll</string>

@@ -202,8 +202,6 @@
 		<string>_nhu1.glif</string>
 		<key>_nhu2</key>
 		<string>_nhu2.glif</string>
-		<key>_rh</key>
-		<string>_rh.glif</string>
 		<key>_s1</key>
 		<string>_s1.glif</string>
 		<key>_t1</key>
@@ -1020,8 +1018,6 @@
 		<string>nju2.glif</string>
 		<key>njxx</key>
 		<string>njxx.glif</string>
-		<key>nonmarkingreturn</key>
-		<string>nonmarkingreturn.glif</string>
 		<key>ntilde</key>
 		<string>ntilde.glif</string>
 		<key>numbersign</key>
@@ -1516,8 +1512,6 @@
 		<string>th1xx.glif</string>
 		<key>th2</key>
 		<string>th2.glif</string>
-		<key>th2_half</key>
-		<string>th2_half.glif</string>
 		<key>th2r1</key>
 		<string>th2r1.glif</string>
 		<key>th2u1</key>
@@ -1608,8 +1602,6 @@
 		<string>uni00A_0.glif</string>
 		<key>uni00AA</key>
 		<string>uni00A_A_.glif</string>
-		<key>uni00AD</key>
-		<string>uni00A_D_.glif</string>
 		<key>uni00B2</key>
 		<string>uni00B_2.glif</string>
 		<key>uni00B3</key>
@@ -1706,8 +1698,6 @@
 		<string>v1xx.glif</string>
 		<key>v2</key>
 		<string>v2.glif</string>
-		<key>va_sign</key>
-		<string>va_sign.glif</string>
 		<key>vedicanuswara</key>
 		<string>vedicanuswara.glif</string>
 		<key>verticalbarvirama</key>
