@@ -26,6 +26,7 @@ $(BLDDIR)/%.otf: $(SRCDIR)/%.ufo
 	@echo "  BUILD    $(@F)"
 	@fontmake --verbose=WARNING -o otf --output-dir $(BLDDIR) -u $<
 
+
 $(BLDDIR)/%.ttf: $(SRCDIR)/%.ufo
 	@echo "  BUILD    $(@F)"
 	@fontmake --verbose=WARNING -o ttf --output-dir $(BLDDIR) -u $<
@@ -74,6 +75,7 @@ $(BLDDIR)/%-table.pdf: $(BLDDIR)/%.ttf
 
 ttf: $(TTF)
 otf: $(OTF)
+
 webfonts: $(WOFF2)
 lint: ufonormalizer ufolint
 ufolint: $(SRCDIR)/*.ufo
@@ -92,7 +94,7 @@ test: ttf otf $(PDFS)
 	# fontbakery check-fontval $(BLDDIR)/*.ttf <- enable when https://github.com/microsoft/Font-Validator/issues/62 fixed
 	fontbakery check-ufo-sources $(SRCDIR)/*.ufo
 	fontbakery check-opentype $(BLDDIR)/*.otf
-	fontbakery check-googlefonts -x com.google.fonts/check/version_bump -x com.google.fonts/check/repo/zip_files -x com.google.fonts/check/metadata/escaped_strings -x com.google.fonts/check/family/vertical_metrics -x com.google.fonts/check/vertical_metrics_regressions -x com.google.fonts/check/fontdata_namecheck $(BLDDIR)/*.ttf
+	fontbakery check-googlefonts --full-lists --config fontbakery.yaml --html tests/fontbakery-report.html --ghmarkdown tests/fontbakery-report.md  $(BLDDIR)/*.ttf
 
 clean:
 	@rm -rf $(BLDDIR)
