@@ -45,7 +45,7 @@ test:
     - make test
 
 create-gitlab-release:
-  image: "ruby:2.6-alpine"
+  image: "ruby:3.2-alpine"
   stage: release
   script:
     - gem install --no-document gitlab
