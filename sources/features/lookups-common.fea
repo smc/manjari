@@ -622,3 +622,7 @@ lookup psts_vowel_signs_common {
     sub rhrh u2 by rhrhu2;
 } psts_vowel_signs_common;
 
+
+lookup remove_dotted_circle {
+    sub uni25CC a2 anuswara by aam;
+} remove_dotted_circle;

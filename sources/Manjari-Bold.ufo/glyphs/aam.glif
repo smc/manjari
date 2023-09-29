@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ai1" format="2">
+	<advance width="1828"/>
+	<outline>
+		<component base="a2"/>
+		<component base="anuswara" xOffset="1000" yOffset="4"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>org.fontforge.glyphclass</key>
+			<string>baseligature</string>
+		</dict>
+	</lib>
+</glyph>
