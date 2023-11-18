@@ -2,4 +2,4 @@ Brotli>=1.1.0
 fontmake>=3.7.1
 ufolint>=1.2.0
 ufonormalizer>=0.6.1
-fontbakery[ufo-sources, googlefonts]>=0.9.2
+fontbakery[ufo-sources, googlefonts]>=0.10.4

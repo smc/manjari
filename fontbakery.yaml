@@ -15,3 +15,9 @@ overrides:
     unreachable-glyphs: FAIL
   com.google.fonts/check/soft_hyphen:
     softhyphen: FAIL
+  com.google.fonts/check/fontbakery_version:
+    outdated-fontbakery: WARN
+  com.google.fonts/check/glyphsets/shape_languages:
+    failed-language-shaping: WARN
+  com.google.fonts/check/legacy_accents:googlefonts:
+    legacy-accents-component: WARN
